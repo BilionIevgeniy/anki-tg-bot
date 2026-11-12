@@ -1,4 +1,6 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
+import { ENV, type Env } from '../config/env';
+import { webAppUrl } from '../webapp/webapp-url';
 import { type Bot, InlineKeyboard, InputFile } from 'grammy';
 import { escapeHtml, noteTitle } from '../cards/templates';
 import { DecksService } from '../decks/decks.service';
@@ -27,6 +29,7 @@ export class DecksHandler {
     private readonly stats: StatsService,
     private readonly importer: ImportService,
     private readonly users: UsersService,
+    @Inject(ENV) private readonly env: Env,
   ) {}
 
   register(bot: Bot<BotContext>): void {
@@ -148,6 +151,7 @@ export class DecksHandler {
       ReviewHandler.todayKeyboard(
         rows.map((r) => ({ deck: r.deck, total: countTotal(r.counts) })),
         all,
+        webAppUrl(this.env),
       ),
     );
   }

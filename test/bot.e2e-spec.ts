@@ -17,6 +17,8 @@ import { DB, type Db } from '../src/db/db.module';
 import { cards } from '../src/db/schema';
 import { NotificationsService } from '../src/notifications/notifications.service';
 import { DeckSyncService } from '../src/sync/deck-sync.service';
+import { signInitData } from '../src/webapp/telegram-auth';
+import http from 'node:http';
 import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { BOT, type BotContext } from '../src/telegram/telegram.module';
@@ -378,5 +380,85 @@ d('Bot (full app, fake Telegram)', () => {
     expect(second[0]!.report).toMatchObject({ created: 0, updated: 0, unchanged: 2 });
     expect(second[1]!.report).toMatchObject({ created: 1 });
     expect(callsOf('sendMessage').length).toBe(before + 1);
+  });
+
+  it('serves the Mini App API with Telegram initData auth', async () => {
+    await app.listen(0, '127.0.0.1');
+    const { port } = app.getHttpServer().address() as { port: number };
+    const request = (method: string, url: string, body?: unknown, auth?: string) =>
+      new Promise<{ status: number; json: any }>((resolve, reject) => {
+        const data = body ? JSON.stringify(body) : undefined;
+        const req = http.request(
+          {
+            host: '127.0.0.1',
+            port,
+            path: url,
+            method,
+            headers: {
+              'content-type': 'application/json',
+              ...(auth ? { authorization: auth } : {}),
+            },
+          },
+          (res) => {
+            let raw = '';
+            res.on('data', (c) => (raw += c));
+            res.on('end', () =>
+              resolve({ status: res.statusCode ?? 0, json: raw ? JSON.parse(raw) : null }),
+            );
+          },
+        );
+        req.on('error', reject);
+        if (data) req.write(data);
+        req.end();
+      });
+
+    expect((await request('GET', '/api/app/next')).status).toBe(401);
+    const forged =
+      'tma ' +
+      signInitData(
+        { auth_date: String(Math.floor(Date.now() / 1000)), user: JSON.stringify(USER) },
+        '999:WRONG',
+      );
+    expect((await request('GET', '/api/app/next', undefined, forged)).status).toBe(401);
+
+    const auth =
+      'tma ' +
+      signInitData(
+        { auth_date: String(Math.floor(Date.now() / 1000)), user: JSON.stringify(USER) },
+        process.env.BOT_TOKEN!,
+      );
+    const me = await request('GET', '/api/app/me', undefined, auth);
+    expect(me.status).toBe(200);
+    expect(me.json.decks[0].name).toBe('Deutsch B2');
+
+    const next = await request('GET', '/api/app/next?scope=0', undefined, auth);
+    expect(next.status).toBe(200);
+    const card = next.json.card;
+    expect(card).toMatchObject({ template: expect.any(String), deckName: 'Deutsch B2' });
+    expect(card.previews).toHaveLength(4);
+    expect(card.note.fields).toHaveProperty('translation');
+
+    const bad = await request('POST', '/api/app/answer', { cardId: 'x' }, auth);
+    expect(bad.status).toBe(400);
+
+    const ans = await request(
+      'POST',
+      '/api/app/answer',
+      { cardId: card.id, version: card.version, grade: 3, scope: 0 },
+      auth,
+    );
+    expect(ans.status).toBe(201);
+    expect(ans.json).toMatchObject({ ok: true, label: expect.any(String) });
+    const again = await request(
+      'POST',
+      '/api/app/answer',
+      { cardId: card.id, version: card.version, grade: 3, scope: 0 },
+      auth,
+    );
+    expect(again.json).toMatchObject({ ok: false, reason: 'stale' });
+
+    const undo = await request('POST', '/api/app/undo', { logId: ans.json.logId, scope: 0 }, auth);
+    expect(undo.json.ok).toBe(true);
+    expect(undo.json.next.card.id).toBe(card.id);
   });
 });

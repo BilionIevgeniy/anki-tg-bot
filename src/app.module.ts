@@ -25,6 +25,7 @@ import { StatsService } from './stats/stats.service';
 import { DeckSyncService } from './sync/deck-sync.service';
 import { TelegramModule } from './telegram/telegram.module';
 import { UsersService } from './users/users.service';
+import { TelegramWebAppGuard, WebAppController } from './webapp/webapp.controller';
 
 function safeEqual(a: string, b: string): boolean {
   const x = Buffer.from(a);
@@ -68,7 +69,7 @@ export class JobsController {
 
 @Module({
   imports: [DbModule, TelegramModule],
-  controllers: [HealthController, JobsController],
+  controllers: [HealthController, JobsController, WebAppController],
   providers: [
     UsersService,
     DecksService,
@@ -82,6 +83,7 @@ export class JobsController {
     ImportHandler,
     BotService,
     DeckSyncService,
+    TelegramWebAppGuard,
   ],
 })
 export class AppModule {}

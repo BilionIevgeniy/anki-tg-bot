@@ -7,6 +7,7 @@ A Telegram spaced-repetition bot — Anki in your chat. Built for learning Germa
 - **Per-deck reminders**: own time and threshold per deck, once per study day, 💤 snooze. No streaks, no guilt.
 - **Safe imports**: JSON contract with dry-run preview; re-importing updates content and **never resets progress**. `/export` = full backup in the same format. Progress migration from Noji/Anki via the optional `srs` block.
 - **Leech detection** (8 lapses → suspended, with a hint to rephrase), undo of the last answer, daily limits, Anki-style study day (rollover at 04:00 in the user's timezone, DST-safe).
+- **Telegram Mini App** (React 19 + Vite, `webapp/`): one-window quiz with progress, card reveal, colored grade buttons with intervals, der/die/das buttons, undo, auto-return of learning cards by timer. Auth by validating Telegram `initData` (HMAC) on the server.
 - **Multi-tenant from day one** — every row is scoped by user; a `plan` column is ready for a future subscription.
 
 ## Stack
@@ -21,6 +22,7 @@ src/
   notifications/  reminder decision (pure) + sender, triggered by POST /jobs/tick
   bot/            grammY handlers, stateless callback data (≤ 64 bytes)
   db/             Drizzle schema + migrator
+  webapp/         Mini App API (initData auth) — the React app itself lives in /webapp
 docs/             IMPORT_FORMAT.md, CARD_RULES.md
 test/             e2e: real Postgres, real Nest app, fake Telegram API
 ```

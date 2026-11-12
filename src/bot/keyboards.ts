@@ -129,8 +129,10 @@ export function notifyKeyboard(deck: Deck): InlineKeyboard {
     .text('📋 Все уведомления', encode({ a: 'notifyList' }));
 }
 
-export function reminderKeyboard(deck: Deck): InlineKeyboard {
-  return new InlineKeyboard()
+export function reminderKeyboard(deck: Deck, appUrl?: string): InlineKeyboard {
+  const kb = new InlineKeyboard();
+  if (appUrl) kb.webApp('📱 Учить в приложении', appUrl).row();
+  return kb
     .text('▶️ Учить', encode({ a: 'learn', scope: deck.id }))
     .text('💤 Через 3 ч', encode({ a: 'snooze', deckId: deck.id }))
     .row()

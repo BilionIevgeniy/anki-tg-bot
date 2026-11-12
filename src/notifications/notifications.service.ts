@@ -1,7 +1,9 @@
 import { Inject, Injectable, Logger } from '@nestjs/common';
 import { and, eq } from 'drizzle-orm';
 import type { Bot } from 'grammy';
+import { webAppUrl } from '../webapp/webapp-url';
 import { reminderKeyboard } from '../bot/keyboards';
+import { ENV, type Env } from '../config/env';
 import { isBlockedError } from '../bot/telegram-utils';
 import { escapeHtml } from '../cards/templates';
 import { DB, type Db } from '../db/db.module';
@@ -29,6 +31,7 @@ export class NotificationsService {
     private readonly queue: QueueService,
     private readonly decksService: DecksService,
     private readonly users: UsersService,
+    @Inject(ENV) private readonly env: Env,
   ) {}
 
   /** Called by the external cron (POST /jobs/tick). Safe to call as often as you like. */
@@ -63,7 +66,7 @@ export class NotificationsService {
       try {
         await this.bot.api.sendMessage(user.telegramId, text, {
           parse_mode: 'HTML',
-          reply_markup: reminderKeyboard(deck),
+          reply_markup: reminderKeyboard(deck, webAppUrl(this.env)),
         });
         await this.decksService.markNotified(deck.id, decision.dayKey);
         report.sent++;

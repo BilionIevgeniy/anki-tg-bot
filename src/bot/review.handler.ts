@@ -232,8 +232,13 @@ export class ReviewHandler {
   }
 
   /** "Learn" buttons for /today */
-  static todayKeyboard(perDeck: { deck: Deck; total: number }[], all: Counts): InlineKeyboard {
+  static todayKeyboard(
+    perDeck: { deck: Deck; total: number }[],
+    all: Counts,
+    appUrl?: string,
+  ): InlineKeyboard {
     const kb = new InlineKeyboard();
+    if (appUrl) kb.webApp('📱 Открыть приложение', appUrl).row();
     const total = countTotal(all);
     if (total > 0) kb.text(`▶️ Учить всё (${total})`, encode({ a: 'learn', scope: 0 })).row();
     perDeck

@@ -52,6 +52,7 @@
 - `src/notifications/` — напоминания по колодам; `schedule.ts` — чистое решение, запускается через `/jobs/tick`
 - `src/bot/` — обработчики grammY; один роутер callback в `bot.service.ts`; callback data ≤ 64 байт
 - `src/db/schema.ts` — схема Drizzle; все таблицы привязаны к `user_id` (мультипользовательская)
+- `src/webapp/` — API Mini App (`/api/app/*`, проверка `initData`); фронтенд — `webapp/` (React 19 + Vite, раздаётся по `/app/`, собирается в `npm run build`)
 - `scripts/check-decks.ts` — валидация колод и поиск дублей; `scripts/noji/` — инструменты переноса из Noji
 
 ## Правила для кода

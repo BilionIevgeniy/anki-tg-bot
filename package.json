@@ -8,18 +8,19 @@
     "node": ">=20.19"
   },
   "scripts": {
-    "build": "nest build",
+    "build": "npm run build:web && nest build",
     "start": "node dist/main",
     "start:prod": "node dist/db/migrate && node dist/main",
     "start:dev": "nest start --watch",
     "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\" \"scripts/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json && npm --prefix webapp run typecheck",
     "test": "jest",
     "test:e2e": "jest --config test/jest-e2e.json --runInBand",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "ts-node src/db/migrate.ts",
-    "cards:check": "ts-node --transpile-only scripts/check-decks.ts"
+    "cards:check": "ts-node --transpile-only scripts/check-decks.ts",
+    "build:web": "npm --prefix webapp ci --include=dev && npm --prefix webapp run build"
   },
   "dependencies": {
     "@nestjs/common": "^11.2.9",

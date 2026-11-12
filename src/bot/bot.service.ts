@@ -9,6 +9,7 @@ import { type Bot, GrammyError, HttpError } from 'grammy';
 import { ENV, type Env, telegramSecretToken } from '../config/env';
 import { BOT, type BotContext } from '../telegram/telegram.module';
 import { UsersService } from '../users/users.service';
+import { webAppUrl } from '../webapp/webapp-url';
 import { decode } from './callback-data';
 import { DecksHandler } from './decks.handler';
 import { ImportHandler } from './import.handler';
@@ -94,6 +95,13 @@ export class BotService implements OnApplicationBootstrap, OnModuleDestroy {
         drop_pending_updates: false, // never lose answers sent while the service was asleep
       });
       this.logger.log(`Webhook set: ${url}`);
+      const appUrl = webAppUrl(this.env);
+      if (appUrl) {
+        // the button next to the message field opens the Mini App
+        await this.bot.api.setChatMenuButton({
+          menu_button: { type: 'web_app', text: 'Учить', web_app: { url: appUrl } },
+        });
+      }
     } else {
       await this.bot.api.deleteWebhook();
       void this.bot.start({
