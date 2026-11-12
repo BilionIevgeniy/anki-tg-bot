@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: anki-tg-bot
+    runtime: node
+    plan: free
+    region: frankfurt
+    branch: main
+    buildCommand: npm ci && npm run build
+    # applies SQL migrations, then starts the app
+    startCommand: npm run start:prod
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: '22'
+      - key: BOT_MODE
+        value: webhook
+      - key: DEFAULT_TIMEZONE
+        value: Europe/Berlin
+      - key: BOT_TOKEN
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: PUBLIC_URL
+        sync: false
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: JOBS_SECRET
+        generateValue: true
+      - key: ALLOWED_TELEGRAM_IDS
+        sync: false
