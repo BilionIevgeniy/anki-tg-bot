@@ -72,6 +72,10 @@ Changing the schema: edit `src/db/schema.ts` → `npm run db:generate` → commi
    Note: Render's 750 free hours are per workspace — one always-on free service per account.
 5. Open the bot → `/start` → send a JSON file → `/learn` → `/notify`.
 
+## Decks as code
+
+Deck files live in [`decks/`](decks). On every start (= every deploy) `DeckSyncService` imports them into the owner's account (`OWNER_TELEGRAM_ID` or the first id in `ALLOWED_TELEGRAM_IDS`) and reports the changes in Telegram. Adding cards = commit a JSON file + push. `npm run cards:check` validates all files and flags duplicates (also in CI). The workflow for Claude is described in [CLAUDE.md](CLAUDE.md), the user guide (RU) is in [docs/USAGE_RU.md](docs/USAGE_RU.md).
+
 ## Import format
 
 See [docs/IMPORT_FORMAT.md](docs/IMPORT_FORMAT.md). Minimal example:

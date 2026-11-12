@@ -12,13 +12,14 @@
     "start": "node dist/main",
     "start:prod": "node dist/db/migrate && node dist/main",
     "start:dev": "nest start --watch",
-    "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\" \"scripts/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "test": "jest",
     "test:e2e": "jest --config test/jest-e2e.json --runInBand",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "ts-node src/db/migrate.ts"
+    "db:migrate": "ts-node src/db/migrate.ts",
+    "cards:check": "ts-node --transpile-only scripts/check-decks.ts"
   },
   "dependencies": {
     "@nestjs/common": "^11.2.9",

@@ -16,6 +16,9 @@ import { AppModule, JobsController } from '../src/app.module';
 import { DB, type Db } from '../src/db/db.module';
 import { cards } from '../src/db/schema';
 import { NotificationsService } from '../src/notifications/notifications.service';
+import { DeckSyncService } from '../src/sync/deck-sync.service';
+import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { BOT, type BotContext } from '../src/telegram/telegram.module';
 
 const url = process.env.TEST_DATABASE_URL;
@@ -161,6 +164,8 @@ d('Bot (full app, fake Telegram)', () => {
       DATABASE_URL: url,
       JOBS_SECRET: 'jobs-secret',
       ALLOWED_TELEGRAM_IDS: '',
+      OWNER_TELEGRAM_ID: '5555',
+      DECKS_DIR: 'no-such-dir-in-tests',
     });
 
     bot = new Bot<BotContext>(process.env.BOT_TOKEN!, { botInfo });
@@ -327,5 +332,39 @@ d('Bot (full app, fake Telegram)', () => {
     expect(String(last('sendMessage').payload.text)).toContain('Не понял');
     await press('garbage');
     expect(last('answerCallbackQuery').payload.text).toBe('Кнопка устарела');
+  });
+
+  it('imports decks from the repo folder on deploy and reports to the owner', async () => {
+    const dir = mkdtempSync(path.join(tmpdir(), 'decks-'));
+    mkdirSync(path.join(dir, 'de'));
+    writeFileSync(path.join(dir, 'de', '0001-a.json'), JSON.stringify(deckFile));
+    writeFileSync(path.join(dir, 'de', '0002-broken.json'), '{"schemaVersion": 1}');
+    const sync = app.get(DeckSyncService);
+
+    const first = await sync.syncFromDisk(dir);
+    expect(first.map((r) => [r.file, r.ok])).toEqual([
+      [path.join('de', '0001-a.json'), true],
+      [path.join('de', '0002-broken.json'), false],
+    ]);
+    expect(first[0]!.report).toMatchObject({ created: 2, cardsCreated: 5 });
+    const msg = last('sendMessage');
+    expect(msg.payload.chat_id).toBe(5555);
+    expect(String(msg.payload.text)).toContain('➕ 2 новых');
+    expect(String(msg.payload.text)).toContain('0002-broken.json');
+
+    // second deploy with the same files: nothing changes, nothing is re-imported
+    writeFileSync(
+      path.join(dir, 'de', '0002-broken.json'),
+      JSON.stringify({
+        ...deckFile,
+        deck: { key: 'other', name: 'Other' },
+        notes: [deckFile.notes[1]],
+      }),
+    );
+    const before = callsOf('sendMessage').length;
+    const second = await sync.syncFromDisk(dir);
+    expect(second[0]!.report).toMatchObject({ created: 0, updated: 0, unchanged: 2 });
+    expect(second[1]!.report).toMatchObject({ created: 1 });
+    expect(callsOf('sendMessage').length).toBe(before + 1);
   });
 });

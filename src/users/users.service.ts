@@ -54,6 +54,16 @@ export class UsersService {
     return row!;
   }
 
+  /** Ensure a user exists for a Telegram id (e.g. the owner before the first /start). */
+  async upsertById(telegramId: number): Promise<User> {
+    await this.db
+      .insert(users)
+      .values({ telegramId, timezone: this.env.DEFAULT_TIMEZONE })
+      .onConflictDoNothing({ target: users.telegramId });
+    const row = await this.db.query.users.findFirst({ where: eq(users.telegramId, telegramId) });
+    return row!;
+  }
+
   async setTimezone(userId: number, timezone: string): Promise<void> {
     await this.db.update(users).set({ timezone }).where(eq(users.id, userId));
   }

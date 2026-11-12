@@ -22,6 +22,7 @@ import { NotificationsService, type TickReport } from './notifications/notificat
 import { QueueService } from './srs/queue.service';
 import { ReviewService } from './srs/review.service';
 import { StatsService } from './stats/stats.service';
+import { DeckSyncService } from './sync/deck-sync.service';
 import { TelegramModule } from './telegram/telegram.module';
 import { UsersService } from './users/users.service';
 
@@ -80,6 +81,7 @@ export class JobsController {
     DecksHandler,
     ImportHandler,
     BotService,
+    DeckSyncService,
   ],
 })
 export class AppModule {}

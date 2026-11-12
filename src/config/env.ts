@@ -33,6 +33,15 @@ const schema = z
           .filter(Boolean)
           .map(Number),
       ),
+    /** Telegram id that receives decks from the repo's decks/ folder (default: first allowed id). */
+    OWNER_TELEGRAM_ID: z.coerce
+      .number()
+      .int()
+      .positive()
+      .optional()
+      .or(z.literal('').transform(() => undefined)),
+    /** Folder with deck JSON files imported on every start. */
+    DECKS_DIR: z.string().default('decks'),
     DEFAULT_TIMEZONE: z
       .string()
       .default('Europe/Berlin')

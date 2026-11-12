@@ -1,20 +1,62 @@
-# anki-tg-bot — notes for Claude
+# anki-tg-bot — инструкция для Claude
 
-Personal Telegram spaced-repetition bot (FSRS) of Женя. NestJS 11 + grammY + Drizzle ORM + PostgreSQL (Neon), hosted on Render free.
+Личный Telegram-бот Жени для интервального повторения (FSRS, как Anki). NestJS 11 + grammY + Drizzle ORM + PostgreSQL (Neon), хостинг Render (free), автодеплой из `main`.
 
-## When Женя asks for cards
-Read `docs/CARD_RULES.md` and `docs/IMPORT_FORMAT.md` first. Output = one JSON file in contract v1 that he sends to the bot. Never invent `externalId`s that clash with existing ones; keep them stable.
+Женя общается по-русски, обращаться «брат» / «друг», дружелюбно и по-простому. Перед генерацией большого объёма спрашивать, нужен ли он (исключение — сценарий ниже, где Женя прямо просит).
 
-## Code map
-- `src/srs/` — FSRS wrapper (`fsrs.core.ts`, pure), study-day math (`day.ts`, pure), queue + review services (DB)
-- `src/cards/templates.ts` — which cards a note produces + Telegram HTML rendering (pure)
-- `src/import/` — zod contract + import/export service (idempotent upsert, never resets progress)
-- `src/notifications/` — per-deck reminders; `schedule.ts` is the pure decision, `/jobs/tick` triggers it
-- `src/bot/` — grammY handlers; one callback router in `bot.service.ts`; callback data in `callback-data.ts` (≤ 64 bytes)
-- `src/db/schema.ts` — Drizzle schema; every table is scoped by `user_id` (multi-tenant)
+---
 
-## Rules
-- No in-process timers (free Render instance sleeps). Everything periodic goes through `POST /jobs/tick`.
-- Never set `drop_pending_updates: true`.
-- Schema change → edit `src/db/schema.ts`, run `npm run db:generate`, commit the SQL in `drizzle/`.
-- Before committing: `npm run lint && npm run typecheck && npm test` and the e2e suite with a Postgres (`TEST_DATABASE_URL=… npm run test:e2e`).
+## 🃏 Сценарий №1: «создай и добавь карточки»
+
+Женя открывает новый чат, присылает слова (иногда с примерами, где он их встретил) и говорит что-то вроде «создай и добавь карты». Это значит **сделать всё до конца, до пуша**:
+
+1. **Прочитать правила:** `docs/CARD_RULES.md` (как делать карточки) и `docs/IMPORT_FORMAT.md` (формат JSON).
+2. **Антиповтор:** `npm run cards:check -- --list` выводит все слова, которые уже есть в колодах. Новое слово, которое уже есть (то же значение), выбросить и сказать Жене, какие именно.
+3. **Сгенерировать** записи `vocab_de` по правилам: грамматика, пример из IT/жизни в Германии, hint, register. `externalId` стабильный: `de:<lemma>`, омонимы — `de:<lemma>-2`.
+4. **Независимая проверка лингвистом (обязательно):** запустить отдельного агента — C2-германиста, который не видел генерацию. Он проверяет каждую запись (грамматика, естественность, перевод, атомарность, hint/register) и возвращает замечания с готовыми исправлениями. Внести правки.
+5. **Положить файл** в `decks/de/NNNN-<тема-или-дата>.json` со следующим номером по порядку (`0002-…`, `0003-…`). Колода `"deck": { "key": "de", "name": "Deutsch 🇩🇪" }` — если Женя не просит другую.
+6. **Проверить:** `npm run cards:check` → 0 ошибок.
+7. **Коммит и пуш в `main`.** Render задеплоит сам (~3 мин). При старте `DeckSyncService` импортирует всё из `decks/` в аккаунт владельца и присылает Жене в Telegram: «📥 Колоды обновлены…».
+8. **Ответ Жене:** сколько слов добавлено, какие выброшены как дубли, что поправил лингвист, и «через ~3 минуты карточки будут в боте».
+
+Повторный импорт безопасен: прогресс никогда не сбрасывается, тексты обновляются по `externalId`. Чтобы **исправить** карточку, правь её в том же файле с тем же `externalId` и пушь. Удалённое из файла из бота **не** удаляется.
+
+## 🧹 Сценарий №2: «давай следующую пачку из Noji»
+
+Старая колода Жени из Noji (2631 карточка, ~2150 уникальных слов, много дублей и ошибок) лежит в `sources/noji/`. Готовые группы — в `groups.json`, уже обработанные — в `processed.json`.
+
+1. `python3 scripts/noji/next_batch.py 100 > /tmp/src.json` — следующие группы (сначала те, где есть прогресс).
+2. Почистить по `docs/CARD_RULES.md`:
+   - **дубли слить** в одну запись;
+   - **разные значения разделить** (`erheben-1` / `erheben-2`; `das Vorgehen` / `vorgehen`);
+   - **исправить** формы, примеры и переводы;
+   - **перевёрнутые старые карточки** (RU и DE поменяны местами) привести в порядок.
+3. В каждую запись добавить `"_src": "<ключ группы>"`, при необходимости с `#noun` или `#verb`, либо `"__none__"` — так переносится прогресс.
+4. Проверка лингвистом (как в сценарии №1).
+5. `python3 scripts/noji/attach_progress.py /tmp/notes.json decks/de/NNNN-noji-batchK.json` — проставит `srs` и отметит группы обработанными.
+6. `npm run cards:check`, коммит (включая `sources/noji/processed.json`), пуш.
+
+Пачки по 100–150 групп, несколько агентов параллельно, лингвист на каждую пачку.
+
+## 🎤 Колоды для собеседований
+
+Тип `basic` (front/back/extra). Источник — репозиторий `deutsch-praxis/technical-interview` (формат `### ID | MUST`, `@say`, `@trap`, `@followups`). Правила в `docs/CARD_RULES.md` §8. Файлы — `decks/interview/NNNN-*.json`, `deck.key` вроде `iv-js`, `iv-react`.
+
+---
+
+## Карта кода
+- `src/srs/` — обёртка FSRS (`fsrs.core.ts`, чистая), математика учебного дня (`day.ts`, чистая), сервисы очереди и ответов (БД)
+- `src/cards/templates.ts` — какие карточки даёт запись + HTML для Telegram (чистая)
+- `src/import/` — zod-контракт + импорт/экспорт (идемпотентный upsert, прогресс не трогает)
+- `src/sync/deck-sync.service.ts` — при старте импортирует `decks/**/*.json` владельцу (`OWNER_TELEGRAM_ID` или первый из `ALLOWED_TELEGRAM_IDS`)
+- `src/notifications/` — напоминания по колодам; `schedule.ts` — чистое решение, запускается через `/jobs/tick`
+- `src/bot/` — обработчики grammY; один роутер callback в `bot.service.ts`; callback data ≤ 64 байт
+- `src/db/schema.ts` — схема Drizzle; все таблицы привязаны к `user_id` (мультипользовательская)
+- `scripts/check-decks.ts` — валидация колод и поиск дублей; `scripts/noji/` — инструменты переноса из Noji
+
+## Правила для кода
+- Никаких таймеров внутри процесса (free Render засыпает). Всё периодическое — через `POST|GET /jobs/tick`.
+- Никогда не ставить `drop_pending_updates: true`.
+- Изменение схемы: правка `src/db/schema.ts` → `npm run db:generate` → коммит SQL из `drizzle/`.
+- Перед коммитом кода: `npm run lint && npm run typecheck && npm test && npm run cards:check` и e2e с Postgres (`TEST_DATABASE_URL=… npm run test:e2e`; локально: `service postgresql start`).
+- Коммиты подписывать строками атрибуции из системных инструкций сессии.
