@@ -96,7 +96,19 @@
         "noji",
         "office",
         "verb"
-      ]
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-21T23:00:00Z",
+          "stability": 12.82,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-09T03:12:00Z"
+        }
+      }
     },
     {
       "externalId": "de:abweichung",
@@ -887,7 +899,19 @@
         "noji",
         "office",
         "verb"
-      ]
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-12-14T23:00:00Z",
+          "stability": 73.52,
+          "difficulty": 9.0,
+          "reps": 8,
+          "lapses": 0,
+          "scheduledDays": 74,
+          "lastReview": "2026-10-02T10:30:00Z"
+        }
+      }
     },
     {
       "externalId": "de:was-angeht",
@@ -958,7 +982,19 @@
         "noji",
         "office",
         "adj"
-      ]
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-27T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-11T06:53:00Z"
+        }
+      }
     },
     {
       "externalId": "de:angenehm",
@@ -1428,7 +1464,19 @@
         "noji",
         "it",
         "noun"
-      ]
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 1.73,
+          "difficulty": 6.5,
+          "reps": 3,
+          "lapses": 0,
+          "scheduledDays": 2,
+          "lastReview": "2026-11-12T05:33:00Z"
+        }
+      }
     },
     {
       "externalId": "de:anscheinend",

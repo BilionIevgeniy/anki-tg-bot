@@ -1,0 +1,3104 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:empfinden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "empfinden",
+        "pos": "verb",
+        "translation": "испытывать, ощущать",
+        "praeteritum": "empfand",
+        "perfekt": "hat empfunden",
+        "example": "Ich empfinde große Wertschätzung für die Arbeit des Teams.",
+        "exampleTranslation": "Я испытываю большое уважение к работе команды.",
+        "hint": "чувство, книжн. (не fühlen)",
+        "note": "etw. als … empfinden — воспринимать как …"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-10-26T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:enttäuschen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "enttäuschen",
+        "pos": "verb",
+        "translation": "разочаровывать",
+        "praeteritum": "enttäuschte",
+        "perfekt": "hat enttäuscht",
+        "example": "Ich will mein Team nicht enttäuschen, deshalb teste ich den Fix noch einmal gründlich.",
+        "exampleTranslation": "Я не хочу подвести команду, поэтому ещё раз тщательно тестирую фикс."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-28T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-11-10T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:eventuell",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eventuell",
+        "pos": "adv",
+        "translation": "возможно",
+        "example": "Eventuell müssen wir den Release auf nächste Woche verschieben.",
+        "exampleTranslation": "Возможно, нам придётся перенести релиз на следующую неделю.",
+        "hint": "не vielleicht",
+        "note": "как прил.: ein eventueller Systemausfall — возможный сбой системы",
+        "falseFriend": "≠ англ. eventually (в конце концов)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-19T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-11-01T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:rücksicht",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Rücksicht",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "учёт интересов, тактичность",
+        "example": "Bei der Sprintplanung nehmen wir Rücksicht auf die Kollegen in Teilzeit.",
+        "exampleTranslation": "При планировании спринта мы учитываем интересы коллег, работающих неполный день.",
+        "rektion": "auf + Akk.",
+        "hint": "считаться с кем-то",
+        "note": "Rücksicht nehmen auf + Akk. — считаться с, учитывать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-28T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-11-10T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:vernachlässigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "vernachlässigen",
+        "pos": "verb",
+        "translation": "пренебрегать, запускать",
+        "praeteritum": "vernachlässigte",
+        "perfekt": "hat vernachlässigt",
+        "example": "Unter Zeitdruck vernachlässigen viele Teams die Tests.",
+        "exampleTranslation": "Под давлением сроков многие команды пренебрегают тестами."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-18T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-10-31T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-wandeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich wandeln",
+        "pos": "verb",
+        "translation": "меняться, преображаться",
+        "praeteritum": "wandelte sich",
+        "perfekt": "hat sich gewandelt",
+        "example": "Die Anforderungen an Frontend-Entwickler haben sich in den letzten Jahren stark gewandelt.",
+        "exampleTranslation": "Требования к фронтенд-разработчикам за последние годы сильно изменились.",
+        "hint": "постепенно, глубоко (не sich ändern)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-19T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-11-01T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:knapp-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "knapp",
+        "pos": "adj",
+        "translation": "скудный, ограниченный",
+        "example": "Das Budget für das Projekt ist dieses Jahr ziemlich knapp.",
+        "exampleTranslation": "Бюджет на проект в этом году довольно ограниченный.",
+        "hint": "о ресурсах, деньгах",
+        "note": "zu knapp — слишком мало, в обрез"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-12-01T23:00:00Z",
+          "stability": 18.47,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-11-13T11:47:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:jemandem-den-ball-zuspielen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "jemandem den Ball zuspielen",
+        "pos": "phrase",
+        "translation": "подыграть, дать шанс кому-либо",
+        "example": "Im Meeting hat der Teamlead mir geschickt den Ball zugespielt, sodass ich meine Lösung vorstellen konnte.",
+        "exampleTranslation": "На встрече тимлид ловко передал мне слово, и я смог представить своё решение.",
+        "note": "spielte zu; hat zugespielt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 17.96,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 18,
+          "lastReview": "2026-10-25T23:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:quellcode",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Quellcode",
+        "plural": "die Quellcodes",
+        "pos": "noun",
+        "translation": "исходный код",
+        "example": "Der Quellcode des Projekts liegt in einem privaten GitHub-Repository.",
+        "exampleTranslation": "Исходный код проекта лежит в приватном репозитории на GitHub."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-23T23:00:00Z",
+          "stability": 17.42,
+          "difficulty": 6.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-06T12:52:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:dranbleiben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "dranbleiben",
+        "pos": "verb",
+        "translation": "не бросать, продолжать заниматься",
+        "praeteritum": "blieb dran",
+        "perfekt": "ist drangeblieben",
+        "example": "Bleib an dem Bug dran, bis wir die Ursache gefunden haben.",
+        "exampleTranslation": "Не бросай этот баг, пока мы не найдём причину.",
+        "rektion": "an + Dat.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-19T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-03T06:52:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:bereitstellung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Bereitstellung",
+        "plural": "die Bereitstellungen",
+        "pos": "noun",
+        "translation": "предоставление, развёртывание",
+        "example": "Die Bereitstellung der neuen Version läuft automatisch über die CI/CD-Pipeline.",
+        "exampleTranslation": "Развёртывание новой версии идёт автоматически через CI/CD-пайплайн.",
+        "hint": "ресурсов, сервера; в IT — деплой"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-24T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-08T06:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:bewältigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bewältigen",
+        "pos": "verb",
+        "translation": "справляться, преодолевать",
+        "praeteritum": "bewältigte",
+        "perfekt": "hat bewältigt",
+        "example": "Mit zwei zusätzlichen Entwicklern konnten wir die Release-Phase gut bewältigen.",
+        "exampleTranslation": "С двумя дополнительными разработчиками мы хорошо справились с фазой релиза.",
+        "hint": "с нагрузкой, задачей (не überwinden)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-10-29T06:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:dementsprechend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "dementsprechend",
+        "pos": "adv",
+        "translation": "соответственно (этому)",
+        "example": "Das Feature ist komplex, dementsprechend brauchen wir mehr Zeit für die Tests.",
+        "exampleTranslation": "Фича сложная, соответственно, нам нужно больше времени на тесты.",
+        "hint": "вывод из сказанного"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-17T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-01T06:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:in-die-hose-gehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "in die Hose gehen",
+        "pos": "phrase",
+        "translation": "провалиться, накрыться",
+        "example": "Das Deployment ist gestern voll in die Hose gegangen.",
+        "exampleTranslation": "Вчерашний деплой полностью провалился.",
+        "register": "umgs",
+        "hint": "идиома (не scheitern)",
+        "note": "ging in die Hose; ist in die Hose gegangen"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-23T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-07T06:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-verlassen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich verlassen",
+        "pos": "verb",
+        "translation": "полагаться, рассчитывать",
+        "praeteritum": "verließ sich",
+        "perfekt": "hat sich verlassen",
+        "example": "Auf die Tests in der Pipeline kann man sich leider nicht immer verlassen.",
+        "exampleTranslation": "На тесты в пайплайне, к сожалению, не всегда можно положиться.",
+        "rektion": "auf + Akk.",
+        "note": "du verlässt dich"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-26T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-10T06:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:verwechslung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Verwechslung",
+        "plural": "die Verwechslungen",
+        "pos": "noun",
+        "translation": "путаница (одного с другим)",
+        "example": "Wegen einer Verwechslung der Umgebungsvariablen lief das Frontend gegen die Produktionsdatenbank.",
+        "exampleTranslation": "Из-за путаницы с переменными окружения фронтенд работал с продакшен-базой."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-18T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-02T06:53:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:forderung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Forderung",
+        "plural": "die Forderungen",
+        "pos": "noun",
+        "translation": "требование, претензия",
+        "example": "Der Kunde stellt plötzlich Forderungen, die nicht im Vertrag stehen.",
+        "exampleTranslation": "Заказчик вдруг выдвигает требования, которых нет в договоре.",
+        "hint": "выдвигаемое кем-то (не Anforderung)",
+        "note": "≠ die Anforderung — требование к должности/системе: Die Anforderungen an die Stelle sind hoch."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-18T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-02T06:56:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:zeitnah",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zeitnah",
+        "pos": "adv",
+        "translation": "в ближайшее время, оперативно",
+        "example": "Ich kümmere mich zeitnah um das Ticket und melde mich dann.",
+        "exampleTranslation": "Я займусь тикетом в ближайшее время и потом отпишусь.",
+        "hint": "деловая речь (не bald)",
+        "note": "как прил.: eine zeitnahe Reaktion — своевременная реакция"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-27T23:00:00Z",
+          "stability": 16.67,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 17,
+          "lastReview": "2026-11-11T06:56:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:zunehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zunehmen",
+        "pos": "verb",
+        "translation": "увеличиваться, расти",
+        "praeteritum": "nahm zu",
+        "perfekt": "hat zugenommen",
+        "example": "Seit dem Launch nimmt die Zahl der Nutzer kontinuierlich zu.",
+        "exampleTranslation": "С момента запуска число пользователей постоянно растёт.",
+        "hint": "о количестве (не wachsen)",
+        "note": "du nimmst zu; тж. «поправляться (о весе)»"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-25T23:00:00Z",
+          "stability": 16.3,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 16,
+          "lastReview": "2026-11-09T15:50:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:angeben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angeben",
+        "pos": "verb",
+        "translation": "указывать (данные)",
+        "praeteritum": "gab an",
+        "perfekt": "hat angegeben",
+        "example": "Geben Sie im Formular bitte Ihre Steuer-ID an.",
+        "exampleTranslation": "Пожалуйста, укажите в форме свой налоговый идентификатор.",
+        "hint": "в форме, заявлении",
+        "note": "du gibst an; разг. тж. «хвастаться»"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-22T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-07T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:aufzeichnung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aufzeichnung",
+        "plural": "die Aufzeichnungen",
+        "pos": "noun",
+        "translation": "запись (видео, звука)",
+        "example": "Die Aufzeichnung des Meetings findest du im Teams-Kanal.",
+        "exampleTranslation": "Запись встречи найдёшь в канале Teams.",
+        "hint": "встречи, экрана (не Eintrag)",
+        "note": "мн.: Aufzeichnungen — тж. заметки, записи от руки"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-25T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-10T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:berühren-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berühren",
+        "pos": "verb",
+        "translation": "трогать, касаться",
+        "praeteritum": "berührte",
+        "perfekt": "hat berührt",
+        "example": "Bitte die Displays im Showroom nicht berühren.",
+        "exampleTranslation": "Пожалуйста, не трогайте дисплеи в шоуруме.",
+        "hint": "физически",
+        "note": "«затрагивать (о баге)» — лучше betreffen: Der Bug betrifft nur die Mobile-Version."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-22T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-07T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:berühren-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berühren",
+        "pos": "verb",
+        "translation": "трогать (до глубины души)",
+        "praeteritum": "berührte",
+        "perfekt": "hat berührt",
+        "example": "Die Abschiedsrede unserer Kollegin hat mich sehr berührt.",
+        "exampleTranslation": "Прощальная речь нашей коллеги меня очень тронула.",
+        "hint": "эмоционально"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-beteiligen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich beteiligen",
+        "pos": "verb",
+        "translation": "участвовать, принимать участие",
+        "praeteritum": "beteiligte sich",
+        "perfekt": "hat sich beteiligt",
+        "example": "Ich würde mich gern stärker an Architekturentscheidungen beteiligen.",
+        "exampleTranslation": "Я бы хотел активнее участвовать в архитектурных решениях.",
+        "rektion": "an + Dat.",
+        "hint": "вносить свою долю (не teilnehmen)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-01T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:beurteilung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beurteilung",
+        "plural": "die Beurteilungen",
+        "pos": "noun",
+        "translation": "оценка, отзыв",
+        "example": "Nach drei Monaten Probezeit bekommst du eine erste Beurteilung von deinem Teamlead.",
+        "exampleTranslation": "Через три месяца испытательного срока ты получишь первую оценку от тимлида.",
+        "hint": "суждение о ком-то (не Bewertung)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-18T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-03T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:unangenehm",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "unangenehm",
+        "pos": "adj",
+        "translation": "неприятный, неловкий",
+        "example": "Es war mir unangenehm, im Daily zuzugeben, dass ich den Bug verursacht hatte.",
+        "exampleTranslation": "Мне было неловко признаться на дейли, что баг вызвал я."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-01T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:verhandeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "verhandeln",
+        "pos": "verb",
+        "translation": "вести переговоры, договариваться",
+        "praeteritum": "verhandelte",
+        "perfekt": "hat verhandelt",
+        "example": "Wir haben zwei Stunden über das Gehalt und die Homeoffice-Tage verhandelt.",
+        "exampleTranslation": "Мы два часа вели переговоры о зарплате и днях удалёнки.",
+        "rektion": "über + Akk."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-23T23:00:00Z",
+          "stability": 15.39,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 15,
+          "lastReview": "2026-11-08T13:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:beeinträchtigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beeinträchtigung",
+        "plural": "die Beeinträchtigungen",
+        "pos": "noun",
+        "translation": "нарушение (работы), помеха",
+        "example": "Während der Wartung kann es zu Beeinträchtigungen beim Login kommen.",
+        "exampleTranslation": "Во время техработ возможны перебои со входом в систему."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-23T23:00:00Z",
+          "stability": 14.43,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-09T12:48:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:wenigstens",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "wenigstens",
+        "pos": "adv",
+        "translation": "хотя бы",
+        "example": "Schreib wenigstens einen kurzen Kommentar, warum du die Logik geändert hast.",
+        "exampleTranslation": "Напиши хотя бы короткий комментарий, зачем ты изменил логику.",
+        "hint": "не mindestens"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-17T23:00:00Z",
+          "stability": 14.25,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-03T17:00:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:prägen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "prägen",
+        "pos": "verb",
+        "translation": "формировать, накладывать отпечаток",
+        "praeteritum": "prägte",
+        "perfekt": "hat geprägt",
+        "example": "Die Jahre im Startup haben meine Arbeitsweise stark geprägt.",
+        "exampleTranslation": "Годы в стартапе сильно сформировали мой стиль работы.",
+        "hint": "характер, стиль (не bilden)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 14.1,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-01T20:34:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:ausgleich",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Ausgleich",
+        "plural": "die Ausgleiche",
+        "pos": "noun",
+        "translation": "компенсация, баланс",
+        "example": "Als Ausgleich zum Sitzen am Schreibtisch gehe ich abends joggen.",
+        "exampleTranslation": "Чтобы компенсировать сидячую работу, я по вечерам бегаю.",
+        "hint": "для баланса (не Entschädigung)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-22T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-09T01:34:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:nebenan",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "nebenan",
+        "pos": "adv",
+        "translation": "по соседству, рядом",
+        "example": "Den Kaffee hole ich mir meistens beim Bäcker nebenan.",
+        "exampleTranslation": "Кофе я обычно беру в пекарне по соседству."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-22T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-09T01:34:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:nicken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "nicken",
+        "pos": "verb",
+        "translation": "кивать",
+        "praeteritum": "nickte",
+        "perfekt": "hat genickt",
+        "example": "Er hat nur genickt, als ich ihm die fertige Komponente gezeigt habe.",
+        "exampleTranslation": "Он только кивнул, когда я показал ему готовый компонент.",
+        "note": "das Nicken — кивок"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-01T01:34:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:stammkunde",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Stammkunde",
+        "plural": "die Stammkunden",
+        "pos": "noun",
+        "translation": "постоянный клиент",
+        "example": "Als Stammkunde bekomme ich im Café jeden zehnten Kaffee gratis.",
+        "exampleTranslation": "Как постоянный клиент я получаю в кафе каждый десятый кофе бесплатно.",
+        "note": "n-Deklination: den/dem/des Stammkunden"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-03T01:34:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:weich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "weich",
+        "pos": "adj",
+        "translation": "мягкий",
+        "example": "Die Matratze ist mir zu weich, davon bekomme ich Rückenschmerzen.",
+        "exampleTranslation": "Матрас для меня слишком мягкий, от него болит спина."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-03T01:34:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:hervorrufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "hervorrufen",
+        "pos": "verb",
+        "translation": "вызывать (реакцию)",
+        "praeteritum": "rief hervor",
+        "perfekt": "hat hervorgerufen",
+        "example": "Die neue Login-Seite hat bei den Nutzern viel Kritik hervorgerufen.",
+        "exampleTranslation": "Новая страница входа вызвала у пользователей много критики.",
+        "hint": "эмоцию, отклик (не verursachen)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-23T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-10T01:35:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:ungünstig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ungünstig",
+        "pos": "adj",
+        "translation": "неудачный, неблагоприятный",
+        "example": "Freitagnachmittag ist ein ungünstiger Zeitpunkt für ein Deployment.",
+        "exampleTranslation": "Пятница после обеда — неудачное время для деплоя."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-02T01:35:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:unübersichtlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "unübersichtlich",
+        "pos": "adj",
+        "translation": "запутанный, плохо структурированный",
+        "example": "Mit 800 Zeilen ist die Komponente völlig unübersichtlich geworden.",
+        "exampleTranslation": "Разросшись до 800 строк, компонент стал совершенно нечитаемым.",
+        "hint": "трудно охватить взглядом"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-01T01:36:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-belaufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich belaufen",
+        "pos": "verb",
+        "translation": "составлять (о сумме)",
+        "praeteritum": "belief sich",
+        "perfekt": "hat sich belaufen",
+        "example": "Die Reparaturkosten für das Auto belaufen sich auf rund 1.200 Euro.",
+        "exampleTranslation": "Стоимость ремонта машины составляет около 1200 евро.",
+        "rektion": "auf + Akk.",
+        "register": "formell",
+        "note": "обычно в 3-м лице: es beläuft sich"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-20T23:00:00Z",
+          "stability": 13.89,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 14,
+          "lastReview": "2026-11-07T01:42:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:entwurf",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Entwurf",
+        "plural": "die Entwürfe",
+        "pos": "noun",
+        "translation": "черновик, проект, набросок",
+        "example": "Ich schicke dir bis morgen einen ersten Entwurf der API-Spezifikation.",
+        "exampleTranslation": "До завтра пришлю тебе первый черновик спецификации API."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 12.82,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-03T03:12:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:geschehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "geschehen",
+        "pos": "verb",
+        "translation": "происходить, случаться",
+        "praeteritum": "geschah",
+        "perfekt": "ist geschehen",
+        "example": "Was ist letzte Nacht mit dem Server geschehen?",
+        "exampleTranslation": "Что случилось с сервером прошлой ночью?",
+        "hint": "книжн. (не passieren)",
+        "note": "es geschieht"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:das-geschehen",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Geschehen",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "происходящее, события",
+        "example": "Im Homeoffice bekomme ich vom Geschehen im Büro kaum etwas mit.",
+        "exampleTranslation": "На удалёнке я почти не в курсе того, что происходит в офисе."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 12.82,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-01T03:12:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:hinweisen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "hinweisen",
+        "pos": "verb",
+        "translation": "указывать, обращать внимание",
+        "praeteritum": "wies hin",
+        "perfekt": "hat hingewiesen",
+        "example": "Der Linter weist auf eine ungenutzte Variable hin.",
+        "exampleTranslation": "Линтер указывает на неиспользуемую переменную.",
+        "rektion": "auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 12.82,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-01T03:12:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:nachgehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "nachgehen",
+        "pos": "verb",
+        "translation": "разбираться (в чём-то), проверять",
+        "praeteritum": "ging nach",
+        "perfekt": "ist nachgegangen",
+        "example": "Ich gehe dem Fehler im Checkout nach und melde mich nach dem Mittag.",
+        "exampleTranslation": "Я разберусь с ошибкой в чекауте и отпишусь после обеда.",
+        "rektion": "+ Dat.",
+        "hint": "вопросу, проблеме (не sich beschäftigen)",
+        "note": "Die Uhr geht nach — часы отстают"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 12.82,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-01T03:12:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-verabreden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich verabreden",
+        "pos": "verb",
+        "translation": "договариваться о встрече",
+        "praeteritum": "verabredete sich",
+        "perfekt": "hat sich verabredet",
+        "example": "Ich habe mich mit einem Ex-Kollegen auf einen Kaffee verabredet.",
+        "exampleTranslation": "Я договорился с бывшим коллегой встретиться на кофе.",
+        "rektion": "mit + Dat."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-20T23:00:00Z",
+          "stability": 12.82,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-08T03:12:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:angst-um",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Angst",
+        "plural": "die Ängste",
+        "pos": "noun",
+        "translation": "страх (за кого-то/что-то)",
+        "example": "Seit den Entlassungen haben viele Kollegen Angst um ihren Job.",
+        "exampleTranslation": "После увольнений многие коллеги боятся за свою работу.",
+        "rektion": "um + Akk.",
+        "hint": "за кого-то (не vor)",
+        "note": "Angst vor + Dat. — страх перед"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 12.54,
+          "difficulty": 9.0,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 13,
+          "lastReview": "2026-11-01T10:00:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:wurzel",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Wurzel",
+        "plural": "die Wurzeln",
+        "pos": "noun",
+        "translation": "корень",
+        "example": "Wir müssen das Problem an der Wurzel packen, statt nur Symptome zu fixen.",
+        "exampleTranslation": "Нужно решать проблему в корне, а не только чинить симптомы."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-19T23:00:00Z",
+          "stability": 12.3,
+          "difficulty": 8.17,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 12,
+          "lastReview": "2026-11-07T15:52:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:aus-versehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aus Versehen",
+        "pos": "phrase",
+        "translation": "случайно, по ошибке",
+        "example": "Ich habe aus Versehen direkt auf main gepusht.",
+        "exampleTranslation": "Я по ошибке запушил прямо в main.",
+        "hint": "не zufällig"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 11.98,
+          "difficulty": 7.5,
+          "reps": 6,
+          "lapses": 0,
+          "scheduledDays": 12,
+          "lastReview": "2026-11-01T23:24:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:versagen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "versagen",
+        "pos": "verb",
+        "translation": "отказывать, не срабатывать",
+        "praeteritum": "versagte",
+        "perfekt": "hat versagt",
+        "example": "Bei der Live-Demo hat ausgerechnet der Beamer versagt.",
+        "exampleTranslation": "На живой демонстрации, как назло, отказал проектор.",
+        "hint": "о технике, нервах",
+        "note": "о человеке — не справиться, провалиться"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-21T23:00:00Z",
+          "stability": 10.69,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 11,
+          "lastReview": "2026-11-11T06:30:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:abschnitt",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Abschnitt",
+        "plural": "die Abschnitte",
+        "pos": "noun",
+        "translation": "раздел, отрезок",
+        "example": "Dieser Abschnitt der Dokumentation ist veraltet.",
+        "exampleTranslation": "Этот раздел документации устарел."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 10.45,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 10,
+          "lastReview": "2026-11-03T12:09:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:voraussetzung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Voraussetzung",
+        "plural": "die Voraussetzungen",
+        "pos": "noun",
+        "translation": "предпосылка, обязательное условие",
+        "example": "Fließendes Deutsch ist für diese Stelle keine Voraussetzung.",
+        "exampleTranslation": "Свободный немецкий для этой должности не обязателен.",
+        "hint": "не Bedingung"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-20T23:00:00Z",
+          "stability": 10.22,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 10,
+          "lastReview": "2026-11-10T17:39:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:angeblich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angeblich",
+        "pos": "adv",
+        "translation": "якобы, будто бы",
+        "example": "Angeblich wird der Fehler mit dem nächsten Patch behoben.",
+        "exampleTranslation": "Якобы эту ошибку исправят в следующем патче."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 9.44,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 9,
+          "lastReview": "2026-11-06T12:29:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:kugel-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Kugel",
+        "plural": "die Kugeln",
+        "pos": "noun",
+        "translation": "шар, шарик",
+        "example": "Für die Kinder bestelle ich je eine Kugel Vanilleeis.",
+        "exampleTranslation": "Детям я заказываю по шарику ванильного мороженого.",
+        "hint": "форма, мороженое"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:kugel-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Kugel",
+        "plural": "die Kugeln",
+        "pos": "noun",
+        "translation": "пуля",
+        "example": "Im Tatort traf die Kugel den Kommissar nur an der Schulter.",
+        "exampleTranslation": "В «Tatort» пуля попала комиссару только в плечо.",
+        "hint": "оружие"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-17T23:00:00Z",
+          "stability": 9.08,
+          "difficulty": 8.5,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 9,
+          "lastReview": "2026-11-08T21:00:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:zeugnis",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Zeugnis",
+        "plural": "die Zeugnisse",
+        "pos": "noun",
+        "translation": "характеристика, аттестат",
+        "example": "Für die Bewerbung brauche ich noch das Zeugnis meines letzten Arbeitgebers.",
+        "exampleTranslation": "Для отклика мне ещё нужна характеристика от последнего работодателя.",
+        "note": "das Arbeitszeugnis — письменный отзыв работодателя, в Германии прикладывают к заявке",
+        "hint": "документ от работодателя, школы"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-19T23:00:00Z",
+          "stability": 8.81,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 9,
+          "lastReview": "2026-11-11T03:38:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:wirkungsvoll",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "wirkungsvoll",
+        "pos": "adj",
+        "translation": "действенный, эффективный",
+        "example": "Pair Programming ist beim Onboarding neuer Kollegen besonders wirkungsvoll.",
+        "exampleTranslation": "Парное программирование особенно эффективно при онбординге новых коллег.",
+        "hint": "даёт результат (не effektiv)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-21T23:00:00Z",
+          "stability": 8.71,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 9,
+          "lastReview": "2026-11-13T05:56:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:anfällig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anfällig",
+        "pos": "adj",
+        "translation": "подверженный, уязвимый",
+        "example": "Alte Systeme sind besonders anfällig für Angriffe.",
+        "exampleTranslation": "Старые системы особенно уязвимы для атак.",
+        "rektion": "für + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "learning",
+          "due": "2026-11-12T13:36:30.000Z",
+          "stability": 0.5,
+          "difficulty": 6,
+          "reps": 1,
+          "lapses": 0,
+          "scheduledDays": 0
+        }
+      }
+    },
+    {
+      "externalId": "de:ansonsten-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ansonsten",
+        "pos": "adv",
+        "translation": "иначе, в противном случае",
+        "example": "Wir müssen bis Freitag mergen, ansonsten verschiebt sich der Release.",
+        "exampleTranslation": "Нам нужно смержить до пятницы, иначе релиз сдвинется.",
+        "hint": "условие (не sonst)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 7.42,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 7,
+          "lastReview": "2026-11-07T12:52:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:ansonsten-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ansonsten",
+        "pos": "adv",
+        "translation": "в остальном, а так",
+        "example": "Die Tests laufen etwas langsam, ansonsten sieht der PR gut aus.",
+        "exampleTranslation": "Тесты идут немного медленно, а в остальном PR выглядит хорошо.",
+        "hint": "кроме этого"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:auffallen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auffallen",
+        "pos": "verb",
+        "translation": "бросаться в глаза, быть замеченным",
+        "praeteritum": "fiel auf",
+        "perfekt": "ist aufgefallen",
+        "example": "Mir ist aufgefallen, dass die Fehlerrate seit dem Update gestiegen ist.",
+        "exampleTranslation": "Я заметил, что после обновления доля ошибок выросла.",
+        "rektion": "+ Dat.",
+        "note": "du fällst auf; mir fällt etw. auf — я замечаю"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 7.42,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 7,
+          "lastReview": "2026-11-06T12:52:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:entlassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entlassen",
+        "pos": "verb",
+        "translation": "увольнять",
+        "praeteritum": "entließ",
+        "perfekt": "hat entlassen",
+        "example": "Die Firma hat 200 Mitarbeiter entlassen, darunter das halbe Frontend-Team.",
+        "exampleTranslation": "Компания уволила 200 сотрудников, включая половину фронтенд-команды.",
+        "hint": "работодатель сотрудника (≈ kündigen)",
+        "note": "du entlässt; тж. «выписывать (из больницы)»"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 6.19,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-08T18:33:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:klagen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "klagen",
+        "pos": "verb",
+        "translation": "жаловаться, сетовать",
+        "praeteritum": "klagte",
+        "perfekt": "hat geklagt",
+        "example": "Viele Kollegen klagen über zu viele Meetings.",
+        "exampleTranslation": "Многие коллеги жалуются на слишком большое количество встреч.",
+        "rektion": "über + Akk.",
+        "hint": "сетовать (не sich beschweren)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-17T23:00:00Z",
+          "stability": 6.19,
+          "difficulty": 9.0,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-11T18:33:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:klagen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "klagen",
+        "pos": "verb",
+        "translation": "подавать в суд, судиться",
+        "praeteritum": "klagte",
+        "perfekt": "hat geklagt",
+        "example": "Er hat gegen seine Kündigung vor dem Arbeitsgericht geklagt.",
+        "exampleTranslation": "Он оспорил своё увольнение в суде по трудовым спорам.",
+        "rektion": "gegen + Akk.",
+        "hint": "юридически"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:moderieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "moderieren",
+        "pos": "verb",
+        "translation": "вести (обсуждение), модерировать",
+        "praeteritum": "moderierte",
+        "perfekt": "hat moderiert",
+        "example": "Heute moderiere ich die Retro, weil unsere Scrum-Masterin krank ist.",
+        "exampleTranslation": "Сегодня ретро веду я, потому что наш скрам-мастер болеет."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 5.85,
+          "difficulty": 7.5,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-08T02:42:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:verlockend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "verlockend",
+        "pos": "adj",
+        "translation": "заманчивый, соблазнительный",
+        "example": "Das Angebot aus München klingt verlockend, aber die Mieten dort sind enorm.",
+        "exampleTranslation": "Предложение из Мюнхена звучит заманчиво, но аренда там огромная."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 5.72,
+          "difficulty": 8.17,
+          "reps": 5,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-08T05:44:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:eintrag",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Eintrag",
+        "plural": "die Einträge",
+        "pos": "noun",
+        "translation": "запись (в базе, списке)",
+        "example": "Nach dem Import fehlen in der Datenbank ein paar Einträge.",
+        "exampleTranslation": "После импорта в базе данных не хватает нескольких записей.",
+        "hint": "в таблице, базе (не Aufzeichnung)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 5.58,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-08T08:59:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:in-rechnung-stellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "in Rechnung stellen",
+        "pos": "phrase",
+        "translation": "выставлять счёт (за что-то)",
+        "example": "Die Werkstatt hat uns die Ersatzteile separat in Rechnung gestellt.",
+        "exampleTranslation": "Автомастерская выставила нам счёт за запчасти отдельно.",
+        "register": "formell",
+        "note": "stellte in Rechnung; hat in Rechnung gestellt"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "phrase"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 5.58,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-10T08:59:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:verstärken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "verstärken",
+        "pos": "verb",
+        "translation": "усиливать, укреплять",
+        "praeteritum": "verstärkte",
+        "perfekt": "hat verstärkt",
+        "example": "Ab Januar verstärkt eine neue Kollegin unser Frontend-Team.",
+        "exampleTranslation": "С января нашу фронтенд-команду усилит новая коллега."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 5.58,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 6,
+          "lastReview": "2026-11-09T09:02:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:unaufhörlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "unaufhörlich",
+        "pos": "adj",
+        "translation": "непрерывный, безостановочный",
+        "example": "Seit dem Ausfall klingelt im Support unaufhörlich das Telefon.",
+        "exampleTranslation": "После сбоя в поддержке безостановочно звонит телефон."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 5.19,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-11T18:26:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:abziehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abziehen",
+        "pos": "verb",
+        "translation": "вычитать, удерживать (сумму)",
+        "praeteritum": "zog ab",
+        "perfekt": "hat abgezogen",
+        "example": "Den Rabatt ziehen wir direkt vom Rechnungsbetrag ab.",
+        "exampleTranslation": "Скидку мы вычтем прямо из суммы счёта.",
+        "rektion": "von + Dat.",
+        "note": "тж. «снимать (наволочку)», «отводить (войска)»"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-08T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:anhängen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anhängen",
+        "pos": "verb",
+        "translation": "прикреплять (файл)",
+        "praeteritum": "hängte an",
+        "perfekt": "hat angehängt",
+        "example": "Ich hänge dir den Screenshot an die Mail an.",
+        "exampleTranslation": "Прикреплю тебе скриншот к письму.",
+        "hint": "вложение",
+        "note": "переходное — слабое (hängte an); hing an — от непереходного «висеть»"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-11T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:anlegen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anlegen",
+        "pos": "verb",
+        "translation": "создавать, заводить",
+        "praeteritum": "legte an",
+        "perfekt": "hat angelegt",
+        "example": "Für das neue Feature lege ich gleich einen eigenen Branch an.",
+        "exampleTranslation": "Для новой фичи я сразу создам отдельную ветку.",
+        "hint": "аккаунт, папку, ветку",
+        "note": "тж. «вкладывать (деньги)»"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-07T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:entsprechend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entsprechend",
+        "pos": "adj",
+        "translation": "соответствующий",
+        "example": "Für den Antrag brauchen Sie die entsprechenden Nachweise vom Arbeitgeber.",
+        "exampleTranslation": "Для заявления вам нужны соответствующие подтверждения от работодателя.",
+        "note": "как наречие = соответственно: Das Feature ist komplex und entsprechend teuer."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-09T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:ersparnis",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ersparnis",
+        "plural": "die Ersparnisse",
+        "pos": "noun",
+        "translation": "экономия; сбережения (мн.)",
+        "example": "Mit dem neuen Stromtarif liegt die Ersparnis bei etwa 150 Euro im Jahr.",
+        "exampleTranslation": "С новым тарифом на электричество экономия около 150 евро в год."
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-11T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:rückschlag",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Rückschlag",
+        "plural": "die Rückschläge",
+        "pos": "noun",
+        "translation": "неудача, откат назад",
+        "example": "Die Absage war ein Rückschlag, aber kein Grund aufzugeben.",
+        "exampleTranslation": "Отказ был неудачей, но не поводом сдаваться.",
+        "hint": "временная (не Misserfolg)"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-08T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:verraten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "verraten",
+        "pos": "verb",
+        "translation": "выдавать, раскрывать (секрет)",
+        "praeteritum": "verriet",
+        "perfekt": "hat verraten",
+        "example": "Kannst du mir verraten, wie du das Performance-Problem gelöst hast?",
+        "exampleTranslation": "Раскроешь секрет, как ты решил проблему с производительностью?",
+        "note": "du verrätst; тж. «предавать»"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 5.15,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-08T19:17:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:leiden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "leiden",
+        "pos": "verb",
+        "translation": "страдать (болезнью)",
+        "praeteritum": "litt",
+        "perfekt": "hat gelitten",
+        "example": "Mein Kollege leidet an Migräne und arbeitet deshalb oft im Homeoffice.",
+        "exampleTranslation": "Мой коллега страдает мигренью и поэтому часто работает из дома.",
+        "rektion": "an + Dat.",
+        "note": "leiden unter + Dat. — страдать от (стресса, шума)"
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-16T23:00:00Z",
+          "stability": 4.65,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 5,
+          "lastReview": "2026-11-12T07:21:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:schwächen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "schwächen",
+        "pos": "verb",
+        "translation": "ослаблять",
+        "praeteritum": "schwächte",
+        "perfekt": "hat geschwächt",
+        "example": "Dieses Argument könnte unsere Position in der Verhandlung schwächen.",
+        "exampleTranslation": "Этот аргумент может ослабить нашу позицию на переговорах."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 4.32,
+          "difficulty": 6.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-08T15:20:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:auffassung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auffassung",
+        "plural": "die Auffassungen",
+        "pos": "noun",
+        "translation": "мнение, точка зрения",
+        "example": "Ich bin der Auffassung, dass wir zuerst die Tests schreiben sollten.",
+        "exampleTranslation": "Я считаю, что сначала нам надо написать тесты.",
+        "hint": "книжн. (не Meinung)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 4.3,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-08T15:54:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:aufpassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufpassen",
+        "pos": "verb",
+        "translation": "присматривать",
+        "praeteritum": "passte auf",
+        "perfekt": "hat aufgepasst",
+        "example": "Kannst du am Wochenende auf meinen Kater aufpassen?",
+        "exampleTranslation": "Можешь присмотреть за моим котом на выходных?",
+        "rektion": "auf + Akk.",
+        "note": "без предлога: aufpassen — быть внимательным"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 4.3,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-10T15:54:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:erläutern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erläutern",
+        "pos": "verb",
+        "translation": "разъяснять, пояснять",
+        "praeteritum": "erläuterte",
+        "perfekt": "hat erläutert",
+        "example": "Kannst du uns die Architektur des neuen Services kurz erläutern?",
+        "exampleTranslation": "Можешь вкратце пояснить нам архитектуру нового сервиса?",
+        "hint": "подробно (не erklären)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 4.3,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-08T15:54:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-häufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich häufen",
+        "pos": "verb",
+        "translation": "учащаться, накапливаться",
+        "praeteritum": "häufte sich",
+        "perfekt": "hat sich gehäuft",
+        "example": "Seit dem letzten Update häufen sich die Fehlermeldungen.",
+        "exampleTranslation": "После последнего обновления участились сообщения об ошибках."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 4.3,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-08T15:54:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:neigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "neigen",
+        "pos": "verb",
+        "translation": "быть склонным",
+        "praeteritum": "neigte",
+        "perfekt": "hat geneigt",
+        "example": "Ich neige dazu, den Aufwand für neue Features zu unterschätzen.",
+        "exampleTranslation": "Я склонен недооценивать трудозатраты на новые фичи.",
+        "rektion": "zu + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 4.3,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-08T15:54:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:der-nutzen",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Nutzen",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "польза, выгода",
+        "example": "Der Nutzen von TypeScript zeigt sich vor allem in großen Projekten.",
+        "exampleTranslation": "Польза TypeScript проявляется прежде всего в больших проектах."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 4.3,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T15:54:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:etwas-im-griff-haben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas im Griff haben",
+        "pos": "phrase",
+        "translation": "держать под контролем, справляться",
+        "example": "Keine Sorge, das Problem mit dem Cache habe ich im Griff.",
+        "exampleTranslation": "Не волнуйся, проблему с кэшем я держу под контролем."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 3.94,
+          "difficulty": 7.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-10T00:31:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:anmeldeschluss",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anmeldeschluss",
+        "plural": "die Anmeldeschlüsse",
+        "pos": "noun",
+        "translation": "крайний срок регистрации",
+        "example": "Der Anmeldeschluss für die IHK-Prüfung ist schon nächste Woche.",
+        "exampleTranslation": "Крайний срок регистрации на экзамен IHK уже на следующей неделе."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:beförderung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beförderung",
+        "plural": "die Beförderungen",
+        "pos": "noun",
+        "translation": "повышение (по службе)",
+        "example": "Nach zwei Jahren als Junior hoffe ich auf eine Beförderung.",
+        "exampleTranslation": "После двух лет джуном я надеюсь на повышение.",
+        "note": "тж. «перевозка»: die Personenbeförderung"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-12T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-bemühen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich bemühen",
+        "pos": "verb",
+        "translation": "стараться, прилагать усилия",
+        "praeteritum": "bemühte sich",
+        "perfekt": "hat sich bemüht",
+        "example": "Ich bemühe mich, im Daily nur noch Deutsch zu sprechen.",
+        "exampleTranslation": "Я стараюсь говорить на дейли только по-немецки.",
+        "note": "sich um etw. bemühen — добиваться чего-либо: sich um eine Stelle bemühen"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:einsetzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einsetzen",
+        "pos": "verb",
+        "translation": "применять, задействовать",
+        "praeteritum": "setzte ein",
+        "perfekt": "hat eingesetzt",
+        "example": "Wir setzen KI-Tools vor allem bei Code-Reviews ein.",
+        "exampleTranslation": "Мы применяем ИИ-инструменты прежде всего на код-ревью.",
+        "hint": "технологию, ресурсы (не verwenden)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-12T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:niedrig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "niedrig",
+        "pos": "adj",
+        "translation": "низкий",
+        "example": "Der Akkustand ist zu niedrig für ein System-Update.",
+        "exampleTranslation": "Уровень заряда слишком низкий для обновления системы."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:schieflaufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "schieflaufen",
+        "pos": "verb",
+        "translation": "идти наперекосяк",
+        "praeteritum": "lief schief",
+        "perfekt": "ist schiefgelaufen",
+        "example": "Wenn etwas schiefläuft, haben wir einen Rollback-Plan.",
+        "exampleTranslation": "Если что-то пойдёт не так, у нас есть план отката.",
+        "register": "umgs",
+        "hint": "через laufen (не schiefgehen)",
+        "note": "du läufst schief"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-15T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-12T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:verschmutzung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Verschmutzung",
+        "plural": "die Verschmutzungen",
+        "pos": "noun",
+        "translation": "загрязнение",
+        "example": "Die Verschmutzung des Rheins hat in den letzten Jahrzehnten deutlich abgenommen.",
+        "exampleTranslation": "За последние десятилетия загрязнение Рейна заметно снизилось."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:zielen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zielen",
+        "pos": "verb",
+        "translation": "целиться, быть нацеленным",
+        "praeteritum": "zielte",
+        "perfekt": "hat gezielt",
+        "example": "Die neue Kampagne zielt auf junge Nutzer zwischen 18 und 25.",
+        "exampleTranslation": "Новая кампания нацелена на молодых пользователей от 18 до 25 лет.",
+        "rektion": "auf + Akk.",
+        "note": "abzielen auf + Akk. — иметь целью: Die Maßnahme zielt auf … ab."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.58,
+          "difficulty": 8.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T09:05:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:offenbarung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Offenbarung",
+        "plural": "die Offenbarungen",
+        "pos": "noun",
+        "translation": "откровение, открытие",
+        "example": "Die Arbeit mit diesem Framework war eine echte Offenbarung für mich.",
+        "exampleTranslation": "Работа с этим фреймворком стала для меня настоящим откровением."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.54,
+          "difficulty": 6.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-11T10:02:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:vorrang",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Vorrang",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "приоритет, первенство",
+        "example": "Sicherheitsupdates haben bei uns immer Vorrang vor neuen Features.",
+        "exampleTranslation": "У нас обновления безопасности всегда важнее новых фич.",
+        "rektion": "vor + Dat.",
+        "hint": "не Priorität"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 3.54,
+          "difficulty": 6.5,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 4,
+          "lastReview": "2026-11-10T10:02:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:sich-verstricken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich verstricken",
+        "pos": "verb",
+        "translation": "запутываться",
+        "praeteritum": "verstrickte sich",
+        "perfekt": "hat sich verstrickt",
+        "example": "Im Interview habe ich mich bei der Frage nach Lücken im Lebenslauf in Widersprüche verstrickt.",
+        "exampleTranslation": "На собеседовании, отвечая про пробелы в резюме, я запутался в противоречиях.",
+        "rektion": "in + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 3.23,
+          "difficulty": 9.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 3,
+          "lastReview": "2026-11-11T17:26:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:leihen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "leihen",
+        "pos": "verb",
+        "translation": "одалживать",
+        "praeteritum": "lieh",
+        "perfekt": "hat geliehen",
+        "example": "Kannst du mir dein Ladekabel leihen?",
+        "exampleTranslation": "Можешь одолжить мне свой зарядный кабель?",
+        "note": "sich etw. leihen — брать взаймы"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 2.98,
+          "difficulty": 8.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 3,
+          "lastReview": "2026-11-11T23:24:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:vorgänger",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Vorgänger",
+        "plural": "die Vorgänger",
+        "pos": "noun",
+        "translation": "предшественник",
+        "example": "Mein Vorgänger hat leider kaum etwas dokumentiert.",
+        "exampleTranslation": "Мой предшественник, к сожалению, почти ничего не задокументировал."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 2.98,
+          "difficulty": 8.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 3,
+          "lastReview": "2026-11-11T23:24:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:wirrwarr",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Wirrwarr",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "неразбериха, путаница",
+        "example": "Im Repo herrscht ein ziemliches Wirrwarr aus alten Branches.",
+        "exampleTranslation": "В репозитории полная неразбериха из старых веток.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 2.98,
+          "difficulty": 8.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 3,
+          "lastReview": "2026-11-11T23:24:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:überwältigend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "überwältigend",
+        "pos": "adj",
+        "translation": "ошеломляющий, потрясающий",
+        "example": "Das Feedback auf meinen ersten Vortrag beim Meetup war überwältigend.",
+        "exampleTranslation": "Отзывы на мой первый доклад на митапе были потрясающими."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-14T23:00:00Z",
+          "stability": 2.98,
+          "difficulty": 8.0,
+          "reps": 4,
+          "lapses": 0,
+          "scheduledDays": 3,
+          "lastReview": "2026-11-11T23:24:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:übersehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "übersehen",
+        "pos": "verb",
+        "translation": "проглядеть, упустить из виду",
+        "praeteritum": "übersah",
+        "perfekt": "hat übersehen",
+        "example": "Beim Review habe ich leider einen kritischen Bug übersehen.",
+        "exampleTranslation": "На ревью я, к сожалению, проглядел критический баг.",
+        "hint": "не заметить (не ignorieren)",
+        "note": "du übersiehst"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 2.5,
+          "difficulty": 5.0,
+          "reps": 3,
+          "lapses": 0,
+          "scheduledDays": 2,
+          "lastReview": "2026-11-10T11:00:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:beitragen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beitragen",
+        "pos": "verb",
+        "translation": "вносить вклад, способствовать",
+        "praeteritum": "trug bei",
+        "perfekt": "hat beigetragen",
+        "example": "Jeder im Team soll zur Code-Qualität beitragen.",
+        "exampleTranslation": "Каждый в команде должен вносить вклад в качество кода.",
+        "rektion": "zu + Dat.",
+        "note": "du trägst bei"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-12T23:00:00Z",
+          "stability": 2.49,
+          "difficulty": 7.5,
+          "reps": 3,
+          "lapses": 0,
+          "scheduledDays": 2,
+          "lastReview": "2026-11-10T11:20:00Z"
+        }
+      }
+    },
+    {
+      "externalId": "de:gegenstand",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Gegenstand",
+        "plural": "die Gegenstände",
+        "pos": "noun",
+        "translation": "предмет, вещь",
+        "example": "Spitze Gegenstände sind im Handgepäck verboten.",
+        "exampleTranslation": "Острые предметы в ручной клади запрещены.",
+        "note": "тж. «предмет (обсуждения)»: Gegenstand der Diskussion"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "srs": {
+        "ru_de": {
+          "state": "review",
+          "due": "2026-11-13T23:00:00Z",
+          "stability": 2.43,
+          "difficulty": 9.0,
+          "reps": 3,
+          "lapses": 0,
+          "scheduledDays": 2,
+          "lastReview": "2026-11-11T12:38:00Z"
+        }
+      }
+    }
+  ]
+}

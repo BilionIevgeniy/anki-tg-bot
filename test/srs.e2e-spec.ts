@@ -394,4 +394,49 @@ d('SRS flow (Postgres)', () => {
     }
     expect(order).toEqual(['erst', 'zweit', 'schnell']);
   });
+
+  it('applies migrated progress to an existing card only while it was never studied', async () => {
+    const user = await users.upsert({ id: 560 });
+    const plain = { ...schnell, externalId: 'de:p1' };
+    const studied = { ...schnell, externalId: 'de:p2', fields: { ...schnell.fields, lemma: 'p2' } };
+    await importer.apply(user.id, parseImport(sample([plain, studied])).data!);
+    // study p2 once in the bot
+    const t = new Date('2026-11-12T09:00:00Z');
+    let n = await queue.next(user, 0, t);
+    while (n.kind === 'card' && (n.note.fields as { lemma: string }).lemma !== 'p2') {
+      await review.answer(user.id, n.card.id, Rating.Good, n.card.version, t);
+      n = await queue.next(user, 0, t);
+    }
+    if (n.kind === 'card') await review.answer(user.id, n.card.id, Rating.Good, n.card.version, t);
+    // p1 and p2 are now studied in the bot; p3 is fresh
+    const fresh = { ...schnell, externalId: 'de:p3', fields: { ...schnell.fields, lemma: 'p3' } };
+    await importer.apply(user.id, parseImport(sample([plain, studied, fresh])).data!);
+    const srs = {
+      ru_de: {
+        state: 'review',
+        due: '2026-12-01T08:00:00Z',
+        stability: 20,
+        difficulty: 6,
+        reps: 4,
+        lapses: 0,
+        scheduledDays: 20,
+      },
+    };
+    const rep = await importer.apply(
+      user.id,
+      parseImport(
+        sample([
+          { ...plain, srs },
+          { ...studied, srs },
+          { ...fresh, srs },
+        ]),
+      ).data!,
+    );
+    expect(rep.withProgress).toBe(1); // only the never-studied p3
+    const exported = await importer.exportDeck(user.id, (await decksSvc.list(user.id))[0]!.id);
+    const p3 = exported!.notes.find((x) => x.externalId === 'de:p3')!;
+    expect((p3.srs as Record<string, { stability: number }> | undefined)?.ru_de?.stability).toBe(
+      20,
+    );
+  });
 });

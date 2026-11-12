@@ -128,6 +128,8 @@ export class ImportService {
       report.cardsCreated += tpls.length;
       report.withProgress += tpls.filter((t) => srsFor(n, t)).length;
     }
+    // migrated progress for notes that already exist: only for cards never studied in the bot
+    const progressFor = file.notes.filter((n) => n.srs && existing.has(n.externalId));
     if (dryRun) return report;
 
     if (!deck) {
@@ -244,6 +246,39 @@ export class ImportService {
       );
       for (let j = 0; j < cardValues.length; j += CHUNK) {
         await tx.insert(cards).values(cardValues.slice(j, j + CHUNK));
+      }
+    }
+
+    // A note that was imported earlier without progress can receive it later (e.g. a duplicate
+    // from another Noji batch was merged into it) — but ONLY while the card is untouched:
+    // state New and no reviews. Real progress from the bot is never overwritten.
+    for (const n of progressFor) {
+      const noteId = existing.get(n.externalId)!.id;
+      for (const [template, st] of Object.entries(n.srs ?? {}) as [Template, SrsState][]) {
+        const res = await tx
+          .update(cards)
+          .set({
+            state: STATE_MAP[st.state],
+            due: new Date(st.due),
+            stability: st.stability,
+            difficulty: st.difficulty,
+            reps: st.reps,
+            lapses: st.lapses,
+            scheduledDays: st.scheduledDays,
+            lastReview: st.lastReview ? new Date(st.lastReview) : null,
+            version: sql`${cards.version} + 1`,
+          })
+          .where(
+            and(
+              eq(cards.noteId, noteId),
+              eq(cards.template, template),
+              eq(cards.state, State.New),
+              eq(cards.reps, 0),
+              sql`not exists (select 1 from review_logs rl where rl.card_id = ${cards.id})`,
+            ),
+          )
+          .returning({ id: cards.id });
+        report.withProgress += res.length;
       }
     }
     return report;

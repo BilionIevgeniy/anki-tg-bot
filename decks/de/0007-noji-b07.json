@@ -1,0 +1,1906 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:arrangieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "arrangieren",
+        "pos": "verb",
+        "translation": "устраивать, организовывать",
+        "praeteritum": "arrangierte",
+        "perfekt": "hat arrangiert",
+        "example": "Kannst du für Donnerstag ein kurzes Meeting mit dem Kunden arrangieren?",
+        "exampleTranslation": "Можешь устроить на четверг короткую встречу с заказчиком?",
+        "hint": "встречу, договорившись со всеми"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:art-und-weise",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Art und Weise",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "способ, манера",
+        "example": "Mir gefällt die Art und Weise, wie du im Review Feedback gibst.",
+        "exampleTranslation": "Мне нравится, как ты даёшь обратную связь на ревью.",
+        "hint": "как именно делают"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auf-augenhöhe",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auf Augenhöhe",
+        "pos": "phrase",
+        "translation": "на равных",
+        "example": "In unserem Team reden Juniors und Seniors auf Augenhöhe miteinander.",
+        "exampleTranslation": "В нашей команде джуны и сеньоры общаются на равных."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-dem-laufenden-sein",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auf dem Laufenden sein",
+        "pos": "phrase",
+        "translation": "быть в курсе",
+        "example": "Ich war zwei Wochen im Urlaub und bin, was das Release angeht, nicht mehr auf dem Laufenden.",
+        "exampleTranslation": "Я две недели был в отпуске и уже не в курсе, как обстоят дела с релизом.",
+        "rektion": "über + Akk.",
+        "note": "halt mich auf dem Laufenden — держи меня в курсе"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-dem-schirm-haben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. auf dem Schirm haben",
+        "pos": "phrase",
+        "translation": "держать в поле зрения, помнить о",
+        "example": "Hast du den Bug im Login-Formular auf dem Schirm?",
+        "exampleTranslation": "Ты помнишь про баг в форме логина?",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-der-bühne",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auf der Bühne",
+        "pos": "phrase",
+        "translation": "на сцене",
+        "example": "Beim Firmenjubiläum stand unser CTO auf der Bühne und hat die neue Plattform vorgestellt.",
+        "exampleTranslation": "На юбилее компании наш CTO вышел на сцену и представил новую платформу."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-der-grünen-wiese",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auf der grünen Wiese",
+        "pos": "phrase",
+        "translation": "с нуля, с чистого листа",
+        "example": "Wir dürfen die App komplett auf der grünen Wiese neu entwickeln.",
+        "exampleTranslation": "Нам разрешили разрабатывать приложение полностью с нуля.",
+        "hint": "новый проект без старого кода",
+        "note": "≈ Greenfield-Projekt"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-die-palme-bringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "jdn. auf die Palme bringen",
+        "pos": "phrase",
+        "translation": "выводить из себя, бесить",
+        "example": "Dieser instabile Test bringt mich echt auf die Palme.",
+        "exampleTranslation": "Этот нестабильный тест меня реально бесит.",
+        "praeteritum": "brachte",
+        "perfekt": "hat gebracht",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-die-probe-stellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. auf die Probe stellen",
+        "pos": "phrase",
+        "translation": "испытывать, подвергать испытанию",
+        "example": "Der Release am Freitagabend hat unsere Nerven ganz schön auf die Probe gestellt.",
+        "exampleTranslation": "Релиз в пятницу вечером изрядно испытал наши нервы.",
+        "praeteritum": "stellte",
+        "perfekt": "hat gestellt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:bei-der-sache-bleiben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bei der Sache bleiben",
+        "pos": "phrase",
+        "translation": "не отвлекаться от сути, держаться темы",
+        "example": "Lass uns bei der Sache bleiben und nur über diesen Pull Request reden.",
+        "exampleTranslation": "Давай держаться сути и говорить только об этом пулл-реквесте.",
+        "praeteritum": "blieb",
+        "perfekt": "ist geblieben",
+        "note": "«sich auf die Sache beziehen» — так не говорят; ещё: sachlich bleiben"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:flughöhe",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Flughöhe",
+        "plural": "die Flughöhen",
+        "pos": "noun",
+        "translation": "уровень детализации (обсуждения)",
+        "example": "Lass uns das Thema erst mal auf einer höheren Flughöhe besprechen und später ins Detail gehen.",
+        "exampleTranslation": "Давай сначала обсудим тему в общих чертах, а в детали углубимся позже.",
+        "hint": "офисный жаргон",
+        "note": "букв. высота полёта; auf hoher Flughöhe = в общих чертах"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:achten-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "achten",
+        "pos": "verb",
+        "translation": "обращать внимание на, следить за",
+        "praeteritum": "achtete",
+        "perfekt": "hat geachtet",
+        "example": "Achte beim Review bitte besonders auf die Fehlerbehandlung.",
+        "exampleTranslation": "На ревью, пожалуйста, особенно обрати внимание на обработку ошибок.",
+        "rektion": "auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:angewiesen-sein-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angewiesen sein",
+        "pos": "phrase",
+        "translation": "зависеть от, не обходиться без",
+        "example": "Ohne Auto bin ich in meinem Viertel komplett auf den Bus angewiesen.",
+        "exampleTranslation": "Без машины я в своём районе полностью завишу от автобуса.",
+        "rektion": "auf + Akk.",
+        "praeteritum": "war angewiesen",
+        "perfekt": "ist angewiesen gewesen"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:bestehen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bestehen",
+        "pos": "verb",
+        "translation": "настаивать на",
+        "praeteritum": "bestand",
+        "perfekt": "hat bestanden",
+        "example": "Der Kunde besteht darauf, dass wir das Feature noch vor Weihnachten liefern.",
+        "exampleTranslation": "Заказчик настаивает, чтобы мы поставили фичу ещё до Рождества.",
+        "rektion": "auf + Dat.",
+        "note": "bestehen (+ Akk.) — сдать (экзамен); bestehen aus — состоять из"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:auf-herz-und-nieren-prüfen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. auf Herz und Nieren prüfen",
+        "pos": "phrase",
+        "translation": "проверять вдоль и поперёк",
+        "example": "Bevor wir die Library einsetzen, prüfen wir sie auf Herz und Nieren.",
+        "exampleTranslation": "Прежде чем использовать библиотеку, мы проверим её вдоль и поперёк.",
+        "praeteritum": "prüfte",
+        "perfekt": "hat geprüft",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auf-hochtouren-laufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auf Hochtouren laufen",
+        "pos": "phrase",
+        "translation": "идти полным ходом",
+        "example": "Die Vorbereitungen für den Release laufen auf Hochtouren.",
+        "exampleTranslation": "Подготовка к релизу идёт полным ходом.",
+        "praeteritum": "lief",
+        "perfekt": "ist gelaufen",
+        "note": "du läufst"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:reiz",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Reiz",
+        "plural": "die Reize",
+        "pos": "noun",
+        "translation": "раздражитель, стимул",
+        "example": "Nach einem langen Tag am Bildschirm reagiere ich empfindlich auf jeden Reiz.",
+        "exampleTranslation": "После долгого дня за экраном я остро реагирую на любой раздражитель.",
+        "hint": "физиол.",
+        "note": "reagieren auf einen Reiz; также: прелесть, привлекательность (der Reiz des Neuen)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ablegen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ablegen",
+        "pos": "verb",
+        "translation": "класть, сохранять (файлы)",
+        "praeteritum": "legte ab",
+        "perfekt": "hat abgelegt",
+        "example": "Leg die Rechnungen bitte im Ordner „Buchhaltung“ auf dem Server ab.",
+        "exampleTranslation": "Сохрани, пожалуйста, счета в папку «Бухгалтерия» на сервере.",
+        "hint": "в папку, в архив",
+        "note": "также: снимать (пальто); eine Prüfung ablegen — сдавать экзамен"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufbereitung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aufbereitung",
+        "plural": "die Aufbereitungen",
+        "pos": "noun",
+        "translation": "подготовка, обработка",
+        "example": "Die Aufbereitung der Rohdaten für das Dashboard kostet uns jede Woche zwei Tage.",
+        "exampleTranslation": "Подготовка сырых данных для дашборда отнимает у нас каждую неделю два дня.",
+        "hint": "данных для дальнейшего использования"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:aufbewahren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufbewahren",
+        "pos": "verb",
+        "translation": "хранить",
+        "praeteritum": "bewahrte auf",
+        "perfekt": "hat aufbewahrt",
+        "example": "Die Original-Zeugnisse bewahre ich zu Hause in einem Ordner auf und verschicke nur Kopien.",
+        "exampleTranslation": "Оригиналы аттестатов я храню дома в папке, а отправляю только копии.",
+        "hint": "надёжно, в определённом месте"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufbewahrung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aufbewahrung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "хранение",
+        "example": "Die Aufbewahrung von Passwörtern im Klartext ist ein großes Sicherheitsrisiko.",
+        "exampleTranslation": "Хранение паролей в открытом виде — большой риск для безопасности."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:aufblasen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufblasen",
+        "pos": "verb",
+        "translation": "надувать",
+        "praeteritum": "blies auf",
+        "perfekt": "hat aufgeblasen",
+        "example": "Für den Kindergeburtstag haben wir dreißig Luftballons aufgeblasen.",
+        "exampleTranslation": "К детскому дню рождения мы надули тридцать шариков.",
+        "note": "du bläst auf; раздувать код/бандл — aufblähen (aufgeblähter Code)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufblühen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufblühen",
+        "pos": "verb",
+        "translation": "расцветать, оживать",
+        "praeteritum": "blühte auf",
+        "perfekt": "ist aufgeblüht",
+        "example": "Seit sie im neuen Team arbeitet, ist sie richtig aufgeblüht.",
+        "exampleTranslation": "С тех пор как она работает в новой команде, она прямо расцвела.",
+        "hint": "о человеке"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:auffangen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auffangen",
+        "pos": "verb",
+        "translation": "ловить, подхватывать",
+        "praeteritum": "fing auf",
+        "perfekt": "hat aufgefangen",
+        "example": "Das Handy rutschte vom Tisch, aber ich konnte es gerade noch auffangen.",
+        "exampleTranslation": "Телефон соскользнул со стола, но я успел его подхватить.",
+        "hint": "падающее",
+        "note": "du fängst auf; перен.: смягчать (потери); исключения в коде ловят — abfangen"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:der-auffassung-sein",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "der Auffassung sein",
+        "pos": "phrase",
+        "translation": "считать, придерживаться мнения",
+        "example": "Ich bin der Auffassung, dass wir zuerst die Tests stabilisieren sollten.",
+        "exampleTranslation": "Я считаю, что сначала нам нужно стабилизировать тесты.",
+        "hint": "книжнее, чем Meinung",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:auffrischungsschulung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auffrischungsschulung",
+        "plural": "die Auffrischungsschulungen",
+        "pos": "noun",
+        "translation": "повторный инструктаж, повторное обучение",
+        "example": "Einmal im Jahr müssen alle eine Auffrischungsschulung zum Datenschutz machen.",
+        "exampleTranslation": "Раз в год все должны проходить повторное обучение по защите данных.",
+        "note": "повышение квалификации — Weiterbildung, Fortbildung"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auffällig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auffällig",
+        "pos": "adj",
+        "translation": "заметный, бросающийся в глаза",
+        "example": "Seit dem letzten Deploy gibt es einen auffälligen Anstieg der 500er-Fehler.",
+        "exampleTranslation": "После последнего деплоя заметно выросло число ошибок 500."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:aufführen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufführen",
+        "pos": "verb",
+        "translation": "перечислять, указывать (в списке)",
+        "praeteritum": "führte auf",
+        "perfekt": "hat aufgeführt",
+        "example": "Im Lebenslauf solltest du nur die relevanten Projekte aufführen.",
+        "exampleTranslation": "В резюме стоит указывать только релевантные проекты.",
+        "hint": "в документе",
+        "note": "также: ставить (спектакль)"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufgeben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufgeben",
+        "pos": "verb",
+        "translation": "сдаваться; бросать, отказываться от",
+        "praeteritum": "gab auf",
+        "perfekt": "hat aufgegeben",
+        "example": "Ich gebe nicht auf, bis dieser Bug gefixt ist.",
+        "exampleTranslation": "Я не сдамся, пока этот баг не будет исправлен.",
+        "note": "du gibst auf; также: сдавать (посылку, багаж)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufgeregt",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufgeregt",
+        "pos": "adj",
+        "translation": "взволнованный",
+        "example": "Vor meinem ersten Vorstellungsgespräch auf Deutsch war ich total aufgeregt.",
+        "exampleTranslation": "Перед первым собеседованием на немецком я жутко волновался."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:aufgrund-dessen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufgrund dessen",
+        "pos": "adv",
+        "translation": "из-за этого, вследствие этого",
+        "example": "Die Migration ist fehlgeschlagen; aufgrund dessen mussten wir ein Backup einspielen.",
+        "exampleTranslation": "Миграция провалилась, из-за этого нам пришлось восстанавливать бэкап.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:aufhalten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufhalten",
+        "pos": "verb",
+        "translation": "задерживать",
+        "praeteritum": "hielt auf",
+        "perfekt": "hat aufgehalten",
+        "example": "Ich will dich nicht lange aufhalten, nur eine kurze Frage zum Ticket.",
+        "exampleTranslation": "Не хочу тебя надолго задерживать, только короткий вопрос по тикету.",
+        "hint": "кого-то",
+        "note": "du hältst auf; sich aufhalten — находиться, пребывать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufheben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufheben",
+        "pos": "verb",
+        "translation": "сохранять, не выбрасывать",
+        "praeteritum": "hob auf",
+        "perfekt": "hat aufgehoben",
+        "example": "Heb den Kassenbon auf, falls die Kopfhörer kaputtgehen.",
+        "exampleTranslation": "Сохрани чек на случай, если наушники сломаются.",
+        "hint": "оставить себе на потом",
+        "note": "также: поднимать (с пола); отменять (закон, запрет)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufhören-mit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufhören",
+        "pos": "verb",
+        "translation": "прекращать, переставать",
+        "praeteritum": "hörte auf",
+        "perfekt": "hat aufgehört",
+        "example": "Wir sollten endlich damit aufhören, Hotfixes direkt auf main zu pushen.",
+        "exampleTranslation": "Нам пора наконец перестать пушить хотфиксы прямо в main.",
+        "rektion": "mit + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufnahme",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aufnahme",
+        "plural": "die Aufnahmen",
+        "pos": "noun",
+        "translation": "запись (аудио, видео)",
+        "example": "Ich starte jetzt die Aufnahme, damit die anderen sich das Meeting später ansehen können.",
+        "exampleTranslation": "Я сейчас включу запись, чтобы остальные могли потом посмотреть встречу.",
+        "note": "также: приём (в больницу, в команду); снимок"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:aufnehmen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufnehmen",
+        "pos": "verb",
+        "translation": "записывать (видео, звук)",
+        "praeteritum": "nahm auf",
+        "perfekt": "hat aufgenommen",
+        "example": "Ich nehme das Onboarding auf, dann kannst du es dir später noch mal ansehen.",
+        "exampleTranslation": "Я запишу онбординг, потом сможешь пересмотреть.",
+        "hint": "на камеру, микрофон",
+        "note": "du nimmst auf"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufnehmen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufnehmen",
+        "pos": "verb",
+        "translation": "вносить, включать (в список)",
+        "praeteritum": "nahm auf",
+        "perfekt": "hat aufgenommen",
+        "example": "Ich nehme deinen Vorschlag als neues Ticket ins Backlog auf.",
+        "exampleTranslation": "Я внесу твоё предложение в бэклог как новый тикет.",
+        "rektion": "in + Akk.",
+        "hint": "в бэклог, протокол",
+        "note": "du nimmst auf"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufrecht",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufrecht",
+        "pos": "adj",
+        "translation": "прямо, вертикально",
+        "example": "Sitz beim Programmieren aufrecht, sonst hast du abends Rückenschmerzen.",
+        "exampleTranslation": "Сиди за программированием прямо, а то вечером будет болеть спина.",
+        "hint": "о позе"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:aufrichtig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufrichtig",
+        "pos": "adj",
+        "translation": "искренний, искренне",
+        "example": "Ich habe mich bei der Kollegin aufrichtig für meinen harschen Kommentar im Review entschuldigt.",
+        "exampleTranslation": "Я искренне извинился перед коллегой за свой резкий комментарий на ревью."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:aufrollen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufrollen",
+        "pos": "verb",
+        "translation": "заново поднимать, пересматривать",
+        "praeteritum": "rollte auf",
+        "perfekt": "hat aufgerollt",
+        "example": "Müssen wir die Diskussion über State-Management wirklich noch mal aufrollen?",
+        "exampleTranslation": "Нам правда нужно снова поднимать обсуждение стейт-менеджмента?",
+        "hint": "старый вопрос, дело",
+        "note": "букв.: сворачивать в рулон"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufschrauben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufschrauben",
+        "pos": "verb",
+        "translation": "откручивать, отвинчивать",
+        "praeteritum": "schraubte auf",
+        "perfekt": "hat aufgeschraubt",
+        "example": "Um die SSD zu tauschen, musst du nur die Rückseite des Laptops aufschrauben.",
+        "exampleTranslation": "Чтобы поменять SSD, нужно просто открутить заднюю крышку ноутбука."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:zuschrauben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zuschrauben",
+        "pos": "verb",
+        "translation": "закручивать, завинчивать",
+        "praeteritum": "schraubte zu",
+        "perfekt": "hat zugeschraubt",
+        "example": "Schraub die Wasserflasche richtig zu, bevor du sie neben die Tastatur stellst.",
+        "exampleTranslation": "Закрути бутылку с водой как следует, прежде чем ставить её рядом с клавиатурой."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufsetzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufsetzen",
+        "pos": "verb",
+        "translation": "настраивать, разворачивать (с нуля)",
+        "praeteritum": "setzte auf",
+        "perfekt": "hat aufgesetzt",
+        "example": "Ich setze heute einen neuen Testserver mit Docker auf.",
+        "exampleTranslation": "Сегодня я разверну новый тестовый сервер на Docker.",
+        "hint": "сервер, проект",
+        "note": "также: составлять (договор, письмо); надевать (очки, шапку)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufsicht",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aufsicht",
+        "plural": "die Aufsichten",
+        "pos": "noun",
+        "translation": "надзор, присмотр",
+        "example": "Auf dem Spielplatz der Kita haben immer zwei Erzieherinnen die Aufsicht.",
+        "exampleTranslation": "На площадке детсада всегда присматривают две воспитательницы.",
+        "note": "die Aufsicht haben/führen — присматривать"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:aufstellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufstellen",
+        "pos": "verb",
+        "translation": "устанавливать, составлять (правила, план)",
+        "praeteritum": "stellte auf",
+        "perfekt": "hat aufgestellt",
+        "example": "Lass uns klare Regeln für Commit-Messages aufstellen.",
+        "exampleTranslation": "Давай установим чёткие правила для сообщений коммитов.",
+        "hint": "правила, план",
+        "note": "также: ставить (мебель); выдвигать (кандидата)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufteilen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufteilen",
+        "pos": "verb",
+        "translation": "разделять, распределять",
+        "praeteritum": "teilte auf",
+        "perfekt": "hat aufgeteilt",
+        "example": "Lass uns das große Ticket in drei kleinere Tasks aufteilen.",
+        "exampleTranslation": "Давай разобьём большой тикет на три задачи поменьше.",
+        "rektion": "in + Akk.; auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:auftragen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auftragen",
+        "pos": "verb",
+        "translation": "наносить",
+        "praeteritum": "trug auf",
+        "perfekt": "hat aufgetragen",
+        "example": "Vor dem Spaziergang am Rhein trage ich noch schnell Sonnencreme auf.",
+        "exampleTranslation": "Перед прогулкой вдоль Рейна я быстро наношу солнцезащитный крем.",
+        "hint": "крем, краску",
+        "note": "du trägst auf; распределять расходы — umlegen, verteilen"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-lohnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich lohnen",
+        "pos": "verb",
+        "translation": "окупаться, стоить того",
+        "praeteritum": "lohnte sich",
+        "perfekt": "hat sich gelohnt",
+        "example": "Der zusätzliche Aufwand für die Tests hat sich gelohnt.",
+        "exampleTranslation": "Дополнительные усилия на тесты себя оправдали."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufweisen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufweisen",
+        "pos": "verb",
+        "translation": "иметь, обнаруживать (свойства, недостатки)",
+        "praeteritum": "wies auf",
+        "perfekt": "hat aufgewiesen",
+        "example": "Der alte Code weist einige Sicherheitslücken auf.",
+        "exampleTranslation": "В старом коде есть ряд уязвимостей.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufwenden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufwenden",
+        "pos": "verb",
+        "translation": "затрачивать, тратить",
+        "praeteritum": "wandte auf / wendete auf",
+        "perfekt": "hat aufgewandt / hat aufgewendet",
+        "example": "Für die Migration auf React 19 haben wir fast zwei Sprints aufgewendet.",
+        "exampleTranslation": "На миграцию на React 19 мы потратили почти два спринта.",
+        "hint": "время, силы"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufwendig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufwendig",
+        "pos": "adj",
+        "translation": "трудоёмкий, затратный",
+        "example": "Die Umstellung auf das neue Build-System war aufwendiger als gedacht.",
+        "exampleTranslation": "Переход на новую систему сборки оказался трудоёмче, чем думали.",
+        "note": "также пишется aufwändig"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:aufwühlen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufwühlen",
+        "pos": "verb",
+        "translation": "волновать, будоражить",
+        "praeteritum": "wühlte auf",
+        "perfekt": "hat aufgewühlt",
+        "example": "Die Nachricht von den Entlassungen hat das ganze Team aufgewühlt.",
+        "exampleTranslation": "Новость об увольнениях взбудоражила всю команду.",
+        "hint": "эмоционально"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufzählen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aufzählen",
+        "pos": "verb",
+        "translation": "перечислять",
+        "praeteritum": "zählte auf",
+        "perfekt": "hat aufgezählt",
+        "example": "Kannst du kurz aufzählen, welche Breaking Changes das Update mitbringt?",
+        "exampleTranslation": "Можешь коротко перечислить, какие ломающие изменения приносит апдейт?",
+        "hint": "по пунктам, одно за другим"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aufzählung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aufzählung",
+        "plural": "die Aufzählungen",
+        "pos": "noun",
+        "translation": "перечисление, маркированный список",
+        "example": "Formatier die Anforderungen bitte als Aufzählung, nicht als Fließtext.",
+        "exampleTranslation": "Оформи требования, пожалуйста, списком, а не сплошным текстом."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:aus-dem-ruder-laufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aus dem Ruder laufen",
+        "pos": "phrase",
+        "translation": "выходить из-под контроля",
+        "example": "Ohne klare Architektur läuft so ein Projekt schnell aus dem Ruder.",
+        "exampleTranslation": "Без чёткой архитектуры такой проект быстро выходит из-под контроля.",
+        "praeteritum": "lief",
+        "perfekt": "ist gelaufen",
+        "note": "du läufst"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:aus-dem-stegreif",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aus dem Stegreif",
+        "pos": "phrase",
+        "translation": "экспромтом, с ходу",
+        "example": "Aus dem Stegreif kann ich das nicht schätzen, ich muss mir erst den Code ansehen.",
+        "exampleTranslation": "С ходу я это не оценю, сначала надо посмотреть код."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:aus-der-luft-gegriffen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aus der Luft gegriffen",
+        "pos": "phrase",
+        "translation": "высосанный из пальца",
+        "example": "Die Schätzung von zwei Tagen war völlig aus der Luft gegriffen.",
+        "exampleTranslation": "Оценка в два дня была совершенно высосана из пальца."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:aus-naheliegenden-gründen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aus naheliegenden Gründen",
+        "pos": "phrase",
+        "translation": "по понятным причинам",
+        "example": "Aus naheliegenden Gründen deployen wir am Freitagnachmittag nicht mehr.",
+        "exampleTranslation": "По понятным причинам в пятницу после обеда мы больше не деплоим."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:ausarbeiten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausarbeiten",
+        "pos": "verb",
+        "translation": "разрабатывать, прорабатывать",
+        "praeteritum": "arbeitete aus",
+        "perfekt": "hat ausgearbeitet",
+        "example": "Bis Montag arbeite ich ein Konzept für die neue Rechteverwaltung aus.",
+        "exampleTranslation": "К понедельнику я проработаю концепцию нового управления правами.",
+        "hint": "план, концепцию в деталях"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausbrechen-aus",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausbrechen",
+        "pos": "verb",
+        "translation": "вырываться (из)",
+        "praeteritum": "brach aus",
+        "perfekt": "ist ausgebrochen",
+        "example": "Manchmal ist es schwer, aus dem Alltagstrott auszubrechen.",
+        "exampleTranslation": "Иногда трудно вырваться из рутины.",
+        "rektion": "aus + Dat.",
+        "note": "du brichst aus; также: вспыхивать (пожар, эпидемия)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausbremsen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausbremsen",
+        "pos": "verb",
+        "translation": "тормозить, сдерживать",
+        "praeteritum": "bremste aus",
+        "perfekt": "hat ausgebremst",
+        "example": "Die langen Freigabeprozesse bremsen das ganze Team aus.",
+        "exampleTranslation": "Долгие процессы согласования тормозят всю команду.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausbuchtung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ausbuchtung",
+        "plural": "die Ausbuchtungen",
+        "pos": "noun",
+        "translation": "выпуклость, выступ",
+        "example": "Das Gehäuse hat an der Seite eine kleine Ausbuchtung für den Lüfter.",
+        "exampleTranslation": "У корпуса сбоку небольшой выступ под вентилятор.",
+        "note": "также: бухточка (у реки, берега)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausdauer",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ausdauer",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "выносливость, упорство",
+        "example": "Für den Quereinstieg in die IT braucht man vor allem Ausdauer.",
+        "exampleTranslation": "Чтобы сменить профессию и войти в IT, нужно прежде всего упорство."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausdrücklich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausdrücklich",
+        "pos": "adj",
+        "translation": "прямо, явно",
+        "example": "Im Arbeitsvertrag steht ausdrücklich, dass ich zwei Tage pro Woche im Homeoffice arbeiten darf.",
+        "exampleTranslation": "В трудовом договоре прямо прописано, что я могу работать из дома два дня в неделю."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ausdünnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausdünnen",
+        "pos": "verb",
+        "translation": "прореживать, сокращать",
+        "praeteritum": "dünnte aus",
+        "perfekt": "hat ausgedünnt",
+        "example": "Am Wochenende ist der Busfahrplan stark ausgedünnt.",
+        "exampleTranslation": "По выходным автобусы ходят гораздо реже."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-auseinandersetzen-mit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich auseinandersetzen",
+        "pos": "verb",
+        "translation": "основательно разбираться, вникать",
+        "praeteritum": "setzte sich auseinander",
+        "perfekt": "hat sich auseinandergesetzt",
+        "example": "Vor dem Interview solltest du dich mit dem Produkt der Firma auseinandersetzen.",
+        "exampleTranslation": "Перед собеседованием стоит как следует вникнуть в продукт компании.",
+        "rektion": "mit + Dat.",
+        "hint": "в тему, проблему"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:auseinandersetzung-mit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auseinandersetzung",
+        "plural": "die Auseinandersetzungen",
+        "pos": "noun",
+        "translation": "изучение, осмысление",
+        "example": "Die Auseinandersetzung mit TypeScript-Generics hat mir viel gebracht.",
+        "exampleTranslation": "Глубокое изучение дженериков в TypeScript многое мне дало.",
+        "rektion": "mit + Dat.",
+        "hint": "серьёзная работа с темой"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auseinandersetzung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auseinandersetzung",
+        "plural": "die Auseinandersetzungen",
+        "pos": "noun",
+        "translation": "спор, конфликт",
+        "example": "Im Meeting kam es zu einer heftigen Auseinandersetzung über die Deadline.",
+        "exampleTranslation": "На встрече вспыхнул жаркий спор из-за дедлайна.",
+        "hint": "ссора"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausführen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausführen",
+        "pos": "verb",
+        "translation": "выполнять, запускать",
+        "praeteritum": "führte aus",
+        "perfekt": "hat ausgeführt",
+        "example": "Führ das Migrationsskript bitte zuerst auf Staging aus.",
+        "exampleTranslation": "Запусти, пожалуйста, скрипт миграции сначала на стейджинге.",
+        "hint": "скрипт, команду"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausführlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausführlich",
+        "pos": "adj",
+        "translation": "подробный, подробно",
+        "example": "Die Doku beschreibt die Konfiguration der API sehr ausführlich.",
+        "exampleTranslation": "В документации очень подробно описана настройка API."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ausgabe",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ausgabe",
+        "plural": "die Ausgaben",
+        "pos": "noun",
+        "translation": "вывод (программы)",
+        "example": "Schau dir mal die Ausgabe in der Konsole an, da steht die Fehlermeldung.",
+        "exampleTranslation": "Посмотри вывод в консоли, там есть сообщение об ошибке.",
+        "hint": "в консоли",
+        "note": "также: die Ausgaben — расходы; выпуск (журнала)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausgehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausgehen",
+        "pos": "verb",
+        "translation": "заканчиваться",
+        "praeteritum": "ging aus",
+        "perfekt": "ist ausgegangen",
+        "example": "Uns geht im Büro schon wieder der Kaffee aus.",
+        "exampleTranslation": "У нас в офисе опять заканчивается кофе.",
+        "hint": "о запасах",
+        "note": "jdm. geht etw. aus; также: выходить (развлечься); гаснуть"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausgehen-von",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausgehen",
+        "pos": "verb",
+        "translation": "исходить из, предполагать",
+        "praeteritum": "ging aus",
+        "perfekt": "ist ausgegangen",
+        "example": "Ich gehe davon aus, dass der Kunde das Feature bis Freitag abnimmt.",
+        "exampleTranslation": "Я исхожу из того, что заказчик примет фичу до пятницы.",
+        "rektion": "von + Dat.",
+        "hint": "считать заранее"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausgehend-von",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausgehend von",
+        "pos": "phrase",
+        "translation": "исходя из",
+        "example": "Ausgehend von den Nutzerdaten haben wir den Checkout vereinfacht.",
+        "exampleTranslation": "Исходя из данных о пользователях, мы упростили оформление заказа.",
+        "rektion": "von + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:ausgeprägt",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausgeprägt",
+        "pos": "adj",
+        "translation": "ярко выраженный",
+        "example": "Sie hat ein ausgeprägtes Gespür für gutes UX-Design.",
+        "exampleTranslation": "У неё ярко выраженное чутьё на хороший UX-дизайн."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ausgewiesen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausgewiesen",
+        "pos": "adj",
+        "translation": "признанный (о специалисте)",
+        "example": "Unser neuer Architekt ist ein ausgewiesener Experte für Datensicherheit.",
+        "exampleTranslation": "Наш новый архитектор — признанный эксперт по безопасности данных."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ausgewogen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausgewogen",
+        "pos": "adj",
+        "translation": "сбалансированный, взвешенный",
+        "example": "Wir brauchen ein ausgewogenes Verhältnis zwischen Entwicklungstempo und Codequalität.",
+        "exampleTranslation": "Нам нужен разумный баланс между скоростью разработки и качеством кода."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:sich-auskennen-mit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich auskennen",
+        "pos": "verb",
+        "translation": "хорошо разбираться, ориентироваться",
+        "praeteritum": "kannte sich aus",
+        "perfekt": "hat sich ausgekannt",
+        "example": "Kennt sich jemand mit unserer Token-Logik aus?",
+        "exampleTranslation": "Кто-нибудь разбирается в нашей логике токенов?",
+        "rektion": "mit + Dat.; in + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausliefern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausliefern",
+        "pos": "verb",
+        "translation": "поставлять, выпускать (клиентам)",
+        "praeteritum": "lieferte aus",
+        "perfekt": "hat ausgeliefert",
+        "example": "Die neue Version liefern wir nächste Woche an alle Kunden aus.",
+        "exampleTranslation": "Новую версию мы выкатим всем клиентам на следующей неделе.",
+        "hint": "товар, релиз"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:auslösen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auslösen",
+        "pos": "verb",
+        "translation": "вызывать, запускать (событие)",
+        "praeteritum": "löste aus",
+        "perfekt": "hat ausgelöst",
+        "example": "Der Klick auf den Button löst einen API-Request aus.",
+        "exampleTranslation": "Клик по кнопке запускает запрос к API.",
+        "hint": "триггерить"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausmachen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausmachen",
+        "pos": "verb",
+        "translation": "мешать, быть против (кому-л.)",
+        "praeteritum": "machte aus",
+        "perfekt": "hat ausgemacht",
+        "example": "Würde es dir etwas ausmachen, den Call auf 15 Uhr zu verschieben?",
+        "exampleTranslation": "Ты не против перенести созвон на 15:00?",
+        "hint": "тебя не затруднит?",
+        "note": "также: выключать (свет); договариваться (о встрече)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausmaß",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Ausmaß",
+        "plural": "die Ausmaße",
+        "pos": "noun",
+        "translation": "масштаб, размах",
+        "example": "Das ganze Ausmaß des Datenlecks wurde erst nach der Analyse klar.",
+        "exampleTranslation": "Весь масштаб утечки данных стал ясен только после анализа."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausrechnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausrechnen",
+        "pos": "verb",
+        "translation": "высчитывать, подсчитывать",
+        "praeteritum": "rechnete aus",
+        "perfekt": "hat ausgerechnet",
+        "example": "Rechne mal aus, wie viel uns die Lizenzen pro Jahr kosten.",
+        "exampleTranslation": "Посчитай-ка, во сколько нам обходятся лицензии в год."
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausreichend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausreichend",
+        "pos": "adj",
+        "translation": "достаточный, достаточно",
+        "example": "Plan bitte ausreichend Puffer für das Testing ein.",
+        "exampleTranslation": "Заложи, пожалуйста, достаточный запас времени на тестирование.",
+        "note": "в школе: оценка 4 (= удовлетворительно)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ausrichten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausrichten",
+        "pos": "verb",
+        "translation": "проводить, устраивать (мероприятие)",
+        "praeteritum": "richtete aus",
+        "perfekt": "hat ausgerichtet",
+        "example": "Unsere Firma richtet dieses Jahr ein Barcamp für Frontend-Entwickler aus.",
+        "exampleTranslation": "Наша компания в этом году проводит баркемп для фронтенд-разработчиков.",
+        "hint": "конференцию, праздник",
+        "note": "также: передавать (привет, сообщение); выравнивать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausrutschen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausrutschen",
+        "pos": "verb",
+        "translation": "поскользнуться",
+        "praeteritum": "rutschte aus",
+        "perfekt": "ist ausgerutscht",
+        "example": "Pass auf, dass du auf den nassen Blättern nicht ausrutschst.",
+        "exampleTranslation": "Осторожно, не поскользнись на мокрых листьях."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausrüsten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausrüsten",
+        "pos": "verb",
+        "translation": "оснащать, оборудовать",
+        "praeteritum": "rüstete aus",
+        "perfekt": "hat ausgerüstet",
+        "example": "Die Firma rüstet alle Arbeitsplätze mit zwei Monitoren aus.",
+        "exampleTranslation": "Компания оснащает все рабочие места двумя мониторами.",
+        "rektion": "mit + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausrüstung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ausrüstung",
+        "plural": "die Ausrüstungen",
+        "pos": "noun",
+        "translation": "снаряжение, оборудование",
+        "example": "Für eine Wanderung in der Eifel brauchst du keine spezielle Ausrüstung.",
+        "exampleTranslation": "Для похода по Айфелю не нужно никакого специального снаряжения."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausschau-halten-nach",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Ausschau halten",
+        "pos": "phrase",
+        "translation": "высматривать, присматривать",
+        "example": "Ich halte auf LinkedIn Ausschau nach neuen Stellen für Frontend-Entwickler.",
+        "exampleTranslation": "Я присматриваю на LinkedIn новые вакансии для фронтенд-разработчиков.",
+        "rektion": "nach + Dat.",
+        "praeteritum": "hielt",
+        "perfekt": "hat gehalten",
+        "note": "du hältst"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:das-ausscheiden",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Ausscheiden",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "уход (из компании)",
+        "example": "Nach dem Ausscheiden unseres Teamleads hat Anna seine Aufgaben übernommen.",
+        "exampleTranslation": "После ухода нашего тимлида его задачи взяла на себя Анна.",
+        "hint": "с должности",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausschließen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausschließen",
+        "pos": "verb",
+        "translation": "исключать",
+        "praeteritum": "schloss aus",
+        "perfekt": "hat ausgeschlossen",
+        "example": "Einen Fehler in der Datenbank können wir inzwischen ausschließen.",
+        "exampleTranslation": "Ошибку в базе данных мы уже можем исключить."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ausschnitt",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Ausschnitt",
+        "plural": "die Ausschnitte",
+        "pos": "noun",
+        "translation": "фрагмент, отрывок",
+        "example": "Schick mir mal einen Ausschnitt aus dem Log, wo der Fehler auftritt.",
+        "exampleTranslation": "Пришли мне фрагмент лога, где появляется ошибка.",
+        "hint": "часть текста, лога",
+        "note": "также: вырез (платья)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausschreibung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ausschreibung",
+        "plural": "die Ausschreibungen",
+        "pos": "noun",
+        "translation": "объявление о вакансии",
+        "example": "Die Ausschreibung für die Frontend-Stelle läuft noch bis Ende November.",
+        "exampleTranslation": "Вакансия фронтенд-разработчика открыта до конца ноября.",
+        "hint": "публикация вакансии",
+        "note": "также: тендер (öffentliche Ausschreibung)"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:aussetzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aussetzen",
+        "pos": "verb",
+        "translation": "приостанавливать",
+        "praeteritum": "setzte aus",
+        "perfekt": "hat ausgesetzt",
+        "example": "Wir setzen die Entwicklung aus, bis die Anforderungen geklärt sind.",
+        "exampleTranslation": "Мы приостанавливаем разработку, пока не прояснятся требования.",
+        "hint": "временно",
+        "note": "также: подвергать (+ Dat.); бросать (животное)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aussicht-auf",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Aussicht",
+        "plural": "die Aussichten",
+        "pos": "noun",
+        "translation": "перспектива, шанс",
+        "example": "Mit Erfahrung in React hat man gute Aussichten auf eine Stelle in Köln oder Bonn.",
+        "exampleTranslation": "С опытом в React есть хорошие шансы найти работу в Кёльне или Бонне.",
+        "rektion": "auf + Akk.",
+        "note": "также: вид (из окна)"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ausstehend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausstehend",
+        "pos": "adj",
+        "translation": "непогашенный, ещё не поступивший",
+        "example": "Die ausstehende Zahlung für die Nebenkosten ist am Monatsende fällig.",
+        "exampleTranslation": "Задолженность по коммунальным платежам нужно погасить до конца месяца.",
+        "note": "fällig — подлежащий оплате; просроченный — überfällig"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ausstrahlen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausstrahlen",
+        "pos": "verb",
+        "translation": "излучать",
+        "praeteritum": "strahlte aus",
+        "perfekt": "hat ausgestrahlt",
+        "example": "Ein guter Teamlead strahlt auch beim Incident Ruhe aus.",
+        "exampleTranslation": "Хороший тимлид излучает спокойствие даже во время инцидента.",
+        "hint": "спокойствие, уверенность",
+        "note": "также: транслировать (по ТВ)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:austauschen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "austauschen",
+        "pos": "verb",
+        "translation": "заменять",
+        "praeteritum": "tauschte aus",
+        "perfekt": "hat ausgetauscht",
+        "example": "Wir sollten die alte Datepicker-Library durch eine neue austauschen.",
+        "exampleTranslation": "Нам стоит заменить старую библиотеку датапикера на новую.",
+        "rektion": "durch + Akk.",
+        "hint": "деталь, компонент"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-austauschen-mit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich austauschen",
+        "pos": "verb",
+        "translation": "обмениваться (опытом, мнениями)",
+        "praeteritum": "tauschte sich aus",
+        "perfekt": "hat sich ausgetauscht",
+        "example": "Ich tausche mich regelmäßig mit anderen Frontend-Entwicklern über Best Practices aus.",
+        "exampleTranslation": "Я регулярно обмениваюсь с другими фронтенд-разработчиками лучшими практиками.",
+        "rektion": "mit + Dat.; über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:auswahl-an",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auswahl",
+        "plural": "die Auswahlen (selten)",
+        "pos": "noun",
+        "translation": "выбор, ассортимент",
+        "example": "Für State-Management gibt es inzwischen eine riesige Auswahl an Libraries.",
+        "exampleTranslation": "Для стейт-менеджмента сейчас огромный выбор библиотек.",
+        "rektion": "an + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auswendig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auswendig",
+        "pos": "adv",
+        "translation": "наизусть",
+        "example": "Du musst die Hooks-API nicht auswendig können, dafür gibt es die Doku.",
+        "exampleTranslation": "Не обязательно знать API хуков наизусть, для этого есть документация."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:auswertung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auswertung",
+        "plural": "die Auswertungen",
+        "pos": "noun",
+        "translation": "анализ, оценка (результатов)",
+        "example": "Die Auswertung des A/B-Tests zeigt, dass die neue Variante besser konvertiert.",
+        "exampleTranslation": "Анализ A/B-теста показывает, что новый вариант лучше конвертирует.",
+        "hint": "данных, результатов"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    }
+  ]
+}
