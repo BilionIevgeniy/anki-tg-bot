@@ -21,13 +21,31 @@ export function configureApp(app: NestExpressApplication, env: Env): void {
     app.use(
       WEBHOOK_PATH,
       express.json({ limit: '1mb' }),
-      webhookCallback(bot, 'express', { secretToken: telegramSecretToken(env.WEBHOOK_SECRET!) }),
+      webhookCallback(bot, 'express', {
+        secretToken: telegramSecretToken(env.WEBHOOK_SECRET!),
+        // a long import must not make Telegram retry the update (it would run twice)
+        onTimeout: 'return',
+        timeoutMilliseconds: 50_000,
+      }),
     );
   }
 
   // Telegram Mini App (built from webapp/ into webapp/dist)
   const webDist = path.resolve(process.cwd(), 'webapp', 'dist');
   if (existsSync(webDist)) {
-    app.use(WEBAPP_PATH, express.static(webDist, { index: 'index.html', maxAge: '1h' }));
+    app.use(
+      WEBAPP_PATH,
+      express.static(webDist, {
+        index: 'index.html',
+        // index.html must never be cached (it points to the current hashed assets),
+        // the hashed assets can be cached forever
+        setHeaders: (res, file) => {
+          res.setHeader(
+            'Cache-Control',
+            file.endsWith('.html') ? 'no-cache' : 'public, max-age=31536000, immutable',
+          );
+        },
+      }),
+    );
   }
 }

@@ -15,7 +15,7 @@ export interface SessionData {
   /** Validated import waiting for confirmation (stored as raw JSON text). */
   pendingImport?: string;
   /** What free text the bot is waiting for. */
-  awaiting?: 'import' | 'timezone';
+  awaiting?: 'import';
 }
 
 @Injectable()

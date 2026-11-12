@@ -78,12 +78,18 @@ export class DeckSyncService implements OnApplicationBootstrap {
         this.logger.error(`deck file ${rel} is invalid: ${parsed.errors.join('; ')}`);
         continue;
       }
-      const preview = await this.importer.preview(owner.id, parsed.data);
-      const report =
-        preview.created || preview.updated
-          ? await this.importer.apply(owner.id, parsed.data)
-          : preview;
-      results.push({ file: rel, ok: true, report });
+      try {
+        const preview = await this.importer.preview(owner.id, parsed.data);
+        const report =
+          preview.created || preview.updated
+            ? await this.importer.apply(owner.id, parsed.data)
+            : preview;
+        results.push({ file: rel, ok: true, report });
+      } catch (e) {
+        // one broken file must not stop the others
+        results.push({ file: rel, ok: false, errors: [(e as Error).message] });
+        this.logger.error(`deck file ${rel} failed to import`, e as Error);
+      }
     }
     const changed = results.filter((r) => r.report && (r.report.created || r.report.updated));
     const failed = results.filter((r) => !r.ok);

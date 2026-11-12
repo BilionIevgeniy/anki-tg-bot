@@ -167,7 +167,7 @@ d('Bot (full app, fake Telegram)', () => {
       PUBLIC_URL: 'https://example.test',
       WEBHOOK_SECRET: 'test+secret/1234567890==',
       DATABASE_URL: url,
-      JOBS_SECRET: 'jobs-secret',
+      JOBS_SECRET: 'jobs-secret-0123456789',
       ALLOWED_TELEGRAM_IDS: '',
       OWNER_TELEGRAM_ID: '5555',
       DECKS_DIR: 'no-such-dir-in-tests',
@@ -333,8 +333,8 @@ d('Bot (full app, fake Telegram)', () => {
     expect(last('answerCallbackQuery').payload.text).toContain('3 часа');
 
     const jobs = app.get(JobsController);
-    await expect(jobs.tick('wrong', undefined)).rejects.toBeInstanceOf(ForbiddenException);
-    await expect(jobs.tick('jobs-secret', undefined)).resolves.toHaveProperty('checked');
+    await expect(jobs.tick('wrong')).rejects.toBeInstanceOf(ForbiddenException);
+    await expect(jobs.tick(process.env.JOBS_SECRET)).resolves.toHaveProperty('checked');
   });
 
   it('handles stats, leeches, timezone, export and garbage', async () => {
@@ -419,6 +419,18 @@ d('Bot (full app, fake Telegram)', () => {
         if (data) req.write(data);
         req.end();
       });
+
+    // the external pinger: GET with ?secret= and POST with header both work, wrong secret → 403
+    expect((await request('GET', '/jobs/tick?secret=jobs-secret-0123456789')).status).toBe(200);
+    expect((await request('GET', '/jobs/tick?secret=nope')).status).toBe(403);
+    expect((await request('POST', '/jobs/tick?secret=jobs-secret-0123456789')).status).toBe(200);
+    const appHtml = await new Promise<{ status: number; cache: string }>((resolve) => {
+      http.get({ host: '127.0.0.1', port, path: '/app/' }, (res) => {
+        res.resume();
+        resolve({ status: res.statusCode ?? 0, cache: String(res.headers['cache-control']) });
+      });
+    });
+    if (appHtml.status === 200) expect(appHtml.cache).toContain('no-cache');
 
     expect((await request('GET', '/api/app/next')).status).toBe(401);
     const forged =

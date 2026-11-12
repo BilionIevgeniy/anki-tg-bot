@@ -52,12 +52,16 @@ export class ImportHandler {
     bot.on('message:text', async (ctx, next) => {
       const text = ctx.message.text.trim();
       if (text.startsWith('/')) return next();
+      const looksLikeJson = text.startsWith('{');
       const session = await this.users.getSession(ctx.user.id);
-      if (
-        session.awaiting === 'import' ||
-        (text.startsWith('{') && text.includes('"schemaVersion"'))
-      ) {
-        return this.handleRaw(ctx, text);
+      if (looksLikeJson) return this.handleRaw(ctx, text);
+      if (session.awaiting === 'import') {
+        // not JSON: leave import mode instead of answering "not JSON" forever
+        await this.users.patchSession(ctx.user.id, { awaiting: undefined });
+        return reply(
+          ctx,
+          'Это не похоже на JSON, импорт отменён. Пришли файл <code>.json</code> или снова /import.',
+        );
       }
       return next();
     });

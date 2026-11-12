@@ -16,7 +16,7 @@ import { countTotal, type Counts, type Progress, QueueService } from '../srs/que
 import { ReviewService } from '../srs/review.service';
 import type { BotContext } from '../telegram/telegram.module';
 import { type Callback, encode } from './callback-data';
-import { frontKeyboard, GRADE_UI, gradeKeyboard, learnButton } from './keyboards';
+import { frontKeyboard, GRADE_UI, gradeKeyboard } from './keyboards';
 import { reply, safeEdit } from './telegram-utils';
 import { countsLine } from './texts';
 
@@ -108,7 +108,9 @@ export class ReviewHandler {
     }
     if (next.activeDecks === 0) {
       return show(
-        'Пока нет активных колод. Загрузи карточки через /import или сними колоду с паузы в /decks.',
+        scope
+          ? '⏸ Эта колода на паузе или удалена. Сними паузу в /decks или учи всё: /learn'
+          : 'Пока нет активных колод. Загрузи карточки через /import или сними колоду с паузы в /decks.',
       );
     }
     const lines = [
@@ -137,11 +139,11 @@ export class ReviewHandler {
 
   private async load(ctx: BotContext, cardId: number, version: number) {
     const row = await this.review.getCard(ctx.user.id, cardId);
-    if (!row || row.card.version !== version || row.card.suspended) {
-      await ctx.answerCallbackQuery({ text: 'Эта карточка уже неактуальна' });
-      await safeEdit(ctx, '⌛ Устаревшая карточка.', learnButton('▶️ Продолжить', 0)).catch(
-        () => undefined,
-      );
+    const f = row?.note.fields as Partial<VocabDeFields> | undefined;
+    const brokenArticle = row?.card.template === 'article' && !f?.article;
+    if (!row || row.card.version !== version || row.card.suspended || brokenArticle) {
+      // only a toast: the message may already show the next card (double tap)
+      await ctx.answerCallbackQuery({ text: 'Эта карточка уже неактуальна — /learn' });
       return null;
     }
     return row;

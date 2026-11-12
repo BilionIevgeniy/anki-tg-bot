@@ -1,6 +1,10 @@
 import { loadEnv, pgConnection, telegramSecretToken } from './env';
 
-const base = { BOT_TOKEN: '123456:abcdefghij', DATABASE_URL: 'postgresql://x', JOBS_SECRET: 'abc' };
+const base = {
+  BOT_TOKEN: '123456:abcdefghij',
+  DATABASE_URL: 'postgresql://x',
+  JOBS_SECRET: 'abcdefghijklmnop',
+};
 
 describe('env', () => {
   it('accepts Render-generated secrets and derives a Telegram-safe token', () => {

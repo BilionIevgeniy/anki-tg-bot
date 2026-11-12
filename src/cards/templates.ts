@@ -45,9 +45,15 @@ export function richText(s: string): string {
   return parts
     .map((part, i) => {
       if (i % 2 === 1) return `<pre>${escapeHtml(part.replace(/\n$/, ''))}</pre>`;
+      // inline code first; **bold** only outside code segments
       return escapeHtml(part)
-        .replace(/`([^`\n]+)`/g, '<code>$1</code>')
-        .replace(/\*\*([^*\n]+)\*\*/g, '<b>$1</b>');
+        .split(/(`[^`\n]+`)/g)
+        .map((seg) =>
+          seg.startsWith('`') && seg.endsWith('`') && seg.length > 1
+            ? `<code>${seg.slice(1, -1)}</code>`
+            : seg.replace(/\*\*([^*\n]+)\*\*/g, '<b>$1</b>'),
+        )
+        .join('');
     })
     .join('');
 }
@@ -144,5 +150,11 @@ export function noteTitle(note: NoteLike): string {
 /** Telegram allows 4096 chars per message; keep a safety margin for headers and buttons. */
 export function clampMessage(html: string, max = 3800): string {
   if (html.length <= max) return html;
-  return `${html.slice(0, max)}…\n\n<i>(текст обрезан — карточку стоит разбить на несколько)</i>`;
+  // cutting HTML can leave an unclosed tag (Telegram then rejects the message):
+  // drop all tags, cut the plain text, never in the middle of an entity like &amp;
+  const plain = html
+    .replace(/<[^>]+>/g, '')
+    .slice(0, max)
+    .replace(/&[a-z#0-9]*$/i, '');
+  return `${plain}…\n\n<i>(текст обрезан — карточку стоит разбить на несколько)</i>`;
 }

@@ -14,6 +14,21 @@ import {
 import { studyDayBounds, type StudyDayBounds } from './day';
 import { State } from './fsrs.core';
 
+/**
+ * A note that already has a learning/review card due today (of an ENABLED template) will bury
+ * its new sibling, so that new card is neither counted nor picked today.
+ */
+function siblingDueTodaySql(userId: number, dayEnd: Date) {
+  return sql`${cards.noteId} not in (select c2.note_id from cards c2 join decks d2 on d2.id = c2.deck_id where c2.user_id = ${userId} and not c2.suspended and c2.state in (1,2,3) and c2.due < ${dayEnd} and c2.template = any(d2.enabled_templates))`;
+}
+
+/**
+ * The der/die/das card is introduced only after the word itself (ru_de) has been learned,
+ * and only if the note really has an article. (If ru_de is switched off or became a leech,
+ * the article card is not introduced — acceptable for this personal bot.)
+ */
+const articleReady = sql`(${cards.template} <> 'article' or (exists (select 1 from notes n3 where n3.id = ${cards.noteId} and n3.fields->>'article' is not null) and exists (select 1 from cards c3 where c3.note_id = ${cards.noteId} and c3.template = 'ru_de' and c3.state = 2)))`;
+
 /** Only templates switched on in the deck settings are studied (requires a join with decks). */
 const templateEnabled = sql`${cards.template} = any(${decks.enabledTemplates})`;
 
@@ -45,7 +60,15 @@ export interface Progress {
 }
 
 export type NextResult =
-  | { kind: 'card'; card: CardRow; note: Note; deck: Deck; counts: Counts; progress: Progress }
+  | {
+      kind: 'card';
+      card: CardRow;
+      note: Note;
+      deck: Deck;
+      counts: Counts;
+      progress: Progress;
+      activeDecks: number;
+    }
   | {
       kind: 'none';
       /** When the next learning card can be shown (its due minus the learn-ahead window) */
@@ -87,7 +110,7 @@ export class QueueService {
     const ids = deckList.map((d) => d.id);
     const day = this.dayOf(user, now);
     // a note that already has a learning/review card due today will bury its new sibling → count it once
-    const noSiblingDueToday = sql`${cards.noteId} not in (select c2.note_id from cards c2 where c2.user_id = ${user.id} and not c2.suspended and c2.state in (1,2,3) and c2.due < ${day.end})`;
+    const noSiblingDueToday = siblingDueTodaySql(user.id, day.end);
     const notBuried = sql`${cards.noteId} not in (select ${reviewLogs.noteId} from ${reviewLogs} where ${reviewLogs.userId} = ${user.id} and ${reviewLogs.reviewedAt} >= ${day.start})`;
 
     const [cardRows, done] = await Promise.all([
@@ -104,7 +127,7 @@ export class QueueService {
               Number,
             ),
           fresh:
-            sql<number>`count(distinct ${cards.noteId}) filter (where ${cards.state} = 0 and not ${cards.suspended} and ${notBuried} and ${noSiblingDueToday})`.mapWith(
+            sql<number>`count(distinct ${cards.noteId}) filter (where ${cards.state} = 0 and not ${cards.suspended} and ${notBuried} and ${noSiblingDueToday} and ${articleReady})`.mapWith(
               Number,
             ),
           total: sql<number>`count(*)`.mapWith(Number),
@@ -233,7 +256,15 @@ export class QueueService {
         .innerJoin(decks, eq(decks.id, cards.deckId))
         .where(where)
         .orderBy(
-          ...(orderNew ? [asc(notes.position), asc(cards.id)] : [asc(cards.due), asc(cards.id)]),
+          ...(orderNew
+            ? // your own words first (FIFO), the old Noji backlog (tag "noji") after them
+              [
+                asc(sql`(${notes.tags} @> array['noji']::text[])`),
+                asc(notes.createdAt),
+                asc(notes.position),
+                asc(cards.id),
+              ]
+            : [asc(cards.due), asc(cards.id)]),
         )
         .limit(1);
       return rows[0];
@@ -262,6 +293,8 @@ export class QueueService {
               inArray(cards.deckId, newDecks),
               eq(cards.state, State.New),
               notInArray(cards.noteId, buried),
+              siblingDueTodaySql(user.id, day.end),
+              articleReady,
             ),
             true,
           )
@@ -279,7 +312,15 @@ export class QueueService {
     const progress = await this.progress(user, deckList, counts, now);
     if (found) {
       const deck = deckList.find((d) => d.id === found.card.deckId)!;
-      return { kind: 'card', card: found.card, note: found.note, deck, counts, progress };
+      return {
+        kind: 'card',
+        card: found.card,
+        note: found.note,
+        deck,
+        counts,
+        progress,
+        activeDecks: deckList.length,
+      };
     }
 
     const [nextLearning] = await this.db
@@ -288,9 +329,10 @@ export class QueueService {
       .innerJoin(decks, eq(decks.id, cards.deckId))
       .where(and(base, inArray(cards.deckId, ids), learningStates));
     // learn-ahead: such a card becomes available 20 minutes before its due time
-    const availableAt = nextLearning?.due
-      ? new Date(Math.max(now.getTime(), nextLearning.due.getTime() - LEARN_AHEAD_MS))
-      : null;
+    const availableAt =
+      nextLearning?.due && nextLearning.due < day.end // later than today = "tomorrow", no timer
+        ? new Date(Math.max(now.getTime(), nextLearning.due.getTime() - LEARN_AHEAD_MS))
+        : null;
     return {
       kind: 'none',
       nextLearningDue: availableAt,

@@ -17,6 +17,7 @@
         "exampleTranslation": "Это существенное улучшение производительности нашего фронтенда."
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ],
@@ -46,6 +47,7 @@
         "exampleTranslation": "Эта утечка памяти может сильно ухудшить производительность приложения."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -75,6 +77,7 @@
         "exampleTranslation": "Мне нужно подать заявление в Jobcenter до пятницы."
       },
       "tags": [
+        "noji",
         "behörde",
         "verb"
       ],
@@ -104,6 +107,7 @@
         "exampleTranslation": "Я лучше беру индейку, чем свинину: она постнее."
       },
       "tags": [
+        "noji",
         "alltag",
         "essen",
         "noun"
@@ -122,6 +126,7 @@
         "exampleTranslation": "На берегу Рейна в Бонне дети любят кормить уток."
       },
       "tags": [
+        "noji",
         "alltag",
         "noun"
       ]
@@ -139,6 +144,7 @@
         "exampleTranslation": "На День святого Мартина во многих ресторанах подают гуся с красной капустой и кнёдлями."
       },
       "tags": [
+        "noji",
         "alltag",
         "essen",
         "noun"
@@ -170,6 +176,7 @@
         "hint": "что-то скрыто внутри"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -199,6 +206,7 @@
         "note": "перен.: Ungemergte Branches verrotten im Repository."
       },
       "tags": [
+        "noji",
         "alltag",
         "verb"
       ],
@@ -229,6 +237,7 @@
         "note": "du verdirbst; портиться (о еде) — ist verdorben"
       },
       "tags": [
+        "noji",
         "alltag",
         "verb"
       ],
@@ -259,6 +268,7 @@
         "hint": "данные, статистику"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -291,6 +301,7 @@
         "note": "устно: Einwände haben / äußern"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ]
@@ -306,6 +317,7 @@
         "exampleTranslation": "После релиза я был совершенно измотан."
       },
       "tags": [
+        "noji",
         "alltag",
         "adj"
       ],
@@ -337,6 +349,7 @@
         "note": "ударение на UM-; ≠ umgéhen (обходить)"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -367,6 +380,7 @@
         "hint": "сущ. от глагола «провалиться»"
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ],
@@ -397,6 +411,7 @@
         "rektion": "an + Dat."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -426,6 +441,7 @@
         "exampleTranslation": "Кэширование может значительно ускорить загрузку страниц."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -456,6 +472,7 @@
         "hint": "как именно действуем"
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ]
@@ -474,6 +491,7 @@
         "hint": "как действовать в ситуации"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -503,6 +521,7 @@
         "exampleTranslation": "Многие ошибки возникают из-за невнимательности при мерже."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -532,6 +551,7 @@
         "exampleTranslation": "Я предполагаю, что проблема в асинхронном запросе."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -561,6 +581,7 @@
         "exampleTranslation": "Он немного помедлил, прежде чем запушить хотфикс прямо в main."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -590,6 +611,7 @@
         "exampleTranslation": "Устаревшая архитектура — главное препятствие для быстрых релизов."
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ],
@@ -617,6 +639,7 @@
         "exampleTranslation": "Мой бывший коллега порекомендовал меня на эту вакансию."
       },
       "tags": [
+        "noji",
         "bewerbung",
         "adj"
       ],
@@ -647,6 +670,7 @@
         "hint": "как человек себя подаёт"
       },
       "tags": [
+        "noji",
         "bewerbung",
         "noun"
       ]
@@ -666,6 +690,7 @@
         "hint": "об ошибке"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -695,6 +720,7 @@
         "exampleTranslation": "Нам нужно устранить причину, а не только симптомы."
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ],
@@ -725,6 +751,7 @@
         "hint": "в интерфейсе, на графике"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ]
@@ -743,6 +770,7 @@
         "hint": "риск, проблему"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ]
@@ -758,6 +786,7 @@
         "exampleTranslation": "Все нужные данные уже есть в базе."
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ]
@@ -774,6 +803,7 @@
         "hint": "по времени"
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ]
@@ -793,6 +823,7 @@
         "hint": "о словах, идее"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ]
@@ -811,6 +842,7 @@
         "note": "Pl. в основном в деловой речи"
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ]
@@ -828,6 +860,7 @@
         "exampleTranslation": "Мы управляем глобальным состоянием приложения с помощью Redux."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ]
@@ -843,6 +876,7 @@
         "exampleTranslation": "Фронтенд обращается к бэкенду, а не наоборот."
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ]
@@ -858,6 +892,7 @@
         "exampleTranslation": "Результат теста однозначен: баг в кэше."
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ]
@@ -875,6 +910,7 @@
         "exampleTranslation": "На собеседовании тебе стоит подчеркнуть свой опыт с React."
       },
       "tags": [
+        "noji",
         "bewerbung",
         "verb"
       ]
@@ -891,6 +927,7 @@
         "hint": "об оценке"
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ]
@@ -906,6 +943,7 @@
         "exampleTranslation": "Ручное тестирование после каждого релиза довольно утомительно."
       },
       "tags": [
+        "noji",
         "it",
         "adj"
       ],
@@ -935,6 +973,7 @@
         "exampleTranslation": "Небольшая шутка на дейли разряжает обстановку."
       },
       "tags": [
+        "noji",
         "office",
         "verb"
       ],
@@ -964,6 +1003,7 @@
         "exampleTranslation": "Ошибка в ПО может привести к потере данных."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -994,6 +1034,7 @@
         "rektion": "für + Akk."
       },
       "tags": [
+        "noji",
         "office",
         "verb"
       ],
@@ -1022,6 +1063,7 @@
         "register": "formell"
       },
       "tags": [
+        "noji",
         "it",
         "adv"
       ],
@@ -1053,6 +1095,7 @@
         "register": "formell"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -1082,6 +1125,7 @@
         "exampleTranslation": "Наша кошка даёт себя гладить только по вечерам."
       },
       "tags": [
+        "noji",
         "alltag",
         "verb"
       ],
@@ -1112,6 +1156,7 @@
         "hint": "интерфейс, процесс — сделать каким-то"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -1142,6 +1187,7 @@
         "register": "formell"
       },
       "tags": [
+        "noji",
         "behörde",
         "noun"
       ],
@@ -1172,6 +1218,7 @@
         "note": "устар./офиц.; в разговоре — die Scrollbar"
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ],
@@ -1201,6 +1248,7 @@
         "exampleTranslation": "Дизайн-система обеспечивает единообразие интерфейса."
       },
       "tags": [
+        "noji",
         "it",
         "noun"
       ],
@@ -1230,6 +1278,7 @@
         "exampleTranslation": "Лифт в нашем доме опять не работает."
       },
       "tags": [
+        "noji",
         "alltag",
         "noun"
       ],
@@ -1259,6 +1308,7 @@
         "exampleTranslation": "Нам нужно компактно уложить багаж в багажник."
       },
       "tags": [
+        "noji",
         "alltag",
         "auto",
         "verb"
@@ -1288,6 +1338,7 @@
         "exampleTranslation": "Заказчик утвердил новый макет."
       },
       "tags": [
+        "noji",
         "office",
         "noun"
       ],
@@ -1317,6 +1368,7 @@
         "rektion": "mit + Dat."
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ],
@@ -1346,6 +1398,7 @@
         "note": "du verträgst"
       },
       "tags": [
+        "noji",
         "alltag",
         "verb"
       ],
@@ -1372,6 +1425,7 @@
         "exampleTranslation": "Давай не будем принимать поспешное решение насчёт фреймворка."
       },
       "tags": [
+        "noji",
         "office",
         "phrase"
       ]
@@ -1390,6 +1444,7 @@
         "register": "umgs"
       },
       "tags": [
+        "noji",
         "it",
         "verb"
       ]
@@ -1405,6 +1460,7 @@
         "exampleTranslation": "Проект требует большой отдачи, но оно того стоит."
       },
       "tags": [
+        "noji",
         "office",
         "phrase"
       ]
@@ -1422,6 +1478,7 @@
         "note": "≠ etw. von der Steuer absetzen — списать расходы с налогов"
       },
       "tags": [
+        "noji",
         "behörde",
         "geld",
         "phrase"

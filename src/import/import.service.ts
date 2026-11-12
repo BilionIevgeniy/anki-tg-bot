@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { Inject, Injectable } from '@nestjs/common';
-import { and, asc, eq, inArray, max } from 'drizzle-orm';
+import { and, asc, eq, inArray, max, notInArray, sql } from 'drizzle-orm';
 import { templatesFor, type Template } from '../cards/templates';
 import { DB, type Db, type Tx } from '../db/db.module';
 import { cards, decks, notes } from '../db/schema';
@@ -68,7 +68,11 @@ export class ImportService {
   }
 
   async apply(userId: number, file: ImportFile): Promise<ImportReport> {
-    return this.db.transaction((tx) => this.run(tx, userId, file, false));
+    return this.db.transaction(async (tx) => {
+      // one import per user at a time (double "✅" tap, Telegram retry, deck sync on start)
+      await tx.execute(sql`select pg_advisory_xact_lock(${userId})`);
+      return this.run(tx, userId, file, false);
+    });
   }
 
   private async run(
@@ -158,9 +162,28 @@ export class ImportService {
           contentHash: u.hash,
         })
         .where(eq(notes.id, u.id));
-      // a note may gain a template (e.g. an article was added) → create the missing card
+      // a note may gain a template (e.g. an article was added) → create the missing card;
+      // a template that no longer applies (article removed, reverse off) → suspend its card
       const tpls = templatesFor({ type: u.note.type, fields: noteFields(u.note) });
+      await tx
+        .update(cards)
+        .set({ suspended: true })
+        .where(
+          and(eq(cards.noteId, u.id), tpls.length ? notInArray(cards.template, tpls) : undefined),
+        );
       if (tpls.length) {
+        // a template that came back (article re-added, reverse on again) → unsuspend its card
+        await tx
+          .update(cards)
+          .set({ suspended: false })
+          .where(
+            and(
+              eq(cards.noteId, u.id),
+              inArray(cards.template, tpls),
+              eq(cards.suspended, true),
+              eq(cards.isLeech, false),
+            ),
+          );
         const res = await tx
           .insert(cards)
           .values(tpls.map((template) => ({ userId, deckId, noteId: u.id, template })))

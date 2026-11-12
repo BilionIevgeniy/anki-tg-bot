@@ -1,6 +1,7 @@
 /**
  * Pure decision: is it time to send a deck reminder right now?
- * The external cron calls /jobs/tick every 5–10 minutes; this function makes each tick idempotent.
+ * The external cron calls /jobs/tick every 15 minutes (more often burns Neon CU-hours);
+ * this function makes each tick idempotent.
  */
 import { localParts, studyDayBounds } from '../srs/day';
 

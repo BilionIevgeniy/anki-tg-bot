@@ -63,15 +63,20 @@ export class NotificationsService {
         '',
         '<i>Даже 5 минут сегодня лучше, чем час завтра 😉</i>',
       ].join('\n');
+      // claim first, send second: two overlapping ticks cannot both send
+      if (!(await this.decksService.claimReminder(deck.id, decision.dayKey))) {
+        report.skipped++;
+        continue;
+      }
       try {
         await this.bot.api.sendMessage(user.telegramId, text, {
           parse_mode: 'HTML',
           reply_markup: reminderKeyboard(deck, webAppUrl(this.env)),
         });
-        await this.decksService.markNotified(deck.id, decision.dayKey);
         report.sent++;
       } catch (e) {
         report.failed++;
+        if (!isBlockedError(e)) await this.decksService.releaseReminder(deck.id, decision.dayKey);
         if (isBlockedError(e)) await this.users.markBlocked(user.id);
         else this.logger.warn(`reminder for deck ${deck.id} failed: ${(e as Error).message}`);
       }

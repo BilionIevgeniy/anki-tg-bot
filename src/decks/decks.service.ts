@@ -89,6 +89,27 @@ export class DecksService {
     return this.updateNotify(userId, deckId, { notifyHour: t.hour, notifyMinute: t.minute });
   }
 
+  /**
+   * Atomically claims today's reminder for a deck. Returns false if another tick already did,
+   * so overlapping ticks never send the same reminder twice.
+   */
+  async claimReminder(deckId: number, dayKey: string): Promise<boolean> {
+    const rows = await this.db
+      .update(decks)
+      .set({ notifyLastSentOn: dayKey, notifySnoozedUntil: null })
+      .where(and(eq(decks.id, deckId), sql`${decks.notifyLastSentOn} is distinct from ${dayKey}`))
+      .returning({ id: decks.id });
+    return rows.length > 0;
+  }
+
+  /** Gives the claim back when sending failed, so the next tick can retry. */
+  async releaseReminder(deckId: number, dayKey: string): Promise<void> {
+    await this.db
+      .update(decks)
+      .set({ notifyLastSentOn: null })
+      .where(and(eq(decks.id, deckId), eq(decks.notifyLastSentOn, dayKey)));
+  }
+
   async markNotified(deckId: number, dayKey: string): Promise<void> {
     await this.db
       .update(decks)

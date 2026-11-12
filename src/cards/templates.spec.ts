@@ -1,6 +1,13 @@
 import { parseImport } from '../import/contract';
 import { encode, decode } from '../bot/callback-data';
-import { escapeHtml, renderBack, renderFront, richText, templatesFor } from './templates';
+import {
+  clampMessage,
+  escapeHtml,
+  renderBack,
+  renderFront,
+  richText,
+  templatesFor,
+} from './templates';
 
 const geraet = {
   type: 'vocab_de',
@@ -51,6 +58,16 @@ describe('templates', () => {
   it('supports light markup in basic cards', () => {
     expect(richText('use `useMemo` **now**')).toBe('use <code>useMemo</code> <b>now</b>');
     expect(richText('x\n```ts\nconst a = 1 < 2;\n```')).toBe('x\n<pre>const a = 1 &lt; 2;</pre>');
+    // ** inside code must not become <b> (would break Telegram HTML)
+    expect(richText('`2 ** 3` and `a ** b`')).toBe('<code>2 ** 3</code> and <code>a ** b</code>');
+  });
+
+  it('clamps long messages without leaving broken HTML', () => {
+    const long = `<b>Q</b>\n<pre>${'x &amp; y '.repeat(600)}</pre>`;
+    const out = clampMessage(long, 1000);
+    expect(out).not.toMatch(/<pre>|<\/pre>|<b>Q/);
+    expect(out).not.toMatch(/&[a-z]*…/);
+    expect(out).toContain('текст обрезан');
   });
 });
 

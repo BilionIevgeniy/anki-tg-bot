@@ -50,19 +50,30 @@ export class JobsController {
   ) {}
 
   /**
-   * Called every 5–15 minutes by an external cron (cron-job.org, UptimeRobot, GitHub Actions).
+   * Called every 15 minutes by an external cron (more often wakes Neon and burns its free CU-hours) (cron-job.org, UptimeRobot, GitHub Actions).
    * GET is allowed too (secret in ?secret=) for pingers that cannot send POST or headers.
    * No in-process timers: a sleeping free instance would miss them.
    */
   @Post('tick')
-  @Get('tick')
   @HttpCode(200)
-  async tick(
+  tickPost(
     @Headers('x-jobs-secret') header?: string,
     @Query('secret') query?: string,
   ): Promise<TickReport> {
-    const given = header ?? query ?? '';
-    if (!safeEqual(given, this.env.JOBS_SECRET)) throw new ForbiddenException();
+    return this.tick(header ?? query);
+  }
+
+  /** GET variant for simple pingers (UptimeRobot free): /jobs/tick?secret=… */
+  @Get('tick')
+  tickGet(
+    @Headers('x-jobs-secret') header?: string,
+    @Query('secret') query?: string,
+  ): Promise<TickReport> {
+    return this.tick(header ?? query);
+  }
+
+  async tick(secret?: string): Promise<TickReport> {
+    if (!safeEqual(secret ?? '', this.env.JOBS_SECRET)) throw new ForbiddenException();
     return this.notifications.tick();
   }
 }

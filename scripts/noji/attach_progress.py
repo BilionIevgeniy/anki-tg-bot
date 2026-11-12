@@ -4,7 +4,8 @@ Input: a deck file (contract v1) whose notes carry an extra "_src" field:
   "_src": "<noji group key>"         progress of the best card of that group
   "_src": "<key>#noun" / "<key>#verb" only cards starting / not starting with der/die/das
   "_src": "__none__"                 no progress (new meaning, split-off word, new word)
-Usage: python3 scripts/noji/attach_progress.py /tmp/notes.json decks/de/0002-noji.json
+Usage: python3 scripts/noji/attach_progress.py /tmp/notes.json decks/de/0002-noji.json [/tmp/batch_src.json]
+With the batch source file, ALL its groups are marked processed (incl. ones listed in "_dropped").
 """
 import json, math, sys
 from datetime import datetime, timedelta, timezone
@@ -53,8 +54,9 @@ def to_srs(c):
     return None
 
 
-def main(src_path, out_path):
+def main(src_path, out_path, batch_src=None):
     data = json.loads(Path(src_path).read_text())
+    dropped = data.pop('_dropped', [])
     used, missing, with_progress = set(), [], 0
     for note in data['notes']:
         src = note.pop('_src', '__none__')
@@ -74,9 +76,12 @@ def main(src_path, out_path):
     if missing:
         sys.exit(f'unknown _src keys: {missing}')
     Path(out_path).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+    if batch_src:
+        used |= set(json.loads(Path(batch_src).read_text()).keys())
+    used |= {d['key'] for d in dropped}
     processed_path.write_text(json.dumps(sorted(set(processed) | used), ensure_ascii=False, indent=1) + '\n')
     print(f'{len(data["notes"])} notes, {with_progress} with progress, {len(used)} groups marked processed -> {out_path}')
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)

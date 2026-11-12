@@ -328,4 +328,70 @@ d('SRS flow (Postgres)', () => {
     const again = await queue.next(user, 0, t);
     expect(again.kind).toBe('card');
   });
+
+  it('introduces the article card only after the word is learned, suspends orphaned cards', async () => {
+    const user = await users.upsert({ id: 557 });
+    await importer.apply(user.id, parseImport(sample([geraet])).data!);
+    const [deck] = await decksSvc.list(user.id);
+    let t = new Date('2026-11-12T09:00:00Z');
+
+    // day 1: only RU→DE is new; the article card waits
+    const first = await queue.next(user, deck!.id, t);
+    if (first.kind !== 'card') throw new Error('expected a card');
+    expect(first.card.template).toBe('ru_de');
+    const res = await review.answer(user.id, first.card.id, Rating.Easy, first.card.version, t);
+    if (!res.ok) throw new Error('answer failed');
+
+    // next day: the word is in review → the article card becomes a new card
+    t = new Date('2026-11-13T09:00:00Z');
+    const next = await queue.next(user, deck!.id, t);
+    if (next.kind !== 'card') throw new Error('expected a card');
+    expect(next.card.template).toBe('article');
+
+    // re-import without the article: the article card is suspended, not quizzed with "undefined"
+    const noArticle = { ...geraet, fields: { ...geraet.fields, article: undefined, pos: 'other' } };
+    await importer.apply(user.id, parseImport(sample([noArticle])).data!);
+    const after = await queue.next(user, deck!.id, t);
+    expect(after.kind === 'card' ? after.card.template : 'none').not.toBe('article');
+  });
+
+  it('claims a reminder atomically (two overlapping ticks send it once)', async () => {
+    const user = await users.upsert({ id: 558 });
+    await importer.apply(user.id, parseImport(sample([schnell])).data!);
+    const [deck] = await decksSvc.list(user.id);
+    const results = await Promise.all([
+      decksSvc.claimReminder(deck!.id, '2026-11-12'),
+      decksSvc.claimReminder(deck!.id, '2026-11-12'),
+    ]);
+    expect(results.filter(Boolean)).toHaveLength(1);
+    await decksSvc.releaseReminder(deck!.id, '2026-11-12');
+    expect(await decksSvc.claimReminder(deck!.id, '2026-11-12')).toBe(true);
+  });
+
+  it('new cards: your own words first (in the order added), the Noji backlog after them', async () => {
+    const user = await users.upsert({ id: 559 });
+    const noji = { ...schnell, externalId: 'de:alt', tags: ['noji'] };
+    const mine1 = {
+      ...schnell,
+      externalId: 'de:mein1',
+      fields: { ...schnell.fields, lemma: 'erst' },
+    };
+    const mine2 = {
+      ...schnell,
+      externalId: 'de:mein2',
+      fields: { ...schnell.fields, lemma: 'zweit' },
+    };
+    await importer.apply(user.id, parseImport(sample([noji])).data!);
+    await importer.apply(user.id, parseImport(sample([mine1])).data!);
+    await importer.apply(user.id, parseImport(sample([mine2])).data!);
+    const t = new Date('2026-11-12T09:00:00Z');
+    const order: string[] = [];
+    for (let i = 0; i < 3; i++) {
+      const n = await queue.next(user, 0, t);
+      if (n.kind !== 'card') break;
+      order.push((n.note.fields as { lemma: string }).lemma);
+      await review.answer(user.id, n.card.id, Rating.Easy, n.card.version, t);
+    }
+    expect(order).toEqual(['erst', 'zweit', 'schnell']);
+  });
 });

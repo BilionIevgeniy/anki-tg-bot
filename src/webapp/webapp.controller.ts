@@ -117,7 +117,7 @@ export class WebAppController {
   @Post('answer')
   async answer(@CurrentUser() user: User, @Body() raw: unknown) {
     const body = parseBody(answerBody, raw);
-    if (!isGrade(body.grade)) throw new ForbiddenException('bad grade');
+    if (!isGrade(body.grade)) throw new BadRequestException('bad grade');
     const now = new Date();
     const res = await this.review.answer(user.id, body.cardId, body.grade, body.version, now);
     const next = await this.nextFor(user, body.scope);
@@ -162,7 +162,7 @@ export class WebAppController {
         counts,
         progress: res.progress,
         nextLearningDue: null,
-        activeDecks: 1,
+        activeDecks: res.activeDecks,
       };
     }
     return {

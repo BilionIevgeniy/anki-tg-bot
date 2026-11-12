@@ -1,4 +1,4 @@
-import { Global, Inject, Injectable, Module, type OnModuleDestroy } from '@nestjs/common';
+import { Global, Inject, Injectable, Logger, Module, type OnModuleDestroy } from '@nestjs/common';
 import { drizzle, type NodePgDatabase } from 'drizzle-orm/node-postgres';
 import { Pool } from 'pg';
 import { ENV, type Env, loadEnv, pgConnection } from '../config/env';
@@ -26,7 +26,12 @@ class PoolCloser implements OnModuleDestroy {
     {
       provide: PG_POOL,
       inject: [ENV],
-      useFactory: (env: Env) => new Pool({ ...pgConnection(env.DATABASE_URL), max: 5 }),
+      useFactory: (env: Env) => {
+        const pool = new Pool({ ...pgConnection(env.DATABASE_URL), max: 5 });
+        // an idle connection dropped by Neon (compute restart) must not crash the process
+        pool.on('error', (err) => new Logger('Postgres').warn(`idle client error: ${err.message}`));
+        return pool;
+      },
     },
     { provide: DB, inject: [PG_POOL], useFactory: (pool: Pool): Db => drizzle(pool, { schema }) },
     PoolCloser,

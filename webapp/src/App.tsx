@@ -22,10 +22,13 @@ function useCountdown(target: string | null, onZero: () => void): string | null 
   useEffect(() => {
     if (!target) return;
     const end = new Date(target).getTime();
+    let lastFired = 0;
     const t = setInterval(() => {
-      setNow(Date.now());
-      if (Date.now() >= end) {
-        clearInterval(t);
+      const nowMs = Date.now();
+      setNow(nowMs);
+      // fire at zero, then retry every 10 s (the device clock may run ahead of the server)
+      if (nowMs >= end && nowMs - lastFired >= 10_000) {
+        lastFired = nowMs;
         cb.current();
       }
     }, 1000);
@@ -57,7 +60,8 @@ export function App() {
 
   const fail = (e: unknown) => {
     if (e instanceof ApiError && e.status === 401) setError('Открой приложение через бота в Telegram.');
-    else if (e instanceof ApiError && e.status === 403) setError('Это приватный бот.');
+    else if (e instanceof ApiError && e.status === 403 && e.message.includes('private'))
+      setError('Это приватный бот.');
     else if (e instanceof ApiError) setError(`Ошибка сервера (${e.status}). Попробуй ещё раз — если повторится, пришли скрин.`);
     else setError('Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
   };
@@ -109,6 +113,8 @@ export function App() {
         setUndoId(res.logId ?? null);
         const g = GRADES.find((x) => x.grade === grade)!;
         showToast(`${g.name} → снова через ${res.label}${res.leech ? ' · 🩸 отложена как трудная' : ''}`);
+      } else {
+        showToast('Эта карточка уже была отвечена — показываю следующую');
       }
       advance(res);
     } catch (e) {

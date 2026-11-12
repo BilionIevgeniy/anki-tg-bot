@@ -37,6 +37,17 @@ export class BotService implements OnApplicationBootstrap, OnModuleDestroy {
   private setup(): void {
     const bot = this.bot;
 
+    // answerCallbackQuery fails with "query is too old" after a long cold start —
+    // that must not abort the handler (the answer itself is already saved)
+    bot.api.config.use(async (prev, method, payload, signal) => {
+      const res = await prev(method, payload, signal);
+      if (method === 'answerCallbackQuery' && !res.ok) {
+        this.logger.warn(`answerCallbackQuery ignored: ${res.description}`);
+        return { ok: true, result: true } as unknown as typeof res;
+      }
+      return res;
+    });
+
     // 1) Load (or create) the user for every update; enforce the optional allowlist.
     bot.use(async (ctx, next) => {
       const from = ctx.from;
@@ -85,30 +96,39 @@ export class BotService implements OnApplicationBootstrap, OnModuleDestroy {
   }
 
   async onApplicationBootstrap(): Promise<void> {
-    await this.bot.init();
-    await this.bot.api.setMyCommands([...COMMANDS]);
-    if (this.env.BOT_MODE === 'webhook') {
-      const url = `${this.env.PUBLIC_URL!.replace(/\/$/, '')}${WEBHOOK_PATH}`;
-      await this.bot.api.setWebhook(url, {
-        secret_token: telegramSecretToken(this.env.WEBHOOK_SECRET!),
-        allowed_updates: ['message', 'callback_query'],
-        drop_pending_updates: false, // never lose answers sent while the service was asleep
-      });
-      this.logger.log(`Webhook set: ${url}`);
-      const appUrl = webAppUrl(this.env);
-      if (appUrl) {
-        // the button next to the message field opens the Mini App
-        await this.bot.api.setChatMenuButton({
-          menu_button: { type: 'web_app', text: 'Учить', web_app: { url: appUrl } },
+    // a Telegram hiccup during a cold start must not crash the service:
+    // webhookCallback initialises the bot lazily on the first update anyway
+    try {
+      await this.bot.init();
+      await this.bot.api.setMyCommands([...COMMANDS]);
+      if (this.env.BOT_MODE === 'webhook') {
+        const url = `${this.env.PUBLIC_URL!.replace(/\/$/, '')}${WEBHOOK_PATH}`;
+        await this.bot.api.setWebhook(url, {
+          secret_token: telegramSecretToken(this.env.WEBHOOK_SECRET!),
+          allowed_updates: ['message', 'callback_query'],
+          drop_pending_updates: false, // never lose answers sent while the service was asleep
         });
+        this.logger.log(`Webhook set: ${url}`);
+        const appUrl = webAppUrl(this.env);
+        if (appUrl) {
+          // the button next to the message field opens the Mini App
+          await this.bot.api.setChatMenuButton({
+            menu_button: { type: 'web_app', text: 'Учить', web_app: { url: appUrl } },
+          });
+        }
+        return;
       }
-    } else {
-      await this.bot.api.deleteWebhook();
-      void this.bot.start({
-        allowed_updates: ['message', 'callback_query'],
-        onStart: (me) => this.logger.log(`Polling as @${me.username}`),
-      });
+    } catch (e) {
+      this.logger.error(
+        `⚠️ Telegram setup failed (webhook/commands may be missing until the next restart): ${(e as Error).message}`,
+      );
+      if (this.env.BOT_MODE === 'webhook') return;
     }
+    await this.bot.api.deleteWebhook();
+    void this.bot.start({
+      allowed_updates: ['message', 'callback_query'],
+      onStart: (me) => this.logger.log(`Polling as @${me.username}`),
+    });
   }
 
   async onModuleDestroy(): Promise<void> {

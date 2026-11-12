@@ -22,7 +22,7 @@ const schema = z
       .optional()
       .or(z.literal('').transform(() => undefined)),
     DATABASE_URL: z.string().min(1, 'DATABASE_URL is required'),
-    JOBS_SECRET: z.string().min(3, 'JOBS_SECRET is required'),
+    JOBS_SECRET: z.string().min(16, 'JOBS_SECRET: at least 16 characters'),
     ALLOWED_TELEGRAM_IDS: z
       .string()
       .optional()
