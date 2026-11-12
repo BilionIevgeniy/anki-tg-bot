@@ -25,8 +25,8 @@ export type Callback =
   | { a: 'unleech'; cardId: number }
   | { a: 'export'; deckId: number };
 
-/** 0 newPerDay (value = delta), 1 pause toggle */
-export type DeckSetting = 0 | 1;
+/** 0 newPerDay (value = delta), 1 pause toggle, 2 toggle the DE→RU direction */
+export type DeckSetting = 0 | 1 | 2;
 /** 0 enabled (0/1), 1 shift minutes (delta), 2 set time (minutes of day), 3 minDue */
 export type NotifySetting = 0 | 1 | 2 | 3;
 
@@ -118,7 +118,7 @@ export function decode(data: string): Callback | null {
     case 'D':
       return { a: 'decks' };
     case 'ds':
-      return need(3) && (b === 0 || b === 1)
+      return need(3) && (b === 0 || b === 1 || b === 2)
         ? { a: 'deckSet', deckId: a, field: b, value: c }
         : null;
     case 'n':

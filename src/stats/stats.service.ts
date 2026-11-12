@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { and, eq, gte, sql } from 'drizzle-orm';
 import { DB, type Db } from '../db/db.module';
-import { cards, reviewLogs, type User } from '../db/schema';
+import { cards, decks, reviewLogs, type User } from '../db/schema';
 import { QueueService } from '../srs/queue.service';
 
 export interface UserStats {
@@ -49,7 +49,10 @@ export class StatsService {
           total: sql<number>`count(*)`.mapWith(Number),
         })
         .from(cards)
-        .where(eq(cards.userId, user.id)),
+        .innerJoin(decks, eq(decks.id, cards.deckId))
+        .where(
+          and(eq(cards.userId, user.id), sql`${cards.template} = any(${decks.enabledTemplates})`),
+        ),
       this.db
         .select({
           today:

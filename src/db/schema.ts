@@ -62,13 +62,18 @@ export const decks = pgTable(
     desiredRetention: doublePrecision('desired_retention').notNull().default(0.9),
     /** Card is suspended as a "leech" after this many lapses. */
     leechThreshold: integer('leech_threshold').notNull().default(8),
+    /** Which card templates of this deck are studied (cards of other templates stay dormant). */
+    enabledTemplates: text('enabled_templates')
+      .array()
+      .notNull()
+      .default(sql`'{ru_de,article,fwd,rev}'::text[]`),
 
     // Per-deck reminder, configured by the user via /notify
     notifyEnabled: boolean('notify_enabled').notNull().default(false),
     notifyHour: integer('notify_hour').notNull().default(9),
     notifyMinute: integer('notify_minute').notNull().default(0),
     /** Only remind when at least this many cards are waiting. */
-    notifyMinDue: integer('notify_min_due').notNull().default(1),
+    notifyMinDue: integer('notify_min_due').notNull().default(5),
     /** Study day (YYYY-MM-DD) of the last reminder sent. */
     notifyLastSentOn: text('notify_last_sent_on'),
     notifySnoozedUntil: timestamp('notify_snoozed_until', { withTimezone: true }),

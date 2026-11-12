@@ -24,10 +24,27 @@ const SEP = '\n\n➖➖➖➖➖\n';
 
 function header(deck: Deck, template: string, state: number, counts: Counts): string {
   const kind = state === 0 ? '🆕 новая' : state === 2 ? '🔁 повторение' : '📖 обучение';
-  return `<b>${escapeHtml(deck.name)}</b> · ${TEMPLATE_LABEL[template as Template] ?? template} · ${kind}\n<i>${countsLine(counts)}</i>\n\n`;
+  const label = TEMPLATE_LABEL[template as Template] ?? template;
+  return `<b>${escapeHtml(deck.name)}</b> · ${label} · ${kind}\n<i>${countsLine(counts)}</i>\n\n`;
 }
 
-/** Learning session: shows cards, reveals answers, applies grades. Stateless — everything is in callback data. */
+function leechText(note: Note): string {
+  return `\n🩸 «${escapeHtml(noteTitle(note))}» никак не запоминается — отложил её. Попроси Claude переформулировать; вернуть: /leeches`;
+}
+
+export interface NextOptions {
+  /** Shown as an "undo" button under the next card */
+  undoLogId?: number;
+  /** One line about the previous answer, shown above the next card */
+  notice?: string;
+  /** Edit the current message instead of sending a new one */
+  edit?: boolean;
+}
+
+/**
+ * Learning session in ONE message: the message is edited card after card, so the chat
+ * does not fill up with history. Stateless — everything needed is in the callback data.
+ */
 @Injectable()
 export class ReviewHandler {
   constructor(
@@ -44,7 +61,7 @@ export class ReviewHandler {
     switch (cb.a) {
       case 'learn':
         await ctx.answerCallbackQuery();
-        await this.sendNext(ctx, cb.scope);
+        await this.sendNext(ctx, cb.scope, { edit: true });
         return true;
       case 'stop':
         await ctx.answerCallbackQuery({ text: 'Остановлено' });
@@ -68,36 +85,39 @@ export class ReviewHandler {
     }
   }
 
-  async sendNext(ctx: BotContext, scope: number, undoLogId?: number): Promise<void> {
+  async sendNext(ctx: BotContext, scope: number, opts: NextOptions = {}): Promise<void> {
+    const show = (text: string, kb?: InlineKeyboard) =>
+      opts.edit ? safeEdit(ctx, text, kb) : reply(ctx, text, kb);
+    const notice = opts.notice ? `<i>${opts.notice}</i>\n\n` : '';
     const now = new Date();
     const next = await this.queue.next(ctx.user, scope, now);
+
     if (next.kind === 'card') {
       const text =
+        notice +
         header(next.deck, next.card.template, next.card.state, next.counts) +
         renderFront(next.note, next.card.template as Template);
-      return reply(ctx, clampMessage(text), frontKeyboard(next.card, scope, undoLogId));
+      return show(clampMessage(text), frontKeyboard(next.card, scope, opts.undoLogId));
     }
     if (next.activeDecks === 0) {
-      return reply(
-        ctx,
+      return show(
         'Пока нет активных колод. Загрузи карточки через /import или сними колоду с паузы в /decks.',
       );
     }
-    const lines = ['🎉 <b>На сейчас всё!</b>'];
+    const lines = [`${notice}🎉 <b>На сейчас всё!</b>`];
     if (next.nextLearningDue) {
       lines.push(
-        `Следующая карточка из обучения — через ${formatInterval(now, next.nextLearningDue)}.`,
+        `Карточка из обучения вернётся через ${formatInterval(now, next.nextLearningDue)} — нажми «Проверить ещё раз», когда время придёт.`,
       );
     } else {
       lines.push('На сегодня карточек больше нет. Завтра будут новые. Отдыхай 🙌');
     }
-    const kb = undoLogId
-      ? new InlineKeyboard()
-          .text('↩️ Отменить ответ', encode({ a: 'undo', logId: undoLogId, scope }))
-          .row()
-      : new InlineKeyboard();
+    const kb = new InlineKeyboard();
+    if (opts.undoLogId) {
+      kb.text('↩️ Отменить ответ', encode({ a: 'undo', logId: opts.undoLogId, scope })).row();
+    }
     if (next.nextLearningDue) kb.text('🔄 Проверить ещё раз', encode({ a: 'learn', scope }));
-    return reply(ctx, lines.join('\n'), kb);
+    return show(lines.join('\n'), kb);
   }
 
   private async load(ctx: BotContext, cardId: number, version: number) {
@@ -147,17 +167,13 @@ export class ReviewHandler {
       await ctx.answerCallbackQuery({ text: 'Уже отвечено' });
       return;
     }
-    await ctx.answerCallbackQuery();
-    const tpl = row.card.template as Template;
     const ui = GRADE_UI[grade]!;
-    const text =
-      renderFront(row.note, tpl) +
-      SEP +
-      renderBack(row.note, tpl) +
-      `\n\n${ui.emoji} ${ui.name} → снова через ${formatInterval(now, res.due)}` +
+    const when = formatInterval(now, res.due);
+    await ctx.answerCallbackQuery({ text: `${ui.emoji} ${ui.name} → снова через ${when}` });
+    const notice =
+      `${escapeHtml(noteTitle(row.note))} · ${ui.emoji} ${ui.name} → ${when}` +
       (res.leech ? leechText(row.note) : '');
-    await safeEdit(ctx, clampMessage(text));
-    await this.sendNext(ctx, scope, res.logId);
+    await this.sendNext(ctx, scope, { undoLogId: res.logId, notice, edit: true });
   }
 
   private async answerArticle(
@@ -184,18 +200,18 @@ export class ReviewHandler {
       await ctx.answerCallbackQuery({ text: 'Уже отвечено' });
       return;
     }
+    const word = `${f.article ?? ''} ${f.lemma}`;
     await ctx.answerCallbackQuery({
-      text: correct ? '✅ Верно!' : `❌ Правильно: ${f.article ?? ''}`,
+      text: correct ? `✅ Верно: ${word}` : `❌ Правильно: ${word} (ты выбрал ${picked ?? '?'})`,
+      show_alert: !correct, // a wrong article deserves a second look
     });
-    const verdict = correct
-      ? '✅ <b>Верно!</b>'
-      : `❌ Ты выбрал <b>${picked ?? '?'}</b>, правильно:`;
-    const text =
-      `${verdict}\n\n${renderBack(row.note, 'article')}` +
-      `\n\n→ снова через ${formatInterval(now, res.due)}` +
+    const notice =
+      (correct
+        ? `✅ ${escapeHtml(word)}`
+        : `❌ ${escapeHtml(word)} — ты выбрал ${escapeHtml(picked ?? '?')}`) +
+      ` → ${formatInterval(now, res.due)}` +
       (res.leech ? leechText(row.note) : '');
-    await safeEdit(ctx, clampMessage(text));
-    await this.sendNext(ctx, scope, res.logId);
+    await this.sendNext(ctx, scope, { undoLogId: res.logId, notice, edit: true });
   }
 
   private async undo(ctx: BotContext, logId: number, scope: number): Promise<void> {
@@ -205,14 +221,14 @@ export class ReviewHandler {
       return;
     }
     await ctx.answerCallbackQuery({ text: '↩️ Ответ отменён' });
-    await safeEdit(ctx, '↩️ Ответ отменён — повторим эту карточку.');
     const row = await this.review.getCard(ctx.user.id, res.cardId);
-    if (!row) return this.sendNext(ctx, scope);
+    if (!row) return this.sendNext(ctx, scope, { edit: true });
     const counts = await this.queue.totals(ctx.user, scope, new Date());
     const text =
+      '<i>↩️ Ответ отменён — повторим эту карточку</i>\n\n' +
       header(row.deck, row.card.template, row.card.state, counts) +
       renderFront(row.note, row.card.template as Template);
-    await reply(ctx, clampMessage(text), frontKeyboard(row.card, scope));
+    await safeEdit(ctx, clampMessage(text), frontKeyboard(row.card, scope));
   }
 
   /** "Learn" buttons for /today */
@@ -227,8 +243,4 @@ export class ReviewHandler {
       );
     return kb;
   }
-}
-
-function leechText(note: Note): string {
-  return `\n\n🩸 <b>«${escapeHtml(noteTitle(note))}»</b> никак не запоминается, поэтому я её отложил. Перешли Claude, пусть переформулирует или разобьёт. Вернуть её можно в /leeches.`;
 }

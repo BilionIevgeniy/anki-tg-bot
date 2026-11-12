@@ -50,10 +50,10 @@ export const HELP_TEXT = [
   '✅ <b>Хорошо</b> — вспомнил нормально. Жми её чаще всего.',
   '🚀 <b>Легко</b> — знаю отлично, можно надолго.',
   'На кнопке написано, через сколько карточка вернётся.',
-  '↩️ под следующей карточкой отменяет последний ответ.',
+  '↩️ под следующей карточкой отменяет последний ответ. Вся сессия идёт в одном сообщении — история не копится.',
   '',
   '<b>Немецкие слова</b>',
-  'Из каждого слова получается 2–3 карточки: DE→RU, RU→DE и для существительных «Какой артикль?» (кнопки der/die/das, проверяю сам). Карточки одного слова не показываются в один день.',
+  'Карточка как в Noji: на лицевой стороне русское слово и пример, на обороте немецкое слово, формы и немецкий пример. У существительных ещё «Какой артикль?» (кнопки der/die/das, проверяю сам). Обратное направление DE→RU можно включить в /decks.',
   '',
   '<b>Колоды</b> — /decks',
   'Лимит новых в день, пауза, напоминание, экспорт. Колод сколько угодно: немецкий, вопросы к собеседованию, что захочешь.',
@@ -132,10 +132,25 @@ export function deckMenuText(
     `Сегодня: ${countsLine(c)}`,
     `Карточек всего: ${total}${suspended ? ` (отложено: ${suspended})` : ''}`,
     `Новых в день: ${deck.newPerDay} · Повторений в день до ${deck.reviewsPerDay}`,
+    `Карточки: ${templatesText(deck.enabledTemplates)}`,
     `Напоминание: ${deck.notifyEnabled ? `🔔 ${formatHm(deck.notifyHour, deck.notifyMinute)} (${escapeHtml(tz)}), если ждут ≥ ${deck.notifyMinDue}` : '🔕 выключено'}`,
   ]
     .filter((l, i) => l !== '' || i === 2)
     .join('\n');
+}
+
+function templatesText(enabled: string[]): string {
+  const names: Record<string, string> = {
+    ru_de: 'RU→DE',
+    article: 'артикль',
+    de_ru: 'DE→RU',
+    fwd: 'вопрос→ответ',
+    rev: 'ответ→вопрос',
+  };
+  return ['ru_de', 'article', 'de_ru', 'fwd', 'rev']
+    .filter((t) => enabled.includes(t))
+    .map((t) => names[t])
+    .join(', ');
 }
 
 export function notifyText(deck: Deck, tz: string): string {

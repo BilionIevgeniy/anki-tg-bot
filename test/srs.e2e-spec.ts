@@ -111,6 +111,14 @@ d('SRS flow (Postgres)', () => {
     // tenant isolation
     expect((await queue.next(other, 0, now)).kind).toBe('none');
 
+    // by default only RU→DE (+ article) is studied, like in Noji
+    const byDefault = await queue.next(user, 0, now);
+    if (byDefault.kind !== 'card') throw new Error('expected a card');
+    expect(byDefault.card.template).toBe('ru_de');
+    expect(byDefault.counts.new).toBe(4); // 3× ru_de + 1× article
+    // switch DE→RU on for the rest of this test
+    await decksSvc.toggleTemplate(user.id, deck!.id, 'de_ru');
+
     // --- first card: first new note in file order, de_ru template
     const first = await queue.next(user, 0, now);
     if (first.kind !== 'card') throw new Error('expected a card');

@@ -54,7 +54,8 @@ export class DecksHandler {
         return true;
       case 'deckSet': {
         if (cb.field === 0) await this.decks.changeNewPerDay(uid, cb.deckId, cb.value);
-        else await this.decks.togglePause(uid, cb.deckId);
+        else if (cb.field === 1) await this.decks.togglePause(uid, cb.deckId);
+        else await this.decks.toggleTemplate(uid, cb.deckId, 'de_ru');
         await ctx.answerCallbackQuery();
         await this.deckMenu(ctx, cb.deckId);
         return true;

@@ -62,7 +62,7 @@ function headHtml(f: VocabDeFields): string {
   return `<b>${escapeHtml(germanWord(f))}</b>${rek}`;
 }
 
-function vocabDetails(f: VocabDeFields): string {
+function vocabDetails(f: VocabDeFields, withExampleTranslation = true): string {
   const lines: string[] = [];
   if (f.plural) lines.push(`Pl.: ${escapeHtml(f.plural)}`);
   if (f.praeteritum || f.perfekt) {
@@ -78,7 +78,8 @@ function vocabDetails(f: VocabDeFields): string {
   if (f.example) {
     lines.push('');
     lines.push(`<i>${escapeHtml(f.example)}</i>`);
-    if (f.exampleTranslation) lines.push(escapeHtml(f.exampleTranslation));
+    if (f.exampleTranslation && withExampleTranslation)
+      lines.push(escapeHtml(f.exampleTranslation));
   }
   if (f.falseFriend) lines.push(`⚠️ ${escapeHtml(f.falseFriend)}`);
   if (f.note) lines.push(`📝 ${escapeHtml(f.note)}`);
@@ -91,8 +92,12 @@ export function renderFront(note: NoteLike, template: Template): string {
     switch (template) {
       case 'de_ru':
         return headHtml(f);
-      case 'ru_de':
-        return `<b>${escapeHtml(f.translation)}</b>${f.hint ? `\n<i>(${escapeHtml(f.hint)})</i>` : ''}\n\nКак по-немецки?`;
+      case 'ru_de': {
+        // like Noji: only Russian on the front — the word and the example sentence
+        const hint = f.hint ? `\n<i>(${escapeHtml(f.hint)})</i>` : '';
+        const ex = f.exampleTranslation ? `\n\n— ${escapeHtml(f.exampleTranslation)}` : '';
+        return `<b>${escapeHtml(f.translation)}</b>${hint}${ex}`;
+      }
       case 'article':
         return `Какой артикль?\n\n<b>___ ${escapeHtml(f.lemma)}</b>\n<i>${escapeHtml(f.translation)}</i>`;
       default:
@@ -109,10 +114,12 @@ export function renderFront(note: NoteLike, template: Template): string {
 export function renderBack(note: NoteLike, template: Template): string {
   if (note.type === 'vocab_de') {
     const f = note.fields as VocabDeFields;
-    const head =
-      template === 'de_ru'
-        ? `<b>${escapeHtml(f.translation)}</b>`
-        : `${headHtml(f)}${template === 'article' ? '' : `\n${escapeHtml(f.translation)}`}`;
+    if (template === 'ru_de') {
+      // the Russian side is already visible above: German word, forms and the German example
+      const details = vocabDetails(f, false);
+      return details ? `${headHtml(f)}\n${details}` : headHtml(f);
+    }
+    const head = template === 'de_ru' ? `<b>${escapeHtml(f.translation)}</b>` : headHtml(f);
     const details = vocabDetails(f);
     return details ? `${head}\n${details}` : head;
   }

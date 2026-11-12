@@ -78,6 +78,11 @@ export function deckMenuKeyboard(deck: Deck, dueTotal: number): InlineKeyboard {
       encode({ a: 'notify', deckId: deck.id }),
     )
     .row()
+    .text(
+      deck.enabledTemplates.includes('de_ru') ? '🔁 DE→RU: вкл' : '🔁 DE→RU: выкл',
+      encode({ a: 'deckSet', deckId: deck.id, field: 2, value: 0 }),
+    )
+    .row()
     .text('📤 Экспорт', encode({ a: 'export', deckId: deck.id }))
     .text('⬅️ Все колоды', encode({ a: 'decks' }));
   return kb;

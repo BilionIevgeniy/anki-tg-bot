@@ -38,6 +38,14 @@ describe('templates', () => {
     };
     expect(renderFront(verb, 'de_ru')).toBe('<b>umgehen</b> <i>mit + Dat.</i>');
     expect(renderBack(verb, 'ru_de')).toContain('<b>umgehen</b> <i>mit + Dat.</i>');
+    // Noji-style RU→DE: only Russian on the front, German example (not its translation) on the back
+    const ex = {
+      type: 'vocab_de',
+      fields: { ...geraet.fields, exampleTranslation: 'Прибор новый.' },
+    };
+    expect(renderFront(ex, 'ru_de')).toBe('<b>прибор, устройство</b>\n\n— Прибор новый.');
+    expect(renderBack(ex, 'ru_de')).toContain('<i>Das Gerät ist &lt;neu&gt;.</i>');
+    expect(renderBack(ex, 'ru_de')).not.toContain('Прибор новый.');
   });
 
   it('supports light markup in basic cards', () => {

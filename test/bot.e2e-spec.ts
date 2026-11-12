@@ -225,36 +225,47 @@ d('Bot (full app, fake Telegram)', () => {
     expect(String(last('editMessageText').payload.text)).toContain('Импорт завершён');
   });
 
-  it('runs a learning session: show → grade → next with undo → undo', async () => {
+  it('runs a learning session in ONE message: show → grade → next with undo → undo', async () => {
     await send('/learn');
     const front = last('sendMessage');
-    expect(String(front.payload.text)).toContain('<b>das Gerät</b>');
-    expect(String(front.payload.text)).toContain('🆕 новая');
+    // Noji-style front: Russian only
+    expect(String(front.payload.text)).toContain('<b>прибор</b>');
+    expect(String(front.payload.text)).toContain('— Прибор сломан.');
+    expect(String(front.payload.text)).not.toContain('Gerät');
+    expect(String(front.payload.text)).toContain('RU → DE · 🆕 новая');
     const show = buttons(front).find((b) => b.startsWith('s:'))!;
 
+    const sentBefore = callsOf('sendMessage').length;
     await press(show);
     const answer = last('editMessageText');
-    expect(String(answer.payload.text)).toContain('прибор');
+    expect(String(answer.payload.text)).toContain('<b>das Gerät</b>');
     expect(String(answer.payload.text)).toContain('Pl.: die Geräte');
+    expect(String(answer.payload.text)).toContain('<i>Das Gerät ist kaputt.</i>');
     const labels = buttonLabels(answer);
     expect(labels[0]).toMatch(/^❌ Снова · 1м$/);
     const good = buttons(answer).find((b) => b.startsWith('r:') && b.split(':')[2] === '3')!;
 
     await press(good);
-    expect(String(last('editMessageText').payload.text)).toMatch(/✅ Хорошо → снова через \d+м/);
-    const next = last('sendMessage');
-    // sibling cards of Gerät are buried → next word
-    expect(String(next.payload.text)).toContain('<b>verzichten</b>');
+    expect(String(last('answerCallbackQuery').payload.text)).toMatch(
+      /✅ Хорошо → снова через \d+м/,
+    );
+    const next = last('editMessageText');
+    // the same message now shows the next card, with a note about the previous answer
+    expect(String(next.payload.text)).toContain('das Gerät — прибор · ✅ Хорошо');
+    expect(String(next.payload.text)).toContain('<b>отказываться</b>');
+    expect(callsOf('sendMessage').length).toBe(sentBefore); // no new messages in the chat
     const undo = buttons(next).find((b) => b.startsWith('u:'))!;
     expect(undo).toBeDefined();
 
     // a second tap on the same grade button is harmless
-    const before = callsOf('sendMessage').length;
+    const edits = callsOf('editMessageText').length;
     await press(good);
-    expect(callsOf('sendMessage').length).toBe(before);
+    expect(callsOf('editMessageText').length).toBe(edits);
 
     await press(undo);
-    expect(String(last('sendMessage').payload.text)).toContain('<b>das Gerät</b>');
+    const restored = String(last('editMessageText').payload.text);
+    expect(restored).toContain('Ответ отменён');
+    expect(restored).toContain('<b>прибор</b>');
   });
 
   it('auto-grades the article card (der/die/das buttons)', async () => {
@@ -263,8 +274,8 @@ d('Bot (full app, fake Telegram)', () => {
     expect(card).toBeDefined();
     await press(`a:${card!.id}:2:${card!.version}:0`); // "die" — wrong
     const res = String(last('editMessageText').payload.text);
-    expect(res).toContain('Ты выбрал <b>die</b>');
-    expect(res).toContain('<b>das Gerät</b>');
+    expect(res).toContain('❌ das Gerät — ты выбрал die');
+    expect(last('answerCallbackQuery').payload).toMatchObject({ show_alert: true });
     const after = (await db.select().from(cards).where(eq(cards.id, card!.id)))[0]!;
     expect(after.reps).toBe(1);
     expect(after.version).toBe(card!.version + 1);
@@ -290,6 +301,7 @@ d('Bot (full app, fake Telegram)', () => {
     await press(`ns:${deckId}:0:1`, '🔔 Напоминания · Deutsch B2'); // enable
     await press(`ns:${deckId}:2:${7 * 60}`, '🔔 Напоминания · Deutsch B2'); // 07:00
     await press(`ns:${deckId}:1:-60`, '🔔 Напоминания · Deutsch B2'); // → 06:00
+    await press(`ns:${deckId}:3:1`, '🔔 Напоминания · Deutsch B2'); // remind from 1 card (default 5)
     const nm = String(last('editMessageText').payload.text);
     expect(nm).toContain('✅ включены');
     expect(nm).toContain('<b>06:00</b>');

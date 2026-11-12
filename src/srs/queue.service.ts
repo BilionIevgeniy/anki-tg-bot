@@ -14,6 +14,9 @@ import {
 import { studyDayBounds, type StudyDayBounds } from './day';
 import { State } from './fsrs.core';
 
+/** Only templates switched on in the deck settings are studied (requires a join with decks). */
+const templateEnabled = sql`${cards.template} = any(${decks.enabledTemplates})`;
+
 /** Like Anki's "learn ahead limit": learning cards due within 20 min may be shown early. */
 const LEARN_AHEAD_MS = 20 * 60 * 1000;
 
@@ -92,7 +95,8 @@ export class QueueService {
           suspended: sql<number>`count(*) filter (where ${cards.suspended})`.mapWith(Number),
         })
         .from(cards)
-        .where(and(eq(cards.userId, user.id), inArray(cards.deckId, ids)))
+        .innerJoin(decks, eq(decks.id, cards.deckId))
+        .where(and(eq(cards.userId, user.id), inArray(cards.deckId, ids), templateEnabled))
         .groupBy(cards.deckId),
       this.doneToday(user.id, ids, day.start),
     ]);
@@ -161,7 +165,7 @@ export class QueueService {
       .from(reviewLogs)
       .where(and(eq(reviewLogs.userId, user.id), gte(reviewLogs.reviewedAt, day.start)));
 
-    const base = and(eq(cards.userId, user.id), eq(cards.suspended, false));
+    const base = and(eq(cards.userId, user.id), eq(cards.suspended, false), templateEnabled);
     const learningStates = inArray(cards.state, [State.Learning, State.Relearning]);
 
     const pick = async (where: ReturnType<typeof and>, orderNew = false) => {
@@ -169,6 +173,7 @@ export class QueueService {
         .select({ card: cards, note: notes })
         .from(cards)
         .innerJoin(notes, eq(notes.id, cards.noteId))
+        .innerJoin(decks, eq(decks.id, cards.deckId))
         .where(where)
         .orderBy(
           ...(orderNew ? [asc(notes.position), asc(cards.id)] : [asc(cards.due), asc(cards.id)]),
@@ -227,6 +232,7 @@ export class QueueService {
     const [nextLearning] = await this.db
       .select({ due: min(cards.due) })
       .from(cards)
+      .innerJoin(decks, eq(decks.id, cards.deckId))
       .where(and(base, inArray(cards.deckId, ids), learningStates));
     return {
       kind: 'none',

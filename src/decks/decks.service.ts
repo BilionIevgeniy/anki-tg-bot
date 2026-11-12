@@ -55,6 +55,20 @@ export class DecksService {
     return d;
   }
 
+  /** Switch a card template (e.g. "de_ru") on or off for this deck. */
+  async toggleTemplate(
+    userId: number,
+    deckId: number,
+    template: string,
+  ): Promise<Deck | undefined> {
+    const deck = await this.get(userId, deckId);
+    if (!deck) return undefined;
+    const set = new Set(deck.enabledTemplates);
+    if (set.has(template)) set.delete(template);
+    else set.add(template);
+    return this.update(userId, deckId, { enabledTemplates: [...set] });
+  }
+
   updateNotify(userId: number, deckId: number, patch: NotifyPatch): Promise<Deck | undefined> {
     const set: NotifyPatch & { notifyLastSentOn?: null } = { ...patch };
     // changing the time re-arms today's reminder
