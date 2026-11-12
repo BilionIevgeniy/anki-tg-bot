@@ -1,0 +1,2006 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:abstürzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abstürzen",
+        "pos": "verb",
+        "translation": "падать, вылетать (о системе)",
+        "praeteritum": "stürzte ab",
+        "perfekt": "ist abgestürzt",
+        "example": "Der Server ist gestern Nacht wegen Überlastung abgestürzt.",
+        "exampleTranslation": "Сервер вчера ночью упал из-за перегрузки.",
+        "note": "также: разбиться (о самолёте), упасть с высоты"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:abwarten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abwarten",
+        "pos": "verb",
+        "translation": "выжидать, дождаться",
+        "praeteritum": "wartete ab",
+        "perfekt": "hat abgewartet",
+        "example": "Lass uns abwarten, bis die Testergebnisse vorliegen, bevor wir deployen.",
+        "exampleTranslation": "Давай дождёмся результатов тестов, прежде чем деплоить.",
+        "hint": "подождать, ничего не предпринимая"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:abwehr",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Abwehr",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "защита, отпор, оборона",
+        "example": "Die Abwehr von Phishing-Angriffen kostet unsere IT-Abteilung viel Zeit.",
+        "exampleTranslation": "Защита от фишинговых атак отнимает у нашего IT-отдела много времени.",
+        "hint": "активная оборона, отражение",
+        "rektion": "von + Dat. / gegen + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:abwehrend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abwehrend",
+        "pos": "adj",
+        "translation": "оборонительный; в штыки (реагировать)",
+        "example": "Auf Kritik im Code-Review sollte man nicht gleich abwehrend reagieren.",
+        "exampleTranslation": "На критику в код-ревью не стоит сразу реагировать в штыки."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:abweichen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abweichen",
+        "pos": "verb",
+        "translation": "отклоняться, отличаться",
+        "praeteritum": "wich ab",
+        "perfekt": "ist abgewichen",
+        "example": "Die Ergebnisse der Lasttests weichen deutlich von unseren Erwartungen ab.",
+        "exampleTranslation": "Результаты нагрузочных тестов заметно отличаются от наших ожиданий.",
+        "rektion": "von + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:abweichung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Abweichung",
+        "plural": "die Abweichungen",
+        "pos": "noun",
+        "translation": "отклонение, расхождение",
+        "example": "Jede Abweichung vom Design muss mit dem UX-Team abgesprochen werden.",
+        "exampleTranslation": "Любое отклонение от дизайна нужно согласовать с UX-командой.",
+        "rektion": "von + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:abweisend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abweisend",
+        "pos": "adj",
+        "translation": "неприветливый, холодный",
+        "example": "Seine Antwort im Chat klang ziemlich abweisend, obwohl er es nicht so gemeint hat.",
+        "exampleTranslation": "Его ответ в чате прозвучал довольно холодно, хотя он вовсе не это имел в виду."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:abwertend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abwertend",
+        "pos": "adj",
+        "translation": "пренебрежительный, уничижительный",
+        "example": "Abwertende Bemerkungen über den Code von Kollegen zerstören die Teamatmosphäre.",
+        "exampleTranslation": "Пренебрежительные замечания о коде коллег разрушают атмосферу в команде."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:abwesenheit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Abwesenheit",
+        "plural": "die Abwesenheiten",
+        "pos": "noun",
+        "translation": "отсутствие (человека)",
+        "example": "Während meiner Abwesenheit übernimmt Anna die Code-Reviews.",
+        "exampleTranslation": "Пока меня нет, код-ревью берёт на себя Анна.",
+        "hint": "не на месте, не на работе"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:abwägen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abwägen",
+        "pos": "verb",
+        "translation": "взвешивать (за и против)",
+        "praeteritum": "wog ab",
+        "perfekt": "hat abgewogen",
+        "example": "Bevor wir auf Next.js umsteigen, sollten wir Vor- und Nachteile gründlich abwägen.",
+        "exampleTranslation": "Прежде чем переходить на Next.js, стоит тщательно взвесить плюсы и минусы.",
+        "note": "реже слабые формы: wägte ab, hat abgewägt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:abzielen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abzielen",
+        "pos": "verb",
+        "translation": "быть нацеленным, иметь целью",
+        "praeteritum": "zielte ab",
+        "perfekt": "hat abgezielt",
+        "example": "Das neue Onboarding zielt darauf ab, neue Entwickler schneller produktiv zu machen.",
+        "exampleTranslation": "Новый онбординг нацелен на то, чтобы новые разработчики быстрее становились продуктивными.",
+        "rektion": "auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:achtsamkeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Achtsamkeit",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "осознанность, внимательность",
+        "example": "Mehr Achtsamkeit im Alltag hilft mir, nach langen Calls abzuschalten.",
+        "exampleTranslation": "Больше осознанности в повседневной жизни помогает мне отключаться после долгих созвонов."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:adäquat",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "adäquat",
+        "pos": "adj",
+        "translation": "соответствующий, подходящий",
+        "example": "Für dieses Performance-Problem brauchen wir eine adäquate Lösung, kein schnelles Workaround.",
+        "exampleTranslation": "Для этой проблемы с производительностью нам нужно подходящее решение, а не быстрый костыль.",
+        "falseFriend": "≠ рус. «адекватный» о человеке (вменяемый)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:agenda",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Agenda",
+        "plural": "die Agenden",
+        "pos": "noun",
+        "translation": "повестка (встречи)",
+        "example": "Die Agenda für den heutigen Call habe ich schon in die Kalendereinladung geschrieben.",
+        "exampleTranslation": "Повестку сегодняшнего созвона я уже вписал в приглашение в календаре."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:agieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "agieren",
+        "pos": "verb",
+        "translation": "действовать",
+        "praeteritum": "agierte",
+        "perfekt": "hat agiert",
+        "example": "Bei einem kritischen Bug in Produktion müssen wir schnell agieren.",
+        "exampleTranslation": "При критическом баге в продакшене мы должны действовать быстро.",
+        "hint": "не handeln, не vorgehen"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:im-voraus",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "im Voraus",
+        "pos": "phrase",
+        "translation": "заранее, заблаговременно",
+        "example": "Die Testdaten sollten wir im Voraus vorbereiten, nicht erst am Release-Tag.",
+        "exampleTranslation": "Тестовые данные лучше подготовить заранее, а не в день релиза.",
+        "note": "в Noji было англ. «ahead of time»"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:ahnden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ahnden",
+        "pos": "verb",
+        "translation": "карать, наказывать (нарушения)",
+        "praeteritum": "ahndete",
+        "perfekt": "hat geahndet",
+        "example": "Falschparken wird in Bonn konsequent mit einem Bußgeld geahndet.",
+        "exampleTranslation": "Неправильная парковка в Бонне строго карается штрафом.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ahnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ahnen",
+        "pos": "verb",
+        "translation": "предчувствовать, догадываться",
+        "praeteritum": "ahnte",
+        "perfekt": "hat geahnt",
+        "example": "Ich habe schon geahnt, dass es beim Release zu Verzögerungen kommen würde.",
+        "exampleTranslation": "Я уже предчувствовал, что с релизом будут задержки.",
+        "hint": "смутно, интуитивно"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:akut",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "akut",
+        "pos": "adj",
+        "translation": "острый, неотложный",
+        "example": "Das Problem mit dem Server ist akut – wir müssen es heute noch lösen.",
+        "exampleTranslation": "Проблема с сервером острая — нам нужно решить её ещё сегодня.",
+        "falseFriend": "≠ «актуальный» (= aktuell)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:alle-gleich-behandeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "alle gleich behandeln",
+        "pos": "phrase",
+        "translation": "относиться ко всем одинаково",
+        "example": "Ein guter Teamleiter sollte alle gleich behandeln, egal wie lange sie schon dabei sind.",
+        "exampleTranslation": "Хороший тимлид должен относиться ко всем одинаково, сколько бы они ни работали в команде."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:als-jemals-zuvor",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "als jemals zuvor",
+        "pos": "phrase",
+        "translation": "чем когда-либо прежде",
+        "example": "Sauberer Code ist heute wichtiger als jemals zuvor.",
+        "exampleTranslation": "Чистый код сегодня важнее, чем когда-либо прежде."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:als-sonst",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "als sonst",
+        "pos": "phrase",
+        "translation": "чем обычно",
+        "example": "Heute dauert der Build deutlich länger als sonst.",
+        "exampleTranslation": "Сегодня сборка идёт заметно дольше, чем обычно."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:sich-als-vorteilhaft-erweisen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich als vorteilhaft erweisen",
+        "pos": "phrase",
+        "translation": "оказаться выгодным, оказаться полезным",
+        "example": "Der Umstieg auf TypeScript hat sich als sehr vorteilhaft erwiesen.",
+        "exampleTranslation": "Переход на TypeScript оказался очень выгодным.",
+        "praeteritum": "erwies sich als vorteilhaft",
+        "perfekt": "hat sich als vorteilhaft erwiesen"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:alternativ",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "alternativ",
+        "pos": "adv",
+        "translation": "в качестве альтернативы, как вариант",
+        "example": "Alternativ zu Redux könnten wir auch Zustand verwenden.",
+        "exampleTranslation": "В качестве альтернативы Redux мы могли бы использовать и Zustand.",
+        "rektion": "zu + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:alternative",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Alternative",
+        "plural": "die Alternativen",
+        "pos": "noun",
+        "translation": "альтернатива",
+        "example": "Wir suchen eine günstigere Alternative zu Jira.",
+        "exampleTranslation": "Мы ищем более дешёвую альтернативу Jira.",
+        "rektion": "zu + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:an-bedeutung-gewinnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "an Bedeutung gewinnen",
+        "pos": "phrase",
+        "translation": "приобретать значение, становиться важнее",
+        "example": "Barrierefreiheit gewinnt im Frontend immer mehr an Bedeutung.",
+        "exampleTranslation": "Доступность во фронтенде становится всё важнее.",
+        "praeteritum": "gewann an Bedeutung",
+        "perfekt": "hat an Bedeutung gewonnen"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:an-bedeutung-verlieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "an Bedeutung verlieren",
+        "pos": "phrase",
+        "translation": "терять значимость",
+        "example": "jQuery hat in den letzten Jahren stark an Bedeutung verloren.",
+        "exampleTranslation": "jQuery за последние годы сильно потерял значимость.",
+        "praeteritum": "verlor an Bedeutung",
+        "perfekt": "hat an Bedeutung verloren"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:an-manchen-stellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "an manchen Stellen",
+        "pos": "phrase",
+        "translation": "местами, в некоторых местах",
+        "example": "Der Code ist an manchen Stellen noch schwer lesbar.",
+        "exampleTranslation": "Код местами ещё трудно читается."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:anbau-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anbau",
+        "plural": "die Anbauten",
+        "pos": "noun",
+        "translation": "пристройка",
+        "example": "Die Kita bekommt einen Anbau, weil es zu wenige Plätze gibt.",
+        "exampleTranslation": "К детскому саду делают пристройку, потому что мест не хватает.",
+        "hint": "к зданию"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anbau-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anbau",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "выращивание (растений)",
+        "example": "Der Anbau von Tomaten auf unserem Balkon klappt erstaunlich gut.",
+        "exampleTranslation": "Выращивание помидоров на нашем балконе удаётся на удивление хорошо.",
+        "hint": "овощей, растений",
+        "rektion": "von + Dat."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anbieten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anbieten",
+        "pos": "verb",
+        "translation": "предлагать (дать, сделать)",
+        "praeteritum": "bot an",
+        "perfekt": "hat angeboten",
+        "example": "Der Teamleiter hat mir angeboten, das neue Projekt zu übernehmen.",
+        "exampleTranslation": "Тимлид предложил мне взять на себя новый проект.",
+        "rektion": "jdm. (Dat.) etw. (Akk.)",
+        "hint": "дать, сделать (не vorschlagen)",
+        "note": "не «anbieten an»: jemandem etwas anbieten"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anbinden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anbinden",
+        "pos": "verb",
+        "translation": "подключать, интегрировать",
+        "praeteritum": "band an",
+        "perfekt": "hat angebunden",
+        "example": "Wir binden das Frontend über eine REST-API an das Backend an.",
+        "exampleTranslation": "Мы подключаем фронтенд к бэкенду через REST API.",
+        "rektion": "an + Akk.",
+        "hint": "систему к системе"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anbringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anbringen",
+        "pos": "verb",
+        "translation": "прикреплять, монтировать",
+        "praeteritum": "brachte an",
+        "perfekt": "hat angebracht",
+        "example": "Der Vermieter muss im Schlafzimmer einen Rauchmelder anbringen.",
+        "exampleTranslation": "Арендодатель обязан установить в спальне датчик дыма.",
+        "note": "Kritik / einen Einwand anbringen — высказать критику / возражение",
+        "hint": "на стену, к потолку"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anderswo",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anderswo",
+        "pos": "adv",
+        "translation": "в другом месте, где-то ещё",
+        "example": "Wenn die Praxis keinen Termin frei hat, versuche ich es anderswo.",
+        "exampleTranslation": "Если в практике нет свободного приёма, попробую в другом месте."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:andeuten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "andeuten",
+        "pos": "verb",
+        "translation": "намекать",
+        "praeteritum": "deutete an",
+        "perfekt": "hat angedeutet",
+        "example": "Der Teamleiter hat angedeutet, dass mein Vertrag verlängert wird.",
+        "exampleTranslation": "Тимлид намекнул, что мой контракт продлят."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:andeutung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Andeutung",
+        "plural": "die Andeutungen",
+        "pos": "noun",
+        "translation": "намёк",
+        "example": "Im Meeting machte er nur eine vage Andeutung über mögliche Umstrukturierungen.",
+        "exampleTranslation": "На встрече он лишь туманно намекнул на возможную реструктуризацию.",
+        "rektion": "über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anecken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anecken",
+        "pos": "verb",
+        "translation": "задевать людей, вызывать недовольство",
+        "praeteritum": "eckte an",
+        "perfekt": "ist angeeckt",
+        "example": "Mit seinen direkten Kommentaren im Code-Review eckt er oft bei Kollegen an.",
+        "exampleTranslation": "Своими прямолинейными комментариями в код-ревью он часто задевает коллег.",
+        "rektion": "bei + Dat.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aneinander-vorbeireden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aneinander vorbeireden",
+        "pos": "verb",
+        "translation": "не понимать друг друга, говорить о разном",
+        "praeteritum": "redete aneinander vorbei",
+        "perfekt": "hat aneinander vorbeigeredet",
+        "example": "Ich habe den Eindruck, wir reden gerade aneinander vorbei.",
+        "exampleTranslation": "Мне кажется, мы сейчас говорим о разных вещах."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aneinanderketten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aneinanderketten",
+        "pos": "verb",
+        "translation": "связывать в цепочку",
+        "praeteritum": "kettete aneinander",
+        "perfekt": "hat aneinandergekettet",
+        "example": "Mit then() kann man mehrere Promises aneinanderketten.",
+        "exampleTranslation": "С помощью then() можно связать несколько промисов в цепочку."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anerkennung-finden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Anerkennung finden",
+        "pos": "phrase",
+        "translation": "получить признание",
+        "example": "Seine Open-Source-Bibliothek hat in der Community schnell Anerkennung gefunden.",
+        "exampleTranslation": "Его open-source-библиотека быстро получила признание в сообществе.",
+        "praeteritum": "fand Anerkennung",
+        "perfekt": "hat Anerkennung gefunden"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:anerkennung-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anerkennung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "признание, одобрение (заслуг)",
+        "example": "Für den schnellen Hotfix am Wochenende bekam er viel Anerkennung vom Team.",
+        "exampleTranslation": "За быстрый хотфикс на выходных команда его очень хвалила.",
+        "hint": "похвала за работу"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anerkennung-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anerkennung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "признание (диплома, квалификации)",
+        "example": "Die Anerkennung meines ukrainischen Diploms hat fast ein halbes Jahr gedauert.",
+        "exampleTranslation": "Признание моего украинского диплома заняло почти полгода.",
+        "hint": "официальное",
+        "rektion": "von + Dat.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anfangen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anfangen",
+        "pos": "verb",
+        "translation": "начинать",
+        "praeteritum": "fing an",
+        "perfekt": "hat angefangen",
+        "example": "Lass uns mit dem Login-Modul anfangen, der Rest kann warten.",
+        "exampleTranslation": "Давай начнём с модуля логина, остальное подождёт.",
+        "rektion": "mit + Dat.",
+        "note": "du fängst an"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anfeuchten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anfeuchten",
+        "pos": "verb",
+        "translation": "смачивать, увлажнять",
+        "praeteritum": "feuchtete an",
+        "perfekt": "hat angefeuchtet",
+        "example": "Feuchte das Tuch nur leicht an, sonst bleiben Streifen auf dem Monitor.",
+        "exampleTranslation": "Смочи тряпку совсем чуть-чуть, иначе на мониторе останутся разводы."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:angaben-machen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Angaben machen",
+        "pos": "phrase",
+        "translation": "давать сведения, указывать данные",
+        "example": "Im Antrag beim Jobcenter müssen Sie vollständige Angaben zu Ihrem Einkommen machen.",
+        "exampleTranslation": "В заявлении в Jobcenter вы должны указать полные сведения о своём доходе.",
+        "praeteritum": "machte Angaben",
+        "perfekt": "hat Angaben gemacht",
+        "rektion": "zu + Dat.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:angeben-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angeben",
+        "pos": "verb",
+        "translation": "указывать (данные)",
+        "praeteritum": "gab an",
+        "perfekt": "hat angegeben",
+        "example": "Bitte gib im Formular deine aktuelle Adresse an.",
+        "exampleTranslation": "Пожалуйста, укажи в форме свой текущий адрес.",
+        "note": "du gibst an",
+        "hint": "в анкете, форме"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:angeben-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angeben",
+        "pos": "verb",
+        "translation": "хвастаться",
+        "praeteritum": "gab an",
+        "perfekt": "hat angegeben",
+        "example": "Er gibt ständig mit seinem neuen Gaming-PC an.",
+        "exampleTranslation": "Он постоянно хвастается своим новым игровым компьютером.",
+        "note": "du gibst an",
+        "rektion": "mit + Dat.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:angehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angehen",
+        "pos": "verb",
+        "translation": "браться за, подходить к (задаче)",
+        "praeteritum": "ging an",
+        "perfekt": "hat angegangen",
+        "example": "Lass uns dieses Problem systematisch angehen.",
+        "exampleTranslation": "Давай подойдём к этой проблеме системно.",
+        "note": "южн.-нем. тж. ist angegangen; «загораться (о свете)» — только ist angegangen; du gehst an"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:was-angeht",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "was … angeht",
+        "pos": "phrase",
+        "translation": "что касается …",
+        "example": "Was das Gehalt angeht, bin ich flexibel.",
+        "exampleTranslation": "Что касается зарплаты, я гибок."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "bewerbung",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:angehörige",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Angehörige",
+        "plural": "die Angehörigen",
+        "pos": "noun",
+        "translation": "родственник, член семьи",
+        "example": "Auf der Intensivstation dürfen nur nahe Angehörige zu Besuch kommen.",
+        "exampleTranslation": "В реанимацию пускают только близких родственников.",
+        "note": "склоняется как прилагательное: ein Angehöriger, die Angehörige (жен.)"
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:angelegenheit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Angelegenheit",
+        "plural": "die Angelegenheiten",
+        "pos": "noun",
+        "translation": "дело, вопрос",
+        "example": "Das ist eine private Angelegenheit, die bespreche ich nicht im Team.",
+        "exampleTranslation": "Это личное дело, его я не обсуждаю в команде.",
+        "hint": "чьё-то дело (не Sache)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:angemessen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angemessen",
+        "pos": "adj",
+        "translation": "соразмерный, уместный",
+        "example": "Das Gehalt ist für diese Position und Erfahrung angemessen.",
+        "exampleTranslation": "Зарплата соразмерна этой позиции и опыту."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:angenehm",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angenehm",
+        "pos": "adj",
+        "translation": "приятный",
+        "example": "Die Zusammenarbeit mit dem neuen Kunden ist sehr angenehm.",
+        "exampleTranslation": "Сотрудничество с новым клиентом очень приятное."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:anschmeißen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anschmeißen",
+        "pos": "verb",
+        "translation": "запускать, врубать",
+        "praeteritum": "schmiss an",
+        "perfekt": "hat angeschmissen",
+        "example": "Ich habe den Build auf dem Server schon angeschmissen.",
+        "exampleTranslation": "Я уже запустил сборку на сервере.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:angewiesen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "angewiesen",
+        "pos": "adj",
+        "translation": "зависимый (от), нуждающийся (в)",
+        "example": "Ohne Auto ist man auf dem Land auf den Bus angewiesen.",
+        "exampleTranslation": "Без машины в сельской местности ты зависишь от автобуса.",
+        "rektion": "auf + Akk.",
+        "note": "angewiesen sein auf"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:angst",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Angst",
+        "plural": "die Ängste",
+        "pos": "noun",
+        "translation": "страх",
+        "example": "Viele haben Angst vor dem ersten Vorstellungsgespräch auf Deutsch.",
+        "exampleTranslation": "Многие боятся первого собеседования на немецком.",
+        "rektion": "vor + Dat."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anhaltend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anhaltend",
+        "pos": "adj",
+        "translation": "продолжительный, непрекращающийся",
+        "example": "Anhaltende Probleme mit der alten Codebase machen ein Refactoring unvermeidlich.",
+        "exampleTranslation": "Непрекращающиеся проблемы со старой кодовой базой делают рефакторинг неизбежным."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:eignung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Eignung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "пригодность, соответствие (требованиям)",
+        "example": "Im Assessment-Center wird die Eignung der Bewerber für die Stelle geprüft.",
+        "exampleTranslation": "В ассессмент-центре проверяют пригодность кандидатов для должности.",
+        "rektion": "für + Akk.",
+        "register": "formell",
+        "note": "в Noji было «anhaltende Eignung»"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:sich-anhören",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich anhören",
+        "pos": "verb",
+        "translation": "звучать (казаться)",
+        "praeteritum": "hörte sich an",
+        "perfekt": "hat sich angehört",
+        "example": "Dein Vorschlag hört sich gut an, lass ihn uns im Daily besprechen.",
+        "exampleTranslation": "Твоё предложение звучит хорошо, давай обсудим его на дейли.",
+        "note": "etw. (Akk.) anhören — выслушать что-то"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anknüpfungspunkt",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anknüpfungspunkt",
+        "plural": "die Anknüpfungspunkte",
+        "pos": "noun",
+        "translation": "зацепка (для разговора), точка соприкосновения",
+        "example": "Seine Reise nach Japan war ein guter Anknüpfungspunkt für Smalltalk.",
+        "exampleTranslation": "Его поездка в Японию стала хорошей зацепкой для смолтока."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ankommen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ankommen",
+        "pos": "verb",
+        "translation": "зависеть от, быть важным",
+        "praeteritum": "kam an",
+        "perfekt": "ist angekommen",
+        "example": "Es kommt darauf an, wie viel Zeit wir bis zum Release haben.",
+        "exampleTranslation": "Это зависит от того, сколько времени у нас до релиза.",
+        "rektion": "auf + Akk.",
+        "note": "только безлично: es kommt auf etw. an",
+        "hint": "es kommt … an"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ankündigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ankündigen",
+        "pos": "verb",
+        "translation": "объявлять, анонсировать",
+        "praeteritum": "kündigte an",
+        "perfekt": "hat angekündigt",
+        "example": "Der Teamleiter hat für morgen ein wichtiges Update angekündigt.",
+        "exampleTranslation": "Тимлид анонсировал на завтра важное обновление."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anlass",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anlass",
+        "plural": "die Anlässe",
+        "pos": "noun",
+        "translation": "повод",
+        "example": "Ein erfolgreicher Release ist ein guter Anlass zum Feiern.",
+        "exampleTranslation": "Успешный релиз — хороший повод отпраздновать.",
+        "rektion": "zu + Dat. / für + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anlernen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anlernen",
+        "pos": "verb",
+        "translation": "обучать (на рабочем месте), вводить в работу",
+        "praeteritum": "lernte an",
+        "perfekt": "hat angelernt",
+        "example": "Die neue Kollegin wird in den ersten zwei Wochen von mir angelernt.",
+        "exampleTranslation": "Новую коллегу в первые две недели обучаю я."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anliegen",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Anliegen",
+        "plural": "die Anliegen",
+        "pos": "noun",
+        "translation": "просьба, вопрос (с которым обращаются)",
+        "example": "Ich habe ein kurzes Anliegen: Könnten wir das Refactoring auf nächste Woche verschieben?",
+        "exampleTranslation": "У меня небольшая просьба: можем перенести рефакторинг на следующую неделю?",
+        "hint": "с чем обращаешься (не Bitte)"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anmerken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anmerken",
+        "pos": "verb",
+        "translation": "отмечать, заметить (вскользь)",
+        "praeteritum": "merkte an",
+        "perfekt": "hat angemerkt",
+        "example": "Ich möchte noch anmerken, dass die Deadline sehr knapp ist.",
+        "exampleTranslation": "Хочу ещё отметить, что дедлайн очень сжатый.",
+        "note": "sich (Dat.) nichts anmerken lassen — не подавать вида"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:annahme",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Annahme",
+        "plural": "die Annahmen",
+        "pos": "noun",
+        "translation": "предположение, допущение",
+        "example": "Unsere Annahme über die Performance des neuen Backends wurde durch Tests bestätigt.",
+        "exampleTranslation": "Наше предположение о производительности нового бэкенда подтвердилось тестами.",
+        "hint": "гипотеза"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:annahme-verweigern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "die Annahme verweigern",
+        "pos": "phrase",
+        "translation": "отказаться принять (посылку, товар)",
+        "example": "Ich habe die Annahme des Pakets verweigert, weil der Karton beschädigt war.",
+        "exampleTranslation": "Я отказался принимать посылку, потому что коробка была повреждена.",
+        "praeteritum": "verweigerte die Annahme",
+        "perfekt": "hat die Annahme verweigert"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:annäherung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Annäherung",
+        "plural": "die Annäherungen",
+        "pos": "noun",
+        "translation": "сближение, приближение",
+        "example": "Nach dem Streit gab es zwischen Backend- und Frontend-Team eine vorsichtige Annäherung.",
+        "exampleTranslation": "После ссоры между командами бэкенда и фронтенда наметилось осторожное сближение.",
+        "note": "«подход» = Ansatz, Herangehensweise, не Annäherung"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anpassbarkeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anpassbarkeit",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "адаптируемость, гибкость",
+        "example": "Guter Code zeichnet sich durch hohe Anpassbarkeit an neue Anforderungen aus.",
+        "exampleTranslation": "Хороший код отличается высокой адаптируемостью к новым требованиям.",
+        "rektion": "an + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anpassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anpassen",
+        "pos": "verb",
+        "translation": "адаптировать, подстраивать",
+        "praeteritum": "passte an",
+        "perfekt": "hat angepasst",
+        "example": "Wir müssen das Layout an kleinere Bildschirme anpassen.",
+        "exampleTranslation": "Нам нужно адаптировать вёрстку под маленькие экраны.",
+        "rektion": "an + Akk.",
+        "note": "sich anpassen an — приспосабливаться к"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anregen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anregen",
+        "pos": "verb",
+        "translation": "стимулировать, побуждать",
+        "praeteritum": "regte an",
+        "perfekt": "hat angeregt",
+        "example": "Die Retro hat eine gute Diskussion über unseren Workflow angeregt.",
+        "exampleTranslation": "Ретро вызвало хорошую дискуссию о нашем рабочем процессе.",
+        "hint": "вызвать, подтолкнуть к"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anregung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anregung",
+        "plural": "die Anregungen",
+        "pos": "noun",
+        "translation": "идея, предложение, импульс",
+        "example": "Danke für die Anregung, ich schaue mir die Library mal an.",
+        "exampleTranslation": "Спасибо за идею, гляну на эту библиотеку.",
+        "hint": "пища для размышлений (не Vorschlag)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anreiz",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anreiz",
+        "plural": "die Anreize",
+        "pos": "noun",
+        "translation": "стимул",
+        "example": "Ein Deutschlandticket als Jobticket ist für viele Bewerber ein zusätzlicher Anreiz.",
+        "exampleTranslation": "Deutschlandticket в качестве проездного от работодателя — для многих кандидатов дополнительный стимул.",
+        "hint": "мотивация (не Impuls)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anrichten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anrichten",
+        "pos": "verb",
+        "translation": "натворить, причинить (вред)",
+        "praeteritum": "richtete an",
+        "perfekt": "hat angerichtet",
+        "example": "Ein falscher Merge kann in der Codebase großen Schaden anrichten.",
+        "exampleTranslation": "Неправильный мердж может причинить кодовой базе большой вред.",
+        "note": "также: подавать, сервировать (еду)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anrufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anrufen",
+        "pos": "verb",
+        "translation": "звонить (по телефону)",
+        "praeteritum": "rief an",
+        "perfekt": "hat angerufen",
+        "example": "Ich rufe morgen früh beim Hausarzt an, um einen Termin zu bekommen.",
+        "exampleTranslation": "Завтра утром позвоню терапевту, чтобы записаться на приём.",
+        "rektion": "jdn. (Akk.) / bei + Dat."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ansatz",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Ansatz",
+        "plural": "die Ansätze",
+        "pos": "noun",
+        "translation": "подход (к решению)",
+        "example": "Dein Ansatz für die Frontend-Architektur ist interessant, aber schwer zu testen.",
+        "exampleTranslation": "Твой подход к архитектуре фронтенда интересный, но его сложно тестировать.",
+        "rektion": "für + Akk. / zu + Dat.",
+        "hint": "к решению (не Herangehensweise)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anscheinend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anscheinend",
+        "pos": "adv",
+        "translation": "по-видимому, судя по всему",
+        "example": "Anscheinend ist der Bug nach dem letzten Deploy verschwunden.",
+        "exampleTranslation": "Судя по всему, баг после последнего деплоя исчез.",
+        "note": "≠ scheinbar (мнимо, только кажется)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:anschlag-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anschlag",
+        "plural": "die Anschläge",
+        "pos": "noun",
+        "translation": "знак (при наборе), удар по клавише",
+        "example": "Der Text für die Stellenanzeige darf höchstens 2000 Anschläge haben.",
+        "exampleTranslation": "Текст вакансии может содержать не более 2000 знаков.",
+        "hint": "на клавиатуре"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anschlag-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anschlag",
+        "plural": "die Anschläge",
+        "pos": "noun",
+        "translation": "теракт, покушение",
+        "example": "Nach dem Anschlag wurden die Sicherheitskontrollen am Flughafen verschärft.",
+        "exampleTranslation": "После теракта проверки безопасности в аэропорту ужесточили.",
+        "rektion": "auf + Akk.",
+        "hint": "насилие"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anschließend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anschließend",
+        "pos": "adv",
+        "translation": "затем, после этого",
+        "example": "Zuerst mergen wir den Branch, anschließend deployen wir auf Staging.",
+        "exampleTranslation": "Сначала мерджим ветку, затем деплоим на стейджинг.",
+        "note": "как прил.: последующий (die anschließende Diskussion)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:sich-anschnallen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich anschnallen",
+        "pos": "verb",
+        "translation": "пристёгиваться",
+        "praeteritum": "schnallte sich an",
+        "perfekt": "hat sich angeschnallt",
+        "example": "Schnall dich immer an, bevor du losfährst.",
+        "exampleTranslation": "Всегда пристёгивайся, прежде чем тронуться."
+      },
+      "tags": [
+        "noji",
+        "auto",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ansicht-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ansicht",
+        "plural": "die Ansichten",
+        "pos": "noun",
+        "translation": "мнение, точка зрения",
+        "example": "Meiner Ansicht nach ist dieser Ansatz für das State-Management optimal.",
+        "exampleTranslation": "По моему мнению, этот подход к стейт-менеджменту оптимален.",
+        "hint": "meiner … nach"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ansicht-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ansicht",
+        "plural": "die Ansichten",
+        "pos": "noun",
+        "translation": "вид, представление (экрана)",
+        "example": "Lass uns nach dem Review klären, wie die mobile Ansicht aussehen soll.",
+        "exampleTranslation": "Давай после ревью уточним, как должен выглядеть мобильный вид.",
+        "hint": "в интерфейсе"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anspannung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anspannung",
+        "plural": "die Anspannungen",
+        "pos": "noun",
+        "translation": "напряжение (нервное)",
+        "example": "Vor dem Release ist im Team eine große Anspannung zu spüren.",
+        "exampleTranslation": "Перед релизом в команде чувствуется сильное напряжение.",
+        "hint": "нервное (не Spannung)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ansparen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ansparen",
+        "pos": "verb",
+        "translation": "накопить (деньги)",
+        "praeteritum": "sparte an",
+        "perfekt": "hat angespart",
+        "example": "Für die Kaution haben wir drei Monatsmieten angespart.",
+        "exampleTranslation": "На залог за квартиру мы накопили сумму трёх месячных арендных плат."
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ansprechen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ansprechen",
+        "pos": "verb",
+        "translation": "затрагивать, поднимать (тему)",
+        "praeteritum": "sprach an",
+        "perfekt": "hat angesprochen",
+        "example": "Ich möchte das Thema Überstunden im nächsten Meeting ansprechen.",
+        "exampleTranslation": "Хочу поднять тему переработок на следующей встрече.",
+        "note": "du sprichst an",
+        "hint": "тему"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ansprechen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ansprechen",
+        "pos": "verb",
+        "translation": "нравиться, привлекать",
+        "praeteritum": "sprach an",
+        "perfekt": "hat angesprochen",
+        "example": "Das neue Design spricht unsere Zielgruppe deutlich besser an.",
+        "exampleTranslation": "Новый дизайн гораздо лучше привлекает нашу целевую аудиторию.",
+        "note": "du sprichst an",
+        "hint": "кого-то (о дизайне, предложении)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ansprechpartner",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Ansprechpartner",
+        "plural": "die Ansprechpartner",
+        "pos": "noun",
+        "translation": "контактное лицо",
+        "example": "Wer ist bei euch der Ansprechpartner für das Deployment?",
+        "exampleTranslation": "Кто у вас контактное лицо по деплою?",
+        "note": "жен.: die Ansprechpartnerin"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anspruch-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anspruch",
+        "plural": "die Ansprüche",
+        "pos": "noun",
+        "translation": "требование, запросы",
+        "example": "Unsere Kunden haben sehr hohe Ansprüche an die Usability.",
+        "exampleTranslation": "У наших клиентов очень высокие требования к юзабилити.",
+        "rektion": "an + Akk.",
+        "hint": "высокие … к качеству"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anspruch-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anspruch",
+        "plural": "die Ansprüche",
+        "pos": "noun",
+        "translation": "право (на что-то)",
+        "example": "Bei einer Fünftagewoche hat man in Deutschland Anspruch auf mindestens 20 Urlaubstage.",
+        "exampleTranslation": "При пятидневке в Германии полагается минимум 20 дней отпуска.",
+        "rektion": "auf + Akk.",
+        "hint": "законное"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anspruchsvoll",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anspruchsvoll",
+        "pos": "adj",
+        "translation": "сложный, трудоёмкий",
+        "example": "Das war eine sehr anspruchsvolle Aufgabe für einen Junior.",
+        "exampleTranslation": "Это была очень сложная задача для джуниора.",
+        "note": "о человеке: требовательный, взыскательный"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:anstelle",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anstelle",
+        "pos": "other",
+        "translation": "вместо",
+        "example": "Anstelle von Redux nutzen wir jetzt Zustand.",
+        "exampleTranslation": "Вместо Redux мы теперь используем Zustand.",
+        "rektion": "Gen. / von + Dat.",
+        "hint": "не statt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "other"
+      ]
+    },
+    {
+      "externalId": "de:anstreben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anstreben",
+        "pos": "verb",
+        "translation": "стремиться к, добиваться",
+        "praeteritum": "strebte an",
+        "perfekt": "hat angestrebt",
+        "example": "Wir streben eine Ladezeit von unter zwei Sekunden an.",
+        "exampleTranslation": "Мы стремимся к времени загрузки меньше двух секунд.",
+        "hint": "цель (с Akk., без предлога)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anstrengend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anstrengend",
+        "pos": "adj",
+        "translation": "утомительный, напряжённый",
+        "example": "Die Suche nach Speicherlecks im alten Code war sehr anstrengend.",
+        "exampleTranslation": "Поиск утечек памяти в старом коде был очень утомительным."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:anstrengung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anstrengung",
+        "plural": "die Anstrengungen",
+        "pos": "noun",
+        "translation": "усилие",
+        "example": "Ein neues Framework zu lernen erfordert große Anstrengung.",
+        "exampleTranslation": "Изучение нового фреймворка требует больших усилий."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ansturm",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Ansturm",
+        "plural": "die Anstürme",
+        "pos": "noun",
+        "translation": "наплыв, натиск",
+        "example": "Nach dem Release gab es einen Ansturm auf unseren Support.",
+        "exampleTranslation": "После релиза на нашу поддержку обрушился наплыв обращений.",
+        "rektion": "auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anteil",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Anteil",
+        "plural": "die Anteile",
+        "pos": "noun",
+        "translation": "доля",
+        "example": "Unser Anteil am Markt ist im letzten Quartal gestiegen.",
+        "exampleTranslation": "Наша доля рынка в прошлом квартале выросла.",
+        "rektion": "an + Dat."
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anweisen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anweisen",
+        "pos": "verb",
+        "translation": "давать указание, поручать",
+        "praeteritum": "wies an",
+        "perfekt": "hat angewiesen",
+        "example": "Der Teamleiter hat mich angewiesen, den Task bis Mittag fertigzustellen.",
+        "exampleTranslation": "Тимлид поручил мне закончить таск до обеда.",
+        "note": "Geld anweisen — перевести деньги"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:anweisung-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anweisung",
+        "plural": "die Anweisungen",
+        "pos": "noun",
+        "translation": "указание, инструкция",
+        "example": "Folge einfach den Anweisungen im README, um die Dev-Umgebung einzurichten.",
+        "exampleTranslation": "Просто следуй инструкциям в README, чтобы настроить dev-окружение.",
+        "hint": "что сделать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anweisung-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anweisung",
+        "plural": "die Anweisungen",
+        "pos": "noun",
+        "translation": "оператор, инструкция (в коде)",
+        "example": "Die return-Anweisung beendet die Funktion sofort.",
+        "exampleTranslation": "Оператор return сразу завершает функцию.",
+        "hint": "statement"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anzünden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anzünden",
+        "pos": "verb",
+        "translation": "поджигать, зажигать",
+        "praeteritum": "zündete an",
+        "perfekt": "hat angezündet",
+        "example": "Jemand hat letzte Nacht im Hof einen Mülleimer angezündet.",
+        "exampleTranslation": "Кто-то прошлой ночью поджёг во дворе мусорный бак."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:apropos",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "apropos",
+        "pos": "adv",
+        "translation": "кстати (о …)",
+        "example": "Apropos Release – hast du den Pull-Request schon reviewt?",
+        "exampleTranslation": "Кстати о релизе — ты уже посмотрел пулл-реквест?"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:arbeit-an",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Arbeit",
+        "plural": "die Arbeiten",
+        "pos": "noun",
+        "translation": "работа (над чем-то)",
+        "example": "Die Arbeit an der neuen Checkout-Seite dauert länger als geplant.",
+        "exampleTranslation": "Работа над новой страницей оформления заказа идёт дольше, чем планировалось.",
+        "rektion": "an + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:arbeitsablauf",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Arbeitsablauf",
+        "plural": "die Arbeitsabläufe",
+        "pos": "noun",
+        "translation": "рабочий процесс",
+        "example": "Mit GitHub Actions haben wir unsere Arbeitsabläufe stark vereinfacht.",
+        "exampleTranslation": "С GitHub Actions мы сильно упростили наши рабочие процессы."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:arbeitsfähig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "arbeitsfähig",
+        "pos": "adj",
+        "translation": "трудоспособный",
+        "example": "Nach der Grippe bin ich wieder voll arbeitsfähig.",
+        "exampleTranslation": "После гриппа я снова полностью трудоспособен.",
+        "note": "Gegenteil: arbeitsunfähig (AU-Bescheinigung)"
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:arbeitsweise",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Arbeitsweise",
+        "plural": "die Arbeitsweisen",
+        "pos": "noun",
+        "translation": "стиль работы, метод работы",
+        "example": "Im Vorstellungsgespräch wurde ich nach meiner Arbeitsweise im Team gefragt.",
+        "exampleTranslation": "На собеседовании меня спросили о моём стиле работы в команде."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:arm-an",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "arm",
+        "pos": "adj",
+        "translation": "бедный (чем-то)",
+        "example": "Die Dokumentation ist leider arm an Beispielen.",
+        "exampleTranslation": "Документация, к сожалению, бедна примерами.",
+        "rektion": "an + Dat.",
+        "hint": "чем-то, не о деньгах"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    }
+  ]
+}
