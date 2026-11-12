@@ -1,0 +1,1282 @@
+{
+ "bestehen bleiben": [
+  {
+   "id": 6495947783,
+   "de": "bestehen bleiben (blieb bestehen; ist bestehen geblieben) – Die Pflicht zur Zeiterfassung bleibt trotzdem bestehen.",
+   "ru": "сохраняться / оставаться в силе — Обязанность учета рабочего времени тем не менее остается в силе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bestellen bei": [
+  {
+   "id": 5569463458,
+   "de": "bestellen bei (Dat.) (bestellte; hat bestellt) – Wir bestellen die Lizenzen beim Händler.",
+   "ru": "заказывать у",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bestimmungen": [
+  {
+   "id": 5541489138,
+   "de": "die Bestimmungen (nur Plural) – Wir müssen die rechtlichen Bestimmungen für das Projekt beachten.",
+   "ru": "положения; правила",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bestmögliche ausrüstung": [
+  {
+   "id": 5546335686,
+   "de": "die bestmögliche Ausrüstung – Wir brauchen die bestmögliche Ausrüstung für unser Labor.",
+   "ru": "наилучшее оборудование; наилучшее оснащение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beständig": [
+  {
+   "id": 6140091035,
+   "de": "beständig – Guter Code sollte beständig gegenüber Änderungen sein.",
+   "ru": "постоянный / устойчивый — Хороший код должен быть устойчивым к изменениям.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beständigkeit": [
+  {
+   "id": 5559821636,
+   "de": "die Beständigkeit – Wir brauchen Beständigkeit in unserem Entwicklungsteam.",
+   "ru": "постоянство; стабильность",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "besänftigen": [
+  {
+   "id": 6481401636,
+   "de": "besänftigen (besänftigte; hat besänftigt) – Der Teamleiter hat versucht, den verärgerten Stakeholder nach dem Ausfall zu besänftigen.",
+   "ru": "успокаивать / смягчать (конфликт) — Тимлид попытался успокоить недовольного стейкхолдера после сбоя.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beteiligt sein an": [
+  {
+   "id": 6008372958,
+   "de": "beteiligt sein an (Dat.) – Viele Mitarbeiter waren an diesem Projekt beteiligt.",
+   "ru": "быть причастным, участвовать — Многие сотрудники участвовали в этом проекте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betrachten": [
+  {
+   "id": 6140091036,
+   "de": "betrachten (betrachtete; hat betrachtet) – Ich betrachte diese Lösung als die beste Option.",
+   "ru": "рассматривать / анализировать — Я рассматриваю это решение как лучший вариант.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5989563330,
+   "de": "betrachten (betrachtete; hat betrachtet) – Wir müssen dieses Problem von einer anderen Seite betrachten.",
+   "ru": "рассматривать, анализировать — Мы должны рассмотреть эту проблему с другой стороны.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betreffen": [
+  {
+   "id": 5546335672,
+   "de": "betreffen (betraf; hat betroffen) – Die E-Mail betrifft die neue Projektplanung.",
+   "ru": "касаться; относиться к чему-л.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248065,
+   "de": "betreffen (betraf; hat betroffen) – Dieses Problem betrifft uns alle.",
+   "ru": "касаться (кого-то/чего-то) — Эта проблема касается всех нас.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betreiben": [
+  {
+   "id": 6481401634,
+   "de": "betreiben (betrieb; hat betrieben, du betreibst) – Wir betreiben unsere Microservices selbst auf dem Server.",
+   "ru": "эксплуатировать / вести (бизнес, сервер) — Мы сами поддерживаем и запускаем наши микросервисы на сервере.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5603787552,
+   "de": "betreiben (betrieb; hat betrieben) – Wir betreiben mehrere Server in verschiedenen Regionen.",
+   "ru": "эксплуатировать; заниматься (бизнесом)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betreibung": [
+  {
+   "id": 6481401638,
+   "de": "die Betreibung (Betreibungen) – Die Betreibung dieses Vertrags erfordert eine juristische Prüfung.",
+   "ru": "ведение (дел) / взыскание — Ведение дел по этому контракту требует юридической проверки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betreuen": [
+  {
+   "id": 6481401682,
+   "de": "betreuen (betreute; hat betreut) – Ich  betreue diesen Microservice eigenverantwortlich.",
+   "ru": "курировать / сопровождать (проект, сервис) — Я полностью самостоятельно сопровождаю этот микросервис.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5638902686,
+   "de": "betreuen (betreute; hat betreut) – Unsere IT-Abteilung betreut alle Server.",
+   "ru": "сопровождать, курировать, заботиться - Наш IT-отдел курирует все серверы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betreuung": [
+  {
+   "id": 5647464580,
+   "de": "die Betreuung (nur Sg.) – Wir stellen eine 24/7-Kundenbetreuung sicher.",
+   "ru": "уход, поддержка, обслуживание - Мы обеспечиваем круглосуточное обслуживание клиентов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5901514090,
+   "de": "die Betreuung (nur Sg.) – Die Kundenbetreuung ist sehr wichtig für unseren Erfolg.",
+   "ru": "поддержка, уход - Поддержка клиентов очень важна для нашего успеха.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betrieb": [
+  {
+   "id": 6357783468,
+   "de": "der Betrieb (Betriebe) – Dieser Server ist rund um die Uhr im Betrieb.",
+   "ru": "предприятие / работа / режим работы — Этот сервер работает круглосуточно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6090226913,
+   "de": "der Betrieb (Betriebe) – In unserem Betrieb arbeiten 50 Personen.",
+   "ru": "предприятие, производство, режим работы — На нашем предприятии работают 50 человек.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betroffen von": [
+  {
+   "id": 5569465193,
+   "de": "betroffen von (Dat.) – Alle Nutzer sind von dem Ausfall betroffen.",
+   "ru": "затронутый чем-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "betrügen": [
+  {
+   "id": 6140091045,
+   "de": "betrügen (betrog; hat betrogen) – Die KI versucht manchmal uns zu betrügen.",
+   "ru": "обманывать / жульничать — ИИ иногда пытается нас обмануть.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beurteilen": [
+  {
+   "id": 5654992899,
+   "de": "beurteilen (beurteilte; hat beurteilt) – Ohne Tests können wir die Codequalität nicht beurteilen.",
+   "ru": "оценивать, судить - Мы не можем судить о качестве кода без тестирования.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewerben auf/um": [
+  {
+   "id": 5569463410,
+   "de": "sich bewerben auf/um (Akk.) (bewarb; hat beworben) – Ich bewerbe mich auf die Stelle als Teamleiter.",
+   "ru": "подавать заявление на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewerben bei": [
+  {
+   "id": 5569463460,
+   "de": "sich bewerben bei (Dat.) (bewarb; hat beworben) – Ich bewerbe mich bei einer großen IT-Firma.",
+   "ru": "подавать заявление кому-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewerten": [
+  {
+   "id": 5603787556,
+   "de": "bewerten (bewertete; hat bewertet) – Wir müssen die Risiken objektiv bewerten.",
+   "ru": "оценивать; давать оценку",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewertung": [
+  {
+   "id": 6140091050,
+   "de": "die Bewertung (Bewertungen) – Wir müssen eine bewusste Bewertung der Risiken treffen.",
+   "ru": "оценка — Нам нужно сделать осознанную оценку рисков.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewilligen": [
+  {
+   "id": 5696310303,
+   "de": "bewilligen (bewilligte; hat bewilligt) – Die Geschäftsleitung hat uns die Nutzung neuer Tools bewilligt.",
+   "ru": "предоставлять, разрешать (официально) - Руководство разрешило нам использовать новые инструменты.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewundern": [
+  {
+   "id": 6442594595,
+   "de": "bewundern (bewunderte; hat bewundert, du bewunderst) – Ich bewundere zutiefst, wie sauber diese Architektur geschrieben ist.",
+   "ru": "восхищаться, любоваться — Я искренне восхищаюсь тем, как чисто написана эта архитектура.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewusst": [
+  {
+   "id": 5596845334,
+   "de": "bewusst – Wir sind uns der Risiken bewusst.",
+   "ru": "сознательный; осознанный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248085,
+   "de": "bewusst – Wir müssen eine bewusste Entscheidung treffen.",
+   "ru": "осознанный — Мы должны принять осознанное решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bewältigung": [
+  {
+   "id": 6165218999,
+   "de": "die Bewältigung (Bewältigungen) – Die Bewältigung von Schwierigkeiten macht uns stärker.",
+   "ru": "преодоление / справляться — Преодоление трудностей делает нас сильнее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bezeichnen": [
+  {
+   "id": 6407884632,
+   "de": "bezeichnen (bezeichnete; hat bezeichnet) – Wie bezeichnet man diesen Button im Interface?",
+   "ru": "обозначать, называть — Как называется эта кнопка в интерфейсе?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964748,
+   "de": "bezeichnen (bezeichnete; hat bezeichnet) – Ich würde mich als sehr aufgeschlossen bezeichnen.",
+   "ru": "называть, описывать — Я бы описал себя как очень открытого человека.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bezeichnen als": [
+  {
+   "id": 5862955766,
+   "de": "bezeichnen als (Akk.) (bezeichnete; hat bezeichnet) – Wir bezeichnen das oft als Bug, nicht als Feature.",
+   "ru": "называть, обозначать - Мы часто называем это «Баг», а не «Фича».",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bezeichnung": [
+  {
+   "id": 5783860982,
+   "de": "die Bezeichnung (Bezeichnungen) – Die Bezeichnung der Funktion muss klar sein.",
+   "ru": "название, обозначение - Название функции должно быть четким.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beziehen": [
+  {
+   "id": 5568930099,
+   "de": "beziehen (bezog; hat bezogen) – Wir beziehen unsere Software direkt vom Hersteller.",
+   "ru": "заказывать; получать; относиться (к чему-л.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beziehen auf": [
+  {
+   "id": 6385684805,
+   "de": "sich beziehen auf (Akk.) (bezog; hat bezogen, du bezieht -> du beziehst dich) – Dieser Bugreport bezieht sich auf das letzte API-Update.",
+   "ru": "относиться к / ссылаться на — Этот баг-репорт относится к последнему обновлению API.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5374176745,
+   "de": "sich beziehen auf (Es wird auf das Ticket bezogen) (du beziehst dich auf)",
+   "ru": "ссылаться на (например, предыдущую задачу)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5569463411,
+   "de": "sich beziehen auf (Akk.) (bezog; hat bezogen) – Meine Frage bezieht sich auf das letzte Meeting.",
+   "ru": "ссылаться на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5989563339,
+   "de": "sich beziehen auf (Akk.) (bezog; hat bezogen) – Diese Änderung bezieht sich auf den letzten Bug-Report.",
+   "ru": "ссылаться на, относиться к — Это изменение относится к последнему баг-репорту.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beziehen auf etwas": [
+  {
+   "id": 5416199880,
+   "de": "sich beziehen auf etwas (bezog sich, hat sich bezogen, er bezieht sich) – Ich beziehe mich auf Ihre Nachricht.",
+   "ru": "ссылаться на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "beziehen von": [
+  {
+   "id": 5569439221,
+   "de": "beziehen von (bezog; hat bezogen) – Wir beziehen unsere Komponenten von einem neuen Lieferanten.",
+   "ru": "получать от; закупать у (кого-л.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bezogen auf": [
+  {
+   "id": 6483246432,
+   "de": "bezogen auf (Akk.) – Personenbezogene Daten sind nach DSGVO geschützt.",
+   "ru": "относящийся к / персональный — Персональные данные защищены в соответствии с Общим регламентом по защите данных (DSGVO).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5696310313,
+   "de": "bezogen auf (Akk.) – Die bezogen auf die Sicherheit Berichte sind vertraulich.",
+   "ru": "связанный с, относящийся к - Отчеты, относящиеся к безопасности, конфиденциальны.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bezug nehmen auf": [
+  {
+   "id": 5676821616,
+   "de": "Bezug nehmen auf (Akk.) (nahm; hat genommen) – Im Bericht soll Bezug auf die Quelldokumente genommen werden.",
+   "ru": "ссылаться на что-либо - В отчете следует ссылаться на исходные документы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bezug zu": [
+  {
+   "id": 6385684793,
+   "de": "der Bezug zu (Dat.) – Ein klarer Bezug zur Unternehmenskultur ist sehr wichtig.",
+   "ru": "связь с (чем-то) / отношение к — Четкая связь с корпоративной культурой компании очень важна.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "biegen": [
+  {
+   "id": 6131137606,
+   "de": "biegen (bog; hat gebogen) – Das Metall lässt sich leicht biegen.",
+   "ru": "гнуть, сгибать — Металл можно легко согнуть.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "binden": [
+  {
+   "id": 5986064689,
+   "de": "binden (band; hat gebunden) – Wir binden das Konto an die Telefonnummer.",
+   "ru": "связывать, привязывать — Мы привязываем аккаунт к номеру телефона.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bis auf weiteres": [
+  {
+   "id": 5416199905,
+   "de": "bis auf Weiteres – Die Arbeit ruht bis auf Weiteres.",
+   "ru": "до поры",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bis hin zu": [
+  {
+   "id": 5901514102,
+   "de": "bis hin zu (Dat.) – Wir haben alles, von Software bis hin zur Hardware.",
+   "ru": "вплоть до - У нас есть всё, от софта вплоть до железа.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bislang": [
+  {
+   "id": 6090226914,
+   "de": "bislang – Bislang hat alles fehlerfrei funktioniert.",
+   "ru": "до сих пор, до настоящего времени — До сих пор всё работало без ошибок.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "blickdicht": [
+  {
+   "id": 5603787522,
+   "de": "blickdicht – Die Daten müssen blickdicht vor dem Zugriff Dritter geschützt werden.",
+   "ru": "непрозрачный; светонепроницаемый",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "blinde fleck": [
+  {
+   "id": 6526854324,
+   "de": "der blinde Fleck (blinde Flecken) – Feedback einzuholen verkleinert den blinden Fleck.",
+   "ru": "слепая зона (в знаниях или фидбеке) — Запрос обратной связи помогает уменьшить свою слепую зону.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bloße mitteilung": [
+  {
+   "id": 5559821666,
+   "de": "die bloße Mitteilung (bloße Mitteilungen) – Eine bloße Mitteilung reicht hier nicht aus.",
+   "ru": "простое сообщение; чистое уведомление",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "blueprint": [
+  {
+   "id": 6323834664,
+   "de": "der Blueprint (Blueprints) – Die Architektur dieser App dient als hervorragender Blueprint für zukünftige Skalierungen.",
+   "ru": "проект, чертеж, план — Архитектура этого приложения служит отличным проектом (блупринтом) для будущих масштабирований.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "blunt": [
+  {
+   "id": 6494316906,
+   "de": "blunt (прямолинейный / грубоватый) – Entwickler sind in der Kommunikation oft sehr blunt.",
+   "ru": "прямолинейный / резкий (в общении) — Разработчики часто бывают прямолинейными в коммуникации.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "blühen": [
+  {
+   "id": 6064365191,
+   "de": "blühen (blühte; hat geblüht) – Die Kirschblüten in Bonn blühen gerade.",
+   "ru": "цвести — Сакура в Бонне сейчас цветет.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bock auf etwas haben": [
+  {
+   "id": 6494316908,
+   "de": "Bock auf etwas haben (hatte; hat gehabt, du hast Bock) – Hast du Bock auf einen Kaffee?",
+   "ru": "хотеть / гореть желанием что-то сделать (разг.) — Есть желание выпить кофе или пойти на перерыв?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "botschaften": [
+  {
+   "id": 6008372966,
+   "de": "die Botschaften (Pl.) – Werbebotschaften müssen klar sein.",
+   "ru": "послания, обращения — Рекламные послания должны быть четкими.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "brauch": [
+  {
+   "id": 5862955750,
+   "de": "der Brauch (Bräuche) – In unserer Firma ist es ein Brauch, gemeinsam zu frühstücken.",
+   "ru": "обычай - В нашей компании есть обычай вместе завтракать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "brennen": [
+  {
+   "id": 6100030320,
+   "de": "brennen (brannte; hat gebrannt) – Ich brenne fürs Programmieren.",
+   "ru": "гореть / пылать — Мое сердце горит (от страсти) к программированию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bringen zu": [
+  {
+   "id": 5569463461,
+   "de": "bringen zu (Dat.) (brachte; hat gebracht) – Diese Maßnahmen brachten uns zu einem schnelleren Ergebnis.",
+   "ru": "приводить к",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bruch": [
+  {
+   "id": 6187943207,
+   "de": "der Bruch (Brüche) – Diese Änderung in der API ist ein schwerer Bruch.",
+   "ru": "разрыв / перелом / поломка — Это изменение в API — серьезный разрыв (нарушение совместимости).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bruchteil": [
+  {
+   "id": 6320942682,
+   "de": "der Bruchteil (Bruchteile) – Das ist nur ein kleiner Bruchteil des Bugs, den wir gefunden haben.",
+   "ru": "доля, частица — Это лишь малая доля того бага, который мы нашли.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "brüchig": [
+  {
+   "id": 5696310307,
+   "de": "brüchig – Alte Daten können sehr brüchig sein.",
+   "ru": "ломкий, хрупкий - Старые данные могут быть очень хрупкими.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "buchungsstrecke": [
+  {
+   "id": 6486814102,
+   "de": "die Buchungsstrecke (Buchungsstrecken) – Bei Buchungsstrecken achte ich auf Barrierefreiheit, auch wegen des BFSG.",
+   "ru": "цепочки бронирования (клиентский путь) — При прохождении цепочек бронирования я обращаю внимание на доступность (барьерную чистоту), в том числе из-за закона BFSG.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bund": [
+  {
+   "id": 6090226919,
+   "de": "der Bund (Bünde) – Der Bund verabschiedet ein neues Gesetz.",
+   "ru": "союз, федерация — Федерация (правительство Германии) принимает новый закон.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "bußgeldbescheid": [
+  {
+   "id": 6127832236,
+   "de": "der Bußgeldbescheid (Bußgeldbescheide) – Gestern habe ich einen Bußgeldbescheid wegen Falschparkens erhalten.",
+   "ru": "уведомление о штрафе — Вчера я получил уведомление о штрафе за парковку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "charakterzug": [
+  {
+   "id": 6465607895,
+   "de": "der Charakterzug (Charakterzüge) – Welcher Charakterzug macht dir im Job am meisten zu schaffen?",
+   "ru": "черта характера — Какая черта характера доставляет тебе больше всего хлопот на работе?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dadurch": [
+  {
+   "id": 5927101111,
+   "de": "dadurch – Dadurch sparen wir viel Zeit.",
+   "ru": "благодаря этому, вследствие этого - Благодаря этому мы экономим много времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dadurch bei der arbeit fehlen": [
+  {
+   "id": 5603787526,
+   "de": "dadurch bei der Arbeit fehlen – Dadurch wird er diese Woche bei der Arbeit fehlen.",
+   "ru": "вследствие этого отсутствовать на работе",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dafür einsetzen": [
+  {
+   "id": 6526854329,
+   "de": "sich dafür einsetzen (setzte sich ein, hat sich eingesetzt, du setzt dich ein) – Der Teamleiter setzt sich dafür ein, neue automatisierte Tests einzuführen.",
+   "ru": "заступаться / выступать в защиту чего-либо — Тимлид активно выступает за внедрение новых автоматических тестов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dahingestellt bleiben": [
+  {
+   "id": 6518119475,
+   "de": "dahingestellt bleiben (blieb; ist geblieben) – Es bleibt dahingestellt, wessen Idee das ursprünglich war.",
+   "ru": "* оставаться открытым (нерешенным/неважным) — Пусть останется открытым вопрос, чья это была идея.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120226,
+   "de": "dahingestellt bleiben (blieb, ist geblieben) – Es bleibt dahingestellt, wessen Idee das ursprünglich war.",
+   "ru": "оставаться открытым (нерешенным/неважным) — Пусть останется открытым вопрос, чья это была идея.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120722,
+   "de": "dahingestellt bleiben (blieb, ist geblieben) – Es bleibt dahingestellt, wessen Idee das ursprünglich war.",
+   "ru": "оставаться открытым (нерешенным/неважным) — Пусть останется открытым вопрос, чья это была идея.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dahinterstehen": [
+  {
+   "id": 6064365170,
+   "de": "dahinterstehen (stand dahinter; hat dahintergestanden) – Wir stehen voll hinter dieser Entscheidung dahinter.",
+   "ru": "стоять за чем-то(Скрытый смысл) / поддерживать — Мы полностью поддерживаем это решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dampfer": [
+  {
+   "id": 6064365185,
+   "de": "der Dampfer (Dampfer) – Du bist auf dem falschen Dampfer.",
+   "ru": "пароход (также: «быть на ложном пути») — Ты ошибаешься (на ложном пути).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "darauffolgend": [
+  {
+   "id": 6495947776,
+   "de": "darauffolgend – In den darauffolgenden Meetings werden wir die detaillierten Anforderungen besprechen.",
+   "ru": "последующий / следующий за этим — На последующих встречах мы обсудим детальные требования.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "daraufhin": [
+  {
+   "id": 5647464558,
+   "de": "daraufhin – Es gab einen Fehler, daraufhin haben wir das System neu gestartet.",
+   "ru": "после этого, затем - Произошел сбой, после этого мы перезагрузили систему.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "darlegen": [
+  {
+   "id": 6357783469,
+   "de": "darlegen (legte dar; hat dargelegt) – Der Entwickler hat seine Architekturidee detailliert dargelegt.",
+   "ru": "излагать / пояснять — Разработчик подробно изложил свою архитектурную идею.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "darunter": [
+  {
+   "id": 6100030299,
+   "de": "darunter – Wir haben viele Projekte, darunter auch internationale.",
+   "ru": "среди них / под этим — У нас много проектов, в том числе и (среди них) международные.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "darüber hinaus": [
+  {
+   "id": 6044774633,
+   "de": "darüber hinaus – Darüber hinaus muss auch das Design aktualisiert werden.",
+   "ru": "более того, кроме того — Кроме того, дизайн тоже должен быть обновлен.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "darüberliegend": [
+  {
+   "id": 5589940000,
+   "de": "darüberliegend – Die darüberliegende Datenbank enthält die relevanten Informationen.",
+   "ru": "вышележащий; вышестоящий",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dasselbe": [
+  {
+   "id": 6465607900,
+   "de": "dasselbe – Du verwendest dasselbe Design-Pattern wie im letzten Sprint.",
+   "ru": "то же самое — Ты используешь тот же самый паттерн проектирования, что и в прошлом спринте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "datenbeschaffung": [
+  {
+   "id": 5696310271,
+   "de": "die Datenbeschaffung (nur Sg.) – Die Datenbeschaffung ist der erste Schritt der Analyse.",
+   "ru": "сбор данных - Сбор данных является первым шагом в анализе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dauerbetrieb": [
+  {
+   "id": 5575958562,
+   "de": "der Dauerbetrieb (nur Sg.) – Der Server ist für den Dauerbetrieb ausgelegt.",
+   "ru": "непрерывная работа; постоянный режим",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dauerhaft": [
+  {
+   "id": 6486814080,
+   "de": "dauerhaft – Eine dauerhafte Lösung für dieses Problem planen wir für das nächste Quartal.",
+   "ru": "постоянный / долговременный — Постоянное решение для этой проблемы мы планируем внедрить в следующем квартале.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5575958553,
+   "de": "dauerhaft – Wir suchen eine dauerhafte Lösung, nicht nur einen schnellen Fix.",
+   "ru": "долгосрочный; постоянный; прочный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "davon ausgehen": [
+  {
+   "id": 6492126616,
+   "de": "davon ausgehen (ging davon aus; ist davon ausgegangen, du gehst davon aus) – Wer nichts hört, geht davon aus, dass alles im Plan ist.",
+   "ru": "исходить из того, что... — Кто ничего не слышит, тот исходит из того, что всё идет по плану.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "davon ausgehen, dass": [
+  {
+   "id": 6041480235,
+   "de": "davon ausgehen, dass... (ging davon aus; ist davon ausgegangen) – Wir gehen davon aus, dass der Server morgen wieder läuft.",
+   "ru": "исходить из того, что... — Мы исходим из того, что сервер завтра будет работать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "davon zeugen": [
+  {
+   "id": 6041480230,
+   "de": "davon zeugen (zeugte; hat gezeugt) – Das zeugt von seiner großen Erfahrung.",
+   "ru": "свидетельствовать о чем-то — Это свидетельствует о его большом опыте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "deftig": [
+  {
+   "id": 5862955776,
+   "de": "deftig – Wir brauchen ein deftiges Mittagessen.",
+   "ru": "сытный, крепкий, грубый - Нам нужен сытный обед.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dehnen": [
+  {
+   "id": 5603787548,
+   "de": "dehnen (dehnte; hat gedehnt) – Wir dehnen die Testphase um eine Woche.",
+   "ru": "растягивать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5973089024,
+   "de": "dehnen (dehnte; hat gedehnt) – Du kannst dieses Bild über die ganze Breite dehnen.",
+   "ru": "растягивать, расширять — Ты можешь растянуть это изображение по всей ширине.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "demnächst": [
+  {
+   "id": 5589940007,
+   "de": "demnächst – Das neue Release wird demnächst verfügbar sein.",
+   "ru": "в ближайшее время; скоро",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den bedarf decken": [
+  {
+   "id": 6518120210,
+   "de": "den Bedarf decken (deckte, hat gedeckt, du deckst) – Dieser Server deckt unseren Bedarf an Rechenleistung vollständig.",
+   "ru": "покрывать потребность — Этот сервер полностью покрывает нашу потребность в вычислительных ресурсах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518119459,
+   "de": "den Bedarf decken (deckte; hat gedeckt, du deckst) – Dieser Server deckt unseren Bedarf an Rechenleistung vollständig.",
+   "ru": "* покрывать потребность — Этот сервер полностью покрывает нашу потребность в вычислительных ресурсах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120778,
+   "de": "den Bedarf decken (deckte, hat gedeckt, du deckst) – Dieser Server deckt unseren Bedarf an Rechenleistung vollständig.",
+   "ru": "покрывать потребность — Этот сервер полностью покрывает нашу потребность в вычислительных ресурсах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120706,
+   "de": "den Bedarf decken (deckte, hat gedeckt, du deckst) – Dieser Server deckt unseren Bedarf an Rechenleistung vollständig.",
+   "ru": "покрывать потребность — Этот сервер полностью покрывает нашу потребность в вычислительных ресурсах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den bedürfnissen entsprechen": [
+  {
+   "id": 5546335678,
+   "de": "den Bedürfnissen entsprechen (entsprach; hat entsprochen) – Unsere Software muss den Bedürfnissen der Kunden entsprechen.",
+   "ru": "соответствовать потребностям",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5569439218,
+   "de": "den Bedürfnissen entsprechen (entsprach; hat entsprochen) – Wir müssen den Bedürfnissen der Nutzer entsprechen.",
+   "ru": "удовлетворять потребности; отвечать требованиям",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den drang spüren": [
+  {
+   "id": 6021248047,
+   "de": "den Drang spüren (spürte; hat gespürt) – Ich spüre den Drang, alles zu verändern.",
+   "ru": "чувствовать тягу / сильное желание — Я чувствую сильное желание всё изменить.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den ganzen tag über": [
+  {
+   "id": 6120127152,
+   "de": "den ganzen Tag über – Es hat den ganzen Tag über geregnet.",
+   "ru": "на протяжении всего дня — На протяжении всего дня шел дождь.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den kürzeren ziehen": [
+  {
+   "id": 5259310149,
+   "de": "den Kürzeren ziehen (gezogen)",
+   "ru": "потерпеть неудачу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den rahmen sprengen": [
+  {
+   "id": 5957604452,
+   "de": "den Rahmen sprengen (sprengte; hat gesprengt) – Diese Diskussion sprengt gerade den Rahmen unseres Meetings.",
+   "ru": "выходить за рамки — Это обсуждение сейчас выходит за рамки нашей встречи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "den zugriff sperren": [
+  {
+   "id": 5603787574,
+   "de": "den Zugriff sperren (sperrte; hat gesperrt) – Wir mussten den Zugriff sperren wegen eines Sicherheitsrisikos.",
+   "ru": "блокировать доступ",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "denken sie nur": [
+  {
+   "id": 6407884644,
+   "de": "denken Sie nur – Denken Sie nur, wie viel Zeit wir dank dieser Library gespart haben!",
+   "ru": "только подумайте — Только подумайте, сколько времени мы сэкономили благодаря этой библиотеке!",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "der/die beamte": [
+  {
+   "id": 5537456162,
+   "de": "der/die Beamte (Beamten) – Die Beamten sind für die Genehmigung zuständig.",
+   "ru": "госслужащий",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "der/die einzige": [
+  {
+   "id": 5537456161,
+   "de": "der/die Einzige – Er war der einzige, der die Frist einhielt.",
+   "ru": "единственный; единственная",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "der/die geschätzte kunde/kundin": [
+  {
+   "id": 5589940016,
+   "de": "der/die geschätzte Kunde/Kundin (geschätzte Kunden) – Wir danken unseren geschätzten Kunden für ihr Verständnis.",
+   "ru": "уважаемые клиенты",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dergleichen": [
+  {
+   "id": 5989563348,
+   "de": "dergleichen – Wir haben keine Zeit für dies und dergleichen.",
+   "ru": "тому подобное — У нас нет времени на это и тому подобное.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dermaßen aufblähen": [
+  {
+   "id": 6021248104,
+   "de": "dermaßen aufblähen (blähte auf; hat aufgebläht) – Wir sollten das Budget nicht dermaßen aufblähen.",
+   "ru": "раздувать до такой степени — Мы не должны так сильно раздувать бюджет.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "des weiteren": [
+  {
+   "id": 5676821619,
+   "de": "des Weiteren – Des Weiteren sollte die Datensicherheit überprüft werden.",
+   "ru": "КРОМЕ ТОГО, далее - Кроме того, следует проверить безопасность данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "detaillierte aufstellung": [
+  {
+   "id": 5654992871,
+   "de": "die detaillierte Aufstellung (Aufstellungen) – Wir benötigen eine detaillierte Aufstellung der verwendeten Lizenzen.",
+   "ru": "подробный перечень/список - Нам нужен подробный список использованных лицензий.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "deuten": [
+  {
+   "id": 6320942676,
+   "de": "deuten (deutete; hat gedeutet) – Dieses Log deutet auf ein Problem im Backend hin.",
+   "ru": "толковать, указывать — Этот лог указывает на проблему в бэкенде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "deutlich": [
+  {
+   "id": 6071412603,
+   "de": "deutlich – Es gibt einen deutlichen Unterschied zwischen diesen Versionen.",
+   "ru": "четкий, значительный — Видна четкая разница между этими версиями.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dienstschluss": [
+  {
+   "id": 5647464573,
+   "de": "der Dienstschluss (nur Sg.) – Nach Dienstschluss werden die Server heruntergefahren.",
+   "ru": "окончание рабочего дня - После окончания рабочего дня серверы будут отключены.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "dimension": [
+  {
+   "id": 5683884938,
+   "de": "die Dimension (Dimensionen) – Das Problem hat eine große Dimension angenommen.",
+   "ru": "размер, масштаб - Проблема приобрела огромный масштаб.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

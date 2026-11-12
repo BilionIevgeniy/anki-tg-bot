@@ -1,0 +1,1246 @@
+{
+ "stoff": [
+  {
+   "id": 5927101121,
+   "de": "der Stoff (Stoffe) – Dieser Stoff ist sehr widerstandsfähig.",
+   "ru": "вещество, материал - Этот материал очень прочный.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stolpern": [
+  {
+   "id": 5783860971,
+   "de": "stolpern (stolperte; ist gestolpert) – Wir dürfen nicht über einfache Fehler stolpern.",
+   "ru": "спотыкаться - Мы не должны спотыкаться на простых ошибках.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stolz": [
+  {
+   "id": 6004594158,
+   "de": "stolz (auf + Akk.) – Ich bin stolz auf deine Erfolge.",
+   "ru": "гордый — Я горжусь твоими успехами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stolz auf": [
+  {
+   "id": 5569465177,
+   "de": "stolz auf (Akk.) – Wir sind stolz auf unser neues Produkt.",
+   "ru": "гордый за",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stoßen auf": [
+  {
+   "id": 6064365149,
+   "de": "stoßen auf (Akk.) (stieß; ist gestoßen) – Ich bin zufällig auf einen interessanten Artikel gestoßen.",
+   "ru": "натолкнуться на что-то — Я случайно наткнулся на интересную статью.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stoßzeit": [
+  {
+   "id": 5862955742,
+   "de": "die Stoßzeit (Stoßzeiten) – In der Stoßzeit sind die Server oft überlastet.",
+   "ru": "час пик - В час пик серверы часто перегружены.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "strategie anpassen": [
+  {
+   "id": 5293119028,
+   "de": "die Strategie anpassen (angepasst)",
+   "ru": "приспосабливать стратегию",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "straucheln": [
+  {
+   "id": 6120127161,
+   "de": "straucheln (strauchelte; ist gestrauchelt) – Das Projekt ist am Anfang kurz ins Straucheln geraten.",
+   "ru": "спотыкаться, коле****ся — Проект начал буксовать (запинаться) в самом начале.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "streben nach": [
+  {
+   "id": 6021248045,
+   "de": "streben nach (Dat.) (strebte; hat gestrebt) – Wir streben immer nach der besten Qualität.",
+   "ru": "стремиться, добиваться — Мы всегда стремимся к лучшему качеству.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "strecke": [
+  {
+   "id": 5628100715,
+   "de": "die Strecke (Strecken) – Wir haben eine lange Strecke bis zur Fertigstellung zurückgelegt.",
+   "ru": "расстояние; участок (пути)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964738,
+   "de": "die Strecke (Strecken) – Wir haben eine lange Strecke zurückgelegt.",
+   "ru": "дистанция, участок, отрезок — Мы проехали длинную дистанцию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248089,
+   "de": "die Strecke (Strecken) – Wir haben noch eine lange Strecke vor uns.",
+   "ru": "дистанция, отрезок пути — Нам еще предстоит пройти долгий путь.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "strecken": [
+  {
+   "id": 5973089026,
+   "de": "strecken (streckte; hat gestreckt) – Wir können das Layout strecken, um den leeren Raum zu füllen.",
+   "ru": "растягивать, вытягивать (контент) — Мы можем растянуть макет, чтобы заполнить пустое пространство.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "streichen": [
+  {
+   "id": 5677506900,
+   "de": "streichen (strich; hat gestrichen) – Diese Funktion wurde aus dem Projektplan gestrichen.",
+   "ru": "вычеркивать, отменять, забастовать - Эта функция была вычеркнута из плана проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "streiten": [
+  {
+   "id": 6140091043,
+   "de": "streiten (stritt; hat gestritten) – Es macht keinen Sinn, über den Coding-Style zu streiten.",
+   "ru": "спорить — Нет смысла спорить о стиле кодинга.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "streiten mit": [
+  {
+   "id": 5569463489,
+   "de": "streiten mit (Dat.) (stritt; hat gestritten) – Wir streiten uns mit der Konkurrenz.",
+   "ru": "ссориться с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "streuen": [
+  {
+   "id": 5783860990,
+   "de": "Streuen (streute; hat gestreut) – Wir dürfen unsere Aufmerksamkeit nicht streuen.",
+   "ru": "разбрасывать, рассеивать - Мы не должны разбрасывать наше внимание.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6140091031,
+   "de": "streuen (streute; hat gestreut) – Du solltest deine Daten nicht einfach so im Code streuen.",
+   "ru": "рассыпать / распространять — Ты не должен просто так «разбрасывать» свои данные по всему коду.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stupide": [
+  {
+   "id": 6128964747,
+   "de": "stupide – Das war eine ziemlich stupide Arbeit.",
+   "ru": "тупой, монотонный — Это была довольно монотонная (тупая) работа.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ständig": [
+  {
+   "id": 5618999062,
+   "de": "ständig – Wir arbeiten ständig an der Verbesserung unserer Produkte.",
+   "ru": "постоянно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stürmische zeit": [
+  {
+   "id": 6449729010,
+   "de": "die stürmische Zeit (Zeiten) – Wir haben jetzt eine sehr stürmische Zeit vor der Abgabe des Abschlussprojekts in der Academy.",
+   "ru": "бурное, напряженное время — Сейчас у нас очень напряженное время перед сдачей финального проекта в академии.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stürzen": [
+  {
+   "id": 5568930109,
+   "de": "stürzen (stürzte; ist gestürzt) – Das System ist gestern Abend gestürzt.",
+   "ru": "падать; рухнуть (о системе; сервере)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "suche nach": [
+  {
+   "id": 5569460685,
+   "de": "die Suche nach (Dat.) – Die Suche nach einem neuen Entwickler ist schwierig.",
+   "ru": "поиск",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sämtlich": [
+  {
+   "id": 5603787550,
+   "de": "sämtlich – Sämtliche Dokumente sind im Repository verfügbar.",
+   "ru": "весь; вся; все",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sämtliche": [
+  {
+   "id": 5541489150,
+   "de": "sämtliche – Sämtliche Unterlagen wurden geprüft.",
+   "ru": "все; все без исключения",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "säule": [
+  {
+   "id": 6090226928,
+   "de": "die Säule (Säulen) – Die Familie ist die wichtigste Säule im Leben.",
+   "ru": "столп, опора, колонна — Семья — это главная опора в жизни.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tagesgeschäft": [
+  {
+   "id": 6008372951,
+   "de": "das Tagesgeschäft (nur Sg.) – Ich habe keine Zeit für das Tagesgeschäft.",
+   "ru": "текучка, повседневные дела — У меня нет времени на текучку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tamtam": [
+  {
+   "id": 5667907578,
+   "de": "das Tamtam (nur Sg.) – Wir sollten nicht so ein Tamtam wegen eines kleinen Bugs machen.",
+   "ru": "шумиха, суматоха - Не стоит устраивать такую шумиху из-за маленького бага.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tatsächlich": [
+  {
+   "id": 5416199903,
+   "de": "tatsächlich – Das ist tatsächlich so passiert.",
+   "ru": "действительно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "taubheitsgefühl": [
+  {
+   "id": 5862955772,
+   "de": "das Taubheitsgefühl (Taubheitsgefühle) – Er hat ein Taubheitsgefühl in den Händen.",
+   "ru": "онемение - У него онемение в руках.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tauchen": [
+  {
+   "id": 5683884921,
+   "de": "das Tauchen (nur Sg.) – Wir werden uns am Montag in das neue Projekt tauchen.",
+   "ru": "ныряние (погружение) - Мы погрузимся в новый проект в понедельник.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "teig": [
+  {
+   "id": 6090226906,
+   "de": "der Teig (Teige) – Der Teig muss eine Stunde ruhen.",
+   "ru": "тесто — Тесто должно постоять один час.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "teilnahme an": [
+  {
+   "id": 5569460686,
+   "de": "die Teilnahme an (Dat.) – Die Teilnahme an der Schulung ist obligatorisch.",
+   "ru": "участие в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "teilweise": [
+  {
+   "id": 5676821633,
+   "de": "teilweise – Das Projekt ist nur teilweise abgeschlossen.",
+   "ru": "частично - Проект выполнен только частично.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6071412600,
+   "de": "teilweise – Das Projekt ist nur teilweise fertig.",
+   "ru": "частично — Проект готов лишь частично.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "teilweise saniert sein": [
+  {
+   "id": 5373868435,
+   "de": "teilweise saniert sein (saniert)",
+   "ru": "частично отремонтирован",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "telefonieren mit": [
+  {
+   "id": 5569463490,
+   "de": "telefonieren mit (Dat.) (telefonierte; hat telefoniert) – Ich telefoniere mit dem Kunden.",
+   "ru": "звонить по телефону кому-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "terminieren": [
+  {
+   "id": 6004594189,
+   "de": "terminieren (terminierte; hat terminiert) – Wir müssen das Meeting terminieren.",
+   "ru": "устанавливать срок, назначать дату — Мы должны назначить дату встречи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "teufelskreis": [
+  {
+   "id": 6021248053,
+   "de": "der Teufelskreis (Teufelskreise) – Wir müssen aus diesem Teufelskreis ausbrechen.",
+   "ru": "порочный круг — Мы должны выбраться из этого порочного круга.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "theke": [
+  {
+   "id": 5677506892,
+   "de": "die Theke (Theken) – Bitte gehen Sie zur Theke für die Registrierung.",
+   "ru": "прилавок, стойка (например, ресепшн) - Пожалуйста, подойдите к прилавку для регистрации.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tilgen": [
+  {
+   "id": 6320942683,
+   "de": "tilgen (tilgte; hat getilgt) – Wir wollen die technischen Schulden in diesem Sprint tilgen.",
+   "ru": "гасить (долг) — Мы хотим погасить технический долг в этом спринте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tinnef": [
+  {
+   "id": 5667907580,
+   "de": "der Tinnef (nur Sg.) – Dieses alte Programm ist nur nutzloser Tinnef.",
+   "ru": "безделушка, хлам - Эта старая программа - просто бесполезный хлам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tippen": [
+  {
+   "id": 6021248057,
+   "de": "tippen (tippte; hat getippt) – Ich kann sehr schnell tippen.",
+   "ru": "печатать (на клавиатуре) — Я могу печатать очень быстро.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "topf": [
+  {
+   "id": 6090226908,
+   "de": "der Topf (Töpfe) – Die Suppe ist noch im Topf auf dem Herd.",
+   "ru": "кастрюля, горшок — Суп всё еще в кастрюле на плите.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "trachten nach": [
+  {
+   "id": 6071412612,
+   "de": "trachten nach (Dat.) (trachtete; hat getrachtet) – Sie trachten nach Macht und Einfluss.",
+   "ru": "жаждать, стремиться к чему-то (высок.) — Они стремятся к власти и влиянию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "transparenz": [
+  {
+   "id": 5575958543,
+   "de": "die Transparenz (nur Sg.) – Wir legen Wert auf Transparenz in allen Projektphasen.",
+   "ru": "прозрачность",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "traurig über": [
+  {
+   "id": 5569465178,
+   "de": "traurig über (Akk.) – Ich war traurig über das Scheitern des Projekts.",
+   "ru": "грустный по поводу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "treffen": [
+  {
+   "id": 5986064700,
+   "de": "treffen (traf; hat getroffen) – Dieser Bug traf uns im schlechtesten Moment.",
+   "ru": "ударять, попадать, встречать — Этот баг ударил по нам в самый неподходящий момент.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "trennen von": [
+  {
+   "id": 5569463493,
+   "de": "trennen von (Dat.) (trennte; hat getrennt) – Wir trennen die Daten von der Anwendung.",
+   "ru": "отделяться от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "trennung von": [
+  {
+   "id": 5569460687,
+   "de": "die Trennung von (Dat.) – Die Trennung von der alten Datenbank war nötig.",
+   "ru": "отделение от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tätigen": [
+  {
+   "id": 6044774615,
+   "de": "tätigen (tätigte; hat getätigt) – Wir müssen die Überweisung morgen tätigen.",
+   "ru": "осуществлять, совершать (платеж/звонок) — Мы должны совершить перевод завтра.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "täuschung": [
+  {
+   "id": 6140091038,
+   "de": "die Täuschung (Täuschungen) – Das war nur eine optische Täuschung.",
+   "ru": "обман / заблуждение — Это была лишь оптическая иллюзия (обман).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tüchtigkeit": [
+  {
+   "id": 6071412593,
+   "de": "die Tüchtigkeit (nur Sg.) – Seine berufliche Tüchtigkeit steht außer Frage.",
+   "ru": "способность, усердие, умение — Его профессиональная состоятельность не подлежит сомнению.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tücken": [
+  {
+   "id": 6041480223,
+   "de": "die Tücken (Pl.) – Dieser Code hat seine Tücken.",
+   "ru": "подвохи, каверзы — В этом коде есть свои подвохи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "tückisch": [
+  {
+   "id": 5927101104,
+   "de": "tückisch – Das ist ein tückischer Fehler, der schwer zu finden ist.",
+   "ru": "коварный - Это коварная ошибка, которую трудно найти.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "türklinke": [
+  {
+   "id": 5416199897,
+   "de": "Türklinke (die, -n) – Die Türklinke ist locker.",
+   "ru": "дверная ручка",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umbringen": [
+  {
+   "id": 6420230867,
+   "de": "umbringen (brachte um; hat umgebracht, du bringst um) – Eine falsche Abfrage kann die Performance der Datenbank umbringen.",
+   "ru": "убивать — Неправильный запрос может «убить» производительность базы данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5696310281,
+   "de": "umbringen (brachte um; hat umgebracht) – Ich muss diesen Prozess umbringen, um Speicher freizugeben.",
+   "ru": "убивать (перен. прекращать работу, уничтожать) - Я должен прекратить работу этого процесса, чтобы освободить память.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umbruch": [
+  {
+   "id": 5972792643,
+   "de": "der Umbruch (Umbrüche) – In der Industrie findet gerade ein digitaler Umbruch statt.",
+   "ru": "перелом, радикальное изменение, перенос (строки) — В индустрии сейчас происходит цифровой перелом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umdeuten": [
+  {
+   "id": 6044774624,
+   "de": "umdeuten (deutete um; hat umgedeutet) – Wir können diesen Bug als Feature umdeuten.",
+   "ru": "переосмысливать, иначе истолковывать — Мы можем истолковать этот баг как фичу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umfang": [
+  {
+   "id": 6492126614,
+   "de": "der Umfang (Umfänge) – Scope Creep bezeichnet das schleichende Wachstum des Projektumfangs.",
+   "ru": "объем / масштаб (проекта) — Скоуп крип (Scope Creep) обозначает ползучий рост объема проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5647464585,
+   "de": "der Umfang (Umfänge) – Der Umfang der Arbeit war größer als erwartet.",
+   "ru": "объем, размер - Объем работы оказался больше, чем мы ожидали.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5559821644,
+   "de": "der Umfang (Umfänge) – Der Umfang des Projekts wurde neu definiert.",
+   "ru": "объем; масштаб",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800285,
+   "de": "der Umfang (Umfänge) – Der Umfang der Aufgabe war größer, als wir dachten.",
+   "ru": "объем / масштаб — Масштаб задачи оказался больше, чем мы думали.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umfassende auswertung": [
+  {
+   "id": 5575958559,
+   "de": "die umfassende Auswertung (Auswertungen) – Nach dem Test brauchen wir eine umfassende Auswertung.",
+   "ru": "всесторонняя оценка; исчерпывающий анализ",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umgebung": [
+  {
+   "id": 5638902698,
+   "de": "die Umgebung (Umgebungen) – Die Arbeitsumgebung muss komfortabel sein.",
+   "ru": "окружение, среда - Рабочая среда должна быть комфортной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umgehende maßnahmen ergreifen": [
+  {
+   "id": 5589940010,
+   "de": "umgehende Maßnahmen ergreifen (ergriff; hat ergriffen) – Es wurden umgehende Maßnahmen ergriffen, um den Schaden zu minimieren.",
+   "ru": "приняты незамедлительные меры",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umkommen": [
+  {
+   "id": 6165218996,
+   "de": "umkommen (kam um; ist umgekommen) – In diesem Code kann jede Logik umkommen, wenn wir kein Refactoring machen.",
+   "ru": "погибать — В этом коде может «погибнуть» любая логика, если не делать рефакторинг.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umsatz": [
+  {
+   "id": 6423479460,
+   "de": "der Umsatz (Umsätze) – Unser SaaS-Produkt hilft dabei, den Umsatz des Unternehmens deutlich zu steigрить.",
+   "ru": "товарооборот / оборот — Наш SaaS-продукт помогает значительно увеличить оборот компании.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umsatz des unternehmens": [
+  {
+   "id": 5293119032,
+   "de": "der Umsatz des Unternehmens",
+   "ru": "обмен/оборот фирмы",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umsetzen": [
+  {
+   "id": 5862955730,
+   "de": "umsetzen (setzte um; hat umgesetzt) – Wir setzen diesen Plan bereits morgen um.",
+   "ru": "реализовать, внедрять - Мы реализуем этот план уже завтра.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umsetzung": [
+  {
+   "id": 5683884918,
+   "de": "die Umsetzung (Umsetzungen) – Die Umsetzung der neuen Software braucht Zeit.",
+   "ru": "реализация, внедрение - Реализация нового программного обеспечения занимает много времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umsicht": [
+  {
+   "id": 6481401665,
+   "de": "die Umsicht (nur Sg.) – Bei der Arbeit mit fremdem Code ist große Umsicht geboten.",
+   "ru": "осмотрительность / осторожность — При работе с чужим кодом нужна особая осмотрительность.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umsonst": [
+  {
+   "id": 6465607899,
+   "de": "umsonst – Ein großer Teil der Arbeit war umsonst, dazu gab es ein Datenschutzproblem.",
+   "ru": "напрасно / зря / бесплатно — Большая часть работы была проделана зря, плюс возникла проблема с защитой данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5537456168,
+   "de": "umsonst – Diese App kann man umsonst herunterladen.",
+   "ru": "бесплатно; напрасно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umstand": [
+  {
+   "id": 6165219002,
+   "de": "der Umstand (Umstände) – Wegen unvorhergesehener Umstände wird der Deployment verschoben.",
+   "ru": "обстоятельство — Из-за непредвиденных обстоятельств деплой переносится.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umstritten": [
+  {
+   "id": 5696310286,
+   "de": "umstritten – Es ist eine umstrittene Frage, welches Framework gewählt werden soll.",
+   "ru": "спорный - Это спорный вопрос, какой фреймворк выбрать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umwandeln": [
+  {
+   "id": 6423479449,
+   "de": "umwandeln (wandelte um; hat umgewandelt, du wandelst um) – Wir können dieses JSON-Objekts problemlos in ein anderes Format umwandeln.",
+   "ru": "превращать, трансформировать — Мы можем легко трансформировать этот JSON-объект в другой формат.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "umwerfend": [
+  {
+   "id": 5911460929,
+   "de": "umwerfend – Die Verkaufszahlen in diesem Monat sind einfach umwerfend.",
+   "ru": "потрясающий, сногсшибательный - Результаты продаж в этом месяце просто потрясающие.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unbeeinträchtigt": [
+  {
+   "id": 6021248093,
+   "de": "unbeeinträchtigt – Das System läuft unbeeinträchtigt.",
+   "ru": "беспрепятственный, не затронутый — Система работает беспрепятственно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unbefugt": [
+  {
+   "id": 5683884909,
+   "de": "unbefugt – Unbefugter Zugriff ist strengstens verboten.",
+   "ru": "несанкционированный, посторонний - Несанкционированный доступ строго запрещен.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unbestritten": [
+  {
+   "id": 6407884664,
+   "de": "unbestritten – Es ist unbestritten, dass TypeScript Code sicherer macht.",
+   "ru": "неоспоримый, бесспорный — Это неоспоримый факт, что TypeScript делает код безопаснее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "und zwar": [
+  {
+   "id": 6494316897,
+   "de": "und zwar – Ich sehe das etwas anders, und zwar aus folgendem Grund.",
+   "ru": "а именно / конкретно — Я вижу это немного иначе, а именно по следующей причине.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "uneinig sein": [
+  {
+   "id": 6465607902,
+   "de": "sich uneinig sein (war uneinig; ist gewesen, du bist dir uneinig) – Zwei Entwickler sind sich über das State-Management uneinig.",
+   "ru": "быть не согласным друг с другом — Два разработчика не сошлись во мнениях насчет выбора стейт-менеджмента.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unerlässlich": [
+  {
+   "id": 5927101109,
+   "de": "unerlässlich – Eine gute Dokumentation ist für den Erfolg unerlässlich.",
+   "ru": "необходимый, обязательный - Хорошая документация обязательна для успеха.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unfertig": [
+  {
+   "id": 6173617614,
+   "de": "unfertig – Dieses Feature ist noch unfertig und nicht bereit für das Deployment.",
+   "ru": "незавершенный / недоделанный — Эта функция еще недоделана и не готова к деплою.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ungebremst": [
+  {
+   "id": 6442594608,
+   "de": "ungebremst – Der Strom neuer Aufgaben war völlig ungebremst.",
+   "ru": "безудержный, неослабевающий — Поток новых задач был просто безудержным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ungewollt": [
+  {
+   "id": 6518120208,
+   "de": "ungewollt – Das war ein ungewollter Bug, der beim Bibliotheksupdate entstanden ist.",
+   "ru": "непреднамеренный / случайный — Это был непреднамеренный баг, возникший при обновлении библиотеки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518119457,
+   "de": "ungewollt – Das war ein ungewollter Bug, der beim Bibliotheksupdate entstanden ist.",
+   "ru": "* непреднамеренный / случайный — Это был непреднамеренный баг, возникший при обновлении библиотеки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120776,
+   "de": "ungewollt – Das war ein ungewollter Bug, der beim Bibliotheksupdate entstanden ist.",
+   "ru": "непреднамеренный / случайный — Это был непреднамеренный баг, возникший при обновлении библиотеки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120704,
+   "de": "ungewollt – Das war ein ungewollter Bug, der beim Bibliotheksupdate entstanden ist.",
+   "ru": "непреднамеренный / случайный — Это был непреднамеренный баг, возникший при обновлении библиотеки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unhaltbar": [
+  {
+   "id": 6449729006,
+   "de": "unhaltbar – Ein solches Leistungsniveau der Produktion ist für die Nutzer schlichtweg unhaltbar.",
+   "ru": "неприемлемый, несостоятельный — Такой уровень производительности продакшена просто неприемлем для пользователей.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unhöflich": [
+  {
+   "id": 6494316884,
+   "de": "unhöflich – Selbst Kritik äußern: direkt, aber nicht unhöflich.",
+   "ru": "грубый / невежливый — Высказывать критику самому нужно прямо, но не грубо.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unkonventionell": [
+  {
+   "id": 5667907551,
+   "de": "unkonventionell – Wir suchen unkonventionelle Ansätze zur Problemlösung.",
+   "ru": "нетрадиционный, неконвенциональный - Мы ищем нетрадиционные подходы к решению проблемы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unliebsam": [
+  {
+   "id": 6481401648,
+   "de": "unliebsam – Wir sind nach dem letzten Dependency-Update auf einen unliebsamen Bug gestoßen.",
+   "ru": "неприятный / нежелательный — Мы столкнулись с неприятным багом после последнего обновления зависимостей.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unmittelbar": [
+  {
+   "id": 6492126622,
+   "de": "unmittelbar – Das führt zur unmittelbaren Befriedigung von Bedürfnissen.",
+   "ru": "непосредственный / сиюминутный — Это приводит к сиюминутному удовлетворению потребностей заказчика.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5654992900,
+   "de": "unmittelbar – Wir haben unmittelbar mit der Fehlerbehebung begonnen.",
+   "ru": "непосредственный, сразу же - Мы сразу же приступили к решению проблемы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5559821664,
+   "de": "unmittelbar – Die Reaktion erfolgte unmittelbar.",
+   "ru": "непосредственно; сразу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unmittelbar detektieren": [
+  {
+   "id": 5575958538,
+   "de": "unmittelbar detektieren (detektierte; hat detektiert) – Das System muss Fehler unmittelbar detektieren.",
+   "ru": "немедленно обнаруживать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unmut": [
+  {
+   "id": 5683884924,
+   "de": "der Unmut (nur Sg.) – Es gibt wachsenden Unmut unter den Nutzern wegen der langsamen Performance.",
+   "ru": "недовольство - Среди пользователей растет недовольство медленной работой.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unscheinbar": [
+  {
+   "id": 6071412602,
+   "de": "unscheinbar – Es war ein völlig unscheinbares Gebäude.",
+   "ru": "неприметный, скромный — Это было совершенно неприметное здание.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unter anderem": [
+  {
+   "id": 6486814100,
+   "de": "unter anderem – Unser System unterstützt unter anderem die OAuth-Authentifizierung.",
+   "ru": "между прочим / в том числе — Наша система поддерживает, среди прочего, авторизацию через OAuth.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unter die lupe nehmen": [
+  {
+   "id": 5546335682,
+   "de": "unter die Lupe nehmen (nahm; hat genommen) – Wir müssen den Code unter die Lupe nehmen, um den Fehler zu finden.",
+   "ru": "тщательно изучать; внимательно рассматривать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unter einhaltung": [
+  {
+   "id": 6165219000,
+   "de": "unter Einhaltung (Gen.) – Wir arbeiten unter Einhaltung aller Sicherheitsstandards.",
+   "ru": "с соблюдением / при соблюдении — Мы работаем при соблюдении всех стандартов безопасности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unter vier augen": [
+  {
+   "id": 6004594204,
+   "de": "unter vier Augen – Wir müssen das unter vier Augen besprechen.",
+   "ru": "с глазу на глаз — Мы должны обсудить это с глазу на глаз.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unter zugzwang setzen": [
+  {
+   "id": 5647464563,
+   "de": "unter Zugzwang setzen (setzte; hat gesetzt) – Die Kunden setzten unser Team unter Zugzwang.",
+   "ru": "ставить в сложное, безвыходное положение - Клиенты поставили нашу команду под сильное давление, требуя быстрых результатов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterbrechen": [
+  {
+   "id": 6064365179,
+   "de": "unterbrechen (unterbrach; hat unterbrochen) – Entschuldigung, dass ich dich unterbreche.",
+   "ru": "прерывать — Извини, что я тебя прерываю.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterbrechen bei": [
+  {
+   "id": 5569463496,
+   "de": "unterbrechen bei (Dat.) (unterbrach; hat unterbrochen) – Er unterbrach mich bei meiner Präsentation.",
+   "ru": "прерывать во время",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterbreiten": [
+  {
+   "id": 5638902688,
+   "de": "unterbreiten / (unterbreitete; hat unterbreitet) / – Wir werden dem Kunden ein neues Angebot unterbreiten.",
+   "ru": "предлагать, вносить (предложение) / - Мы предоставим клиенту новое предложение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterbringen": [
+  {
+   "id": 5628100698,
+   "de": "unterbringen (brachte unter; hat untergebracht) – Wir müssen die neue Hardware in einem sicheren Raum unterbringen.",
+   "ru": "размещать; устраивать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6064365187,
+   "de": "unterbringen (brachte unter; hat untergebracht) – Wir können dieses Bild mittig unterbringen.",
+   "ru": "размещать — Мы можем разместить (поместить) это изображение в центре.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterhalten mit": [
+  {
+   "id": 5569463497,
+   "de": "sich unterhalten mit (Dat.) (unterhielt; hat unterhalten) – Ich unterhalte mich mit den Entwicklern.",
+   "ru": "разговаривать с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6251413743,
+   "de": "sich unterhalten mit (Dat.) (unterhielt; hat unterhalten, du unterhältst dich) – Wir müssen uns nach dem Release über den Projektverlauf unterhalten.",
+   "ru": "беседовать / общаться — Нам нужно будет пообщаться о ходе проекта после релиза.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterhaltsam": [
+  {
+   "id": 5783860960,
+   "de": "unterhaltsam – Die Präsentation war sehr unterhaltsam.",
+   "ru": "развлекательный, занимательный - Презентация была очень занимательной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterlagen übergeben  an": [
+  {
+   "id": 5373868437,
+   "de": "Unterlagen übergeben  an(übergeben)",
+   "ru": "предоставить документы",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "untermauern mit zahlen": [
+  {
+   "id": 6100030308,
+   "de": "untermauern mit Zahlen (untermauerte; hat untermauert) – Du musst deine Argumente mit Zahlen untermauern.",
+   "ru": "подкреплять цифрами — Ты должен подкрепить свои аргументы цифрами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

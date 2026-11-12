@@ -1,0 +1,1282 @@
+{
+ "sachlich": [
+  {
+   "id": 6483246434,
+   "de": "sachlich – Bei einem Code-Review ist es wichtig, sachlich zu bleiben und nur über den Code zu diskutieren.",
+   "ru": "деловой / объективный / по существу — На код-ревью важно вести себя объективно и обсуждать только код, а не личность разработчика.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6140091054,
+   "de": "sachlich – Wir müssen das Problem sachlich diskutieren.",
+   "ru": "объективный / деловой — Мы должны обсуждать проблему объективно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6004594213,
+   "de": "sachlich – Lass uns sachlich bleiben.",
+   "ru": "объективный, деловой — Давай оставаться объективными.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sachlichkeit": [
+  {
+   "id": 6481401650,
+   "de": "die Sachlichkeit (nur Sg.) – Bei einem Code-Review sind Fakten und Sachlichkeit ohne Emotionen immer wichtig.",
+   "ru": "предметность / деловой подход — На код-ревью всегда важна чистота фактов и деловой подход без эмоций.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sanft": [
+  {
+   "id": 5596845331,
+   "de": "sanft – Wir planen eine sanfte Einführung der neuen Software.",
+   "ru": "мягкий; нежный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5696310298,
+   "de": "sanft – Die Änderungen sollten sanft sein, um die Nutzer nicht zu schockieren.",
+   "ru": "мягкий, нежный - Изменения должны быть мягкими, чтобы не шокировать пользователей.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6064365168,
+   "de": "sanft – Dein Kater Persik ist sehr sanft.",
+   "ru": "нежный, мягкий — Твой кот Персик очень нежный.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schaden": [
+  {
+   "id": 6165218976,
+   "de": "schaden (schadete; hat geschadet) – Wir müssen aufpassen, anderen Prozessen im System nicht zu schaden.",
+   "ru": "вредить (другим) — Мы должны следить за тем, чтобы не навредить другим процессам в системе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schaffen": [
+  {
+   "id": 6004594156,
+   "de": "schaffen (schaffte; hat geschafft) – Wir schaffen diese Aufgabe bis zum Abend.",
+   "ru": "справляться, создавать — Мы справимся с этой задачей до вечера.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schale": [
+  {
+   "id": 6041480209,
+   "de": "die Schale (Schalen) – Die Schale des Apfels ist sehr gesund.",
+   "ru": "оболочка, кожура, чаша — Кожура яблока очень полезная.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "scham": [
+  {
+   "id": 6004594195,
+   "de": "die Scham (nur Sg.) – Sie empfand keine Scham.",
+   "ru": "стыд — Она не чувствовала стыда.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "scheinbuchungen": [
+  {
+   "id": 6494316893,
+   "de": "die Scheinbuchungen (Pl.) – Das System muss vor Scheinbuchungen geschützt werden.",
+   "ru": "фиктивные / ложные бронирования — Алгоритм поможет защитить систему от фиктивных бронирований.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "scheinen": [
+  {
+   "id": 6385684784,
+   "de": "scheinen (schien; hat geschienen) – Der Code scheint einfach zu sein, aber er enthält einen versteckten Bug.",
+   "ru": "казаться, светить — Код кажется простым, но в нем есть скрытый баг.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schelle": [
+  {
+   "id": 6120127137,
+   "de": "die Schelle (Schellen) – Er hat für diesen Spruch eine Schelle bekommen.",
+   "ru": "пощечина (разг.) / звонок — Он получил «леща» за это высказывание.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "scheu": [
+  {
+   "id": 6128964731,
+   "de": "scheu – Der Kater ist am Anfang etwas scheu.",
+   "ru": "застенчивый, пугливый — Кот вначале немного застенчив.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "scheuen": [
+  {
+   "id": 5628100705,
+   "de": "scheuen (scheute; hat gescheut) – Wir scheuen keine Mühe, um die beste Lösung zu finden.",
+   "ru": "бояться; избегать (делать что-либо)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schieben": [
+  {
+   "id": 6481401649,
+   "de": "schieben (schob; hat geschoben, du schiebst) – Wir müssen das Release-Datum ein paar Tage nach hinten schieben.",
+   "ru": "сдвигать / переносить (по времени) — Нам нужно сдвинуть дедлайн релиза на пару дней вперед.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6526854332,
+   "de": "schieben (schob, hat geschoben, du schiebst) – Wir müssen dieses Ticket in den nächsten Sprint schieben.",
+   "ru": "сдвигать / переносить (тикеты, дедлайны) — Нам придется сдвинуть этот тикет на следующий спринт.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6320942687,
+   "de": "schieben (schob; hat geschoben, du schiebst) – Schiebe diesen Block im Layout nach rechts.",
+   "ru": "двигать, толкать — Перетащи этот блок вправо в разметке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schief": [
+  {
+   "id": 5989563352,
+   "de": "schief – Wenn etwas schief geht, ruf mich sofort an.",
+   "ru": "криво, косо, не так — Если что-то пойдет не так, сразу звони мне.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6146950713,
+   "de": "schief – Wenn beim Deployment etwas schief geht, schreib mir.",
+   "ru": "кривой, косой / идти не так — Если при деплое что-то пойдет не так (вкось), пиши мне.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schiefgehen": [
+  {
+   "id": 6423479465,
+   "de": "schiefgehen (ging schief; ist schiefgegangen) – Wenn das Deployment schiefgeht, rollen wir die Änderungen zurück.",
+   "ru": "пойти наперекосяк / провалиться — Если деплой пойдет не так, мы откатим изменения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schimpfen": [
+  {
+   "id": 6494316888,
+   "de": "schimpfen (schimpfte; hat geschimpft, du schimpfst) – Nicht geschimpft ist genug gelobt.",
+   "ru": "ругать / ругаться — Отсутствие ругани — уже достаточная похвала (немецкая поговорка).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schimpfen über": [
+  {
+   "id": 5569463433,
+   "de": "schimpfen über (Akk.) (schimpfte; hat geschimpft) – Er schimpfte über die schlechte Internetverbindung.",
+   "ru": "ругаться на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlau": [
+  {
+   "id": 6423479463,
+   "de": "schlau – Wir sollten schlau sein und die Architektur nicht unnötig kompliziert machen.",
+   "ru": "умный / толковый (как действовать) — Нам стоит умно поступить и не усложнять архитектуру без нужды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5986064703,
+   "de": "schlau – Das war eine sehr schlaue Entscheidung.",
+   "ru": "умный, хитрый — Это было очень умное решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlauch": [
+  {
+   "id": 6165218992,
+   "de": "der Schlauch (Schläuche) – Ich stehe gerade auf dem Schlauch und sehe den Fehler nicht.",
+   "ru": "шланг / тупить (идиома) — (Часто используется в \"auf dem Schlauch stehen\"): Я сейчас туплю (стою на шланге) и не вижу ошибку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlauer": [
+  {
+   "id": 6120127159,
+   "de": "schlauer – Diesmal werden wir schlauer sein.",
+   "ru": "умнее, сообразительнее — На этот раз мы будем умнее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlicht": [
+  {
+   "id": 6146950718,
+   "de": "schlicht – Der Code sollte sauber und schlicht sein.",
+   "ru": "простой, скромный — Код должен быть чистым и простым.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlichtweg": [
+  {
+   "id": 6372866039,
+   "de": "schlichtweg – Viele qualifizierte Bewerber werden schlichtweg übersehen.",
+   "ru": "просто-напросто — Многие квалифицированные кандидаты просто-напросто остаются незамеченными.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schließen / die closures": [
+  {
+   "id": 6140091051,
+   "de": "schließen / die Closures – Closures (Funktionsabschlüsse) sind ein wichtiges Konzept in JS.",
+   "ru": "замыкание (в JS) / заключать — Замыкания — важная концепция в JavaScript.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlingen": [
+  {
+   "id": 5783860975,
+   "de": "schlingen (schlang; hat geschlungen) – Der Prozess schlingt zu schnell Speicher.",
+   "ru": "глотать, обвивать - Процесс слишком быстро \"глотает\" память.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlussendlich": [
+  {
+   "id": 6064365180,
+   "de": "schlussendlich – Schlussendlich haben wir eine Lösung gefunden.",
+   "ru": "в конце концов — В конце концов мы нашли решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schlüpfen in": [
+  {
+   "id": 6140091052,
+   "de": "schlüpfen in (Akk.) (schlüpfte; ist geschlüpft) – Die KI schlüpft in eine bestimmte Rolle.",
+   "ru": "входить / вживаться (в роль) — ИИ вживается в определенную роль.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schmeißen": [
+  {
+   "id": 6021248074,
+   "de": "schmeißen (schmiss; hat geschmissen) – Er hat den Job letzte Woche geschmissen.",
+   "ru": "бросать, швырять (также: бросить учебу/работу) — Он бросил работу на прошлой неделе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schmutzig": [
+  {
+   "id": 5862955769,
+   "de": "schmutzig – Dein Monitor ist sehr schmutzig.",
+   "ru": "грязный - Твой монитор очень грязный.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schnauze voll haben": [
+  {
+   "id": 6442594610,
+   "de": "die Schnauze voll haben (hatte voll; hat gehabt) – Ich habe von diesem endlosen Debugging die Schnauze voll.",
+   "ru": "сыт по горло (иметь полную пасть / надоело) — Мне уже надоел этот бесконечный дебаг чужого кода.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schneiden": [
+  {
+   "id": 6071412590,
+   "de": "schneiden (schnitt; hat geschnitten) – Ich muss mir die Haare schneiden lassen.",
+   "ru": "резать, стричь — Мне нужно постричь волосы (досл.: дать постричь).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schnelllebigkeit": [
+  {
+   "id": 5638902694,
+   "de": "die Schnelllebigkeit (nur Sg.) – Die Schnelllebigkeit des Marktes erfordert Flexibilität.",
+   "ru": "быстротечность, скоротечность - Быстротечность рынка требует гибкости.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schnittstelle": [
+  {
+   "id": 6481401678,
+   "de": "die Schnittstelle (Schnittstellen) – Diese Schnittstelle verbindet das Frontend mit der Datenbank.",
+   "ru": "интерфейс / точка соприкосновения (API) — Этот API-интерфейс связывает фронтенд с базой данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6483246428,
+   "de": "die Schnittstelle (Schnittstellen) – Wir brauchen eine stabile Schnittstelle für den Datenaustausch mit dem Zahlungssystem.",
+   "ru": "интерфейс / точка интеграции (API) — Нам нужна надежная точка интеграции (интерфейс) для обмена данными с платежной системой.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schon jetzt": [
+  {
+   "id": 5696310279,
+   "de": "schon jetzt – Schon jetzt ist klar, dass das Projekt länger dauern wird.",
+   "ru": "уже сейчас - Уже сейчас понятно, что проект затянется.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schonen": [
+  {
+   "id": 5696310272,
+   "de": "schonen (schonte; hat geschont) – Wir müssen unsere Ressourcen schonen.",
+   "ru": "беречь, щадить - Мы должны беречь наши ресурсы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schrumpfen": [
+  {
+   "id": 6320942675,
+   "de": "schrumpfen (schrumpfte; ist geschrumpft) – Die Bundle-Größe muss nach der Minimierung schrumpfen.",
+   "ru": "сокращаться, сжиматься — Размер бандла должен сократиться после минификации.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schutz vor": [
+  {
+   "id": 5569460706,
+   "de": "der Schutz vor (Dat.) – Der Schutz vor Cyberangriffen ist unsere Priorität.",
+   "ru": "защита от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schwanken": [
+  {
+   "id": 5638902690,
+   "de": "schwanken (schwankte; hat geschwankt) – Die Serverauslastung kann stark schwanken.",
+   "ru": "колебаться - Загрузка сервера может сильно колебаться.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schweben": [
+  {
+   "id": 5957604429,
+   "de": "schweben (schwebte; hat geschwebt) – Sein Cursor schwebt einfach über der Schaltfläche.",
+   "ru": "парить, висеть (в воздухе) — Его курсор просто висит над кнопкой.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schweigen": [
+  {
+   "id": 6407884642,
+   "de": "schweigen (schwieg; hat geschwiegen, du schweigst) – Im Meeting haben alle geschwiegen, als der Teamleiter eine schwierige Frage gestellt hat.",
+   "ru": "молчать — На митинге все молчали, когда тимлид задал сложный вопрос.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6420230860,
+   "de": "schweigen (schwieg; hat geschwiegen, du schweigst) – Auf alle Fragen hat der Entwickler vorgezogen zu schweigen.",
+   "ru": "молчать — На все вопросы разработчик предпочел просто промолчать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schweigen von": [
+  {
+   "id": 5521762951,
+   "de": "schweigen von (schwieg von; hat von geschwiegen) – Der Entwickler schweigt von den Problemen im Code.",
+   "ru": "Молчать о (о чем-то)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schwindel": [
+  {
+   "id": 5667907549,
+   "de": "der Schwindel (nur Sg.) – Der Schwindel des Erfolgs kann gefährlich werden.",
+   "ru": "головокружение - Головокружение от успеха может стать опасным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schwören": [
+  {
+   "id": 6140091040,
+   "de": "schwören (schwor; hat geschworen) – Ich schwöre, dass dieser Code funktioniert!",
+   "ru": "клясться / обещать — Я клянусь, что этот код работает!",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schädigen": [
+  {
+   "id": 5559821686,
+   "de": "schädigen (schädigte; hat geschädigt) – Das Update könnte die Daten schädigen.",
+   "ru": "вредить; наносить ущерб",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schälen": [
+  {
+   "id": 6021248106,
+   "de": "schälen (schälte; hat geschält) – Ich muss den Apfel schälen.",
+   "ru": "чистить (от кожуры), шелушить — Я должен почистить яблоко для Эмилии (позже).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "schämen": [
+  {
+   "id": 6495947778,
+   "de": "sich schämen (schämte sich; hat sich geschämt, du schämst dich) – Krank zu sein ist in Deutschland kein Grund, sich zu schämen.",
+   "ru": "стыдиться / стесняться — Болеть — это в Германии не поводы стыдиться.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "selbst beibringen": [
+  {
+   "id": 6128964736,
+   "de": "selbst beibringen (brachte bei; hat beigebracht) – Ich habe mir das Programmieren selbst beigebracht.",
+   "ru": "обучаться самостоятельно — Я сам обучился программированию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "selbstverständlich ist mir bewusst, dass": [
+  {
+   "id": 5676821626,
+   "de": "Selbstverständlich ist mir bewusst, dass – Selbstverständlich ist mir bewusst, dass dieses Projekt wichtig ist.",
+   "ru": "Само собой разумеется, мне известно, что - Само собой разумеется, мне известно, что этот проект важен.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "senken": [
+  {
+   "id": 5541048375,
+   "de": "senken (senkte; hat gesenkt) – Wir müssen die Produktionskosten senken.",
+   "ru": "снижать; понижать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "serverlast": [
+  {
+   "id": 5416199901,
+   "de": "Serverlast (die, -en) – Die Last auf dem Server war zu hoch.",
+   "ru": "загрузка, нагрузка",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sicherheitsbegehung": [
+  {
+   "id": 5628100710,
+   "de": "die Sicherheitsbegehung (Sicherheitsbegehungen) – Die jährliche Sicherheitsbegehung ist obligatorisch.",
+   "ru": "инспекции/обходы безопасности",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sicherlich": [
+  {
+   "id": 5654992869,
+   "de": "sicherlich – Sie kennen dieses Problem sicherlich.",
+   "ru": "несомненно, конечно - Вы, несомненно, знаете эту проблему.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sichern": [
+  {
+   "id": 5593436132,
+   "de": "sichern (sicherte; hat gesichert) – Wir müssen unsere Systeme sichern, um Cyberangriffen vorzubeugen.",
+   "ru": "обеспечивать; гарантировать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5989563331,
+   "de": "sichern (sicherte; hat gesichert) – Du musst deine Daten regelmäßig sichern.",
+   "ru": "сохранять, обеспечивать безопасность — Ты должен регулярно сохранять свои данные.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sicherstellen": [
+  {
+   "id": 5546335691,
+   "de": "sicherstellen (stellte sicher; hat sichergestellt) – Wir müssen sicherstellen, dass das System stabil ist.",
+   "ru": "обеспечивать; удостоверяться",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sichtung": [
+  {
+   "id": 6320942689,
+   "de": "die Sichtung (Sichtungen) – Die Sichtung von Lebensläufen nimmt viel Zeit in Anspruch.",
+   "ru": "просмотр, проверка — Проверка резюме занимает много времени у рекрутеров.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "signieren": [
+  {
+   "id": 6407884633,
+   "de": "signieren (signierte; hat signiert) – Der Künstler muss sein Bild in der unteren Ecke signieren.",
+   "ru": "подписывать (документ, произведение) — Художник должен подписать свою картину в нижнем углу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "silbe": [
+  {
+   "id": 6128964750,
+   "de": "die Silbe (Silben) – Dieses Wort hat drei Silben.",
+   "ru": "слог — В этом слове три слога.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "singsang": [
+  {
+   "id": 5667907579,
+   "de": "der Singsang (nur Sg.) – Er liest den Bericht in einem Singsang vor.",
+   "ru": "монотонное пение/повторение - Он читает отчет монотонным голосом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sinnfremd umbenennen": [
+  {
+   "id": 6044774627,
+   "de": "sinnfremd umbenennen (benannte um; hat umbenannt) – Man sollte diese Funktion nicht sinnfremd umbenennen.",
+   "ru": "бессмысленно переименовывать — Не стоит переименовывать эту функцию бессмысленно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "skizze": [
+  {
+   "id": 5647464560,
+   "de": "die Skizze (Skizzen) – Ich habe einige Skizzen für das Interface-Design gemacht.",
+   "ru": "эскизы, наброски - Я сделал несколько набросков для дизайна интерфейса.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "skonto gewähren": [
+  {
+   "id": 5667907563,
+   "de": "Skonto gewähren – Wir können Skonto gewähren, wenn sofort bezahlt wird.",
+   "ru": "предоставить скидку (сконто) - Мы можем предоставить скидку при немедленной оплате.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "solch": [
+  {
+   "id": 5521762968,
+   "de": "solch – Eine solche Methode wurde bereits getestet.",
+   "ru": "Такой; подобный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "somit": [
+  {
+   "id": 5575958544,
+   "de": "somit – Das Problem ist gelöst, somit können wir mit der Implementierung beginnen.",
+   "ru": "тем самым; таким образом",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sorgen für": [
+  {
+   "id": 5569463434,
+   "de": "sorgen für (Akk.) (sorgte; hat gesorgt) – Wer sorgt für die Backups?",
+   "ru": "заботиться о",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sorgfältig": [
+  {
+   "id": 5559821647,
+   "de": "sorgfältig – Die Daten müssen sorgfältig geprüft werden.",
+   "ru": "тщательно; аккуратно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248048,
+   "de": "sorgfältig – Bitte prüfe den Code sehr sorgfältig.",
+   "ru": "тщательно — Пожалуйста, проверяй код очень тщательно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sorgfältige abwicklung": [
+  {
+   "id": 5654992864,
+   "de": "die Sorgfältige Abwicklung (nur Sg.) – Wir versprechen eine sorgfältige Abwicklung aller Projektschritte.",
+   "ru": "тщательное выполнение (процесса) - Мы обещаем тщательное выполнение всех этапов проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sowas": [
+  {
+   "id": 5950387746,
+   "de": "sowas – Sowas habe ich vorher noch nie gesehen.",
+   "ru": "такое, что-то подобное - Я такого никогда раньше не видел.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "soweit": [
+  {
+   "id": 6004594153,
+   "de": "soweit – Soweit ich weiß, läuft der Server. / Wir sind soweit.",
+   "ru": "насколько, готов (готово) — Насколько я знаю, сервер работает. / Мы готовы (всё готово).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sowieso": [
+  {
+   "id": 6518120218,
+   "de": "sowieso – Wir müssen diese Komponente sowieso in React neu schreiben.",
+   "ru": "всё равно / и без того — Нам всё равно придется переписать этот компонент на React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518119467,
+   "de": "sowieso – Wir müssen diese Komponente sowieso in React neu schreiben.",
+   "ru": "* всё равно / и без того — Нам всё равно придется переписать этот компонент на React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120786,
+   "de": "sowieso – Wir müssen diese Komponente sowieso in React neu schreiben.",
+   "ru": "всё равно / и без того — Нам всё равно придется переписать этот компонент на React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120714,
+   "de": "sowieso – Wir müssen diese Komponente sowieso in React neu schreiben.",
+   "ru": "всё равно / и без того — Нам всё равно придется переписать этот компонент на React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "spaced repetition": [
+  {
+   "id": 6044774629,
+   "de": "die Spaced Repetition (nur Sg.) – Ich lerne Vokabeln mit der Methode der Spaced Repetition.",
+   "ru": "интервальные повторения — Я учу слова с помощью метода интервальных повторений.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "spalte": [
+  {
+   "id": 6434699142,
+   "de": "die Spalte (Spalten) – Jeder Task ist „greifbar“, um ihn zwischen den Spalten zu verschieben.",
+   "ru": "колонка / столбец (на Канбан-доске) — Каждая задача «осязаема», чтобы перемещать ее между колонками.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5957604454,
+   "de": "die Spalte (Spalten) – Füg eine neue Spalte in diese Tabelle ein.",
+   "ru": "столбец, колонка — Добавь новую колонку в эту таблицу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "speichern": [
+  {
+   "id": 5628100702,
+   "de": "speichern (speicherte; hat gespeichert) – Die Daten werden auf externen Servern gespeichert.",
+   "ru": "хранить; сохранять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sperren": [
+  {
+   "id": 6434699134,
+   "de": "sperren (sperrte; hat gesperrt, du sperrst) – Wir müssen diesen Account aus Sicherheitsgründen sperren.",
+   "ru": "блокировать / запирать — Нам нужно заблокировать этот аккаунт из соображений безопасности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "spezialisiert auf": [
+  {
+   "id": 5569465176,
+   "de": "spezialisiert auf (Akk.) – Unsere Abteilung ist auf Datensicherheit spezialisiert.",
+   "ru": "специализированный на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sprechen mit": [
+  {
+   "id": 5569463488,
+   "de": "sprechen mit (Dat.) (sprach; hat gesprochen) – Ich muss mit dem Manager sprechen.",
+   "ru": "говорить с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sprechen über": [
+  {
+   "id": 5569463435,
+   "de": "sprechen über (Akk.) (sprach; hat gesprochen) – Wir sprechen über die Projektziele.",
+   "ru": "говорить о",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sprechhemmungen": [
+  {
+   "id": 6155400455,
+   "de": "die Sprechhemmungen (Pl.) – Regelmäßiges Üben hilft, Sprechhemmungen abzubauen.",
+   "ru": "языковой барьер / скованность в речи — Постоянная практика помогает преодолеть языковой барьер.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sprit": [
+  {
+   "id": 6481401668,
+   "de": "der Sprit (nur Sg.) – Wir müssen zur Tankstelle fahren und Sprit tanken.",
+   "ru": "горючее / бензин — Нужно заехать на заправку и залить бензин.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "spurten / spuren": [
+  {
+   "id": 6420230864,
+   "de": "spurten / spuren (spürte / spurte) – Das System muss fehlerfrei spuren.",
+   "ru": "слушаться, повиноваться — Этот скрипт работает как надо и подчиняется всем правилам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "spüren": [
+  {
+   "id": 5696310290,
+   "de": "spüren (spürte; hat gespürt) – Wir können die Anspannung im Team spüren.",
+   "ru": "чувствовать, ощущать - Мы можем ощущать напряжение в команде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stakeholder": [
+  {
+   "id": 6423479467,
+   "de": "der Stakeholder (Stakeholder) – Wir müssen Änderungen mit den wichtigsten Stakeholdern abstimmen.",
+   "ru": "заинтересованное лицо / стейкхолдер — Нам нужно согласовывать изменения с ключевыми стейкхолдерами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stammen": [
+  {
+   "id": 5628100713,
+   "de": "stammen (stammte; hat gestammt) – Der Fehler stammt aus einem veralteten Codeblock.",
+   "ru": "происходить; быть родом (откуда-либо)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800279,
+   "de": "stammen (stammte; hat gestammt) – Diese Daten stammen aus dem Legacy-System.",
+   "ru": "происходить / быть родом из — Эти данные происходят из старой системы (Legacy).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stammen aus": [
+  {
+   "id": 5862955751,
+   "de": "stammen aus (Dat.) (stammte; hat gestammt) – Diese Daten stammen aus dem letzten Bericht.",
+   "ru": "происходить, быть родом из - Эти данные взяты из последнего отчета.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "standardmäßig": [
+  {
+   "id": 5957604458,
+   "de": "standardmäßig – Dieses Passwort ist standardmäßig eingestellt.",
+   "ru": "по умолчанию — Этот пароль установлен по умолчанию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "starren": [
+  {
+   "id": 5783860978,
+   "de": "starren (starrte; hat gestarrt) – Er starrte auf den Monitor, um den Fehler zu finden.",
+   "ru": "пристально смотреть - Он пристально смотрел на монитор, ища ошибку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "starres verfahren": [
+  {
+   "id": 6127832245,
+   "de": "starres Verfahren (Verfahren) – Ein starres Verfahren behindert oft Innovationen.",
+   "ru": "жесткая процедура — Жесткая процедура часто мешает инновациям.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "staub": [
+  {
+   "id": 5618999079,
+   "de": "der Staub (nur Sg.) – Staub in Serverräumen ist ein Problem für die Hardware.",
+   "ru": "пыль",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stauchen": [
+  {
+   "id": 5973089025,
+   "de": "stauchen (stauchte; hat gestaucht) – Der Text darf in der Horizontalen nicht gestaucht wirken.",
+   "ru": "сжимать (в физическом смысле или в дизайне), сплющивать — Текст не должен выглядеть сплющенным по горизонтали.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stecken": [
+  {
+   "id": 6420230839,
+   "de": "stecken (steckte; hat gesteckt, du steckst) – Zu starke Fokussierung auf die Vergangenheit vermittelt, dass du noch in der Entwicklung steckst.",
+   "ru": "находиться (в каком-то процессе/состоянии) — Слишком сильный фокус на прошлом показывает, что ты еще застрял в развитии.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5927101112,
+   "de": "stecken (steckte; hat gesteckt) – Der Schlüssel steckt im Schloss.",
+   "ru": "втыкать, совать, находиться (где-то) - Ключ находится в замке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6100030319,
+   "de": "stecken (steckte; hat gesteckt) – Der Schlüssel steckt im Schloss.",
+   "ru": "втыкать / совать / находиться (где-то) — Ключ торчит в замке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "steckenbleiben": [
+  {
+   "id": 6021248064,
+   "de": "steckenbleiben (blieb stecken; ist steckengeblieben) – Der Ladebalken ist bei 90 Prozent steckengeblieben.",
+   "ru": "застрять (в текстурах/в процессе) — Прогресс-бар застрял на 90 процентах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stehen für": [
+  {
+   "id": 6004594188,
+   "de": "stehen für (Akk.) (stand; hat gestanden) – Die Farbe Blau steht für Treue.",
+   "ru": "означать, символизировать — Синий цвет символизирует верность.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stehen im vordergrund": [
+  {
+   "id": 5521762957,
+   "de": "stehen im Vordergrund / (stand; gestanden) / – Die Kundenzufriedenheit steht bei uns im Vordergrund.",
+   "ru": "Стоять на переднем плане (быть приоритетным)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stehlen": [
+  {
+   "id": 6100030316,
+   "de": "stehlen (stahl; hat gestohlen) – Jemand hat mein Fahrrad gestohlen.",
+   "ru": "красть / воровать — Кто-то украл мой велосипед.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stellung beziehen": [
+  {
+   "id": 5259310153,
+   "de": "Stellung beziehen (bezogen)",
+   "ru": "занимать позицию",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "sterben": [
+  {
+   "id": 5911460927,
+   "de": "sterben (starb; ist gestorben) – Ohne Updates sterben alte Systeme mit der Zeit.",
+   "ru": "умирать - Без обновлений старые системы со временем «умрут».",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stets": [
+  {
+   "id": 5603787554,
+   "de": "stets – Wir sind stets bemüht, die beste Qualität zu liefern.",
+   "ru": "всегда; постоянно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "steuern": [
+  {
+   "id": 6131137612,
+   "de": "steuern (steuerte; hat gesteuert) – Die Temperature steuert, wie zufällig oder kontrolliert ein Sprachmodell antwortet.",
+   "ru": "управлять, регулировать — «Температура» управляет тем, насколько случайно или контролируемо отвечает языковая модель.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800284,
+   "de": "steuern (steuerte; hat gesteuert) – Das Framework steuert den Ablauf, nicht umgekehrt.",
+   "ru": "управлять (контролировать) — Фреймворк управляет ходом выполнения, а не наоборот.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "steuerung": [
+  {
+   "id": 5957604436,
+   "de": "die Steuerung (Steuerungen) – Die Steuerung dieser Software ist sehr intuitiv.",
+   "ru": "управление, контроль — Управление этой программой очень интуитивное.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stil": [
+  {
+   "id": 6442594601,
+   "de": "der Stil (Stile / Stilarten) – Unser Projekt folgt strikt einem einheitlichen Code-Stil.",
+   "ru": "стиль (например, кодстайл) — Наш проект строго следует единому стилю написания кода.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stilllegung": [
+  {
+   "id": 5676821621,
+   "de": "die Stilllegung (Stilllegungen) – Die Stilllegung des Servers verursacht erhebliche Verluste.",
+   "ru": "остановка, закрытие - Остановка сервера приведет к значительным убыткам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "stimmen": [
+  {
+   "id": 6434699128,
+   "de": "stimmen (stimmte; hat gestimmt, du stimmst) – Bevor man spielt, muss man die Gitarре richtig stimmen.",
+   "ru": "настраивать (инструмент или голос) — Перед тем как играть, гитару нужно правильно настроить.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

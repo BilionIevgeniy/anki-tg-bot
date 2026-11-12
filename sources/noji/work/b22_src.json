@@ -1,0 +1,1156 @@
+{
+ "zügige ausführung": [
+  {
+   "id": 5589940001,
+   "de": "die zügige Ausführung – Die zügige Ausführung der Aufgaben ist entscheidend.",
+   "ru": "быстрое выполнение; своевременное исполнение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ähnlichkeiten ziehen": [
+  {
+   "id": 5989563343,
+   "de": "Ähnlichkeiten ziehen (zog; hat gezogen) – Es ist schwer, Ähnlichkeiten zwischen diesen beiden Systemen zu ziehen.",
+   "ru": "проводить аналогии/сходства — Трудно проводить сходства между этими двумя системами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "änderung an": [
+  {
+   "id": 5569460692,
+   "de": "die Änderung an (Dat.) – Die Änderung an der Architektur ist genehmigt.",
+   "ru": "изменение в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ängste abbauen": [
+  {
+   "id": 6008372947,
+   "de": "Ängste abbauen (baute ab; hat abgebaut) – Wir müssen zuerst die Ängste vor der neuen Technologie abbauen.",
+   "ru": "снимать страхи / избавляться от опасений — Нам нужно сначала снять страхи перед новой технологией.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ärger über": [
+  {
+   "id": 5569460656,
+   "de": "der Ärger über (Akk.) – Der Ärger über das fehlerhafte Update ist groß.",
+   "ru": "злость по поводу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "äußerst": [
+  {
+   "id": 6090226930,
+   "de": "äußerst – Diese Aufgabe scheint mir äußerst schwierig zu sein.",
+   "ru": "крайне, чрезвычайно — Эта задача кажется мне чрезвычайно сложной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "öffentlich": [
+  {
+   "id": 6127832243,
+   "de": "öffentlich – Diese Information ist noch nicht öffentlich zugänglich.",
+   "ru": "публичный, открытый — Эта информация еще не стала публичной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "über den tellerrand hinausschauen": [
+  {
+   "id": 5589939998,
+   "de": "über den Tellerrand hinausschauen (schaute hinaus; hat hinausgeschaut) – Wir müssen über den Tellerrand hinausschauen, um innovative Lösungen zu finden.",
+   "ru": "смотреть за пределы привычного; мыслить нестандартно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überall": [
+  {
+   "id": 6465607888,
+   "de": "überall – Veraltete Dependencies liegen in diesem Projekt überall herum.",
+   "ru": "везде / повсюду — Устаревшие зависимости валяются везде в этом проекте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überfall": [
+  {
+   "id": 6420230838,
+   "de": "der Überfall (Überfälle) – Der Überfall auf die Bank war sorgfältig geplant.",
+   "ru": "нападение, ограбление — Нападение на банк было тщательно спланировано.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überflüssig": [
+  {
+   "id": 6385684795,
+   "de": "überflüssig – Überflüssige Aufzählungen von Fähigkeiten wirken auf Recruiter abschreckend.",
+   "ru": "излишний / ненужный — Излишние перечисления навыков отталкивают рекрутеров.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überfällig": [
+  {
+   "id": 5575958546,
+   "de": "überfällig – Das Sicherheitsupdate ist überfällig.",
+   "ru": "просроченный; давно назревший",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übergangen": [
+  {
+   "id": 6486814082,
+   "de": "übergangen (überging; hat übergangen, du übergehst) – Die Kritikerin fühlt sich übergangen.",
+   "ru": "проигнорированный / обойденный вниманием — Критик чувствует себя проигнорированным, потому что с ним не согласовали изменения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übergreifen auf": [
+  {
+   "id": 6140091056,
+   "de": "übergreifen auf (Akk.) (griff über; hat übergegriffen) – Das Problem kann auf andere Systemteile übergreifen.",
+   "ru": "переходить / охватывать — Проблема может перекинуться на другие части системы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248099,
+   "de": "übergreifen auf (Akk.) (griff über; hat übergegriffen) – Das Problem kann auf andere Module übergreifen.",
+   "ru": "охватывать, распространяться на — Огонь (или проблема) может перекинуться на другие части.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überholen": [
+  {
+   "id": 6262423262,
+   "de": "überholen (überholte; hat überholter) – Wir müssen unsere Konkurrenten bei der Implementierung von Features überholen.",
+   "ru": "опережать / обгонять — Мы должны опережать конкурентов по скорости внедрения фич.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überlegen": [
+  {
+   "id": 5950387748,
+   "de": "überlegen (überlegte; hat überlegt) – Wir müssen uns einen neuen Plan überlegen.",
+   "ru": "обдумывать, размышлять - Мы должны обдумать новый план действий.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überlegung": [
+  {
+   "id": 5546335677,
+   "de": "die Überlegung (Überlegungen) – Nach langer Überlegung haben wir uns für diese Lösung entschieden.",
+   "ru": "размышление; обдумывание",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überlesen": [
+  {
+   "id": 6420230848,
+   "de": "überlesen (überlas; hat überlesen, du überliest) – Ich habe diese wichtige Zeile in den Logs versehentlich überlesen.",
+   "ru": "проглядеть, прочитать невнимательно — Я случайно проглядел эту важную строчку в логах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übermäßig": [
+  {
+   "id": 6262423266,
+   "de": "übermäßig – Eine übermäßige Verwendung von Kommentaren macht den Code „unsauber“.",
+   "ru": "чрезмерный — Чрезмерное использование комментариев делает код «грязным».",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überrascht über": [
+  {
+   "id": 5569465179,
+   "de": "überrascht über (Akk.) – Wir waren überrascht über die Reaktion der Nutzer.",
+   "ru": "удивленный по поводу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überschneidung": [
+  {
+   "id": 5683884912,
+   "de": "die Überschneidung (Überschneidungen) – Es gab eine Überschneidung von Terminen.",
+   "ru": "пересечение, совпадение (по времени) - В расписании произошло пересечение встреч.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überschreiten": [
+  {
+   "id": 5618999078,
+   "de": "überschreiten (überschritt; hat überschritten) – Wir dürfen das Budget nicht überschreiten.",
+   "ru": "превышать; переходить (лимит)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248046,
+   "de": "überschreiten (überschritt; hat überschritten) – Er hat die vereinbarte Zeit deutlich überschritten.",
+   "ru": "превышать, переступать — Он значительно превысил оговоренное время.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überschrift": [
+  {
+   "id": 6004594176,
+   "de": "die Überschrift (Überschriften) – Die Überschrift muss kurz und klar sein.",
+   "ru": "заголовок — Заголовок должен быть коротким и ясным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übertreffen": [
+  {
+   "id": 5588178253,
+   "de": "übertreffen (übertraf; hat übertroffen) – Die Ergebnisse übertreffen unsere Erwartungen.",
+   "ru": "превосходить; превышать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übertreiben": [
+  {
+   "id": 5593436130,
+   "de": "übertreiben (übertrieb; hat übertrieben) – Du solltest mit deinen Erwartungen nicht übertreiben.",
+   "ru": "перебарщивать; преувеличивать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übertrieben": [
+  {
+   "id": 5972792639,
+   "de": "übertrieben – Deine Reaktion auf diesen Bug war ein bisschen übertrieben.",
+   "ru": "преувеличенный, излишний — Твоя реакция на этот баг была немного преувеличенной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überwachtes lernen": [
+  {
+   "id": 6131137617,
+   "de": "überwachtes Lernen (nur Sg.) – Überwachtes Lernen erfordert viele gelabelte Daten.",
+   "ru": "контролируемое обучение — Контролируемое обучение требует большого количества размеченных данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überwiegen": [
+  {
+   "id": 5696310284,
+   "de": "überwiegen (überwog; hat überwogen) – Die Vorteile dieser Lösung überwiegen die Nachteile.",
+   "ru": "преобладать - Преимущества этого решения преобладают над недостатками.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überzeugen von": [
+  {
+   "id": 5569463494,
+   "de": "überzeugen von (Dat.) (überzeugte; hat überzeugt) – Wir überzeugen die Stakeholder von dem Konzept.",
+   "ru": "убеждать в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "überzeugt von": [
+  {
+   "id": 5569465200,
+   "de": "überzeugt von (Dat.) – Ich bin von der Qualität überzeugt.",
+   "ru": "убежденный в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "üblich": [
+  {
+   "id": 6492126624,
+   "de": "üblich – In unserer Firma ist es üblich, tägliche Dailies abzuhalten.",
+   "ru": "принятый / обычный — В нашей компании принято проводить ежедневные короткие созвоны (Daily).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6503896708,
+   "de": "üblich – Frag am besten Kollegen, ob das bei euch üblich ist.",
+   "ru": "принято / обычный — Спроси лучше у коллег, принято ли это у вас.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5603787573,
+   "de": "üblich – Das ist bei uns nicht üblich.",
+   "ru": "обычный; общепринятый",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6064365146,
+   "de": "üblich – Das ist ein übliches Verfahren für solche Fälle.",
+   "ru": "обычный, обыкновенный — Это обычная процедура для таких случаев.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "übrig": [
+  {
+   "id": 5374176731,
+   "de": "übrig (Die übrigen Aufgaben)",
+   "ru": "остальной, прочий (например, оставшиеся задачи)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5596845326,
+   "de": "übrig – Es ist keine Zeit mehr übrig für zusätzliche Funktionen.",
+   "ru": "оставаться; остальной",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "баге), zu etwas kommen": [
+  {
+   "id": 5589940013,
+   "de": "баге), zu etwas kommen (kam zu; ist gekommen) – Der Fehler kann zu einem Absturz kommen.",
+   "ru": "приводить к чему-то (о проблеме",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "благополучие": [
+  {
+   "id": 5222265876,
+   "de": "Благополучие",
+   "ru": "das Wohlbefinden",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "бывшие солдаты": [
+  {
+   "id": 5189338731,
+   "de": "бывшие солдаты",
+   "ru": "ehemalige Soldaten",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "быть решающим": [
+  {
+   "id": 5222265860,
+   "de": "Быть решающим",
+   "ru": "entscheidend sein",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "в зависимости от услуг": [
+  {
+   "id": 5222265885,
+   "de": "В зависимости от услуг",
+   "ru": "je nach den Leistungen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "в заключение можно сказать, что": [
+  {
+   "id": 5222265873,
+   "de": "В заключение можно сказать, что",
+   "ru": "Zusammenfassend lässt sich sagen, dass",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "важна лишь доза": [
+  {
+   "id": 5986064691,
+   "de": "важна лишь доза — Будь осторожен с кофе: всё решает доза. ; die Dosis macht das Gift – Sei vorsichtig mit Kaffee: Die Dosis macht das Gift.",
+   "ru": "все — яд, все — лекарство",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "выписать лекарство": [
+  {
+   "id": 5189354647,
+   "de": "выписать лекарство",
+   "ru": "die Arznei verschreiben",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "действовать устойчиво/экологично": [
+  {
+   "id": 5189354644,
+   "de": "действовать устойчиво/экологично",
+   "ru": "nachhaltig handeln",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "делать точные прогнозы": [
+  {
+   "id": 5222265852,
+   "de": "Делать точные прогнозы",
+   "ru": "präzise Vorhersagen treffen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "если": [
+  {
+   "id": 5862955743,
+   "de": "если - Мы закончим вовремя, если не возникнет проблем. ; sofern – Wir werden pünktlich fertig, sofern keine Probleme auftreten.",
+   "ru": "при условии, что",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "забронировать турпакет": [
+  {
+   "id": 4955356279,
+   "de": "забронировать турпакет",
+   "ru": "eine Pauschalreise (die) buchen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "заключить соглашение": [
+  {
+   "id": 5189187363,
+   "de": "заключить соглашение",
+   "ru": "eine Abmachung  treffen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "застать кого-то в офисе": [
+  {
+   "id": 4955356324,
+   "de": "застать кого-то в офисе",
+   "ru": "jemanden im Büro antreffen (trennb., Akk.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "идти на контакт/сближаться с новыми коллегами": [
+  {
+   "id": 4955358364,
+   "de": "идти на контакт/сближаться с новыми коллегами",
+   "ru": "sich auf neue Kollegen (Pl.) einlassen (trennb., reflexiv)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "изменение), vornehmen": [
+  {
+   "id": 5575958561,
+   "de": "изменение), vornehmen (nahm vor; hat vorgenommen) – Wir müssen eine Änderung der Konfiguration vornehmen.",
+   "ru": "производить; осуществлять (действие",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "иметь влияние на": [
+  {
+   "id": 5222265926,
+   "de": "Иметь влияние на",
+   "ru": "Auswirkung haben auf",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "иметь ревматизм": [
+  {
+   "id": 5189354655,
+   "de": "иметь ревматизм",
+   "ru": "Rheuma haben",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "иметь слабые стороны": [
+  {
+   "id": 5222265888,
+   "de": "Иметь слабые стороны",
+   "ru": "Schwächen haben",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "иметь утренние боли": [
+  {
+   "id": 5189354668,
+   "de": "иметь утренние боли",
+   "ru": "Morgenschmerzen haben",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "колено болит": [
+  {
+   "id": 5189354661,
+   "de": "колено болит",
+   "ru": "das Knie schmerzt",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "массажист делает массаж": [
+  {
+   "id": 5189354680,
+   "de": "массажист делает массаж",
+   "ru": "der Masseur massiert",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "медбрат ассистирует": [
+  {
+   "id": 5189354681,
+   "de": "медбрат ассистирует",
+   "ru": "der Krankenpfleger assistiert",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "мероприятие, чтобы открыть архитектуру": [
+  {
+   "id": 5189338740,
+   "de": "Мероприятие, чтобы открыть архитектуру",
+   "ru": "Veranstaltung zur Entdeckung Architektur",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "мириться с недостатками": [
+  {
+   "id": 5189354646,
+   "de": "мириться с недостатками",
+   "ru": "Nachteile in Kauf nehmen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "насморк раздражает": [
+  {
+   "id": 5189354670,
+   "de": "насморк раздражает",
+   "ru": "der Schnupfen nervt",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "нести расходы": [
+  {
+   "id": 5189354640,
+   "de": "нести расходы",
+   "ru": "die Kosten tragen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "нуждаться в чём-то": [
+  {
+   "id": 5189210648,
+   "de": "нуждаться в чём-то",
+   "ru": "etwas benötigen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "обращение/общение с людьми": [
+  {
+   "id": 5189354636,
+   "de": "обращение/общение с людьми",
+   "ru": "der Umgang mit Menschen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "обучение), absolvieren": [
+  {
+   "id": 5596845323,
+   "de": "обучение), absolvieren (absolvierte; hat absolviert) – Jeder Mitarbeiter muss dieses Sicherheitstraining absolvieren.",
+   "ru": "завершать; оканчивать (курс",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "оставаться на верном пути": [
+  {
+   "id": 5222265892,
+   "de": "Оставаться на верном пути",
+   "ru": "auf der Strecke bleiben",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "отдохнуть от работы": [
+  {
+   "id": 4955356280,
+   "de": "отдохнуть от работы",
+   "ru": "sich von der Arbeit erholen (reflexiv)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "отличная возможность": [
+  {
+   "id": 5212759838,
+   "de": "Отличная возможность",
+   "ru": "eine großartige Gelegenheit",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "отпуск), verfallen": [
+  {
+   "id": 5596845328,
+   "de": "отпуск), verfallen (verfiel; ist verfallen) – Der Resturlaub wird Ende März verfallen.",
+   "ru": "истекать (срок",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "очистить дома": [
+  {
+   "id": 5222265843,
+   "de": "Очистить дома",
+   "ru": "reinigen die Häuser",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "письменный стол": [
+  {
+   "id": 5222265861,
+   "de": "Письменный стол",
+   "ru": "der Schreibtisch",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "подать заявление на отпуск": [
+  {
+   "id": 4955356302,
+   "de": "подать заявление на отпуск",
+   "ru": "Urlaub (der) beantragen (Akk.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "подходящее физическое оснащение": [
+  {
+   "id": 5222265874,
+   "de": "Подходящее физическое оснащение",
+   "ru": "die passende physische Ausstattung",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "получить выговор": [
+  {
+   "id": 5189187544,
+   "de": "получить выговор",
+   "ru": "eine Abmahnung erhalten",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "попасться на уловку": [
+  {
+   "id": 4955356303,
+   "de": "попасться на уловку",
+   "ru": "auf einen Trick (der) reinfallen (trennb.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "предусматривать": [
+  {
+   "id": 5189338735,
+   "de": "предусматривать",
+   "ru": "(vor)sehen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "преодолевать трудности": [
+  {
+   "id": 5222265869,
+   "de": "Преодолевать трудности",
+   "ru": "Schwierigkeiten überwinden",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "продуктивность": [
+  {
+   "id": 5222265875,
+   "de": "Продуктивность",
+   "ru": "die Produktivität",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "прочистить трубу": [
+  {
+   "id": 5189212369,
+   "de": "прочистить трубу",
+   "ru": "ein Rohr reinigen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "работать в сложных условиях": [
+  {
+   "id": 5189187542,
+   "de": "работать в сложных условиях",
+   "ru": "unter schwierigen Umständen arbeiten",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "раздражаться из-за критики": [
+  {
+   "id": 5189187362,
+   "de": "раздражаться из-за критики",
+   "ru": "sich aufregen über die Kritik",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "сдать экзамен": [
+  {
+   "id": 4955356296,
+   "de": "сдать экзамен",
+   "ru": "eine Prüfung (die) bestehen (Akk.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "сегодня это так": [
+  {
+   "id": 5189212367,
+   "de": "Сегодня это так.",
+   "ru": "Heutzutage ist das so.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "снизить затраты": [
+  {
+   "id": 5189187380,
+   "de": "снизить затраты",
+   "ru": "die Kosten verringern",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "сносить, сдирать": [
+  {
+   "id": 5189338736,
+   "de": "сносить, сдирать",
+   "ru": "(ab)reißen (abgerissen)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "соблюдать срок": [
+  {
+   "id": 5189212384,
+   "de": "соблюдать срок",
+   "ru": "Die Frist einhalten",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "те самые": [
+  {
+   "id": 6041480205,
+   "de": "те самые — Мы ищем тех разработчиков, которые знают React. ; diejenigen – Wir suchen diejenigen Entwickler, die React beherrschen.",
+   "ru": "те, которые",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "тем не менее, мы его завершили. ; dennoch": [
+  {
+   "id": 5676821611,
+   "de": "тем не менее, мы его завершили. ; dennoch – Das Projekt war schwierig; dennoch haben wir es abgeschlossen.",
+   "ru": "ТЕМ НЕ МЕНЕЕ, все же - Проект был сложным",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "уволить сотрудника": [
+  {
+   "id": 5189187377,
+   "de": "уволить сотрудника",
+   "ru": "einen Mitarbeiter entlassen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "укладывать плитку": [
+  {
+   "id": 5189212376,
+   "de": "укладывать плитку",
+   "ru": "Fliesen verlegen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "уменьшить нагрузку на сотрудников": [
+  {
+   "id": 5222265853,
+   "de": "Уменьшить нагрузку на сотрудников",
+   "ru": "die Mitarbeiter entlasten",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "упускать из виду": [
+  {
+   "id": 5222265848,
+   "de": "Упускать из виду",
+   "ru": "übersehen",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "утешать кого-то": [
+  {
+   "id": 4955356293,
+   "de": "утешать кого-то",
+   "ru": "jemanden trösten (Akk.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "физическое окружение": [
+  {
+   "id": 5222265859,
+   "de": "Физическое окружение",
+   "ru": "die physische Umgebung",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "что-то установить": [
+  {
+   "id": 5189212374,
+   "de": "что-то установить",
+   "ru": "etwas etablieren",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "что..., hervorheben, dass": [
+  {
+   "id": 5575958552,
+   "de": "что..., hervorheben, dass... (hob hervor; hat hervorgehoben) – Er hob hervor, dass die Qualität Priorität hat.",
+   "ru": "он подчеркивает",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "что..., wir bedauern zutiefst, dass": [
+  {
+   "id": 5589940006,
+   "de": "что..., wir bedauern zutiefst, dass... – Wir bedauern zutiefst, dass es zu dieser Verzögerung kam.",
+   "ru": "мы глубоко сожалеем о том",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "что; похоже, что, es scheint, als": [
+  {
+   "id": 5568930085,
+   "de": "что; похоже, что, es scheint, als (+ Nebensatz) – Es scheint, als wäre der Server wieder online.",
+   "ru": "кажется",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "что; я предполагаю, ich rechne damit, dass": [
+  {
+   "id": 5575167138,
+   "de": "что; я предполагаю, ich rechne damit, dass... – Ich rechne damit, dass wir das Ziel diese Woche erreichen.",
+   "ru": "я рассчитываю на то",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "чтобы открыть для себя природу": [
+  {
+   "id": 5189338742,
+   "de": "Чтобы открыть для себя природу",
+   "ru": "zur Entdeckung der Natur",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "чтобы..., es ist dringend erforderlich, dass": [
+  {
+   "id": 5589940009,
+   "de": "чтобы..., es ist dringend erforderlich, dass... – Es ist dringend erforderlich, dass die Sicherheitslücken geschlossen werden.",
+   "ru": "это крайне необходимо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "это обязательно для меня": [
+  {
+   "id": 5222265884,
+   "de": "Это обязательно для меня",
+   "ru": "es ist für mich obligatorisch",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "я в отчаянии": [
+  {
+   "id": 5189354637,
+   "de": "Я в отчаянии.",
+   "ru": "Ich bin verzweifelt.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

@@ -1,0 +1,1363 @@
+{
+ "vertreiben": [
+  {
+   "id": 5986064697,
+   "de": "vertreiben (vertrieb; hat vertrieben) – Musik hilft dabei, die Langeweile zu vertreiben.",
+   "ru": "прогонять, выгонять, распространять (товар) — Музыка помогает прогнать скуку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vertretung": [
+  {
+   "id": 6486814105,
+   "de": "die Vertretung (Vertretungen) – Es gibt einen Betriebsrat, eine gewählte Vertretung der Beschäftigten.",
+   "ru": "представительство — На предприятии есть производственный совет — избранное представительство работников.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verurteilen": [
+  {
+   "id": 6407884662,
+   "de": "verurteilen (verurteilte; hat verurteilt) – Das Gericht hat ihn zu einer Geldstraфе verurteilt.",
+   "ru": "осуждать, приговоривать — Суд приговорил его к штрафу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6041480236,
+   "de": "verurteilen (verurteilte; hat verurteilt) – Man sollte andere nicht zu schnell verurteilen.",
+   "ru": "осуждать, приговаривать — Не стоит судить других слишком быстро.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vervollständigung": [
+  {
+   "id": 6131137613,
+   "de": "die Vervollständigung (Vervollständigungen) – KI lernt durch Vervollständigung, zum Beispiel bei einem Satz mit einem fehlenden Wort.",
+   "ru": "дополнение, завершение — ИИ учится через дополнение (завершение), например, предложения с пропущенным словом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verwaltung": [
+  {
+   "id": 6127832251,
+   "de": "die Verwaltung (Verwaltungen) – Die Verwaltung der Bewerbungen nimmt viel Zeit in Anspruch.",
+   "ru": "управление, администрация — Управление заявками занимает много времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verwandeln": [
+  {
+   "id": 5783860962,
+   "de": "verwandeln (verwandelte; hat verwandelt) – Wir müssen die alten Daten in das neue Format verwandeln.",
+   "ru": "превращать, преобразовывать - Мы должны преобразовать старые данные в новый формат.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verwandelt sich in": [
+  {
+   "id": 5212759848,
+   "de": "verwandelt sich in",
+   "ru": "превращается в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verweigern": [
+  {
+   "id": 5654992874,
+   "de": "verweigern (verweigerte; hat verweigert) – Der Zugriff wurde wegen eines falschen Passworts verweigert.",
+   "ru": "отказывать (в чем-либо) - Системе было отказано в доступе из-за неверного пароля.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verweilen": [
+  {
+   "id": 6262423265,
+   "de": "verweilen (verweilte; ist verweilt) – Man sollte nicht zu lange bei einem kleinen Detail verweilen.",
+   "ru": "задерживаться / останавливаться (на чем-то) — Не стоит долго задерживаться на одной мелкой детали.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verweisen auf": [
+  {
+   "id": 5927101102,
+   "de": "verweisen auf (Akk.) (verwies; hat verwiesen) – Ich möchte auf die aktuellen Regeln verweisen.",
+   "ru": "ссылаться, указывать - Я хочу сослаться на текущие правила.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verwirklichen": [
+  {
+   "id": 5927101101,
+   "de": "verwirklichen (verwirklichte; hat verwirklicht) – Wir wollen unsere Ideen in diesem Projekt verwirklichen.",
+   "ru": "воплощать, реализовывать - Мы хотим реализовать наши идеи в этом проекте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verwirrend": [
+  {
+   "id": 5972792645,
+   "de": "verwirrend – Diese Dokumentation ist für Anfänger sehr verwirrend.",
+   "ru": "запутанный, сбивающий с толку — Эта документация очень запутанная для новичков.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800273,
+   "de": "verwirrend – Dieser Code ist sehr verwirrend, er ist schwer zu lesen.",
+   "ru": "запутанный / сбивающий с толку — Этот код очень запутанный, его сложно читать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verwunderlich": [
+  {
+   "id": 6481401639,
+   "de": "verwunderlich – Es ist verwunderlich, dass dieser Bug während der Unit-Tests nicht aufgetauчился.",
+   "ru": "удивительный / странно — Удивительно, что этот баг не всплыл во время юнит-тестов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5950387741,
+   "de": "verwunderlich – Es ist nicht verwunderlich, dass das System so langsam läuft.",
+   "ru": "удивительный, странный - Неудивительно, что система работает так медленно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verzeichnen": [
+  {
+   "id": 6041480217,
+   "de": "verzeichnen (verzeichnete; hat verzeichnet) – Letztes Jahr verzeichnete die Firma ein großes Wachstum.",
+   "ru": "записывать, регистрировать, отмечать — В прошлом году компания отметила значительный рост.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verzeihen": [
+  {
+   "id": 6434699130,
+   "de": "verzeihen (verzieh; hat verzeihen / hat verziehen, du verzeihst) – Ich kann einen kleinen Tippfehler in den Kommentaren verzeihen, aber keinen Logikfehler.",
+   "ru": "прощать — Я могу простить небольшую опечатку в комментариях, но не логическую ошибку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verzicht auf": [
+  {
+   "id": 5569460682,
+   "de": "der Verzicht auf (Akk.) – Der Verzicht auf unnötige Funktionen spart Zeit.",
+   "ru": "отказ от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verzichten auf": [
+  {
+   "id": 6407884653,
+   "de": "verzichten auf (Akk.) (verzichtete; hat verzichtet) – Wir mussten auf die Nutzung des alten Plugins verzichten.",
+   "ru": "отказываться (от чего-то) — Нам пришлось отказаться от использования старого плагина.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6526854316,
+   "de": "verzichten auf (Akk.) (verzichtete, hat verzichtet, du verzichtest) – Wir können auf diese Library verzichten und eine Lösung in Vanilla JS schreiben.",
+   "ru": "отказываться от чего-либо — Мы можем отказаться от этой библиотеки и написать решение на ванильном JS.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5628100689,
+   "de": "verzichten auf (Akk.) (verzichtete; hat verzichtet) – Wir verzichten auf zusätzliche Funktionen zugunsten der Stabilität.",
+   "ru": "отказываться от чего-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6262423288,
+   "de": "verzichten auf (Akk.) (verzichtete; hat verzichtet) – Wir mussten auf dieses Feature verzichten.",
+   "ru": "отказываться (от чего-то) — Нам пришлось отказаться от этой фичи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verzögern": [
+  {
+   "id": 6486814090,
+   "de": "verzögern (verzögerte; hat verzögert) – Wir dürfen den Release wegen kleiner Style-Fixes nicht verzögern.",
+   "ru": "затягивать / откладывать — Мы не должны затягивать релиз из-за мелких правок в стилях.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5667907568,
+   "de": "sich verzögern – Der Projektstart könnte sich etwas verzögern.",
+   "ru": "задерживаться / откладываться - Запуск проекта может немного задержаться.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verzögerung": [
+  {
+   "id": 5559821662,
+   "de": "die Verzögerung (Verzögerungen) – Es gab eine Verzögerung bei der Veröffentlichung.",
+   "ru": "задержка; промедление",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verändert": [
+  {
+   "id": 5541489139,
+   "de": "verändert (hat sich verändert) – Die Anforderungen an das Produkt haben sich stark verändert.",
+   "ru": "изменился",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "veräppeln": [
+  {
+   "id": 6146950721,
+   "de": "veräppeln (veräppelte; hat veräppelt) – Willst du mich veräppeln?",
+   "ru": "разыгрывать, подшучивать — Ты меня разыгрываешь (троллишь)?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verärgert über": [
+  {
+   "id": 5569465181,
+   "de": "verärgert über (Akk.) – Der Chef war verärgert über die Verzögerung.",
+   "ru": "раздраженный по поводу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vielschichtig": [
+  {
+   "id": 6064365159,
+   "de": "vielschichtig – Das Problem war sehr vielschichtig.",
+   "ru": "многогранный, сложный — Проблема оказалась очень многогранной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vital": [
+  {
+   "id": 6481401635,
+   "de": "vital – Das Error-Logging ist ein vitaler Bestandteil für die Stabilität der Anwendung.",
+   "ru": "жизненно важный / критичный — Логгирование ошибок — это жизненно важный элемент для стабильности приложения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vitalwerte": [
+  {
+   "id": 5647464578,
+   "de": "die Vitalwerte (nur Pl.) – Die Vitalwerte des Servers sind stabil.",
+   "ru": "жизненные показатели - Жизненные показатели сервера стабильны.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vogelschiss": [
+  {
+   "id": 6434699138,
+   "de": "der Vogelschiss (Vogelschisse) – Dieser Fehler ist doch ein Vogelschiss im Vergleich zum Gesamtbudget des Projekts.",
+   "ru": "ерунда / капля в море (букв. птичий помёт) — Эта ошибка — просто капля в море по сравнению с общим бюджетом проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vollenden": [
+  {
+   "id": 5667907539,
+   "de": "vollenden (vollendete; hat vollendet) – Wir müssen diese Projektphase bis Ende der Woche vollenden.",
+   "ru": "завершать, доводить до конца - Мы должны завершить этот этап проекта к концу недели.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vollführen": [
+  {
+   "id": 6262423282,
+   "de": "vollführen (vollführte; hat vollführt) – Das ist eine kompleвная Operation, die wir vollführen müssen.",
+   "ru": "выполнять (сложное действие) — Это сложная операция, которую мы должны выполнить.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vollkommen": [
+  {
+   "id": 5676821632,
+   "de": "vollkommen – Ich bin vollkommen von dem Erfolg des Teams überzeugt.",
+   "ru": "полностью, совершенно - Я полностью уверен в успехе команды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vollziehen": [
+  {
+   "id": 5559821621,
+   "de": "vollziehen (vollzog; hat vollzogen) – Der Wechsel auf das neue System vollzieht sich schrittweise.",
+   "ru": "осуществлять; совершать (переход; изменение)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5927101127,
+   "de": "vollziehen (vollzog; hat vollzogen) – Der Prozess vollzieht sich automatisch.",
+   "ru": "совершать, осуществлять - Процесс осуществляется автоматически.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vom kauf zurücktreten": [
+  {
+   "id": 5667907560,
+   "de": "vom Kauf zurücktreten – Der Kunde kann innerhalb von 14 Tagen vom Kauf zurücktreten.",
+   "ru": "отказаться от покупки (расторгнуть договор) - Клиент может отказаться от покупки в течение 14 дней.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "von daher": [
+  {
+   "id": 6128964740,
+   "de": "von daher – Das ist eine komplexe Aufgabe, von daher brauchen wir mehr Zeit.",
+   "ru": "оттого / поэтому — Это сложная задача, поэтому нам нужно больше времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "von selbst": [
+  {
+   "id": 6131137622,
+   "de": "von selbst – Das System erkennt keine neuen Muster von selbst.",
+   "ru": "само по себе / автоматически — Система не распознает новые паттерны сама по себе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "von vorneherein": [
+  {
+   "id": 6423479476,
+   "de": "von vorneherein – Wir hätten eine saubere Architektur von vorneherein einplanen müssen.",
+   "ru": "с самого начала / изначально — Мы должны были заложить чистую архитектуру с самого начала.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "von vornherein": [
+  {
+   "id": 6465607889,
+   "de": "von vornherein – Wir hätten diesen Edge-Case von vornherein einplanen müssen.",
+   "ru": "заранее / с самого начала — Мы должны были продумать этот кейс заранее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vor sich herschieben": [
+  {
+   "id": 6518119474,
+   "de": "vor sich herschieben (schob; hat geschoben, du schiebst) – Man sollte das Refactoring nicht lange vor sich herschieben.",
+   "ru": "* откладывать на потом (прокрастинировать) — Не стоит откладывать рефакторинг перед собой на потом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120225,
+   "de": "vor sich herschieben (schob, hat geschoben, du schiebst) – Man sollte das Refactoring nicht lange vor sich herschieben.",
+   "ru": "откладывать на потом (прокрастинировать) — Не стоит откладывать рефакторинг перед собой на потом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120793,
+   "de": "vor sich herschieben (schob, hat geschoben, du schiebst) – Man sollte das Refactoring nicht lange vor sich herschieben.",
+   "ru": "откладывать на потом (прокрастинировать) — Не стоит откладывать рефакторинг перед собой на потом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorab": [
+  {
+   "id": 6494316895,
+   "de": "vorab – Außerdem schlage ich vor, dass wir künftig neue externe Dienste vorab mit dem Datenschutz abstimmen.",
+   "ru": "заранее / предварительно — Кроме того, я предлагаю впредь заранее согласовывать новые внешние сервисы с отделом защиты данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964744,
+   "de": "vorab (nicht \"am vorab\") – Ich möchte alles vorab vorbereiten.",
+   "ru": "заранее / предварительно — Я хочу подготовить всё заранее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6131137629,
+   "de": "vorab – Vielen Dank vorab für deine Hilfe.",
+   "ru": "заранее / предварительно — Большое спасибо заранее за твою помощь.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "voranbringen": [
+  {
+   "id": 6131137630,
+   "de": "voranbringen (brachte voran; hat vorangebracht) – Diese Technologie wird unser Projekt voranbringen.",
+   "ru": "продвигать, развивать — Эта технология продвинет наш проект вперед.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "voranmeldung": [
+  {
+   "id": 5603787549,
+   "de": "die Voranmeldung (Voranmeldungen) – Für das Webinar ist eine Voranmeldung erforderlich.",
+   "ru": "предварительная запись; предварительная регистрация",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorantreiben": [
+  {
+   "id": 6481401674,
+   "de": "vorantreiben (trieb voran; hat vorangetrieben, du treibst voran) – Du treibst deine Aufgaben im Sprint selbst voran.",
+   "ru": "продвигать вперед — Ты самостоятельно продвигаешь свои задачи в спринте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "voraussetzen": [
+  {
+   "id": 5683884919,
+   "de": "voraussetzen (setzte voraus; hat vorausgesetzt) – Diese Arbeit setzt Python-Kenntnisse voraus.",
+   "ru": "предполагать, требовать (в качестве условия) - Для этой работы предполагается знание Python.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964737,
+   "de": "voraussetzen (setzte voraus; hat vorausgesetzt) – Bewerbungen müssen oft präzise auf Online-Formate zugeschnitten sein, was technische Kenntnisse voraussetzt.",
+   "ru": "предусматривать, требовать (как условие) — Заявки часто должны быть точно адаптированы под онлайн-форматы, что требует технических знаний.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "voraussetzung für": [
+  {
+   "id": 5569460683,
+   "de": "die Voraussetzung für (Akk.) – Technisches Wissen ist eine Voraussetzung für diesen Job.",
+   "ru": "предпосылка для",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "voraussichtlich": [
+  {
+   "id": 5654992861,
+   "de": "voraussichtlich – Der Starttermin ist voraussichtlich nächste Woche.",
+   "ru": "предположительно, ожидается, что - Ожидается, что запуск состоится на следующей неделе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "voraussichtliche zeitraum": [
+  {
+   "id": 5559821670,
+   "de": "der voraussichtliche Zeitraum (voraussichtliche Zeiträume) – Der voraussichtliche Zeitraum für die Implementierung ist zwei Wochen.",
+   "ru": "предполагаемый период",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorbehaltlich": [
+  {
+   "id": 5862955765,
+   "de": "vorbehaltlich (Gen.) – Wir nehmen den Auftrag vorbehaltlich der Verfügbarkeit an.",
+   "ru": "при условии, с оговоркой - Мы принимаем заказ при условии наличия товара.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorbereitung auf": [
+  {
+   "id": 5569460684,
+   "de": "die Vorbereitung auf (Akk.) – Die Vorbereitung auf das Audit läuft gut.",
+   "ru": "подготовка к",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorbereitungen treffen": [
+  {
+   "id": 5371376336,
+   "de": "Vorbereitungen treffen (getroffen)",
+   "ru": "сделать приготовления",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorbeugend": [
+  {
+   "id": 5927101108,
+   "de": "vorbeugend – Wir treffen vorbeugende Maßnahmen.",
+   "ru": "профилактический, предупредительный - Мы принимаем профилактические меры.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorbild": [
+  {
+   "id": 6090226931,
+   "de": "das Vorbild (Vorbilder) – Mein Vater ist mein großes Vorbild.",
+   "ru": "образец, пример для подражания — Мой отец — мой большой пример для подражания.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorbildlich": [
+  {
+   "id": 6503896704,
+   "de": "vorbildlich – Sein Verhalten gegenüber Vorgesetzten, Kollegen und Kunden war stets vorbildlich.",
+   "ru": "примерный / образцовый — Его поведение по отношению к руководству, коллегам и клиентам всегда было образцовым.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorenthalten": [
+  {
+   "id": 6262423286,
+   "de": "vorenthalten (enthielt vor; hat vorenthalten, du vorenthältst) – Ich möchte dir wichtige Informationen nicht vorenthalten.",
+   "ru": "скрывать / удерживать (от кого-то) — Я не хочу скрывать от тебя важную информацию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorerst": [
+  {
+   "id": 6494316894,
+   "de": "vorerst – Wir bauen das Tool vorerst aus.",
+   "ru": "пока / на данный момент — Пока что мы убираем этот инструмент из сборки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5575167158,
+   "de": "vorerst – Die Entscheidung ist vorerst auf Eis gelegt.",
+   "ru": "пока что; временно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorfall": [
+  {
+   "id": 5568930092,
+   "de": "der Vorfall (Vorfälle) – Solche Vorfälle müssen dokumentiert werden.",
+   "ru": "инцидент; происшествие",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5588178246,
+   "de": "der Vorfall (Vorfälle) – Der Sicherheitsexperte untersucht den Vorfall.",
+   "ru": "происшествие; инцидент (сбой)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorgabe": [
+  {
+   "id": 5647464576,
+   "de": "die Vorgabe (Vorgaben) – Wir müssen uns an alle internen Vorgaben halten.",
+   "ru": "предписание, установка, задание - Мы должны следовать всем внутренним предписаниям.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorgang": [
+  {
+   "id": 6442594607,
+   "de": "der Vorgang (Vorgänge) – Dieser Hintergrund-Vorgang verbraucht zu viel Arbeitsspeicher.",
+   "ru": "процесс, операция — Этот фоновый процесс потреб**ет слишком много памяти.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6044774638,
+   "de": "der Vorgang (Vorgänge) – Der Zahlungsvorgang verlief ohne Probleme.",
+   "ru": "процесс, событие — Процесс оплаты прошел без проблем.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorgehensweise": [
+  {
+   "id": 6004594211,
+   "de": "die Vorgehensweise (Vorgehensweisen) – Wie ist unsere Vorgehensweise?",
+   "ru": "подход, метод действий — Каков наш план действий (метод)?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorhaben": [
+  {
+   "id": 5603787530,
+   "de": "vorhaben (hatte vor; hat vorgehabt) – Was haben Sie vor, um dieses Problem zu beheben?",
+   "ru": "иметь намерение; планировать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964734,
+   "de": "vorhaben (hatte vor; hat vorgehabt) – Was hast du am Wochenende vor?",
+   "ru": "намереваться, планировать — Что ты планируешь делать на выходных?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorhanden sein": [
+  {
+   "id": 6044774614,
+   "de": "vorhanden sein – Alle benötigten Komponenten sind vorhanden.",
+   "ru": "имеется, присутствует — Все необходимые компоненты имеются.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorherig": [
+  {
+   "id": 6155400429,
+   "de": "vorherig – Die vorherige Version des Codes war stabiler.",
+   "ru": "предыдущий — Предыдущая версия кода была более стабильной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorhersehbar": [
+  {
+   "id": 6131137611,
+   "de": "vorhersehbar – Das Verhalten des Algorithmus ist in diesem Fall völlig vorhersehbar.",
+   "ru": "предсказуемый — Поведение алгоритма в данном случае вполне предсказуемо.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6041480215,
+   "de": "vorhersehbar – Das Ergebnis dieses Tests war vorhersehbar.",
+   "ru": "предсказуемый — Результат этого теста был предсказуем.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorhin": [
+  {
+   "id": 6004594161,
+   "de": "vorhin – Ich habe ihn hier vorhin gesehen.",
+   "ru": "недавно, только что — Я видел его здесь только что.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorkommen": [
+  {
+   "id": 6385684806,
+   "de": "vorkommen (kam vor; ist vorgekommen, du kommst vor) – Solche Speicherfehler können im alten Code vorkommen.",
+   "ru": "встречаться / происходить — Такие ошибки в памяти могут происходить при работе со старым кодом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5972792637,
+   "de": "vorkommen (kam vor; ist vorgekommen) – Solche Fehler kommen in alten Systemen oft vor.",
+   "ru": "встречаться, происходить, казаться — Такие ошибки часто встречаются в старых системах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6262423275,
+   "de": "vorkommen (kam vor; ist vorgekommen, du kommst vor) – Das kommt in der Regel eigentlich eher selten vor.",
+   "ru": "встречаться / случаться — Это случается крайне редко.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorkommen bei": [
+  {
+   "id": 5569463505,
+   "de": "vorkommen bei (Dat.) (kam vor; ist vorgekommen) – Der Fehler kommt nur bei bestimmten Nutzern vor.",
+   "ru": "встречаться с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorkommnis": [
+  {
+   "id": 5683884911,
+   "de": "das Vorkommnis (Vorkommnisse) – Nach jedem Vorkommnis wird ein Bericht verfasst.",
+   "ru": "происшествие, случай - После каждого происшествия пишется отчет.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorlage": [
+  {
+   "id": 6385684790,
+   "de": "die Vorlage (Vorlagen) – Nutze eine individuelle Ausdrucksweise statt fremder Vorlagen.",
+   "ru": "шаблон / образец — Используй индивидуальный стиль выражения вместо чужих шаблонов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6155400454,
+   "de": "die Vorlage (Vorlagen) – Dieser Ordner enthält Vorlagen für deinen Lebenslauf.",
+   "ru": "шаблон / образец — Эта папка содержит шаблоны для твоего резюме.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorlegen": [
+  {
+   "id": 5654992888,
+   "de": "vorlegen (legte vor; hat vorgelegt) – Wir müssen das finale Design zur Genehmigung vorlegen.",
+   "ru": "предъявлять, представлять (документы) - Мы должны представить окончательный дизайн на утверждение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5559821672,
+   "de": "vorlegen (legte vor; hat vorgelegt) – Sie müssen den Bericht bis Freitag vorlegen.",
+   "ru": "предоставлять; предъявлять (документы; отчет)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5593436128,
+   "de": "vorlegen (legte vor; hat vorgelegt) – Bitte legen Sie den Plan für das nächste Quartal vor.",
+   "ru": "предъявлять; представлять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorliegen": [
+  {
+   "id": 5537859323,
+   "de": "vorliegen (lag vor; hat vorgelegen) – Alle wichtigen Dokumente liegen vor.",
+   "ru": "иметься в наличии; быть в наличии",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964745,
+   "de": "vorliegen (lag vor; hat vorgelegen) – Ich habe deinen Lebenslauf vorliegen.",
+   "ru": "иметься в наличии / быть представленным — Ваше резюме у меня перед глазами (имеется).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorläufig": [
+  {
+   "id": 5862955763,
+   "de": "vorläufig – Das ist ein vorläufiges Testergebnis.",
+   "ru": "предварительный, временный - Это предварительный результат теста.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vormerken": [
+  {
+   "id": 5950387743,
+   "de": "vormerken (merkte vor; hat vorgemerkt) – Ich merke mir diesen Termin für nächste Woche vor.",
+   "ru": "помечать, записывать (на будущее) - Я запишу (запланирую) себе эту встречу на следующую неделю.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vornehmen": [
+  {
+   "id": 5676821623,
+   "de": "vornehmen (nahm vor; hat vorgenommen) – Wir müssen das System-Update am nächsten Wochenende vornehmen.",
+   "ru": "осуществлять, проводить (действие) - Мы должны осуществить обновление системы в ближайшие выходные.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorsatz": [
+  {
+   "id": 6442594600,
+   "de": "der Vorsatz (Vorsätze) – Es gab keine böse Vorsatz in seinen Handlungen, es ist einfach ein Bug.",
+   "ru": "умысел, намерение — В его действиях не было злого умысла, это просто баг.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorschrift": [
+  {
+   "id": 5618999072,
+   "de": "die Vorschrift (Vorschriften) – Wir müssen alle gesetzlichen Vorschriften einhalten.",
+   "ru": "предписание; правило",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorsätzlich": [
+  {
+   "id": 5654992898,
+   "de": "vorsätzlich – Der Fehler war nicht vorsätzlich, sondern versehentlich.",
+   "ru": "преднамеренный, умышленный - Ошибка была не преднамеренной, а случайной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vortragen": [
+  {
+   "id": 6004594210,
+   "de": "vortragen (trug vor; hat vorgetragen) – Er muss seine Idee morgen vortragen.",
+   "ru": "излагать, докладывать — Он должен изложить свою идею завтра.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vortragen vor": [
+  {
+   "id": 6385684803,
+   "de": "vortragen vor (Dat.) (trug vor; hat vorgetragen, du trägst vor) – Ich muss das Projekt vor dem ganzen Team vortragen.",
+   "ru": "выступать с докладом перед кем-либо — Мне нужно выступить с презентацией проекта перед всей командой.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorwerfen": [
+  {
+   "id": 6526854327,
+   "de": "vorwerfen (warf vor, hat vorgeworfen, du wirfst vor) – Man sollte dem Kollegen den Fehler nicht vorwerfen, sondern gemeinsam eine Lösung finden.",
+   "ru": "упрекать / обвинять — Не стоит упрекать коллегу в ошибке, лучше вместе найти решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorwiegend": [
+  {
+   "id": 6372866037,
+   "de": "vorwiegend – Wir nutzen vorwiegend TypeScript für das Frontend.",
+   "ru": "преимущественно, в основном — Мы используем в основном TypeScript для фронтенда.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6008372939,
+   "de": "vorwiegend – Wir nutzen vorwiegend Cloud-Lösungen.",
+   "ru": "преимущественно — Мы используем преимущественно облачные решения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorwurf": [
+  {
+   "id": 6483246431,
+   "de": "der Vorwurf (Vorwürfe) – Ansprechen statt schweigen, aber ohne Vorwurf.",
+   "ru": "упрек / обвинение — Говори открыто вместо того, чтобы молчать, но без упреков.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6494316886,
+   "de": "der Vorwurf (Vorwürfe) – Wir müssen das Problem ohne Vorwürfe besprechen.",
+   "ru": "упрек / претензия — Нам нужно обсудить проблему без лишних упреков.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5683884935,
+   "de": "der Vorwurf (Vorwürfe) – Ich verstehe deinen Vorwurf an mich nicht.",
+   "ru": "упрек - Я не понимаю твой упрек в мой адрес.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorziehen": [
+  {
+   "id": 5647464565,
+   "de": "vorziehen (zog vor; hat vorgezogen) – Wir ziehen flexible Arbeitszeiten vor.",
+   "ru": "предпочитать, переносить (срок) - Мы предпочитаем гибкий график работы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorzug": [
+  {
+   "id": 6385684798,
+   "de": "der Vorzug (Vorzüge) – Ich gebe einer klaren und sauberen Code-Architektur den Vorzug.",
+   "ru": "предпочтение — Я отдаю предпочтение чистой и понятной архитектуре кода.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5596845338,
+   "de": "der Vorzug (Vorzüge) – Dieses System bietet technische Vorzüge gegenüber dem alten.",
+   "ru": "преимущество; предпочтение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vorübergehende beeinträchtigung": [
+  {
+   "id": 5588178244,
+   "de": "die vorübergehende Beeinträchtigung (Beeinträchtigungen) – Es kam zu einer vorübergehenden Beeinträchtigung der Dienstleistung.",
+   "ru": "временное нарушение/ухудшение (работы)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "völlig": [
+  {
+   "id": 6021248084,
+   "de": "völlig – Ich stimme dir völlig zu.",
+   "ru": "полностью, целиком — Я с тобой полностью согласен.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wachrütteln": [
+  {
+   "id": 6407884661,
+   "de": "wachrütteln (rüttelte wach; hat wachgerüttelt) – Dieses harte Code-Review muss uns endlich wachrütteln.",
+   "ru": "пробуждать, встряхивать — Этот суровый код-ревью должен нас наконец встряхнуть.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wachsend": [
+  {
+   "id": 5559821699,
+   "de": "wachsend – Der wachsende Markt bietet neue Chancen.",
+   "ru": "растущий",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wahrnehmbarkeit": [
+  {
+   "id": 6041480214,
+   "de": "die Wahrnehmbarkeit (nur Sg.) – Wir müssen die Wahrnehmbarkeit der Buttons auf dem Bildschirm verbessern.",
+   "ru": "заметность, различимость — Мы должны улучшить различимость кнопок на экране.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wahrnehmen": [
+  {
+   "id": 6372866029,
+   "de": "wahrnehmen (nahm wahr; hat wahrgenommen, du nimmst wahr) – Der Entwickler muss Änderungen in den Anforderungen rechtzeitig wahrnehmen.",
+   "ru": "воспринимать, замечать — Разработчик должен вовремя замечать изменения в требованиях.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wahrnehmung": [
+  {
+   "id": 6004594184,
+   "de": "die Wahrnehmung (Wahrnehmungen) – Die Wahrnehmung der Realität ist bei jedem anders.",
+   "ru": "восприятие — Восприятие реальности у всех разное.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wahrzeichen": [
+  {
+   "id": 6064365174,
+   "de": "das Wahrzeichen (Wahrzeichen) – Das Bonner Münster ist ein Wahrzeichen der Stadt.",
+   "ru": "символ, достопримечательность — Боннский собор — это символ города.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wandel": [
+  {
+   "id": 5911460936,
+   "de": "der Wandel (nur Sg.) – Der technologische Wandel vollzieht sich sehr schnell.",
+   "ru": "перемена, преобразование, трансформация - Технологические изменения (трансформация) происходят очень быстро.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wandelbar": [
+  {
+   "id": 6423479475,
+   "de": "wandelbar – Die Anforderungen an das Startup sind sehr wandelbar.",
+   "ru": "гибкий / изменчивый — Требования к стартапу очень гибкие и часто меняются.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "warenkorb": [
+  {
+   "id": 5911460923,
+   "de": "der Warenkorb (Warenkörbe) – Bitte prüfen Sie die Produkte in Ihrem Warenkorb.",
+   "ru": "корзина (в интернет-магазине) - Пожалуйста, проверьте товары в вашей корзине.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "warnweste": [
+  {
+   "id": 6481401651,
+   "de": "die Warnweste (Warnwesten) – Der Fahrer muss immer eine Warnweste im Auto haben.",
+   "ru": "сигнальный жилет — Водитель должен всегда иметь в машине сигнальный жилет.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wart's ab": [
+  {
+   "id": 5696310312,
+   "de": "Wart's ab. – Wart's ab, was mit dem Konkurrenten passiert.",
+   "ru": "Подожди и увидишь. - Подожди и увидишь, что произойдет с конкурентом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wartbarer code": [
+  {
+   "id": 6541778510,
+   "de": "wartbarer Code – Das Schreiben von sauberem und wartbarem Code hat für unser Frontend-Projekt oberste Priorтet.",
+   "ru": "поддерживаемый код (легкий в поддержке) — Писать чистый и поддерживаемый код — это главный приоритет для нашего фронтенд-проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wartung": [
+  {
+   "id": 5575958550,
+   "de": "die Wartung (Wartungen) – Die Wartung der Datenbank findet jeden Sonntag statt.",
+   "ru": "техническое обслуживание; профилактика",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800281,
+   "de": "die Wartung (Wartungen) – Die Wartung dieses Projekts ist sehr zeitaufwendig.",
+   "ru": "обслуживание / техподдержка — Поддержка этого проекта требует много времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "was fällt dir dazu ein?": [
+  {
+   "id": 6004594164,
+   "de": "Was fällt dir dazu ein? – Was fällt dir zu diesem Thema ein?",
+   "ru": "Что ты об этом думаешь? / Что тебе приходит в голову? — Что ты думаешь по этому поводу?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "was kommen mag": [
+  {
+   "id": 6140091042,
+   "de": "was kommen mag – Wir schaffen das, was auch immer kommen mag.",
+   "ru": "что бы ни случилось — Мы справимся, что бы ни случилось.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wechselhaft": [
+  {
+   "id": 5927101100,
+   "de": "wechselhaft – Das Wetter in dieser Region ist sehr wechselhaft.",
+   "ru": "переменчивый - Погода в этом регионе очень переменчива.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "weder zu nah noch zu distanziert": [
+  {
+   "id": 6008372954,
+   "de": "weder zu nah noch zu distanziert – Die Beziehung zu Kollegen sollte weder zu nah noch zu distanziert sein.",
+   "ru": "ни слишком близко, ни слишком дистанцированно — Отношения с коллегами не должны быть ни слишком близкими, ни слишком отстраненными.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "weggang": [
+  {
+   "id": 6541778521,
+   "de": "der Weggang (Weggänge) – Das hängt also mit dem Weggang von Herrn Schneider zusammen.",
+   "ru": "уход (человека из компании / с должности) — Это связано с уходом господина Шнайдера из нашей команды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

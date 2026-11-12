@@ -1,0 +1,1255 @@
+{
+ "geprägt von": [
+  {
+   "id": 6187943199,
+   "de": "geprägt von (Dat.) – Die Projektarchitektur ist von funktionalen Mustern geprägt.",
+   "ru": "сформированный (под влиянием) / характеризующийся чем-то — Архитектура проекта сформирована функциональными паттернами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "geraten": [
+  {
+   "id": 6165219009,
+   "de": "geraten (geriet; ist geraten, du gerätst) – In eine neue Umgebung geraten.",
+   "ru": "оказаться / попасть — Попасть в (незнакомую) среду разработки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "geraten in": [
+  {
+   "id": 6541778524,
+   "de": "geraten in (Akk.) (geriet, ist geratеn, du gerätst) – Ich habe das Gefühl, wir sind in einen Kreislauf geraten.",
+   "ru": "попадать (в ситуацию / цикл) — У меня ощущение, что мы попали в замкнутый круг бесконечных правок.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5647464557,
+   "de": "geraten in (Akk.) (geriet; ist geraten) – Wir dürfen nicht in die Schusslinie der Kritik geraten.",
+   "ru": "попадать (в состояние, ситуацию) - Мы не должны попасть под огонь критики.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gerecht": [
+  {
+   "id": 5596845337,
+   "de": "gerecht – Das Team strebt eine gerechte Verteilung der Aufgaben an.",
+   "ru": "справедливый; заслуженный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gering": [
+  {
+   "id": 6004594205,
+   "de": "gering – Das Risiko ist in diesem Fall sehr gering.",
+   "ru": "незначительный, малый — Риск в данном случае очень мал.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "geringer": [
+  {
+   "id": 6372866034,
+   "de": "geringer – Der Aufwand für dieses Refactoring ist viel geringer, als wir dachten.",
+   "ru": "меньший, незначительный — Затраты на этот рефакторинг значительно меньше, чем мы думали.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6127832242,
+   "de": "geringer – Das Risiko ist in diesem Fall eher geringer.",
+   "ru": "небольшой, незначительный — Риск в данном случае довольно незначителен.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "geringste angebot": [
+  {
+   "id": 6128964732,
+   "de": "das geringste Angebot – Das war das geringste Angebot, das wir erhalten haben.",
+   "ru": "самое минимальное предложение — Это было самое минимальное предложение, которое мы получили.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gern geschehen": [
+  {
+   "id": 5603787531,
+   "de": "gern geschehen – \"Gern geschehen\", sagte der Supporter, nachdem er geholfen hatte.",
+   "ru": "пожалуйста; не за что",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "geruch": [
+  {
+   "id": 6044774621,
+   "de": "der Geruch (Gerüche) – In der Küche herrscht ein angenehmer Geruch.",
+   "ru": "запах — На кухне стоит приятный запах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "geräusch": [
+  {
+   "id": 5575167146,
+   "de": "das Geräusch (Geräusche) – Das laute Geräusch des Servers stört die Konzentration.",
+   "ru": "шум; звук",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6064365167,
+   "de": "das Geräusch (Geräusche) – Ich höre ein seltsames Geräusch im anderen Zimmer.",
+   "ru": "звук, шум — Я слышу странный звук в другой комнате.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gerüst": [
+  {
+   "id": 5957604446,
+   "de": "das Gerüst (Gerüste) – Das Gerüst unserer neuen Anwendung steht bereits.",
+   "ru": "каркас, рама, леса — Каркас нашего нового приложения уже готов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gesellig": [
+  {
+   "id": 6320942679,
+   "de": "gesellig – Auf Meetups sind Entwickler sehr gesellig.",
+   "ru": "общительный, компанейский — На митапах разработчики очень общительные.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gesellschaft": [
+  {
+   "id": 5521762958,
+   "de": "die Gesellschaft (Gesellschaften) – Die IT-Gesellschaft wächst ständig.",
+   "ru": "Общество; сообщество",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gesellschaftlich": [
+  {
+   "id": 5696310301,
+   "de": "gesellschaftlich – Wir müssen die gesellschaftlichen Aspekte des Projekts berücksichtigen.",
+   "ru": "общественный, социальный - Мы должны учитывать социальные аспекты проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gestatten": [
+  {
+   "id": 6449728999,
+   "de": "gestatten (gestattete; hat gestattet) – Das Management hat uns gestattet, diese neue Library zu nutzen.",
+   "ru": "разрешать, позволять — Руководство разрешило нам использовать эту новую библиотеку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "getrieben von": [
+  {
+   "id": 6423479457,
+   "de": "getrieben von – Das Projekt ist von klaren Business-Anforderungen getrieben.",
+   "ru": "управляемый / движимый (чем-то) — Проект движим четкими бизнес-требованиями.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewerberaum": [
+  {
+   "id": 5416199893,
+   "de": "Gewerberaum (der, -räume) – Der Gewerberaum steht leer.",
+   "ru": "нежилое помещение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewinn": [
+  {
+   "id": 5628100692,
+   "de": "der Gewinn (Gewinne) – Der Gewinn des Unternehmens ist im letzten Quartal gestiegen.",
+   "ru": "прибыль",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewisse": [
+  {
+   "id": 5957604437,
+   "de": "gewisse – Für diese Arbeit braucht man eine gewisse Erfahrung.",
+   "ru": "определенный, некоторый — Для этой работы нужен определенный опыт.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6146950715,
+   "de": "gewisse – Für die Arbeit mit React sind gewisse Grundkenntnisse erforderlich.",
+   "ru": "определенные, некоторые — Для работы с React нужны определенные базовые знания.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewisse fragen": [
+  {
+   "id": 6128964754,
+   "de": "gewisse Fragen – Auf gewisse Fragen ist es schwer zu antworten.",
+   "ru": "определенные вопросы — На определенные вопросы трудно ответить.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewohnt an": [
+  {
+   "id": 5569465173,
+   "de": "gewohnt an (Akk.) – Wir sind an die hohe Arbeitsbelastung gewohnt.",
+   "ru": "привыкший к",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewährleisten": [
+  {
+   "id": 5562692960,
+   "de": "gewährleisten (gewährleistete; hat gewährleistet) – Wir müssen die Qualität der Software gewährleisten.",
+   "ru": "гарантировать; обеспечивать (качество; выполнение)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gewährleistet": [
+  {
+   "id": 6071412601,
+   "de": "gewährleistet – Die Qualität des Produkts ist gewährleistet.",
+   "ru": "гарантированный, обеспеченный — Качество продукта гарантировано.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gezielt": [
+  {
+   "id": 6165218973,
+   "de": "gezielt – Wir suchen gezielt nach Bugs im Backend.",
+   "ru": "целенаправленный / прицельный — Мы проводим целенаправленный поиск багов в бэкенде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gießen": [
+  {
+   "id": 6044774635,
+   "de": "gießen (goss; hat gegossen) – Vergiss nicht, unsere Pflanzen zu gießen.",
+   "ru": "поливать (цветы), лить — Не забудь полить наши растения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gift sein für etwas": [
+  {
+   "id": 5259310150,
+   "de": "Gift sein für etwas",
+   "ru": "быть вредным/губительным для чего-то",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ging": [
+  {
+   "id": 6120127155,
+   "de": "ging (von gehen) – Das ging leider nicht.",
+   "ru": "получаться, работать (разг.) — Это не сработало (не получилось).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "glatt": [
+  {
+   "id": 5927101107,
+   "de": "glatt – Die Straße ist wegen des Schnees sehr glatt.",
+   "ru": "гладкий, скользкий - Дорога очень скользкая из-за снега.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gleich damit beginnen": [
+  {
+   "id": 5562692959,
+   "de": "gleich damit beginnen (begann; hat begonnen) – Wir sollten gleich damit beginnen, die Fehler zu beheben.",
+   "ru": "сразу же приступить к этому",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gleichberechtigung": [
+  {
+   "id": 6064365158,
+   "de": "die Gleichberechtigung (nur Sg.) – Wir kämpfen für Gleichberechtigung am Arbeitsplatz.",
+   "ru": "равноправие — Мы боремся за равноправие на рабочем месте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gleichermaßen": [
+  {
+   "id": 5696310299,
+   "de": "gleichermaßen – Beide Optionen sind gleichermaßen wichtig.",
+   "ru": "в равной степени - Оба варианта важны в равной степени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gleichstellung": [
+  {
+   "id": 5654992875,
+   "de": "die Gleichstellung (nur Sg.) – Die Gleichstellung der Geschlechter ist Teil unserer Unternehmenskultur.",
+   "ru": "равноправие, равенство - Равноправие полов является частью нашей корпоративной культуры.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gleitzeit": [
+  {
+   "id": 6495947785,
+   "de": "die Gleitzeit (nur Sg.) – Wie sind bei Ihnen die Arbeitszeiten geregelt – gibt es Gleitzeit oder Kernarbeitszeiten?",
+   "ru": "скользящий (гибкий) график — Как у вас отрегулировано рабочее время — есть гибкий график или фиксированные часы?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5628100688,
+   "de": "die Gleitzeit (nur Sg.) – Ich nutze die Gleitzeit, um morgens früher anzufangen.",
+   "ru": "гибкий график работы",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "glücklich über": [
+  {
+   "id": 5569465174,
+   "de": "glücklich über (Akk.) – Ich bin glücklich über den erfolgreichen Abschluss.",
+   "ru": "счастливый по поводу",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gnade walten lassen": [
+  {
+   "id": 6021248097,
+   "de": "Gnade walten lassen (ließ; hat gelassen) – Der Lehrer ließ Gnade walten.",
+   "ru": "проявить милосердие / пощадить — Учитель решил проявить милосердие и не ставить плохую оценку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grad der anspannung": [
+  {
+   "id": 5541048373,
+   "de": "der Grad der Anspannung – Der Grad der Anspannung im Team war hoch.",
+   "ru": "уровень напряжения",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gradlinig": [
+  {
+   "id": 5628100712,
+   "de": "gradlinig – Eine gradlinige Kommunikation ist sehr wichtig.",
+   "ru": "прямолинейный; честный; несложный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gratulieren zu": [
+  {
+   "id": 5569463473,
+   "de": "gratulieren zu (Dat.) (gratulierte; hat gratuliert) – Ich gratuliere dir zu deinem Erfolg.",
+   "ru": "поздравлять с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grausam": [
+  {
+   "id": 6434699131,
+   "de": "grausam – Das war ein ziemlich grausames Code-Review, aber es hat mir geholfen.",
+   "ru": "жестокий / безжалостный — Это был довольно жесткий код-ревью, но он пошел мне на пользу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "greifbar": [
+  {
+   "id": 6021248062,
+   "de": "greifbar – Das Ziel ist schon fast greifbar.",
+   "ru": "осязаемый, достижимый — Цель уже почти осязаема.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "greifen zu": [
+  {
+   "id": 5683884931,
+   "de": "greifen zu (Dat.) (griff; hat gegriffen) – Wir müssen zu dieser Maßnahme sofort greifen.",
+   "ru": "хватать, браться (за что-то) - Мы должны взяться за эту проблему немедленно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grinsen": [
+  {
+   "id": 6518120214,
+   "de": "grinsen (grinstе, hat gegrinst, du grinst) – Er hat gegrinst, als er sah, dass sein Code auf Anhieb funktionierte.",
+   "ru": "ухмыляться / улыбаться — Он ухмыльнулся, когда увидел, что его код заработал с первого раза.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518119463,
+   "de": "grinsen (grinstе; hat gegrinst, du grinst) – Er hat gegrinst, als er sah, dass sein Code auf Anhieb funktionierte.",
+   "ru": "* умыляться / ухмыляться — Он ухмыльнулся, когда увидел, что его код заработал с первого раза.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120782,
+   "de": "grinsen (grinstе, hat gegrinst, du grinst) – Er hat gegrinst, als er sah, dass sein Code auf Anhieb funktionierte.",
+   "ru": "ухмыляться / улыбаться — Он ухмыльнулся, когда увидел, что его код заработал с первого раза.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120710,
+   "de": "grinsen (grinstе, hat gegrinst, du grinst) – Er hat gegrinst, als er sah, dass sein Code auf Anhieb funktionierte.",
+   "ru": "ухмыляться / улыбаться — Он ухмыльнулся, когда увидел, что его код заработал с первого раза.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "großhändler": [
+  {
+   "id": 5562692965,
+   "de": "der Großhändler (Großhändler) – Wir beziehen unsere Hardware von einem Großhändler.",
+   "ru": "оптовый торговец; крупный поставщик",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grund für/gegen": [
+  {
+   "id": 5569460673,
+   "de": "der Grund für/gegen (Akk.) – Der Grund für den Ausfall ist ein Softwarefehler.",
+   "ru": "причина для/против",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grundgerüst": [
+  {
+   "id": 6041480220,
+   "de": "das Grundgerüst (Grundgerüste) – Das Grundgerüst unserer Anwendung steht schon.",
+   "ru": "основа, каркас (базовая структура) — Каркас нашего приложения уже готов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grundlage": [
+  {
+   "id": 5603787559,
+   "de": "die Grundlage (Grundlagen) – Diese Analyse dient als Grundlage für unsere Entscheidung.",
+   "ru": "основа; база",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grundlagen": [
+  {
+   "id": 5927101114,
+   "de": "die Grundlagen (Pl.) – Zuerst müssen wir die Grundlagen der Programmierung lernen.",
+   "ru": "основы - Сначала мы должны изучить основы программирования.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "grundsätzlich": [
+  {
+   "id": 6262423261,
+   "de": "grundsätzlich – Grundsätzlich ist dieses Framework für unsere Aufgabe geeignet.",
+   "ru": "в принципе / фундаментально — В принципе, этот фреймворк подходит для нашей задачи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gruselig": [
+  {
+   "id": 6120127154,
+   "de": "gruselig – Das alte Haus sieht gruselig aus.",
+   "ru": "жуткий, страшный — Тот старый дом выглядит жутко.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gründer": [
+  {
+   "id": 5618999059,
+   "de": "der Gründer (Gründer) – Der Gründer der Firma hielt eine inspirierende Rede.",
+   "ru": "основатель",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gut zurechtfinden": [
+  {
+   "id": 5293119022,
+   "de": "sich gut zurechtfinden (zurechtgefunden)",
+   "ru": "ориентироваться на местности",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gähnen": [
+  {
+   "id": 6518119473,
+   "de": "gähnen (gähnte; hat gegähnt, du gähnst) – Der Entwickler fing an zu gähnen während des zu langen Calls.",
+   "ru": "* зевать — Разработчик начал зевать во время слишком долгого созвона.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120224,
+   "de": "gähnen (gähnte, hat gegähnt, du gähnst) – Der Entwickler fing an zu gähnen während des zu langen Calls.",
+   "ru": "зевать — Разработчик начал зевать во время слишком долгого созвона.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120720,
+   "de": "gähnen (gähnte, hat gegähnt, du gähnst) – Der Entwickler fing an zu gähnen während des zu langen Calls.",
+   "ru": "зевать — Разработчик начал зевать во время слишком долгого созвона.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120792,
+   "de": "gähnen (gähnte, hat gegähnt, du gähnst) – Der Entwickler fing an zu gähnen während des zu langen Calls.",
+   "ru": "зевать — Разработчик начал зевать во время слишком долгого созвона.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gängig": [
+  {
+   "id": 6155400435,
+   "de": "gängig – Das ist ein gängiger Standard in der React-Entwicklung.",
+   "ru": "общепринятый, ходовой — Это общепринятый стандарт в разработке на React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "gönnen": [
+  {
+   "id": 5986064687,
+   "de": "gönnen (gönnte; hat gegönnt) – Nach einem langen Arbeitstag gönne ich mir eine Pause.",
+   "ru": "позволять себе, искренне желать (кому-то что-то) — После долгого рабочего дня я позволяю себе отдых.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "haften für": [
+  {
+   "id": 5696310282,
+   "de": "haften für (Akk.) (haftete; hat gehaftet) – Das Unternehmen haftet für die Datensicherheit.",
+   "ru": "нести ответственность - Компания несет ответственность за безопасность данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "haftung": [
+  {
+   "id": 5603787524,
+   "de": "die Haftung (nur Sg.) – Der Anbieter übernimmt keine Haftung für Datenverlust.",
+   "ru": "ответственность (юр.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "haltbarkeit": [
+  {
+   "id": 5862955736,
+   "de": "die Haltbarkeit (nur Sg.) – Die Haltbarkeit dieses Produkts beträgt sechs Monate.",
+   "ru": "срок годности, прочность - Срок годности этого продукта составляет шесть месяцев.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "halten für": [
+  {
+   "id": 5569463424,
+   "de": "halten für (Akk.) (hielt; hat gehalten) – Ich halte diesen Ansatz für die beste Wahl.",
+   "ru": "считать чем-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "halten von": [
+  {
+   "id": 5569463475,
+   "de": "halten von (Dat.) (hielt; hat gehalten) – Was hältst du von diesem Vorschlag?",
+   "ru": "быть какого-либо мнения о",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "haltung": [
+  {
+   "id": 6008372953,
+   "de": "die Haltung (Haltungen) – Deine Haltung zur Arbeit ist sehr positiv.",
+   "ru": "позиция, отношение — Твое отношение к работе очень позитивное.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "handeln mit": [
+  {
+   "id": 5569463474,
+   "de": "handeln mit (Dat.) (handelte; hat gehandelt) – Die Firma handelt mit IT-Lösungen.",
+   "ru": "торговать чем-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "handhaben": [
+  {
+   "id": 5603787567,
+   "de": "handhaben (handhabte; hat gehandhabt) – Wie handhabt ihr die Fehlerberichte?",
+   "ru": "обращаться; справляться; управлять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hass": [
+  {
+   "id": 6407884658,
+   "de": "der Hass (nur Sg.) – In Social-Media-Kommentaren gibt es oft viel unbegründeten Hass.",
+   "ru": "ненависть — В комментариях в соцсетях часто много необоснованной ненависти.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hauch": [
+  {
+   "id": 5683884926,
+   "de": "der Hauch (Hauche/Häuche) – Er hatte nicht einmal einen Hauch von Verständnis.",
+   "ru": "дыхание, дуновение, намек - У него даже намека на понимание не было.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hauptsächlich": [
+  {
+   "id": 6008372957,
+   "de": "hauptsächlich – Wir arbeiten hauptsächlich mit deutschen Kunden.",
+   "ru": "главным образом — Мы работаем главным образом с немецкими клиентами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hautnah": [
+  {
+   "id": 5618999073,
+   "de": "hautnah – Erlebte die Entstehung der Software hautnah mit.",
+   "ru": "вплотную; из первых рук",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hebel": [
+  {
+   "id": 6481401659,
+   "de": "der Hebel (Hebel) – Mit diesem Hebel kann man den Sitz verstellen.",
+   "ru": "рычаг — С помощью этого рычага можно отрегулировать сиденье.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "heben": [
+  {
+   "id": 5783860979,
+   "de": "heben (hob; hat gehoben) – Wir müssen die Performance des Systems heben.",
+   "ru": "поднимать - Мы должны поднять производительность системы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hebung": [
+  {
+   "id": 6064365142,
+   "de": "die Hebung (Hebungen) – Die Hebung des Mindestlohns wird diskutiert.",
+   "ru": "подъем, повышение — Повышение минимальной зарплаты обсуждается.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "heftig": [
+  {
+   "id": 6541778522,
+   "de": "heftig – Wir hatten im morgendlichen Daily eine sehr heftige Diskussion über die Architektur.",
+   "ru": "сильный / бурный / резкий — У нас был очень бурный спор на утреннем дейли по поводу архитектуры.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5677506895,
+   "de": "heftig – Die Kritik war sehr heftig und unerwartet.",
+   "ru": "сильный, ожесточенный - Критика была очень сильной и неожиданной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "heimlich": [
+  {
+   "id": 6492126615,
+   "de": "heimlich – Scope Creep: Wenn der Umfang heimlich wächst.",
+   "ru": "тайком / скрытно — Скоуп крип: это когда объем проекта скрытно растет без согласования.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hektisch": [
+  {
+   "id": 6120127150,
+   "de": "hektisch – Der Morgen war sehr hektisch.",
+   "ru": "лихорадочный, суетливый — Утро было очень суетливым.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "helfen bei": [
+  {
+   "id": 5569463476,
+   "de": "helfen bei (Dat.) (half; hat geholfen) – Kannst du mir bei der Installation helfen?",
+   "ru": "помогать в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hemmen": [
+  {
+   "id": 5927101117,
+   "de": "hemmen (hemmte; hat gehemmt) – Diese Probleme hemmen unseren Fortschritt.",
+   "ru": "тормозить, препятствовать - Эти проблемы тормозят наш прогресс.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herabsetzen": [
+  {
+   "id": 6008372964,
+   "de": "herabsetzen (setzte herab; hat herabgesetzt) – Du solltest deine eigenen Leistungen nicht herabsetzen.",
+   "ru": "снижать, принижать, умалять — Ты не должен принижать свои собственные достижения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herabwürdigen": [
+  {
+   "id": 6165218974,
+   "de": "herabwürdigen (herabwürdigte; hat herabwürdigt) – Man sollte die Arbeit anderer Entwickler niemals herabwürdigen.",
+   "ru": "унижать, принижать — Никогда не стоит принижать работу других разработчиков.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "heranreichen an": [
+  {
+   "id": 6140091032,
+   "de": "heranreichen an (Akk.) (reichte heran; hat herangereicht) – Das neue Framework reicht nicht an die Performance von React heran.",
+   "ru": "дотягиваться / достигать (уровня) — Новый фреймворк не дотягивает до производительности React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herausfinden": [
+  {
+   "id": 5927101095,
+   "de": "herausfinden (fand heraus; hat herausgefunden) – Ich muss die Ursache des Fehlers herausfinden.",
+   "ru": "выяснять, обнаруживать - Я должен выяснить причину ошибки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herausstellen": [
+  {
+   "id": 6021248090,
+   "de": "sich herausstellen (stellte heraus; hat herausgestellt) – Später stellte sich heraus, dass es ein Fehler war.",
+   "ru": "выясниться, оказаться — Позже выяснилось, что это была ошибка.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "heraussuchen": [
+  {
+   "id": 6090226903,
+   "de": "heraussuchen (suchte heraus; hat herausgesucht) – Kannst du die besten Optionen für mich heraussuchen?",
+   "ru": "подбирать, выбирать — Можешь подобрать для меня лучшие варианты?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herkunft": [
+  {
+   "id": 6434699144,
+   "de": "die Herkunft (Herkünfte) – Diese Daten haben eine externe Herkunft.",
+   "ru": "происхождение — Эти данные имеют внешнее происхождение (из стороннего API).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herkömmlich": [
+  {
+   "id": 6357783470,
+   "de": "herkömmlich – Wenn du dich heute ausschließlich auf den herkömmlichen Bewerbungsstil verlässt...",
+   "ru": "традиционный / обычный — Если ты сегодня полагаешься исключительно на традиционный стиль резюме...",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "herstellen": [
+  {
+   "id": 6442594606,
+   "de": "herstellen (stellte her; hat hergestellt, du stellst her) – Unser Unternehmen stellt moderne Webanwendungen mit React und NestJS her.",
+   "ru": "производить, изготавливать, создавать — Наша компания создает современные веб-приложения на React и NestJS.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hervor": [
+  {
+   "id": 5862955775,
+   "de": "hervor – Das geht klar aus den Daten hervor.",
+   "ru": "наружу, вперед (выходить) - Это ясно следует из данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hervorholen": [
+  {
+   "id": 6004594216,
+   "de": "hervorholen (holte hervor; hat hervorgeholt) – Hol bitte die Schlüssel aus der Tasche hervor.",
+   "ru": "вынимать, вытаскивать — Вытащи, пожалуйста, ключи из кармана.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hervorragend": [
+  {
+   "id": 6420230843,
+   "de": "hervorragend – Er hat bei der Testaufgabe hervorragende Ergebnisse erzielt.",
+   "ru": "выдающийся, превосходный — У него были превосходные результаты на тестовом задании.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5638902685,
+   "de": "hervorragend – Das Team hat hervorragende Arbeit geleistet.",
+   "ru": "отличный, выдающийся - Команда проделала выдающуюся работу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800271,
+   "de": "hervorragend – Das ist eine hervorragende Lösung für das State-Management.",
+   "ru": "выдающийся / превосходный — Это превосходное решение для управления состоянием.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hervorragend abzulesen": [
+  {
+   "id": 6481401671,
+   "de": "hervorragend abzulesen – Die Performance-Graphen im Dashboard sind hervorragend abzulesen.",
+   "ru": "отлично читаемый — Графики производительности на дашборде сделаны отлично читаемыми.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hervorragende leistung erbringen": [
+  {
+   "id": 6323834665,
+   "de": "hervorragende Leistung erbringen (erbrachte; hat erbracht, du erbringst) – Um in ein großes IT-Unternehmen zu kommen, muss man im Portfolio eine hervorragende Leistung erbringen.",
+   "ru": "показывать выдающийся результат / демонстрировать отличную работу — Чтобы пройти отбор в крупную IT-компанию, нужно продемонстрировать отличную работу в портфолио.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hetzen": [
+  {
+   "id": 5537456147,
+   "de": "hetzen (hetzte; hat gehetzt) – Wir müssen nicht hetzen, um die Frist zu erreichen.",
+   "ru": "спешить; торопиться (в спешке)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hierfür": [
+  {
+   "id": 6071412606,
+   "de": "hierfür – Hierfür benötigen wir zusätzliche Ressourcen.",
+   "ru": "для этого — Для этого нам нужны дополнительные ресурсы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hiermit": [
+  {
+   "id": 5374176743,
+   "de": "hiermit (Hiermit bestätige ich...)",
+   "ru": "тем самым (например, подтверждаю)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinarbeiten auf": [
+  {
+   "id": 6423479479,
+   "de": "hinarbeiten auf (Akk.) (arbeitete hin; hat hingearbeitet) – Wir arbeiten auf das Release der neuen App-Version hin.",
+   "ru": "работать над чем-то / упорно двигаться к цели — Мы упорно работаем над релизом новой версии приложения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinbekommen": [
+  {
+   "id": 5986064688,
+   "de": "hinbekommen (bekam hin; hat hinbekommen) – Wir bekommen das bis morgen irgendwie hin.",
+   "ru": "наладить, починить, справиться — Мы как-нибудь наладим это до завтра.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hindern an": [
+  {
+   "id": 6021248061,
+   "de": "hindern an (Dat.) (hinderte; hat gehindert) – Niemand kann mich am Lernen hindern.",
+   "ru": "мешать (кому-то в чем-то) — Никто не может помешать мне учиться.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hindeuten auf": [
+  {
+   "id": 5618999068,
+   "de": "hindeuten auf (Akk.) (deutete hin; hat hingedeutet) – Alle Zeichen deuten auf einen erfolgreichen Abschluss hin.",
+   "ru": "указывать на что-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5783860969,
+   "de": "hindeuten auf (Akk.) (deutete hin; hat hingedeutet) – Alles deutet auf ein Netzwerkproblem hin.",
+   "ru": "указывать, намекать - Все указывает на проблему с сетью.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hindeuten auf ein vermutetes ziel": [
+  {
+   "id": 5227200968,
+   "de": "hindeuten auf ein vermutetes Ziel",
+   "ru": "указать на предполагаемую цель",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hineinversetzen in": [
+  {
+   "id": 5986064702,
+   "de": "sich hineinversetzen in (Akk.) (versetzte hinein; hat hineinversetzt) – Es ist schwer, sich in seine Lage hineinzuversetzen.",
+   "ru": "поставить себя на место другого — Трудно поставить себя в его ситуацию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6251413740,
+   "de": "sich hineinversetzen in (Akk.) (versetzte; hat versetzt) – Wenn du dich in den Arbeitgeber hineinversetzt, verstehst du seine Prioritäten.",
+   "ru": "поставить себя на место (кого-то) — Если ты поставишь себя на место работодателя, ты поймешь, что ему важно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hingegen": [
+  {
+   "id": 5654992894,
+   "de": "hingegen – Die alte Anlage ist langsam, die neue hingegen schnell.",
+   "ru": "напротив, наоборот, в то время как - Старая система медленная, новая, напротив, быстрая.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6044774625,
+   "de": "hingegen – Mein MacBook ist schnell, mein alter PC hingegen ist sehr langsam.",
+   "ru": "напротив, в то время как — Мой MacBook быстрый, мой старый ПК, напротив, очень медленный.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinkriegen": [
+  {
+   "id": 5957604438,
+   "de": "hinkriegen (kriegte hin; hat hingekriegt) – Mach dir keine Sorgen, wir kriegen das irgendwie hin.",
+   "ru": "справиться, разрулить, наладить — Не волнуйся, мы это как-нибудь разрулим.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinleiten": [
+  {
+   "id": 5957604430,
+   "de": "hinleiten (leitete hin; hat hingeleitet) – Wir müssen den Nutzer zur richtigen Entscheidung hinleiten.",
+   "ru": "подводить, направлять — Мы должны направить пользователя к правильному решению.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

@@ -1,0 +1,1980 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:disclaimer",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Disclaimer",
+        "article": "der",
+        "plural": "die Disclaimer",
+        "pos": "noun",
+        "translation": "дисклеймер, отказ от ответственности",
+        "example": "Nach dem Relaunch muss der Disclaimer im Footer der Website angepasst werden.",
+        "exampleTranslation": "После перезапуска сайта нужно поправить дисклеймер в футере."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "disclaimer"
+    },
+    {
+      "externalId": "de:diskrepanz",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Diskrepanz",
+        "article": "die",
+        "plural": "die Diskrepanzen",
+        "pos": "noun",
+        "translation": "расхождение, несоответствие",
+        "example": "Zwischen der Schätzung im Ticket und dem tatsächlichen Aufwand gab es eine große Diskrepanz.",
+        "exampleTranslation": "Между оценкой в тикете и реальными трудозатратами было большое расхождение.",
+        "hint": "между двумя величинами, книжн.",
+        "rektion": "zwischen + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "diskrepanz"
+    },
+    {
+      "externalId": "de:diskussion",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Diskussion",
+        "article": "die",
+        "plural": "die Diskussionen",
+        "pos": "noun",
+        "translation": "обсуждение, дискуссия",
+        "example": "Die Diskussion über die neue Ordnerstruktur verschieben wir lieber ins Refinement.",
+        "exampleTranslation": "Обсуждение новой структуры папок лучше перенесём на рефайнмент.",
+        "rektion": "über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "diskussion über"
+    },
+    {
+      "externalId": "de:diskutieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "diskutieren",
+        "pos": "verb",
+        "translation": "обсуждать, дискутировать",
+        "praeteritum": "diskutierte",
+        "perfekt": "hat diskutiert",
+        "example": "Ich möchte mit dem Teamlead noch über die Priorität des Tickets diskutieren.",
+        "exampleTranslation": "Я хочу ещё обсудить с тимлидом приоритет этого тикета.",
+        "rektion": "mit + Dat.; über + Akk.",
+        "hint": "с аргументами, спорить"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "diskutieren über"
+    },
+    {
+      "externalId": "de:disruptives-potenzial",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "disruptives Potenzial",
+        "pos": "phrase",
+        "translation": "прорывной потенциал (способность перевернуть рынок)",
+        "example": "Viele Investoren sehen in KI-Agenten ein disruptives Potenzial für die Softwarebranche.",
+        "exampleTranslation": "Многие инвесторы видят в ИИ-агентах прорывной потенциал для софтверной отрасли."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "disruptives potenzial"
+    },
+    {
+      "externalId": "de:divers",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "divers",
+        "pos": "adj",
+        "translation": "различные, разнообразные (несколько)",
+        "example": "Im Projekt werden diverse Libraries für Formulare und Validierung eingesetzt.",
+        "exampleTranslation": "В проекте используются разные библиотеки для форм и валидации.",
+        "hint": "несколько разных, книжн.",
+        "note": "обычно во мн. ч.: diverse; в вакансиях (m/w/d): d = divers — третий пол"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "divers"
+    },
+    {
+      "externalId": "de:draufschauen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "draufschauen",
+        "pos": "verb",
+        "translation": "взглянуть, посмотреть (на что-л.)",
+        "praeteritum": "schaute drauf",
+        "perfekt": "hat draufgeschaut",
+        "example": "Kannst du mal kurz auf meinen Pull Request draufschauen, bevor ich merge?",
+        "exampleTranslation": "Можешь быстро глянуть мой пулл-реквест, прежде чем я смёржу?",
+        "register": "umgs",
+        "rektion": "auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "draufschauen"
+    },
+    {
+      "externalId": "de:dreh",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Dreh",
+        "article": "der",
+        "plural": "die Drehs",
+        "pos": "noun",
+        "translation": "приём, сноровка, фишка",
+        "example": "Am Anfang war Redux mühsam, aber jetzt habe ich den Dreh raus.",
+        "exampleTranslation": "Поначалу Redux давался тяжело, но теперь я наловчился.",
+        "register": "umgs",
+        "note": "den Dreh raushaben — наловчиться, понять, как это делается"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "dreh"
+    },
+    {
+      "externalId": "de:drehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "drehen",
+        "pos": "verb",
+        "translation": "крутить, поворачивать",
+        "praeteritum": "drehte",
+        "perfekt": "hat gedreht",
+        "example": "Du musst den Schlüssel zweimal nach links drehen, sonst geht die Haustür nicht auf.",
+        "exampleTranslation": "Нужно повернуть ключ два раза влево, иначе входная дверь не откроется.",
+        "hint": "ключ, ручку"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "drehen"
+    },
+    {
+      "externalId": "de:sich-drehen-um",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich drehen um",
+        "pos": "verb",
+        "translation": "речь идёт о, крутиться вокруг (темы)",
+        "praeteritum": "drehte sich",
+        "perfekt": "hat sich gedreht",
+        "example": "Im heutigen Meeting dreht sich alles um die Migration auf Next.js.",
+        "exampleTranslation": "На сегодняшней встрече всё крутится вокруг миграции на Next.js.",
+        "rektion": "um + Akk.",
+        "hint": "тема (не es geht um)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "dreht sich um"
+    },
+    {
+      "externalId": "de:drüber",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "drüber",
+        "pos": "adv",
+        "translation": "поверх, сверху; об этом",
+        "example": "Leg einfach ein halbtransparentes Overlay drüber, dann ist der Text besser lesbar.",
+        "exampleTranslation": "Просто наложи сверху полупрозрачный оверлей — тогда текст будет лучше читаться.",
+        "register": "umgs",
+        "note": "разг. от darüber: Lass uns morgen drüber reden."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ],
+      "_src": "drüber"
+    },
+    {
+      "externalId": "de:duft",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Duft",
+        "article": "der",
+        "plural": "die Düfte",
+        "pos": "noun",
+        "translation": "аромат, (приятный) запах",
+        "example": "Morgens zieht der Duft von frischen Brötchen durchs ganze Treppenhaus.",
+        "exampleTranslation": "По утрам по всему подъезду разносится аромат свежих булочек.",
+        "hint": "приятный (не Geruch)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "duft"
+    },
+    {
+      "externalId": "de:vertrieb",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Vertrieb",
+        "article": "der",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "отдел продаж, сбыт",
+        "example": "Der Bug-Report kam über den Vertrieb zu uns, nicht direkt vom Kunden.",
+        "exampleTranslation": "Баг-репорт пришёл к нам через отдел продаж, а не напрямую от клиента."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "durch den vertrieb"
+    },
+    {
+      "externalId": "de:durch-zufall",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durch Zufall",
+        "pos": "phrase",
+        "translation": "случайно, по чистой случайности",
+        "example": "Das Speicherleck habe ich nur durch Zufall beim Profiling einer anderen Komponente entdeckt.",
+        "exampleTranslation": "Утечку памяти я обнаружил чисто случайно, когда профилировал другой компонент.",
+        "hint": "по стечению обстоятельств (не zufällig)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ],
+      "_src": "durch zufall"
+    },
+    {
+      "externalId": "de:durchatmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchatmen",
+        "pos": "verb",
+        "translation": "перевести дух, отдышаться",
+        "praeteritum": "atmete durch",
+        "perfekt": "hat durchgeatmet",
+        "example": "Nach dem Go-Live am Freitag konnten wir endlich mal durchatmen.",
+        "exampleTranslation": "После запуска в пятницу мы наконец смогли перевести дух.",
+        "note": "tief durchatmen — глубоко вздохнуть"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "durchatmen"
+    },
+    {
+      "externalId": "de:durchaus",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchaus",
+        "pos": "adv",
+        "translation": "вполне, безусловно",
+        "example": "Dein Ansatz ist durchaus sinnvoll, aber er skaliert bei vielen Nutzern nicht.",
+        "exampleTranslation": "Твой подход вполне разумен, но при большом числе пользователей он не масштабируется.",
+        "note": "durchaus nicht — вовсе не"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ],
+      "_src": "durchaus"
+    },
+    {
+      "externalId": "de:durchdenken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchdenken",
+        "pos": "verb",
+        "translation": "продумывать (до конца)",
+        "praeteritum": "durchdachte",
+        "perfekt": "hat durchdacht",
+        "example": "Bevor wir loslegen, sollten wir die Datenstruktur gründlich durchdenken.",
+        "exampleTranslation": "Прежде чем начинать, нужно тщательно продумать структуру данных.",
+        "note": "неотделяемый: ich durchdenke; durchdacht — продуманный"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "durchdenken"
+    },
+    {
+      "externalId": "de:durchgreifen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchgreifen",
+        "pos": "verb",
+        "translation": "принимать жёсткие меры, действовать решительно",
+        "praeteritum": "griff durch",
+        "perfekt": "hat durchgegriffen",
+        "example": "Nachdem schon wieder jemand direkt auf main gepusht hatte, griff der Teamlead endlich durch.",
+        "exampleTranslation": "После того как кто-то снова запушил прямо в main, тимлид наконец принял жёсткие меры.",
+        "rektion": "gegen + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "durchgreifen"
+    },
+    {
+      "externalId": "de:durchhaltevermögen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Durchhaltevermögen",
+        "article": "das",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "упорство, выносливость",
+        "example": "Für den Quereinstieg in die IT braucht man vor allem Durchhaltevermögen.",
+        "exampleTranslation": "Для перехода в IT из другой профессии нужно прежде всего упорство.",
+        "hint": "способность не сдаваться"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "_src": "durchhaltevermögen"
+    },
+    {
+      "externalId": "de:durchlaufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchlaufen",
+        "pos": "verb",
+        "translation": "проходить (этапы, процедуру)",
+        "praeteritum": "durchlief",
+        "perfekt": "hat durchlaufen",
+        "example": "Jeder Pull Request muss die komplette CI-Pipeline durchlaufen, bevor er gemergt wird.",
+        "exampleTranslation": "Каждый пулл-реквест должен пройти весь CI-пайплайн, прежде чем его смёржат.",
+        "note": "неотделяемый: du durchläufst",
+        "hint": "этапы, процесс"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "durchlaufen"
+    },
+    {
+      "externalId": "de:durchreichen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchreichen",
+        "pos": "verb",
+        "translation": "передавать дальше, пробрасывать",
+        "praeteritum": "reichte durch",
+        "perfekt": "hat durchgereicht",
+        "example": "Statt die Props durch fünf Ebenen durchzureichen, nutzen wir lieber einen Context.",
+        "exampleTranslation": "Вместо того чтобы пробрасывать пропсы через пять уровней, лучше используем контекст."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "durchreichen"
+    },
+    {
+      "externalId": "de:durchsichtig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchsichtig",
+        "pos": "adj",
+        "translation": "прозрачный (сквозь видно)",
+        "example": "Leg die Unterlagen fürs Jobcenter in eine durchsichtige Hülle, dann knicken sie nicht.",
+        "exampleTranslation": "Положи документы для Jobcenter в прозрачный файл, тогда они не помнутся.",
+        "hint": "физически (не transparent)",
+        "note": "о процессах — transparent; перен. durchsichtig = шитый белыми нитками (ein durchsichtiges Manöver)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ],
+      "_src": "durchsichtig"
+    },
+    {
+      "externalId": "de:durchsteigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "durchsteigen",
+        "pos": "verb",
+        "translation": "разобраться, врубиться",
+        "praeteritum": "stieg durch",
+        "perfekt": "ist durchgestiegen",
+        "example": "Bei diesem Legacy-Code mit zehn verschachtelten Callbacks steige ich echt nicht durch.",
+        "exampleTranslation": "В этом легаси-коде с десятью вложенными колбэками я реально не могу разобраться.",
+        "register": "umgs",
+        "rektion": "bei + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "durchsteigen"
+    },
+    {
+      "externalId": "de:dämpfen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "dämpfen",
+        "pos": "verb",
+        "translation": "смягчать, приглушать",
+        "praeteritum": "dämpfte",
+        "perfekt": "hat gedämpft",
+        "example": "Ich muss die Erwartungen des Kunden etwas dämpfen: Das Feature schaffen wir nicht bis Freitag.",
+        "exampleTranslation": "Мне придётся немного умерить ожидания клиента: эту фичу мы к пятнице не успеем.",
+        "hint": "ожидания, звук, удар",
+        "note": "в кулинарии: готовить на пару"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "dämpfen"
+    },
+    {
+      "externalId": "de:ebene",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Ebene",
+        "article": "die",
+        "plural": "die Ebenen",
+        "pos": "noun",
+        "translation": "уровень",
+        "example": "Den Fehler fangen wir auf der Ebene der API ab, nicht in jeder Komponente einzeln.",
+        "exampleTranslation": "Ошибку мы перехватываем на уровне API, а не в каждом компоненте по отдельности.",
+        "hint": "в структуре, иерархии",
+        "note": "также: равнина"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "ebene"
+    },
+    {
+      "externalId": "de:ebenfalls",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ebenfalls",
+        "pos": "adv",
+        "translation": "также, тоже",
+        "example": "„Schönes Wochenende!“ – „Danke, ebenfalls!“",
+        "exampleTranslation": "«Хороших выходных!» — «Спасибо, и вам того же!»",
+        "hint": "ответное пожелание (не auch)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adv"
+      ],
+      "_src": "ebenfalls"
+    },
+    {
+      "externalId": "de:echtbetrieb",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Echtbetrieb",
+        "article": "der",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "боевая эксплуатация, продакшн",
+        "example": "Im Echtbetrieb verhält sich der Cache ganz anders als auf Staging.",
+        "exampleTranslation": "В боевой эксплуатации кэш ведёт себя совсем иначе, чем на стейджинге."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "echtbetrieb"
+    },
+    {
+      "externalId": "de:echtzeitabgleich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Echtzeitabgleich",
+        "article": "der",
+        "plural": "die Echtzeitabgleiche",
+        "pos": "noun",
+        "translation": "синхронизация в реальном времени",
+        "example": "Der Lagerbestand im Shop wird per Echtzeitabgleich mit dem ERP-System aktualisiert.",
+        "exampleTranslation": "Остатки на складе в магазине обновляются через синхронизацию с ERP-системой в реальном времени."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "echtzeitabgleich"
+    },
+    {
+      "externalId": "de:echtzeitanwendung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Echtzeitanwendung",
+        "article": "die",
+        "plural": "die Echtzeitanwendungen",
+        "pos": "noun",
+        "translation": "приложение реального времени",
+        "example": "Für Echtzeitanwendungen wie einen Chat nutzen wir WebSockets statt Polling.",
+        "exampleTranslation": "Для приложений реального времени, например чата, мы используем WebSockets вместо поллинга."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "echtzeitanwendungen"
+    },
+    {
+      "externalId": "de:effizient",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "effizient",
+        "pos": "adj",
+        "translation": "эффективный, экономичный",
+        "example": "Der neue Algorithmus ist deutlich effizienter, weil er das Array nur einmal durchläuft.",
+        "exampleTranslation": "Новый алгоритм гораздо эффективнее, потому что проходит по массиву только один раз.",
+        "hint": "без лишних затрат (не effektiv)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "effizient sein"
+    },
+    {
+      "externalId": "de:effizienter-gestalten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas effizienter gestalten",
+        "pos": "phrase",
+        "translation": "сделать что-л. эффективнее, оптимизировать",
+        "example": "Mit automatisierten Tests wollen wir unseren Release-Prozess effizienter gestalten.",
+        "exampleTranslation": "С помощью автотестов мы хотим сделать процесс релизов эффективнее.",
+        "note": "gestalten — организовывать, оформлять; частый оборот в резюме и на собеседованиях"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "effizienter zu gestalten"
+    },
+    {
+      "externalId": "de:effizienz",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Effizienz",
+        "article": "die",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "эффективность",
+        "example": "Durch Memoization haben wir die Effizienz beim Rendern langer Listen deutlich gesteigert.",
+        "exampleTranslation": "Благодаря мемоизации мы заметно повысили эффективность рендеринга длинных списков.",
+        "hint": "затраты/результат (не Effektivität)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "effizienz"
+    },
+    {
+      "externalId": "de:eigenständig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eigenständig",
+        "pos": "adj",
+        "translation": "самостоятельный, автономный",
+        "example": "Im letzten Projekt habe ich Features eigenständig von der Planung bis zum Deployment umgesetzt.",
+        "exampleTranslation": "В последнем проекте я самостоятельно реализовывал фичи от планирования до деплоя.",
+        "hint": "не selbstständig"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "adj"
+      ],
+      "_src": "eigenständig"
+    },
+    {
+      "externalId": "de:sich-eignen-für",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich eignen",
+        "pos": "verb",
+        "translation": "подходить (для чего-л.)",
+        "praeteritum": "eignete sich",
+        "perfekt": "hat sich geeignet",
+        "example": "Next.js eignet sich gut für Seiten, bei denen SEO wichtig ist.",
+        "exampleTranslation": "Next.js хорошо подходит для страниц, где важен SEO.",
+        "rektion": "für + Akk.",
+        "hint": "по свойствам (не passen)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "eignen für"
+    },
+    {
+      "externalId": "de:eilig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eilig",
+        "pos": "adj",
+        "translation": "спешный, срочный",
+        "example": "Sorry, ich hab's eilig – die Kita schließt in zwanzig Minuten.",
+        "exampleTranslation": "Извини, я тороплюсь — садик закрывается через двадцать минут.",
+        "hint": "спешка (не dringend)",
+        "note": "es eilig haben — торопиться"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ],
+      "_src": "eilig"
+    },
+    {
+      "externalId": "de:ein-angebot-unterbreiten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ein Angebot unterbreiten",
+        "pos": "phrase",
+        "translation": "сделать (официальное) предложение",
+        "example": "Wir wollen dem Kunden bis Freitag ein Angebot für den Relaunch unterbreiten.",
+        "exampleTranslation": "Мы хотим до пятницы представить клиенту предложение по перезапуску сайта.",
+        "register": "formell",
+        "rektion": "jmdm. (Dat.)",
+        "note": "unterbreiten — неотделяемый: unterbreitete, hat unterbreitet"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "ein angebot unterbreiten"
+    },
+    {
+      "externalId": "de:ein-auge-zudrücken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ein Auge zudrücken",
+        "pos": "phrase",
+        "translation": "закрыть глаза (на что-л.), сделать поблажку",
+        "example": "Bei den Linter-Warnungen im Hotfix drückt der Reviewer heute mal ein Auge zu.",
+        "exampleTranslation": "На предупреждения линтера в хотфиксе ревьюер сегодня закроет глаза.",
+        "register": "umgs",
+        "rektion": "bei + Dat.",
+        "note": "drückte ein Auge zu, hat ein Auge zugedrückt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "ein auge zudrücken"
+    },
+    {
+      "externalId": "de:ein-böses-erwachen-erleben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ein böses Erwachen erleben",
+        "pos": "phrase",
+        "translation": "столкнуться с неприятной реальностью",
+        "example": "Nach dem Release erlebten wir ein böses Erwachen: Der Server brach unter der Last zusammen.",
+        "exampleTranslation": "После релиза нас ждало неприятное пробуждение: сервер рухнул под нагрузкой."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "ein böses erwachen erleben"
+    },
+    {
+      "externalId": "de:haufen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Haufen",
+        "article": "der",
+        "plural": "die Haufen",
+        "pos": "noun",
+        "translation": "куча",
+        "example": "Wir haben einen Haufen Daten gesammelt, aber keiner weiß, was wir damit anfangen sollen.",
+        "exampleTranslation": "Мы собрали кучу данных, но никто не знает, что с ними делать.",
+        "register": "umgs",
+        "note": "ein Haufen + сущ. без артикля: ein Haufen Arbeit"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "ein haufen daten"
+    },
+    {
+      "externalId": "de:ein-update-geben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ein Update geben",
+        "pos": "phrase",
+        "translation": "дать апдейт, рассказать о текущем статусе",
+        "example": "Kannst du uns im Daily kurz ein Update zum Login-Bug geben?",
+        "exampleTranslation": "Можешь на дейли коротко рассказать, что с багом логина?",
+        "rektion": "jmdm. (Dat.); zu + Dat.",
+        "note": "gab, hat gegeben; du gibst"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "ein update geben"
+    },
+    {
+      "externalId": "de:ausblenden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ausblenden",
+        "pos": "verb",
+        "translation": "скрывать (элемент интерфейса)",
+        "praeteritum": "blendete aus",
+        "perfekt": "hat ausgeblendet",
+        "example": "Über diesen Button kann man die Seitenleiste ausblenden.",
+        "exampleTranslation": "Этой кнопкой можно скрыть боковую панель.",
+        "hint": "в UI (не verstecken)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "ein- ausblenden"
+    },
+    {
+      "externalId": "de:einblenden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einblenden",
+        "pos": "verb",
+        "translation": "показывать, выводить (на экран)",
+        "praeteritum": "blendete ein",
+        "perfekt": "hat eingeblendet",
+        "example": "Die Fehlermeldung wird erst eingeblendet, wenn der Nutzer das Feld verlässt.",
+        "exampleTranslation": "Сообщение об ошибке появляется только тогда, когда пользователь покидает поле.",
+        "hint": "в UI, подсказку, баннер"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:sich-einarbeiten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich einarbeiten",
+        "pos": "verb",
+        "translation": "вникать, осваиваться",
+        "praeteritum": "arbeitete sich ein",
+        "perfekt": "hat sich eingearbeitet",
+        "example": "In den ersten zwei Wochen arbeite ich mich in die Codebasis ein.",
+        "exampleTranslation": "Первые две недели я вникаю в кодовую базу.",
+        "rektion": "in + Akk.",
+        "note": "jmdn. einarbeiten — вводить в курс дела (нового сотрудника)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einarbeiten"
+    },
+    {
+      "externalId": "de:einbahnstraße",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einbahnstraße",
+        "article": "die",
+        "plural": "die Einbahnstraßen",
+        "pos": "noun",
+        "translation": "улица с односторонним движением",
+        "example": "In der Bonner Altstadt sind viele Straßen Einbahnstraßen, deshalb fährt das Navi ständig im Kreis.",
+        "exampleTranslation": "В старом центре Бонна много улиц с односторонним движением, поэтому навигатор всё время водит по кругу.",
+        "note": "«Einbahn» — австр. вариант; перен.: Kommunikation ist keine Einbahnstraße — общение должно быть двусторонним"
+      },
+      "tags": [
+        "noji",
+        "auto",
+        "noun"
+      ],
+      "_src": "einbahn"
+    },
+    {
+      "externalId": "de:einbeziehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einbeziehen",
+        "pos": "verb",
+        "translation": "вовлекать, привлекать; учитывать",
+        "praeteritum": "bezog ein",
+        "perfekt": "hat einbezogen",
+        "example": "Wir sollten die Datenschutzbeauftragte von Anfang an in die Planung einbeziehen.",
+        "exampleTranslation": "Нам стоит с самого начала привлечь к планированию ответственную по защите данных.",
+        "rektion": "in + Akk.",
+        "hint": "людей в процесс/решение"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einbeziehen"
+    },
+    {
+      "externalId": "de:einbinden-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einbinden",
+        "pos": "verb",
+        "translation": "подключать, встраивать (библиотеку, скрипт)",
+        "praeteritum": "band ein",
+        "perfekt": "hat eingebunden",
+        "example": "Das Tracking-Skript binden wir erst ein, wenn der Nutzer den Cookies zugestimmt hat.",
+        "exampleTranslation": "Скрипт трекинга мы подключаем только после того, как пользователь согласился на куки.",
+        "rektion": "in + Akk.",
+        "hint": "код, скрипт"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einbinden"
+    },
+    {
+      "externalId": "de:einbinden-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einbinden",
+        "pos": "verb",
+        "translation": "вовлекать, включать (в команду, процесс)",
+        "praeteritum": "band ein",
+        "perfekt": "hat eingebunden",
+        "example": "Neue Teammitglieder binden wir vom ersten Tag an in die Code-Reviews ein.",
+        "exampleTranslation": "Новых членов команды мы с первого дня включаем в код-ревью.",
+        "rektion": "in + Akk.",
+        "hint": "людей, в работу"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:einblick",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einblick",
+        "article": "der",
+        "plural": "die Einblicke",
+        "pos": "noun",
+        "translation": "представление (изнутри), взгляд изнутри",
+        "example": "Im Praktikum habe ich einen guten Einblick in die Arbeit agiler Teams bekommen.",
+        "exampleTranslation": "На стажировке я получил хорошее представление о работе agile-команд.",
+        "rektion": "in + Akk.",
+        "note": "Einblick bekommen/gewinnen/geben"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "einblick in etwas bekommen"
+    },
+    {
+      "externalId": "de:eine-entscheidung-fällen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eine Entscheidung fällen",
+        "pos": "phrase",
+        "translation": "принять решение",
+        "example": "Bis Ende des Sprints müssen wir eine Entscheidung über das State-Management fällen.",
+        "exampleTranslation": "До конца спринта нам нужно принять решение по стейт-менеджменту.",
+        "register": "formell",
+        "hint": "книжн. (не treffen)",
+        "note": "fällte, hat gefällt; но: die Entscheidung ist gefallen (fallen) — решение принято"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "eine entscheidung fällen"
+    },
+    {
+      "externalId": "de:reklamieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "reklamieren",
+        "pos": "verb",
+        "translation": "предъявить претензию, вернуть по рекламации",
+        "praeteritum": "reklamierte",
+        "perfekt": "hat reklamiert",
+        "example": "Der Monitor hatte einen Pixelfehler, also habe ich ihn beim Händler reklamiert.",
+        "exampleTranslation": "У монитора был битый пиксель, поэтому я предъявил претензию продавцу.",
+        "falseFriend": "≠ рус. «рекламировать» (= werben)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "eine fehlerhafte lieferung reklamieren"
+    },
+    {
+      "externalId": "de:gründen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gründen",
+        "pos": "verb",
+        "translation": "основывать",
+        "praeteritum": "gründete",
+        "perfekt": "hat gegründet",
+        "example": "Mein Ex-Kollege hat in Köln eine eigene Firma gegründet und sucht React-Entwickler.",
+        "exampleTranslation": "Мой бывший коллега основал в Кёльне свою фирму и ищет React-разработчиков."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "eine firma gründen"
+    },
+    {
+      "externalId": "de:maßnahmen-ergreifen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Maßnahmen ergreifen",
+        "pos": "phrase",
+        "translation": "принимать меры",
+        "example": "Nach dem Datenleck mussten wir sofort Maßnahmen ergreifen und alle Passwörter zurücksetzen.",
+        "exampleTranslation": "После утечки данных нам пришлось сразу принять меры и сбросить все пароли.",
+        "note": "ergriff, hat ergriffen; du ergreifst"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "eine maßnahme ergreifen"
+    },
+    {
+      "externalId": "de:eine-umfrage-durchführen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eine Umfrage durchführen",
+        "pos": "phrase",
+        "translation": "провести опрос",
+        "example": "Das HR-Team führt gerade eine anonyme Umfrage unter allen Entwicklern durch.",
+        "exampleTranslation": "HR-отдел сейчас проводит анонимный опрос среди всех разработчиков.",
+        "rektion": "unter + Dat.",
+        "note": "führte durch, hat durchgeführt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "eine umfrage unter jemandem durchführen"
+    },
+    {
+      "externalId": "de:verabredung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Verabredung",
+        "article": "die",
+        "plural": "die Verabredungen",
+        "pos": "noun",
+        "translation": "договорённость о встрече, встреча",
+        "example": "Ich kann heute nicht länger bleiben, ich habe um sieben eine Verabredung.",
+        "exampleTranslation": "Сегодня не смогу задержаться, у меня в семь встреча.",
+        "hint": "личная (не Termin)",
+        "note": "eine Verabredung treffen — договориться (книжн.); чаще: sich verabreden"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "eine verabredung treffen"
+    },
+    {
+      "externalId": "de:eine-vereinbarung-treffen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eine Vereinbarung treffen",
+        "pos": "phrase",
+        "translation": "заключить соглашение, договориться",
+        "example": "Wir haben mit dem Kunden eine Vereinbarung getroffen: Bugfixes sind im Festpreis enthalten.",
+        "exampleTranslation": "Мы договорились с клиентом: исправление багов входит в фиксированную цену.",
+        "rektion": "mit + Dat.",
+        "note": "traf, hat getroffen; du triffst"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "eine vereinbarung mit jemandem treffen"
+    },
+    {
+      "externalId": "de:eine-änderung-vornehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eine Änderung vornehmen",
+        "pos": "phrase",
+        "translation": "внести изменение",
+        "example": "Ich habe eine kleine Änderung an der ESLint-Konfiguration vorgenommen, schau bitte mal drauf.",
+        "exampleTranslation": "Я внёс небольшое изменение в конфигурацию ESLint, глянь, пожалуйста.",
+        "register": "formell",
+        "rektion": "an + Dat.",
+        "note": "nahm vor, hat vorgenommen; «eine Veränderung treffen» — неверно, treffen только с Entscheidung, Vereinbarung"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "eine veränderung treffen"
+    },
+    {
+      "externalId": "de:einen-antrag-stellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einen Antrag stellen",
+        "pos": "phrase",
+        "translation": "подать заявление",
+        "example": "Ich habe beim Jobcenter einen Antrag auf Übernahme der Weiterbildungskosten gestellt.",
+        "exampleTranslation": "Я подал в Jobcenter заявление на оплату курсов повышения квалификации.",
+        "register": "formell",
+        "rektion": "auf + Akk."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "phrase"
+      ],
+      "_src": "einen antrag auf etwas stellen"
+    },
+    {
+      "externalId": "de:einen-auftrag-erteilen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einen Auftrag erteilen",
+        "pos": "phrase",
+        "translation": "дать поручение, выдать заказ",
+        "example": "Die Stadt hat unserer Agentur den Auftrag für das neue Bürgerportal erteilt.",
+        "exampleTranslation": "Город поручил нашему агентству заказ на новый портал для граждан.",
+        "register": "formell",
+        "rektion": "jmdm. (Dat.)",
+        "note": "erteilte, hat erteilt"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "einen auftrag erteilen"
+    },
+    {
+      "externalId": "de:einen-beitrag-leisten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einen Beitrag leisten",
+        "pos": "phrase",
+        "translation": "вносить вклад",
+        "example": "Mit meinem Pull Request konnte ich einen kleinen Beitrag zur Next.js-Dokumentation leisten.",
+        "exampleTranslation": "Своим пулл-реквестом я смог внести небольшой вклад в документацию Next.js.",
+        "rektion": "zu + Dat.",
+        "note": "leistete, hat geleistet"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "einen beitrag zu etwas leisten"
+    },
+    {
+      "externalId": "de:einen-köpper-machen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einen Köpper machen",
+        "pos": "phrase",
+        "translation": "нырнуть головой вперёд, «рыбкой»",
+        "example": "Im Freibad hat mein Kollege vom Dreimeterbrett einen Köpper gemacht.",
+        "exampleTranslation": "В открытом бассейне мой коллега нырнул «рыбкой» с трёхметровой вышки.",
+        "register": "umgs",
+        "note": "der Köpper — разг. (запад и север Германии) = der Kopfsprung"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ],
+      "_src": "einen köpper machen"
+    },
+    {
+      "externalId": "de:nachweis",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Nachweis",
+        "article": "der",
+        "plural": "die Nachweise",
+        "pos": "noun",
+        "translation": "подтверждение, справка",
+        "example": "Das Jobcenter verlangt einen Nachweis über meine Bewerbungen der letzten drei Monate.",
+        "exampleTranslation": "Jobcenter требует подтверждение моих откликов на вакансии за последние три месяца.",
+        "rektion": "über + Akk.",
+        "hint": "документ (не Beweis)",
+        "note": "einen Nachweis erbringen/vorlegen/verlangen"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ],
+      "_src": "einen nachweis verlangen"
+    },
+    {
+      "externalId": "de:nutzen-bringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Nutzen bringen",
+        "pos": "phrase",
+        "translation": "приносить пользу",
+        "example": "Das Caching auf dem Server bringt uns einen riesigen Nutzen bei den Ladezeiten.",
+        "exampleTranslation": "Серверное кэширование даёт нам огромный выигрыш во времени загрузки.",
+        "note": "brachte, hat gebracht; сущ. der Nutzen — см. de:der-nutzen"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "einen riesigen nutzen bringen"
+    },
+    {
+      "externalId": "de:schlichten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "schlichten",
+        "pos": "verb",
+        "translation": "улаживать (спор, конфликт)",
+        "praeteritum": "schlichtete",
+        "perfekt": "hat geschlichtet",
+        "example": "Der Teamlead musste den Streit zwischen Backend und Frontend über das API-Format schlichten.",
+        "exampleTranslation": "Тимлиду пришлось улаживать спор между бэкендом и фронтендом о формате API.",
+        "hint": "как посредник"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einen streit schlichten"
+    },
+    {
+      "externalId": "de:einfließen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einfließen",
+        "pos": "verb",
+        "translation": "вливаться, учитываться (в чём-л.)",
+        "praeteritum": "floss ein",
+        "perfekt": "ist eingeflossen",
+        "example": "Das Feedback aus dem Usability-Test ist direkt ins neue Design eingeflossen.",
+        "exampleTranslation": "Отзывы с юзабилити-теста сразу учли в новом дизайне.",
+        "rektion": "in + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einfließen"
+    },
+    {
+      "externalId": "de:einfließen-lassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas einfließen lassen",
+        "pos": "phrase",
+        "translation": "учесть, включить (опыт, идеи)",
+        "example": "In meine Bewerbung lasse ich auch Erfahrungen aus meinem Ingenieurstudium einfließen.",
+        "exampleTranslation": "В своё резюме я включаю и опыт, полученный в инженерном вузе.",
+        "rektion": "in + Akk.",
+        "note": "ließ einfließen, hat einfließen lassen; du lässt"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "phrase"
+      ],
+      "_src": "einfließen lassen"
+    },
+    {
+      "externalId": "de:einfügen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einfügen",
+        "pos": "verb",
+        "translation": "вставлять",
+        "praeteritum": "fügte ein",
+        "perfekt": "hat eingefügt",
+        "example": "Kopier die Fehlermeldung und füg sie direkt ins Ticket ein.",
+        "exampleTranslation": "Скопируй сообщение об ошибке и вставь его прямо в тикет.",
+        "hint": "скопированное (не einsetzen)",
+        "rektion": "in + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einfügen"
+    },
+    {
+      "externalId": "de:eingabe",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Eingabe",
+        "article": "die",
+        "plural": "die Eingaben",
+        "pos": "noun",
+        "translation": "ввод (данных)",
+        "example": "Bei einer ungültigen Eingabe zeigt das Formular eine Fehlermeldung unter dem Feld an.",
+        "exampleTranslation": "При некорректном вводе форма показывает сообщение об ошибке под полем.",
+        "note": "die Eingabetaste — Enter"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "eingabe"
+    },
+    {
+      "externalId": "de:eingangs",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eingangs",
+        "pos": "adv",
+        "translation": "вначале, в начале (текста, выступления)",
+        "example": "Wie eingangs erwähnt, migrieren wir die App schrittweise auf TypeScript.",
+        "exampleTranslation": "Как упоминалось вначале, мы переводим приложение на TypeScript поэтапно.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ],
+      "_src": "eingangs"
+    },
+    {
+      "externalId": "de:eingehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eingehen",
+        "pos": "verb",
+        "translation": "поступать (о деньгах, письмах)",
+        "praeteritum": "ging ein",
+        "perfekt": "ist eingegangen",
+        "example": "Sobald das Gehalt auf dem Konto eingegangen ist, überweise ich die Miete.",
+        "exampleTranslation": "Как только зарплата поступит на счёт, я переведу арендную плату.",
+        "hint": "платёж, заявка",
+        "note": "также: завянуть (о растении)"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ],
+      "_src": "eingehen"
+    },
+    {
+      "externalId": "de:eingehen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eingehen auf",
+        "pos": "verb",
+        "translation": "остановиться (на вопросе), отреагировать на",
+        "praeteritum": "ging ein",
+        "perfekt": "ist eingegangen",
+        "example": "Im Interview ist der Teamlead ausführlich auf meine Fragen zur Architektur eingegangen.",
+        "exampleTranslation": "На собеседовании тимлид подробно ответил на мои вопросы об архитектуре.",
+        "rektion": "auf + Akk.",
+        "note": "auf ein Angebot eingehen — принять предложение"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "eingehen auf"
+    },
+    {
+      "externalId": "de:einkringeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einkringeln",
+        "pos": "verb",
+        "translation": "обвести (кружком)",
+        "praeteritum": "kringelte ein",
+        "perfekt": "hat eingekringelt",
+        "example": "Ich habe die fehlerhaften Stellen auf dem Screenshot rot eingekringelt.",
+        "exampleTranslation": "Я обвёл ошибочные места на скриншоте красным.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "eingekringelt"
+    },
+    {
+      "externalId": "de:eingreifen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eingreifen",
+        "pos": "verb",
+        "translation": "вмешиваться",
+        "praeteritum": "griff ein",
+        "perfekt": "hat eingegriffen",
+        "example": "Als der Deploy hängen blieb, musste der Admin manuell eingreifen.",
+        "exampleTranslation": "Когда деплой завис, админу пришлось вмешаться вручную.",
+        "rektion": "in + Akk.",
+        "hint": "в процесс (не sich einmischen)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "eingreifen"
+    },
+    {
+      "externalId": "de:sich-eingrooven",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich eingrooven",
+        "pos": "verb",
+        "translation": "войти в ритм, освоиться",
+        "praeteritum": "groovte sich ein",
+        "perfekt": "hat sich eingegroovt",
+        "example": "Im neuen Team musste ich mich erst ein paar Wochen eingrooven.",
+        "exampleTranslation": "В новой команде мне сначала пришлось пару недель входить в ритм.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "eingrooven"
+    },
+    {
+      "externalId": "de:einhaltung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einhaltung",
+        "article": "die",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "соблюдение (правил, сроков)",
+        "example": "Die Einhaltung unserer Coding-Guidelines prüft der Linter automatisch.",
+        "exampleTranslation": "Соблюдение наших правил оформления кода линтер проверяет автоматически."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "einhaltung"
+    },
+    {
+      "externalId": "de:einheitlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einheitlich",
+        "pos": "adj",
+        "translation": "единообразный, единый",
+        "example": "Wir brauchen ein einheitliches Format für Fehlermeldungen in allen Microservices.",
+        "exampleTranslation": "Нам нужен единый формат сообщений об ошибках во всех микросервисах."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "einheitlich"
+    },
+    {
+      "externalId": "de:einholen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einholen",
+        "pos": "verb",
+        "translation": "запрашивать, получать (согласие, сведения)",
+        "praeteritum": "holte ein",
+        "perfekt": "hat eingeholt",
+        "example": "Bevor wir die Library einsetzen, müssen wir die Freigabe der Rechtsabteilung einholen.",
+        "exampleTranslation": "Прежде чем использовать библиотеку, нужно получить одобрение юридического отдела.",
+        "hint": "согласие, предложение, инфо",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einholen"
+    },
+    {
+      "externalId": "de:einholen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einholen",
+        "pos": "verb",
+        "translation": "догнать, наверстать",
+        "praeteritum": "holte ein",
+        "perfekt": "hat eingeholt",
+        "example": "Den Rückstand aus dem letzten Sprint holen wir bis Freitag wieder ein.",
+        "exampleTranslation": "Отставание с прошлого спринта мы наверстаем к пятнице.",
+        "hint": "отставание"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:einig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einig",
+        "pos": "adj",
+        "translation": "единодушный, согласный",
+        "example": "Im Team sind wir uns einig, dass wir auf Redux verzichten.",
+        "exampleTranslation": "В команде мы единодушны в том, что откажемся от Redux.",
+        "note": "sich (Dat.) einig sein — быть согласными"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "einig"
+    },
+    {
+      "externalId": "de:sich-einigen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich einigen",
+        "pos": "verb",
+        "translation": "договориться (о чём-л.)",
+        "praeteritum": "einigte sich",
+        "perfekt": "hat sich geeinigt",
+        "example": "Nach langer Diskussion haben wir uns auf pnpm als Paketmanager geeinigt.",
+        "exampleTranslation": "После долгого обсуждения мы договорились использовать pnpm как пакетный менеджер.",
+        "rektion": "auf + Akk.",
+        "hint": "прийти к соглашению"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einigen auf"
+    },
+    {
+      "externalId": "de:einigung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einigung",
+        "article": "die",
+        "plural": "die Einigungen",
+        "pos": "noun",
+        "translation": "соглашение, компромисс",
+        "example": "Bei den Tarifverhandlungen gibt es bisher keine Einigung.",
+        "exampleTranslation": "На переговорах о тарифах пока нет соглашения.",
+        "hint": "итог переговоров (не Vereinbarung)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "einigung"
+    },
+    {
+      "externalId": "de:sich-einlassen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich einlassen",
+        "pos": "verb",
+        "translation": "ввязываться; соглашаться (на что-л.)",
+        "praeteritum": "ließ sich ein",
+        "perfekt": "hat sich eingelassen",
+        "example": "Auf einen Festpreis ohne klare Anforderungen sollten wir uns nicht einlassen.",
+        "exampleTranslation": "На фиксированную цену без чётких требований нам соглашаться не стоит.",
+        "rektion": "auf + Akk.",
+        "note": "du lässt dich ein"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einlassen auf"
+    },
+    {
+      "externalId": "de:sich-einpendeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich einpendeln",
+        "pos": "verb",
+        "translation": "устанавливаться, стабилизироваться",
+        "praeteritum": "pendelte sich ein",
+        "perfekt": "hat sich eingependelt",
+        "example": "Nach dem Serverumzug hat sich die Ladezeit bei etwa 300 Millisekunden eingependelt.",
+        "exampleTranslation": "После переезда на новый сервер время загрузки устоялось на уровне около 300 миллисекунд.",
+        "rektion": "bei + Dat."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einpendeln"
+    },
+    {
+      "externalId": "de:einplanen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einplanen",
+        "pos": "verb",
+        "translation": "закладывать (время, бюджет), предусматривать",
+        "praeteritum": "plante ein",
+        "perfekt": "hat eingeplant",
+        "example": "Für das Refactoring sollten wir mindestens zwei Tage einplanen.",
+        "exampleTranslation": "На рефакторинг нам стоит заложить минимум два дня."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einplanen"
+    },
+    {
+      "externalId": "de:einrichten-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einrichten",
+        "pos": "verb",
+        "translation": "настраивать, создавать (аккаунт, систему)",
+        "praeteritum": "richtete ein",
+        "perfekt": "hat eingerichtet",
+        "example": "Kannst du mir bitte einen Zugang zu GitLab einrichten?",
+        "exampleTranslation": "Можешь, пожалуйста, настроить мне доступ к GitLab?",
+        "hint": "аккаунт, доступ, систему"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einrichten"
+    },
+    {
+      "externalId": "de:einrichten-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einrichten",
+        "pos": "verb",
+        "translation": "обставлять (мебелью)",
+        "praeteritum": "richtete ein",
+        "perfekt": "hat eingerichtet",
+        "example": "Wir haben das Kinderzimmer fast komplett mit Möbeln aus dem Second-Hand-Laden eingerichtet.",
+        "exampleTranslation": "Мы обставили детскую почти полностью мебелью из секонд-хенда.",
+        "hint": "квартиру, комнату"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:einrichtung-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einrichtung",
+        "article": "die",
+        "plural": "die Einrichtungen",
+        "pos": "noun",
+        "translation": "учреждение",
+        "example": "Die Volkshochschule ist eine öffentliche Einrichtung und bietet günstige Deutschkurse an.",
+        "exampleTranslation": "Народный университет — государственное учреждение, там недорогие курсы немецкого.",
+        "hint": "организация (не Anstalt)"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ],
+      "_src": "einrichtung"
+    },
+    {
+      "externalId": "de:einrichtung-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einrichtung",
+        "article": "die",
+        "plural": "die Einrichtungen",
+        "pos": "noun",
+        "translation": "обстановка, мебель",
+        "example": "Die Einrichtung im neuen Büro ist modern, aber die Stühle sind unbequem.",
+        "exampleTranslation": "Обстановка в новом офисе современная, но стулья неудобные.",
+        "hint": "в помещении"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:einräumen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einräumen",
+        "pos": "verb",
+        "translation": "выделять, предоставлять (время, право)",
+        "praeteritum": "räumte ein",
+        "perfekt": "hat eingeräumt",
+        "example": "Ich räume mir jeden Morgen eine Stunde für die Interview-Vorbereitung ein.",
+        "exampleTranslation": "Каждое утро я выделяю себе час на подготовку к собеседованиям.",
+        "hint": "время, право",
+        "rektion": "jmdm. (Dat.)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einräumen"
+    },
+    {
+      "externalId": "de:einräumen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einräumen",
+        "pos": "verb",
+        "translation": "признавать (неохотно)",
+        "praeteritum": "räumte ein",
+        "perfekt": "hat eingeräumt",
+        "example": "Der Teamlead räumte ein, dass die Deadline zu knapp geplant war.",
+        "exampleTranslation": "Тимлид признал, что дедлайн был спланирован слишком сжато.",
+        "hint": "ошибку, свою неправоту"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:einrückung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einrückung",
+        "article": "die",
+        "plural": "die Einrückungen",
+        "pos": "noun",
+        "translation": "отступ (в коде)",
+        "example": "Eine falsche Einrückung in der YAML-Datei hat die ganze CI-Pipeline lahmgelegt.",
+        "exampleTranslation": "Неправильный отступ в YAML-файле положил весь CI-пайплайн."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "einrückung"
+    },
+    {
+      "externalId": "de:einsatz",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einsatz",
+        "article": "der",
+        "plural": "die Einsätze",
+        "pos": "noun",
+        "translation": "применение, использование",
+        "example": "Der Einsatz von KI-Tools im Code-Review wird bei uns gerade getestet.",
+        "exampleTranslation": "Применение ИИ-инструментов в код-ревью у нас сейчас тестируется.",
+        "hint": "технологий, инструментов",
+        "note": "также: усердие (mit vollem Einsatz), выезд (пожарных, полиции)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "einsatz"
+    },
+    {
+      "externalId": "de:einsatzort",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einsatzort",
+        "article": "der",
+        "plural": "die Einsatzorte",
+        "pos": "noun",
+        "translation": "место работы (в вакансии)",
+        "example": "Einsatzort ist Bonn, zwei Tage Homeoffice pro Woche sind möglich.",
+        "exampleTranslation": "Место работы — Бонн, возможно два дня удалёнки в неделю.",
+        "hint": "в вакансии (не Arbeitsplatz)"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "_src": "einsatzort"
+    },
+    {
+      "externalId": "de:einschließlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einschließlich",
+        "pos": "other",
+        "translation": "включительно; включая",
+        "example": "Ich bin voraussichtlich bis einschließlich Mittwoch krankgeschrieben.",
+        "exampleTranslation": "Я, скорее всего, на больничном до среды включительно.",
+        "rektion": "+ Gen.",
+        "note": "einschließlich der Mehrwertsteuer — включая НДС"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "other"
+      ],
+      "_src": "einschließlich"
+    },
+    {
+      "externalId": "de:einschreiten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einschreiten",
+        "pos": "verb",
+        "translation": "вмешаться (решительно)",
+        "praeteritum": "schritt ein",
+        "perfekt": "ist eingeschritten",
+        "example": "Als der Kollege im Meeting ausfallend wurde, schritt die Chefin sofort ein.",
+        "exampleTranslation": "Когда коллега на встрече перешёл на грубости, начальница сразу вмешалась.",
+        "hint": "против нарушения (не eingreifen)",
+        "rektion": "gegen + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "einschreiten"
+    },
+    {
+      "externalId": "de:einschränken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einschränken",
+        "pos": "verb",
+        "translation": "ограничивать, сокращать",
+        "praeteritum": "schränkte ein",
+        "perfekt": "hat eingeschränkt",
+        "example": "Wir haben die Schreibrechte auf den main-Branch auf zwei Personen eingeschränkt.",
+        "exampleTranslation": "Мы ограничили права на запись в ветку main двумя людьми.",
+        "rektion": "auf + Akk.",
+        "hint": "права, объём (не begrenzen)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einschränken"
+    },
+    {
+      "externalId": "de:einschränkung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einschränkung",
+        "article": "die",
+        "plural": "die Einschränkungen",
+        "pos": "noun",
+        "translation": "ограничение",
+        "example": "Wegen Bauarbeiten kommt es auf der Linie 16 zu Einschränkungen im Bahnverkehr.",
+        "exampleTranslation": "Из-за строительных работ на линии 16 движение поездов ограничено."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "einschränkung"
+    },
+    {
+      "externalId": "de:einschätzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einschätzen",
+        "pos": "verb",
+        "translation": "оценивать, прикидывать",
+        "praeteritum": "schätzte ein",
+        "perfekt": "hat eingeschätzt",
+        "example": "Kannst du einschätzen, wie lange die Migration auf React 19 dauert?",
+        "exampleTranslation": "Можешь прикинуть, сколько займёт миграция на React 19?",
+        "hint": "приблизительно (не bewerten)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einschätzen"
+    },
+    {
+      "externalId": "de:einschüchtern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einschüchtern",
+        "pos": "verb",
+        "translation": "запугивать, пугать",
+        "praeteritum": "schüchterte ein",
+        "perfekt": "hat eingeschüchtert",
+        "example": "Lass dich von den vielen Generics im Code nicht einschüchtern.",
+        "exampleTranslation": "Не дай всем этим дженерикам в коде себя запугать."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "einschüchtern"
+    }
+  ],
+  "_dropped": [
+    {
+      "key": "diskutieren mit",
+      "reason": "дубль группы diskutieren über (слито в de:diskutieren, rektion mit + Dat.; über + Akk.)"
+    },
+    {
+      "key": "diverse",
+      "reason": "дубль группы divers"
+    },
+    {
+      "key": "einen nachweis abgeben",
+      "reason": "дубль группы einen nachweis verlangen (слито в de:nachweis)"
+    },
+    {
+      "key": "einfluss",
+      "reason": "уже есть в колоде как de:einfluss-auf (der Einfluss, b03)"
+    },
+    {
+      "key": "einhalten",
+      "reason": "уже есть de:einhalten в пачке b05 (то же значение)"
+    },
+    {
+      "key": "ein gerät anschließen",
+      "reason": "уже есть de:anschließen в decks/de/0003-noji-b03.json (то же значение)"
+    },
+    {
+      "key": "eindringlich auf etwas bestehen",
+      "reason": "уже есть de:bestehen-auf в decks/de/0007-noji-b07.json (то же значение)"
+    },
+    {
+      "key": "ein projekt mit ideen bereichern",
+      "reason": "уже есть de:bereichern в пачке b08 (то же значение)"
+    }
+  ]
+}

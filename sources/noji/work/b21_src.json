@@ -1,0 +1,1273 @@
+{
+ "weglassen": [
+  {
+   "id": 6423479469,
+   "de": "weglassen (ließ weg; hat weggelassen, du lässt weg) – Wir können dieses unwichtige Detail in der Dokumentation weglassen.",
+   "ru": "опускать / исключать — Мы можем опустить эту второстепенную деталь в документации.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "weglegen": [
+  {
+   "id": 6004594169,
+   "de": "weglegen (legte weg; hat weggelegt) – Bitte leg dein Handy beim Essen weg.",
+   "ru": "отложить (в сторону), убрать — Пожалуйста, отложи свой телефон во время еды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "weiche matten": [
+  {
+   "id": 6064365163,
+   "de": "weiche Matten (Pl.) – Die Kinder spielen auf weichen Matten.",
+   "ru": "мягкие маты — Дети играют на мягких матах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "weichen": [
+  {
+   "id": 6372866044,
+   "de": "weichen (wich; ist gewichen) – Alte Technologien müssen neuen Frameworks weichen.",
+   "ru": "уступать место / отступать — Старые технологии должны уступить место новым фреймворкам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "weiterhin": [
+  {
+   "id": 5989563326,
+   "de": "weiterhin – Wir werden diese Technologie weiterhin nutzen.",
+   "ru": "дальше, по-прежнему — Мы по-прежнему будем использовать эту технологию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "welk und schimmelig": [
+  {
+   "id": 5293119016,
+   "de": "welk und schimmelig",
+   "ru": "вялый и заплесневелый",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wenig raum lassen": [
+  {
+   "id": 6127832246,
+   "de": "wenig Raum lassen (ließ; hat gelassen) – Solche Regeln lassen wenig Raum für Kreativität.",
+   "ru": "оставлять мало места (пространства) — Такие правила оставляют мало места для творчества.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "werdegang": [
+  {
+   "id": 5862955762,
+   "de": "der Werdegang (Werdegänge) – Erzählen Sie mir von Ihrem beruflichen Werdegang.",
+   "ru": "процесс развития, карьерный путь - Расскажите мне о своем профессиональном пути.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "werfen": [
+  {
+   "id": 5783860973,
+   "de": "werfen (warf; hat geworfen) – Wir müssen die alten Gewohnheiten werfen.",
+   "ru": "бросать, кидать - Мы должны отбросить старые привычки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "werk": [
+  {
+   "id": 5416199889,
+   "de": "das Werk (Werk, -e) – Er arbeitet im Siemens-Werk.",
+   "ru": "завод, фабрика",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wert legen auf": [
+  {
+   "id": 6041480224,
+   "de": "Wert legen auf (Akk.) (legte; hat gelegt) – Mein Chef legt großen Wert auf Pünktlichkeit.",
+   "ru": "придавать значение чему-либо — Мой босс придает большое значение пунктуальности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wertgegenstände": [
+  {
+   "id": 6420230850,
+   "de": "die Wertgegenstände (Pl.) – Lass keine Wertgegenstände sichtbar im Auto liegen.",
+   "ru": "ценные вещи — Не оставляй ценные вещи на видном месте в машине.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wettbewerb": [
+  {
+   "id": 6021248077,
+   "de": "der Wettbewerb (Wettbewerbe) – Der Wettbewerb auf dem Markt ist sehr groß.",
+   "ru": "конкуренция, соревнование — Конкуренция на рынке очень высока.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wichtig bei": [
+  {
+   "id": 5569465204,
+   "de": "wichtig bei (Dat.) – Sorgfalt ist wichtig bei der Datenpflege.",
+   "ru": "важный при",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wichtig für": [
+  {
+   "id": 5569465183,
+   "de": "wichtig für (Akk.) – Das ist wichtig für unsere gesamte Strategie.",
+   "ru": "важный для",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wickeln": [
+  {
+   "id": 5783860957,
+   "de": "wickeln (wickelte; hat gewickelt) – Wir müssen diesen Prozess in eine Funktion wickeln.",
+   "ru": "заворачивать, наматывать - Мы должны завернуть этот процесс в функцию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "widerspruch": [
+  {
+   "id": 5628100694,
+   "de": "der Widerspruch (Widersprüche) – Die neue Regelung stieß auf Widerspruch bei den Mitarbeitern.",
+   "ru": "противоречие; возражение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "widmen": [
+  {
+   "id": 5783860959,
+   "de": "widmen (widmete; hat gewidmet) – Wir werden die nächste Woche den Tests widmen.",
+   "ru": "посвящать (себя чему-либо) - Мы посвятим следующую неделю тестированию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wie eben schon erwähnt, ist": [
+  {
+   "id": 6357783472,
+   "de": "Wie eben schon erwähnt, ist... – Wie eben schon erwähnt, ist der Code sauber zu halten.",
+   "ru": "Как уже было красиво упомянуто, ... — Как уже было красиво упомянуто, код должен быть чистым.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wie soeben telefonisch besprochen": [
+  {
+   "id": 5374176746,
+   "de": "wie soeben telefonisch besprochen",
+   "ru": "как только что обсуждали по телефону",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wiederherstellen": [
+  {
+   "id": 6449728993,
+   "de": "wiederherstellen (stellte wieder her; hat wiederhergestellt, du stellst wieder her) – Wir müssen die Datenbank dringend aus dem gestrigen Backup wiederherstellen.",
+   "ru": "восстанавливать — Нам нужно срочно восстановить базу данных из вчерашнего бэкапа.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5989563328,
+   "de": "wiederherstellen (stellte wieder her; hat wiederhergestellt) – Wir müssen die Datenbank aus dem Backup wiederherstellen.",
+   "ru": "восстанавливать — Мы должны восстановить базу данных из бэкапа.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wiederkehrend": [
+  {
+   "id": 5559821689,
+   "de": "wiederkehrend – Wir müssen uns um die wiederkehrenden Fehler kümmern.",
+   "ru": "повторяющийся; возвращающийся",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wiederum": [
+  {
+   "id": 6165218983,
+   "de": "wiederum – Das führt wiederum zu einer besseren Performance.",
+   "ru": "в свою очередь / опять же — Это, в свою очередь, ведет к лучшей производительности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "winzig": [
+  {
+   "id": 6071412598,
+   "de": "winzig – Ich habe nur einen winzigen Hinweis für dich.",
+   "ru": "крошечный — У меня есть лишь маленькая (крошечная) подсказка для тебя.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wirbelsäule": [
+  {
+   "id": 5603787547,
+   "de": "die Wirbelsäule (Wirbelsäulen) – Lange Sitzzeiten belasten die Wirbelsäule.",
+   "ru": "позвоночник",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wirken": [
+  {
+   "id": 5628100696,
+   "de": "wirken (wirkte; hat gewirkt) – Deine Präsentation wirkt sehr professionell.",
+   "ru": "выглядеть; производить впечатление",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5862955754,
+   "de": "wirken (wirkte; hat gewirkt) – Das neue Update wirkt sehr effektiv.",
+   "ru": "действовать, производить впечатление - Новое обновление кажется очень эффективным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wirksam": [
+  {
+   "id": 5628100701,
+   "de": "wirksam – Die Sicherheitsmaßnahmen sind sofort wirksam geworden.",
+   "ru": "действенный; эффективный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wirksamkeit": [
+  {
+   "id": 6120127143,
+   "de": "die Wirksamkeit (nur Sg.) – Die Wirksamkeit des neuen Algorithmus ist bewiesen.",
+   "ru": "эффективность, действенность — Эффективность нового алгоритма доказана.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wirkung": [
+  {
+   "id": 6004594200,
+   "de": "die Wirkung (Wirkungen) – Dieses Medikament hat eine schnelle Wirkung.",
+   "ru": "воздействие, эффект — Это лекарство имеет быстрый эффект.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wirkungsbereich": [
+  {
+   "id": 6041480232,
+   "de": "der Wirkungsbereich (Wirkungsbereiche) – Die Variable ist nur in diesem Wirkungsbereich verfügbar.",
+   "ru": "сфера действия, область влияния (Scope) — Переменная доступна только в этой области видимости.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wischen": [
+  {
+   "id": 6407884636,
+   "de": "wischen (wischte; hat gewischt, du wischst) – Bitte wische den verschütteten Kaffee vom Tisch.",
+   "ru": "вытирать — Пожалуйста, вытри пролитый кофе со стола.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6492126613,
+   "de": "wischen (wischte; hat gewischt, du wischst) – Bitte wische den verschütteten Kaffee von der Tastatur.",
+   "ru": "вытирать / свайпать (по экрану) — Пожалуйста, вытри пролитый кофе с клавиатуры.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wischiwaschi": [
+  {
+   "id": 6140091034,
+   "de": "wischiwaschi – Die Anforderungen sind total wischiwaschi.",
+   "ru": "нечеткий / расплывчатый — Требования (к задаче) абсолютно расплывчатые.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wissbegierde": [
+  {
+   "id": 6481401683,
+   "de": "die Wissbegierde (nur Sg.) – Große Wissbegierde hilft einem Frontend-Developer sehr dabei, neue Frameworks zu meistern.",
+   "ru": "любознательность — Высокая любознательность очень помогает фронтенд-разработчику осваивать новые фреймворки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wohl": [
+  {
+   "id": 5596845343,
+   "de": "wohl / – Die Lösung wird wohl in der Cloud-Migration liegen.",
+   "ru": "вероятно; пожалуй / -Решение, вероятно, будет заключаться в миграции в облако.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "worauf es ankommt ist, dass": [
+  {
+   "id": 6240800283,
+   "de": "Worauf es ankommt ist, dass... – Worauf es ankommt ist, dass der Code für das ganze Team verständlich ist.",
+   "ru": "важно то, что... — Важно то, что код должен быть понятным для всей команды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "worauf ich jetzt eigentlich hinaus will?": [
+  {
+   "id": 6165219005,
+   "de": "Worauf ich jetzt eigentlich hinaus will? – Worauf ich jetzt eigentlich hinaus will?",
+   "ru": "к чему я клоню? — К чему я сейчас собственно клоню (веду)?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wundern sich": [
+  {
+   "id": 6090226933,
+   "de": "wundern sich (wunderte; hat gewundert) – Ich wundere mich, dass das überhaupt funktioniert.",
+   "ru": "удивляться — Я удивляюсь, что это вообще работает.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wut": [
+  {
+   "id": 6004594194,
+   "de": "die Wut (nur Sg.) – Er war voller Wut.",
+   "ru": "ярость, гнев — Он был полон гнева.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "währenddessen": [
+  {
+   "id": 5575958558,
+   "de": "währenddessen – Wir bereiten die Präsentation vor, währenddessen testet das Team die Beta-Version.",
+   "ru": "тем временем; пока",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "währung des landes": [
+  {
+   "id": 5293119030,
+   "de": "die Währung des Landes",
+   "ru": "валюта страны",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "wünschen von": [
+  {
+   "id": 5569463511,
+   "de": "wünschen von (Dat.) (wünschte; hat gewünscht) – Was wünschst du dir von dem neuen Tool?",
+   "ru": "желать от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zart": [
+  {
+   "id": 6071412591,
+   "de": "zart – Das Fleisch war sehr zart und lecker.",
+   "ru": "нежный, хрупкий — Мясо было очень нежным и вкусным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zauberwaffe": [
+  {
+   "id": 6004594208,
+   "de": "die Zauberwaffe (Zauberwaffen) – Ein Lächeln ist deine Zauberwaffe.",
+   "ru": "«волшебное оружие» / секрет успеха — Улыбка — это твое волшебное оружие.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zeigen": [
+  {
+   "id": 6021248055,
+   "de": "sich zeigen (zeigte; hat gezeigt) – Der Fehler zeigt sich nur bei hoher Last.",
+   "ru": "проявляться, показываться — Ошибка проявляется только при высокой нагрузке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zeitgemäß": [
+  {
+   "id": 5603787539,
+   "de": "zeitgemäß – Wir brauchen eine zeitgemäße Sicherheitslösung.",
+   "ru": "современный; актуальный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zelle": [
+  {
+   "id": 5927101122,
+   "de": "die Zelle (Zellen) – Forscher untersuchen die Zellen unter dem Mikroskop.",
+   "ru": "клетка - Ученые исследуют клетки под микроскопом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zerlegen": [
+  {
+   "id": 6481401681,
+   "de": "zerlegen (zerlegte; hat zerlegt, du zerlegst) – Ein großes Feature wird in kleinere Teilaufgaben zerlegt.",
+   "ru": "декомпозировать / разбивать — Большой фидбек или сложная фича разбивается на мелкие подзадачи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964755,
+   "de": "zerlegen (zerlegte; hat zerlegt) – Wie ich das in kleinere Einheiten zerlegen kann.",
+   "ru": "разбирать, расчленять — Как я могу разобрать это на более мелкие части (единицы).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6146950717,
+   "de": "zerlegen (zerlegte; hat zerlegt) – Ich muss diese komplexe Funktion in Teile zerlegen.",
+   "ru": "разбирать, разлагать — Я должен разобрать эту сложную функцию на части.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zerren": [
+  {
+   "id": 6407884666,
+   "de": "zerren (zerrte; hat gezerrt) – Ich musste die schweren Koteletts in den zweiten Stock zerren.",
+   "ru": "тащить, волочить — Мне пришлось тащить тяжелые коробки на второй этаж.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zerstören": [
+  {
+   "id": 6140091039,
+   "de": "zerstören (zerstörte; hat zerstört) – Ein Bug kann das ganze UI zerstören.",
+   "ru": "разрушать — Один баг может разрушить весь UI.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zickzack": [
+  {
+   "id": 5667907581,
+   "de": "der Zickzack (nur Sg.) – Wir müssen Zickzack-Wege vermeiden.",
+   "ru": "зигзаг - Мы должны избегать зигзагообразных (непрямых) путей.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zielt darauf ab": [
+  {
+   "id": 6100030324,
+   "de": "zielt darauf ab (zielte; hat gezielt) – Dieses Projekt zielt darauf ab, die UX zu verbessern.",
+   "ru": "нацелен на / имеет целью — Этот проект нацелен на улучшение UX.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zu etwas neigen": [
+  {
+   "id": 6449729009,
+   "de": "zu etwas neigen (neigte; hat geneigt) – Dieser alte Code neigt dazu, Speicherlecks zu erzeugen.",
+   "ru": "иметь склонность к чему-то — Этот старый код имеет склонность генерировать утечки памяти.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zu wort kommen": [
+  {
+   "id": 6155400439,
+   "de": "zu Wort kommen (kam; ist gekommen) – Bevor wir entscheiden, sollte jeder noch einmal zu Wort kommen.",
+   "ru": "получить право голоса / высказаться — Прежде чем мы решим, каждый должен еще раз высказаться.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zu wünschen übrig lassen": [
+  {
+   "id": 5568930104,
+   "de": "zu wünschen übrig lassen (ließ; hat gelassen) – Die Qualität der Dokumentation lässt zu wünschen übrig.",
+   "ru": "оставляют желать лучшего",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zudem": [
+  {
+   "id": 5575958542,
+   "de": "zudem – Die Software ist sehr schnell, zudem ist sie kostengünstig.",
+   "ru": "кроме того; к тому же",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5862955758,
+   "de": "zudem – Die Software ist schnell, zudem ist sie kostenlos.",
+   "ru": "к тому же, кроме того - Программа быстрая, к тому же она бесплатная.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zufrieden mit": [
+  {
+   "id": 5569465205,
+   "de": "zufrieden mit (Dat.) – Ich bin mit deiner Arbeit zufrieden.",
+   "ru": "довольный чем-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zufriedenstellen": [
+  {
+   "id": 5562692953,
+   "de": "zufriedenstellen (stellte zufrieden; hat zufrieden gestellt) – Wir müssen die Anforderungen der Stakeholder zufriedenstellen.",
+   "ru": "удовлетворять (кого-л.); угождать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zufällig": [
+  {
+   "id": 5593436162,
+   "de": "zufällig – Ich habe den Fehler zufällig beim Testen gefunden.",
+   "ru": "случайно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6320942688,
+   "de": "zufällig – Das war ein zufälliger Bug, der sich nicht mehr wiederholt.",
+   "ru": "случайный — Это был случайный баг, который больше не повторяется.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zufällige begegnung": [
+  {
+   "id": 6064365169,
+   "de": "zufällige Begegnung (Begegnungen) – Das war eine nette zufällige Begegnung.",
+   "ru": "случайная встреча — Это была приятная случайная встреча.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zugehen auf": [
+  {
+   "id": 5950387749,
+   "de": "zugehen auf (Akk.) (ging zu; ist zugegangen) – Du musst aktiver auf die Kollegen zugehen.",
+   "ru": "подходить (к кому-то), закрываться - Ты должен более активно подходить к коллегам с вопросами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zugeordnet sein": [
+  {
+   "id": 5683884930,
+   "de": "zugeordnet sein (Dat.) – Diese Aufgabe ist Ihnen zugeordnet.",
+   "ru": "назначен (присвоен) кому-либо/чему-либо - Эта задача назначена тебе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zugewanderten": [
+  {
+   "id": 6503896709,
+   "de": "die Zugewanderten (Pl.) – In vielen Teams bringt das Geburtstagskind selbst Kuchen oder Snacks mit. Das überrascht viele Zugewanderte.",
+   "ru": "иммигранты / переселенцы — Во многих командах именинник сам приносит торт или закуски. Это удивляет многих иммигрантов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zum punkt kommen": [
+  {
+   "id": 6041480206,
+   "de": "zum Punkt kommen (kam; ist gekommen) – Lass uns bitte zum Punkt kommen, wir haben wenig Zeit.",
+   "ru": "перейти к делу (к сути) — Давай перейдем к делу, у нас мало времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zunehmend": [
+  {
+   "id": 5683884937,
+   "de": "zunehmend – Wir sehen ein zunehmendes Interesse an diesem Produkt.",
+   "ru": "возрастающий, все более - Мы наблюдаем все более растущий интерес к этому продукту.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5559821695,
+   "de": "zunehmend – Wir haben eine zunehmende Anzahl von Nutzern.",
+   "ru": "возрастающий; усиливающийся",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6021248081,
+   "de": "zunehmend – Das Problem wird zunehmend ernst.",
+   "ru": "все больше, во все возрастающей степени — Проблема становится всё более серьезной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zunächst": [
+  {
+   "id": 5562692955,
+   "de": "zunächst – Zunächst müssen wir die Testphase abschließen.",
+   "ru": "сначала; прежде всего",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zur abnahme kommen": [
+  {
+   "id": 5647464569,
+   "de": "zur Abnahme kommen (kam; ist gekommen) – Das Projekt soll nächste Woche zur Abnahme kommen.",
+   "ru": "дойти до приемки (работы/продукта) - Проект должен быть готов к приемке на следующей неделе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zurückkehren": [
+  {
+   "id": 5927101094,
+   "de": "zurückkehren (kehrte zurück; ist zurückgekehrt) – Er kehrt erst morgen nach Hause zurück.",
+   "ru": "возвращаться - Он возвращается домой только завтра.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6146950722,
+   "de": "zurückkehren (kehrte zurück; ist zurückgekehrt) – Es ist Zeit, zum Projekt zurückzukehren.",
+   "ru": "возвращаться — Пора возвращаться к работе над проектом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zurückkommen von": [
+  {
+   "id": 5569463512,
+   "de": "zurückkommen von (Dat.) (kam zurück; ist zurückgekommen) – Ich bin gerade von der Konferenz zurückgekommen.",
+   "ru": "возвращаться от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zurückweisen": [
+  {
+   "id": 6187943205,
+   "de": "zurückweisen (wies zurück; hat zurückgewiesen, du weist zurück) – Der Teamleiter hat meinen Pull Request wegen Fehlern zurückgewiesen.",
+   "ru": "отклонять / отвергать — Тимлид отклонил мой Pull Request из-за багов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zurückweisung": [
+  {
+   "id": 6008372943,
+   "de": "die Zurückweisung (Zurückweisungen) – Ich habe eine Zurückweisung meiner Anfrage erhalten.",
+   "ru": "отказ, отклонение — Я получил отказ на свой запрос.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6320942677,
+   "de": "die Zurückweisung (Zurückweisungen) – Die Zurückweisung unseres Pull-Requests ist eingegangen.",
+   "ru": "отклонение, отказ — Получен отказ по нашему пулл-реквесту.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zurückziehen": [
+  {
+   "id": 5628100700,
+   "de": "sich zurückziehen (zog sich zurück; hat sich zurückgezogen) – Nach dem Vorfall zog sich das Team zur Fehleranalyse zurück.",
+   "ru": "уходить; отстраняться",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5986064686,
+   "de": "zurückziehen (zog zurück; hat zurückgezogen) – Er zieht seine Aussage zurück.",
+   "ru": "отзывать, забирать назад, отступать — Он забирает свое заявление назад.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusage": [
+  {
+   "id": 5972792644,
+   "de": "die Zusage (Zusagen) – Wir haben die Zusage für unser neues Projekt erhalten.",
+   "ru": "согласие, подтверждение (на запрос/предложение) — Мы получили подтверждение по нашему новому проекту.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusammengewürfelt": [
+  {
+   "id": 6262423281,
+   "de": "zusammengewürfelt – Das Design sieht ein bisschen zusammengewürfelt aus.",
+   "ru": "сваленный в кучу / разрозненный — Дизайн выглядит немного «слепленным из разного».",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusammenhang": [
+  {
+   "id": 5568930087,
+   "de": "der Zusammenhang (Zusammenhänge) – Wir müssen die Zusammenhänge zwischen den Fehlern verstehen.",
+   "ru": "взаимосвязи; контекст",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6128964751,
+   "de": "der Zusammenhang (Zusammenhänge) – In diesem Zusammenhang macht das Sinn.",
+   "ru": "связь, контекст — В данном контексте это имеет смысл.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusatzleistungen": [
+  {
+   "id": 5568930083,
+   "de": "die Zusatzleistungen (nur Plural) – Die Firma bietet Zusatzleistungen wie ein Jobticket an.",
+   "ru": "дополнительные выплаты; дополнительные услуги",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuschneiden": [
+  {
+   "id": 6251413739,
+   "de": "zuschneiden (schnitt zu; hat zugeschnitten, du schneidest zu) – Du solltest deinen Lebenslauf auf die spezifische Stelle zuschneiden.",
+   "ru": "кроить, адаптировать (под размер) — Твое резюме должно быть адаптировано под конкретную вакансию.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuschneiden auf": [
+  {
+   "id": 6008372946,
+   "de": "zuschneiden auf (Akk.) (schnitt zu; hat zugeschnitten) – Die Software ist auf die Nutzerbedürfnisse zugeschnitten.",
+   "ru": "адаптировать под, подгонять под — Программное обеспечение адаптировано под нужды пользователя.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuschuss": [
+  {
+   "id": 5638902704,
+   "de": "der Zuschuss (Zuschüsse) – Das Unternehmen bietet einen Zuschuss für Fitnessstudios.",
+   "ru": "дотация, субсидия - Компания предлагает дотацию на посещение спортзалов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusenden": [
+  {
+   "id": 5589940015,
+   "de": "zusenden (sandte zu; hat zugesandt) – Wir werden Ihnen die aktualisierten Unterlagen zusenden.",
+   "ru": "высылать; отправлять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusichern": [
+  {
+   "id": 5654992863,
+   "de": "zusichern (sicherte zu; hat zugesichert) – Wir können zusichern, dass die Daten sicher sind.",
+   "ru": "заверять, обещать - Мы можем заверить, что данные будут в безопасности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuständig für": [
+  {
+   "id": 6449729000,
+   "de": "zuständig für (Akk.) – Wer ist in unserem Team zuständig für das Setup der CI/CD-Pipeline?",
+   "ru": "ответственный (за что-то) — Кто отвечает за настройку CI/CD пайплайна в нашей команде?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5559821633,
+   "de": "zuständig für – Wer ist für die IT-Sicherheit zuständig?",
+   "ru": "ответственный; компетентный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5569465184,
+   "de": "zuständig für (Akk.) – Ich bin zuständig für die Serverwartung.",
+   "ru": "ответственный за",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuständigkeit": [
+  {
+   "id": 6465607905,
+   "de": "die Zuständigkeit (Zuständigkeiten) – Das Schreiben von Unit-Tests liegt in der Zuständigkeit des Entwicklers.",
+   "ru": "зона ответственности / компетенция — Написание юнит-тестов — это зона ответственности разработчика.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5575958555,
+   "de": "die Zuständigkeit (Zuständigkeiten) – Das fällt nicht in meine Zuständigkeit.",
+   "ru": "компетенция; ответственность; круг обязанностей",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zusätzlich": [
+  {
+   "id": 5537859324,
+   "de": "zusätzlich – Wir benötigen einen zusätzlichen Entwickler für das Team.",
+   "ru": "дополнительный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuverlässig": [
+  {
+   "id": 5588178241,
+   "de": "zuverlässig / – Wir brauchen einen zuverlässigen Partner für das Hosting.",
+   "ru": "надежный / – Нам нужен надежный партнер по хостингу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuverlässigkeit": [
+  {
+   "id": 5569439224,
+   "de": "die Zuverlässigkeit – Die Zuverlässigkeit der Software ist entscheidend.",
+   "ru": "надежность",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuversichtlich sein": [
+  {
+   "id": 5546335687,
+   "de": "zuversichtlich sein (war; ist gewesen) – Ich bin zuversichtlich, dass wir die Deadline schaffen.",
+   "ru": "быть уверенным; быть оптимистичным",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuvor": [
+  {
+   "id": 6372866045,
+   "de": "zuvor – Ich habe zuvor noch nie mit dieser Bibliothek gearbeitet.",
+   "ru": "ранее, до этого — Я никогда ранее не работал с этой библиотекой.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5862955756,
+   "de": "zuvor – Das hätten wir zuvor prüfen müssen.",
+   "ru": "до этого, заранее - Мы должны были проверить это заранее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuweisen": [
+  {
+   "id": 5957604432,
+   "de": "zuweisen (wies zu; hat zugewiesen) – Ich muss dir eine neue Aufgabe im System zuweisen.",
+   "ru": "назначать, присваивать — Я должен назначить тебе новую задачу в системе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuweisung": [
+  {
+   "id": 6240800282,
+   "de": "die Zuweisung (Zuweisungen) – Die Zuweisung von Werten findet in dieser Funktion statt.",
+   "ru": "присвоение (значения переменной) — Присвоение значения переменной происходит в этой функции.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zuzüglich": [
+  {
+   "id": 5618999056,
+   "de": "zuzüglich (Gen.) – Die Lizenzkosten betragen 500 Euro zuzüglich der Mehrwertsteuer.",
+   "ru": "плюс; с добавлением; включая",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zwangsläufig": [
+  {
+   "id": 5654992883,
+   "de": "zwangsläufig – Eine höhere Auslastung führt zwangsläufig zur Verlangsamung.",
+   "ru": "неизбежно, обязательно - Увеличение нагрузки неизбежно приведет к замедлению.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6004594174,
+   "de": "zwangsläufig – Diese Änderung führt zwangsläufig zu Problemen.",
+   "ru": "неизбежно — Это изменение неизбежно приведет к проблемам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zweifellos": [
+  {
+   "id": 5227473146,
+   "de": "zweifellos",
+   "ru": "несомненно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zweifeln an": [
+  {
+   "id": 5569463514,
+   "de": "zweifeln an (Dat.) (zweifelte; hat gezweifelt) – Wir zweifeln an der Richtigkeit der Daten.",
+   "ru": "сомневаться в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zweistufige authentifizierung": [
+  {
+   "id": 5603787576,
+   "de": "die zweistufige Authentifizierung (nur Sg.) – Wir nutzen die zweistufige Authentifizierung für mehr Sicherheit.",
+   "ru": "двухступенчатая аутентификация",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zwingen": [
+  {
+   "id": 5603787572,
+   "de": "zwingen (zwang; hat gezwungen) – Wir müssen den Nutzer nicht zwingen, das Update zu installieren.",
+   "ru": "принуждать; заставлять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5901514098,
+   "de": "zwingen (zwang; hat gezwungen) – Niemand kann uns dazu zwingen, am Wochenende zu arbeiten.",
+   "ru": "заставлять - Никто не может заставить нас работать в выходные.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zwischendrin": [
+  {
+   "id": 5677506896,
+   "de": "zwischendrin – Wir haben zwischendrin Zeit, den Code zu prüfen.",
+   "ru": "между тем, в промежутке - Между тем у нас есть время, чтобы проверить код.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zählen zu": [
+  {
+   "id": 5569463513,
+   "de": "zählen zu (Dat.) (zählte; hat gezählt) – Er zählt zu unseren wichtigsten Mitarbeitern.",
+   "ru": "относиться к",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zähler": [
+  {
+   "id": 6064365147,
+   "de": "der Zähler (Zähler) – Ich muss den Stromzähler prüfen.",
+   "ru": "счетчик — Мне нужно проверить счетчик электроэнергии.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zählt zu": [
+  {
+   "id": 6090226920,
+   "de": "zählt zu – Dieses Projekt zählt zu den erfolgreichsten in unserer Firma.",
+   "ru": "относится к..., считается... — Этот проект относится к самым успешным в нашей компании.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "zähmen": [
+  {
+   "id": 6021248067,
+   "de": "zähmen (zähmte; hat gezähmt) – Du musst lernen, deinen Stress zu zähmen.",
+   "ru": "усмирить, приручить — Ты должен научиться усмирять свой стресс.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

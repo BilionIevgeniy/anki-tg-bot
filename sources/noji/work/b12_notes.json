@@ -1,0 +1,1938 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:es-reicht-nicht-aus",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "es reicht nicht aus",
+        "pos": "phrase",
+        "translation": "этого недостаточно",
+        "example": "Ein kurzer Smoke-Test reicht hier nicht aus, wir brauchen richtige E2E-Tests.",
+        "exampleTranslation": "Короткого smoke-теста здесь недостаточно, нам нужны полноценные E2E-тесты.",
+        "note": "ausreichen — хватать, быть достаточным; «niemals» в этом обороте звучит неестественно"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "es reicht niemals aus"
+    },
+    {
+      "externalId": "de:es-schadet-nie",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "es schadet nie",
+        "pos": "phrase",
+        "translation": "никогда не помешает",
+        "example": "Es schadet nie, vor dem Release noch ein Backup der Datenbank zu machen.",
+        "exampleTranslation": "Перед релизом никогда не помешает сделать ещё один бэкап базы.",
+        "note": "auch: Es kann nicht schaden, … zu …"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "es schadet nie"
+    },
+    {
+      "externalId": "de:es-scheint",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "es scheint",
+        "pos": "phrase",
+        "translation": "кажется, похоже",
+        "hint": "судя по признакам",
+        "example": "Es scheint, dass der Cache nach dem Deploy nicht geleert wurde.",
+        "exampleTranslation": "Похоже, после деплоя кэш не очистили.",
+        "note": "es scheint, dass … / es scheint, als ob … (+ Konj.)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "es scheint"
+    },
+    {
+      "externalId": "de:es-wäre-hilfreich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "es wäre hilfreich",
+        "pos": "phrase",
+        "translation": "было бы полезно",
+        "example": "Es wäre hilfreich, wenn du mir die Logs vom Absturz schicken könntest.",
+        "exampleTranslation": "Было бы полезно, если бы ты прислал мне логи падения."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "es wäre hilfreich"
+    },
+    {
+      "externalId": "de:etablieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etablieren",
+        "pos": "verb",
+        "translation": "внедрять, закреплять",
+        "hint": "стандарт, процесс — чтобы прижился",
+        "praeteritum": "etablierte",
+        "perfekt": "hat etabliert",
+        "example": "Wir wollen im Team feste Regeln für Code-Reviews etablieren.",
+        "exampleTranslation": "Мы хотим закрепить в команде чёткие правила код-ревью.",
+        "note": "sich etablieren — утвердиться, закрепиться (на рынке)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "etablieren"
+    },
+    {
+      "externalId": "de:etwas-am-laufen-halten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas am Laufen halten",
+        "pos": "phrase",
+        "translation": "поддерживать в рабочем состоянии",
+        "praeteritum": "hielt am Laufen",
+        "perfekt": "hat am Laufen gehalten",
+        "example": "Es kostet viel Zeit, das alte jQuery-Projekt am Laufen zu halten.",
+        "exampleTranslation": "Поддерживать старый проект на jQuery в рабочем состоянии отнимает много времени.",
+        "note": "du hältst am Laufen"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "etwas am laufen halten"
+    },
+    {
+      "externalId": "de:in-anspruch-nehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas in Anspruch nehmen",
+        "pos": "phrase",
+        "translation": "воспользоваться (правом, услугой)",
+        "praeteritum": "nahm in Anspruch",
+        "perfekt": "hat in Anspruch genommen",
+        "example": "Nach der Geburt seiner Tochter hat er zwei Monate Elternzeit in Anspruch genommen.",
+        "exampleTranslation": "После рождения дочери он взял два месяца отпуска по уходу за ребёнком.",
+        "note": "du nimmst in Anspruch; viel Zeit in Anspruch nehmen — занимать много времени"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "phrase"
+      ],
+      "_src": "etwas in anspruch nehmen"
+    },
+    {
+      "externalId": "de:in-erfüllung-gehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "in Erfüllung gehen",
+        "pos": "phrase",
+        "translation": "сбываться, исполняться",
+        "praeteritum": "ging in Erfüllung",
+        "perfekt": "ist in Erfüllung gegangen",
+        "example": "Mein Wunsch, als Entwickler in Deutschland zu arbeiten, ist endlich in Erfüllung gegangen.",
+        "exampleTranslation": "Моё желание работать разработчиком в Германии наконец сбылось.",
+        "note": "о мечте, желании; «etwas in Erfüllung gehen lassen» почти не употребляется — лучше: einen Wunsch erfüllen"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ],
+      "_src": "etwas in erfüllung gehen lassen"
+    },
+    {
+      "externalId": "de:in-gang-bringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas in Gang bringen",
+        "pos": "phrase",
+        "translation": "сдвинуть с места, запустить",
+        "praeteritum": "brachte in Gang",
+        "perfekt": "hat in Gang gebracht",
+        "example": "Der neue Teamlead hat die stockende Migration endlich wieder in Gang gebracht.",
+        "exampleTranslation": "Новый тимлид наконец снова сдвинул с места буксовавшую миграцию."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "etwas in gang bringen"
+    },
+    {
+      "externalId": "de:ins-wanken-bringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas ins Wanken bringen",
+        "pos": "phrase",
+        "translation": "пошатнуть",
+        "praeteritum": "brachte ins Wanken",
+        "perfekt": "hat ins Wanken gebracht",
+        "example": "Das Datenleck hat das Vertrauen der Kunden ins Wanken gebracht.",
+        "exampleTranslation": "Утечка данных пошатнула доверие клиентов."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "etwas ins wanken bringen"
+    },
+    {
+      "externalId": "de:in-betracht-kommen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "in Betracht kommen",
+        "pos": "phrase",
+        "translation": "рассматриваться как вариант, подходить",
+        "praeteritum": "kam in Betracht",
+        "perfekt": "ist in Betracht gekommen",
+        "example": "Für das neue Projekt kommen nur React oder Vue in Betracht.",
+        "exampleTranslation": "Для нового проекта в качестве вариантов рассматриваются только React или Vue.",
+        "note": "kommt nicht in Betracht — исключено, не вариант"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "etwas kommt in betracht"
+    },
+    {
+      "externalId": "de:zur-anwendung-kommen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zur Anwendung kommen",
+        "pos": "phrase",
+        "translation": "применяться, использоваться",
+        "praeteritum": "kam zur Anwendung",
+        "perfekt": "ist zur Anwendung gekommen",
+        "register": "formell",
+        "example": "In diesem Projekt kommt TypeScript im Strict-Modus zur Anwendung.",
+        "exampleTranslation": "В этом проекте применяется TypeScript в строгом режиме."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "etwas kommt zur anwendung"
+    },
+    {
+      "externalId": "de:mindern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "mindern",
+        "pos": "verb",
+        "translation": "снижать, уменьшать",
+        "hint": "риск, ценность, арендную плату",
+        "praeteritum": "minderte",
+        "perfekt": "hat gemindert",
+        "example": "Wegen des Schimmels im Bad durften wir die Miete um zehn Prozent mindern.",
+        "exampleTranslation": "Из-за плесени в ванной нам разрешили снизить арендную плату на десять процентов.",
+        "note": "die Mietminderung — снижение аренды из-за дефектов квартиры"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ],
+      "_src": "etwas mindern"
+    },
+    {
+      "externalId": "de:sich-etwas-reinprügeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich etwas reinprügeln",
+        "pos": "verb",
+        "translation": "вдалбливать себе в голову, зубрить",
+        "praeteritum": "prügelte sich rein",
+        "perfekt": "hat sich reingeprügelt",
+        "rektion": "sich (Dat.) + Akk.",
+        "register": "umgs",
+        "example": "Vor der Prüfung musste ich mir die ganzen Paragraphen in einer Nacht reinprügeln.",
+        "exampleTranslation": "Перед экзаменом мне пришлось за одну ночь вдолбить себе в голову все эти параграфы."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "etwas reinprügeln"
+    },
+    {
+      "externalId": "de:streichen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "streichen",
+        "pos": "verb",
+        "translation": "вычёркивать, отменять, урезать",
+        "hint": "из плана, списка",
+        "praeteritum": "strich",
+        "perfekt": "hat gestrichen",
+        "example": "Wegen der Deadline mussten wir zwei Features aus dem Sprint streichen.",
+        "exampleTranslation": "Из-за дедлайна нам пришлось вычеркнуть из спринта две фичи.",
+        "note": "auch: die Wand streichen — красить стену"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "etwas streichen"
+    },
+    {
+      "externalId": "de:sich-etwas-vorbehalten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich etwas vorbehalten",
+        "pos": "verb",
+        "translation": "оставлять за собой (право)",
+        "praeteritum": "behielt sich vor",
+        "perfekt": "hat sich vorbehalten",
+        "rektion": "sich (Dat.) + Akk.",
+        "register": "formell",
+        "example": "Der Vermieter behält sich vor, die Nebenkostenvorauszahlung jährlich anzupassen.",
+        "exampleTranslation": "Арендодатель оставляет за собой право ежегодно корректировать предоплату коммунальных расходов.",
+        "note": "du behältst dir vor; Änderungen vorbehalten — возможны изменения"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ],
+      "_src": "etwas vorbehalten"
+    },
+    {
+      "externalId": "de:sich-etwas-vornehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich etwas vornehmen",
+        "pos": "verb",
+        "translation": "намереваться, наметить себе",
+        "hint": "план на себя",
+        "praeteritum": "nahm sich vor",
+        "perfekt": "hat sich vorgenommen",
+        "rektion": "sich (Dat.) + Akk.",
+        "example": "Für diesen Sprint habe ich mir vorgenommen, alle alten Tests zu reparieren.",
+        "exampleTranslation": "На этот спринт я наметил себе починить все старые тесты.",
+        "note": "du nimmst dir vor"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "etwas vornehmen"
+    },
+    {
+      "externalId": "de:zur-diskussion-stellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etwas zur Diskussion stellen",
+        "pos": "phrase",
+        "translation": "вынести на обсуждение",
+        "praeteritum": "stellte zur Diskussion",
+        "perfekt": "hat zur Diskussion gestellt",
+        "example": "In der Retro möchte ich den Wechsel zu pnpm zur Diskussion stellen.",
+        "exampleTranslation": "На ретро я хочу вынести на обсуждение переход на pnpm."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "etwas zur diskussion stellen"
+    },
+    {
+      "externalId": "de:existieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "existieren",
+        "pos": "verb",
+        "translation": "существовать",
+        "praeteritum": "existierte",
+        "perfekt": "hat existiert",
+        "example": "Für dieses Problem existiert bereits eine fertige npm-Bibliothek.",
+        "exampleTranslation": "Для этой проблемы уже существует готовая npm-библиотека."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "existieren"
+    },
+    {
+      "externalId": "de:experimentieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "experimentieren",
+        "pos": "verb",
+        "translation": "экспериментировать",
+        "praeteritum": "experimentierte",
+        "perfekt": "hat experimentiert",
+        "rektion": "mit + Dat.",
+        "example": "In einem Side-Projekt experimentiere ich gerade mit Server Components.",
+        "exampleTranslation": "В пет-проекте я сейчас экспериментирую с серверными компонентами."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "experimentieren mit"
+    },
+    {
+      "externalId": "de:explizit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "explizit",
+        "pos": "adj",
+        "translation": "явно, недвусмысленно",
+        "example": "In der Aufgabe steht explizit, dass wir TypeScript verwenden sollen.",
+        "exampleTranslation": "В задании явно сказано, что мы должны использовать TypeScript."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "explizit"
+    },
+    {
+      "externalId": "de:fahrgeschäft",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Fahrgeschäft",
+        "plural": "die Fahrgeschäfte",
+        "pos": "noun",
+        "translation": "аттракцион (катальный)",
+        "example": "Auf Pützchens Markt in Bonn gibt es jedes Jahr neue Fahrgeschäfte.",
+        "exampleTranslation": "На ярмарке Pützchens Markt в Бонне каждый год появляются новые аттракционы."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "fahrgeschäft"
+    },
+    {
+      "externalId": "de:fairness",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Fairness",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "справедливость, честность",
+        "hint": "честная игра, равное отношение",
+        "example": "Bei der Aufgabenverteilung im Sprint ist mir Fairness besonders wichtig.",
+        "exampleTranslation": "При распределении задач в спринте мне особенно важна справедливость."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "fairness"
+    },
+    {
+      "externalId": "de:fallstrick",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Fallstrick",
+        "plural": "die Fallstricke",
+        "pos": "noun",
+        "translation": "подводный камень, ловушка",
+        "example": "Beim Umstieg auf Server Components gibt es ein paar Fallstricke.",
+        "exampleTranslation": "При переходе на серверные компоненты есть несколько подводных камней."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "fallstrick"
+    },
+    {
+      "externalId": "de:fangen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fangen",
+        "pos": "verb",
+        "translation": "ловить",
+        "praeteritum": "fing",
+        "perfekt": "hat gefangen",
+        "note": "du fängst; im Code meist: einen Fehler abfangen",
+        "example": "Mit try/catch fängst du die Exception, bevor die ganze App abstürzt.",
+        "exampleTranslation": "С помощью try/catch ты ловишь исключение, прежде чем упадёт всё приложение."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "fangen"
+    },
+    {
+      "externalId": "de:fassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fassen",
+        "pos": "verb",
+        "translation": "постичь, поверить",
+        "hint": "не укладывается в голове",
+        "praeteritum": "fasste",
+        "perfekt": "hat gefasst",
+        "example": "Ich kann es nicht fassen, dass der Kunde das Feature schon wieder ändern will.",
+        "exampleTranslation": "Не могу поверить, что заказчик снова хочет поменять эту фичу.",
+        "note": "auch: greifen, packen — хватать; einen Entschluss fassen — принять решение"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "fassen"
+    },
+    {
+      "externalId": "de:fazit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Fazit",
+        "plural": "die Fazits / die Fazite",
+        "pos": "noun",
+        "translation": "вывод, итог",
+        "hint": "итоговая оценка в конце",
+        "example": "Mein Fazit nach dem Sprint: Wir haben uns zu viel vorgenommen.",
+        "exampleTranslation": "Мой вывод по итогам спринта: мы взяли на себя слишком много.",
+        "note": "ein Fazit ziehen — подвести итог"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "fazit"
+    },
+    {
+      "externalId": "de:anpassung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Anpassung",
+        "plural": "die Anpassungen",
+        "pos": "noun",
+        "translation": "адаптация, доработка",
+        "rektion": "an + Akk.",
+        "example": "Die Anpassung an die neue API hat länger gedauert als geplant.",
+        "exampleTranslation": "Адаптация к новому API заняла больше времени, чем планировалось."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "fehlende anpassung an"
+    },
+    {
+      "externalId": "de:fehlerhaft",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fehlerhaft",
+        "pos": "adj",
+        "translation": "с ошибками, неисправный",
+        "example": "Der Bericht war fehlerhaft und enthielt veraltete Zahlen.",
+        "exampleTranslation": "Отчёт был с ошибками и содержал устаревшие цифры."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "fehlerhaft"
+    },
+    {
+      "externalId": "de:irrtümlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "irrtümlich",
+        "pos": "adj",
+        "translation": "ошибочный, по ошибке",
+        "hint": "по недоразумению",
+        "example": "Die Rechnung wurde irrtümlich an meine alte Adresse geschickt.",
+        "exampleTranslation": "Счёт по ошибке отправили на мой старый адрес."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "adj"
+      ],
+      "_src": "fehlerhaft / irrtümlich"
+    },
+    {
+      "externalId": "de:feilen-an",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "feilen",
+        "pos": "verb",
+        "translation": "шлифовать, доводить до ума",
+        "praeteritum": "feilte",
+        "perfekt": "hat gefeilt",
+        "rektion": "an + Dat.",
+        "example": "Wir feilen noch an den Animationen, bevor das Feature live geht.",
+        "exampleTranslation": "Мы ещё шлифуем анимации, прежде чем фича выйдет в прод."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "feilen an"
+    },
+    {
+      "externalId": "de:feinheit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Feinheit",
+        "plural": "die Feinheiten",
+        "pos": "noun",
+        "translation": "тонкость, нюанс",
+        "example": "Die Feinheiten des deutschen Mietrechts verstehe ich noch nicht ganz.",
+        "exampleTranslation": "Тонкости немецкого арендного права я пока понимаю не до конца.",
+        "note": "чаще во мн. ч.: die Feinheiten"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ],
+      "_src": "feinheit"
+    },
+    {
+      "externalId": "de:fenstergriff",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Fenstergriff",
+        "plural": "die Fenstergriffe",
+        "pos": "noun",
+        "translation": "оконная ручка",
+        "example": "Der Fenstergriff im Schlafzimmer ist locker, ich rufe den Hausmeister an.",
+        "exampleTranslation": "Оконная ручка в спальне шатается, позвоню завхозу."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "fenstergriff"
+    },
+    {
+      "externalId": "de:ferse",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ferse",
+        "plural": "die Fersen",
+        "pos": "noun",
+        "translation": "пятка",
+        "example": "In den neuen Schuhen habe ich mir die Ferse wundgelaufen.",
+        "exampleTranslation": "В новых ботинках я натёр себе пятку."
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "noun"
+      ],
+      "_src": "ferse"
+    },
+    {
+      "externalId": "de:fertigbekommen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fertigbekommen",
+        "pos": "verb",
+        "translation": "успеть доделать, справиться",
+        "praeteritum": "bekam fertig",
+        "perfekt": "hat fertigbekommen",
+        "register": "umgs",
+        "example": "Ich weiß nicht, ob ich das Ticket bis morgen fertigbekomme.",
+        "exampleTranslation": "Не знаю, успею ли я доделать этот тикет к завтрашнему дню."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "fertigbekommen"
+    },
+    {
+      "externalId": "de:fertigstellung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Fertigstellung",
+        "plural": "die Fertigstellungen",
+        "pos": "noun",
+        "translation": "завершение (работы)",
+        "example": "Die Fertigstellung des MVPs verzögert sich um zwei Wochen.",
+        "exampleTranslation": "Завершение MVP откладывается на две недели."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "fertigstellung"
+    },
+    {
+      "externalId": "de:fest-entschlossen-sein",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fest entschlossen sein",
+        "pos": "phrase",
+        "translation": "быть полным решимости",
+        "rektion": "zu + Inf.",
+        "example": "Ich bin fest entschlossen, bis Ende des Jahres eine Stelle als Entwickler zu finden.",
+        "exampleTranslation": "Я твёрдо намерен найти работу разработчиком до конца года."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "phrase"
+      ],
+      "_src": "fest entschlossen sein"
+    },
+    {
+      "externalId": "de:fester-arbeitsplatz",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "feste Arbeitsplatz",
+        "plural": "die festen Arbeitsplätze",
+        "pos": "noun",
+        "translation": "закреплённое рабочее место",
+        "hint": "в офисе, а не desk sharing",
+        "example": "Seit wir Desk-Sharing haben, hat bei uns niemand mehr einen festen Arbeitsplatz.",
+        "exampleTranslation": "С тех пор как у нас desk sharing, ни у кого больше нет закреплённого рабочего места.",
+        "note": "ein fester Arbeitsplatz (unbestimmt); auch: постоянная работа"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "feste arbeitsplatz"
+    },
+    {
+      "externalId": "de:festgefahren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "festgefahren",
+        "pos": "adj",
+        "translation": "зашедший в тупик",
+        "example": "Die Diskussion über die Architektur ist völlig festgefahren.",
+        "exampleTranslation": "Обсуждение архитектуры полностью зашло в тупик."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "festgefahren"
+    },
+    {
+      "externalId": "de:festhalten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "festhalten",
+        "pos": "verb",
+        "translation": "зафиксировать",
+        "hint": "договорённость, итог встречи",
+        "praeteritum": "hielt fest",
+        "perfekt": "hat festgehalten",
+        "note": "du hältst fest; sich an etw. festhalten — держаться за что-то",
+        "example": "Können wir kurz festhalten, wer das Ticket übernimmt?",
+        "exampleTranslation": "Можем коротко зафиксировать, кто берёт этот тикет?"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "festhalten"
+    },
+    {
+      "externalId": "de:festlegen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "festlegen",
+        "pos": "verb",
+        "translation": "устанавливать, определять",
+        "hint": "сроки, правила — договориться о них",
+        "praeteritum": "legte fest",
+        "perfekt": "hat festgelegt",
+        "example": "Lass uns gleich festlegen, wann genau das Release stattfindet.",
+        "exampleTranslation": "Давай сразу определим, когда именно будет релиз."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "festlegen"
+    },
+    {
+      "externalId": "de:feststellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "feststellen",
+        "pos": "verb",
+        "translation": "обнаруживать, констатировать",
+        "hint": "в результате проверки",
+        "praeteritum": "stellte fest",
+        "perfekt": "hat festgestellt",
+        "example": "Beim Lasttest haben wir einen Engpass in der Datenbank festgestellt.",
+        "exampleTranslation": "При нагрузочном тесте мы обнаружили узкое место в базе данных."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "feststellen"
+    },
+    {
+      "externalId": "de:sich-fetzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich fetzen",
+        "pos": "verb",
+        "translation": "ругаться, жёстко спорить",
+        "praeteritum": "fetzte sich",
+        "perfekt": "hat sich gefetzt",
+        "rektion": "mit + Dat.; um/wegen",
+        "register": "umgs",
+        "example": "Die beiden Seniors fetzen sich ständig wegen der Ordnerstruktur.",
+        "exampleTranslation": "Два сеньора постоянно ругаются из-за структуры папок."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "fetzen wegen"
+    },
+    {
+      "externalId": "de:feucht",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "feucht",
+        "pos": "adj",
+        "translation": "влажный, сырой",
+        "hint": "не совсем мокрый",
+        "example": "Im Keller ist es so feucht, dass sich an den Wänden Schimmel bildet.",
+        "exampleTranslation": "В подвале так сыро, что на стенах появляется плесень."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ],
+      "_src": "feucht"
+    },
+    {
+      "externalId": "de:feuchtigkeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Feuchtigkeit",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "влажность, сырость",
+        "example": "Gegen die Feuchtigkeit im Bad hilft nur regelmäßiges Stoßlüften.",
+        "exampleTranslation": "Против сырости в ванной помогает только регулярное интенсивное проветривание."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "feuchtigkeit"
+    },
+    {
+      "externalId": "de:flach",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "flach",
+        "pos": "adj",
+        "translation": "плоский, неглубокий",
+        "example": "Wir haben im Team eine flache Hierarchie, jeder kann den CTO direkt ansprechen.",
+        "exampleTranslation": "У нас в команде плоская иерархия: любой может напрямую обратиться к CTO."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "flach"
+    },
+    {
+      "externalId": "de:flachzange-1",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Flachzange",
+        "plural": "die Flachzangen",
+        "pos": "noun",
+        "translation": "плоскогубцы",
+        "hint": "инструмент",
+        "example": "Für die Montage des Regals brauchst du eine Flachzange.",
+        "exampleTranslation": "Для сборки стеллажа тебе понадобятся плоскогубцы."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:flachzange-2",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Flachzange",
+        "plural": "die Flachzangen",
+        "pos": "noun",
+        "translation": "болван, бестолочь",
+        "hint": "о человеке",
+        "register": "umgs",
+        "example": "Glaub ihm kein Wort, der Typ ist eine absolute Flachzange.",
+        "exampleTranslation": "Не верь ему ни слову, этот тип — полный болван."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "flachzange"
+    },
+    {
+      "externalId": "de:fleißig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fleißig",
+        "pos": "adj",
+        "translation": "прилежный, усердный",
+        "example": "Die neue Werkstudentin ist sehr fleißig und schreibt sogar Tests ohne Aufforderung.",
+        "exampleTranslation": "Новая студентка-практикантка очень усердная и даже без напоминаний пишет тесты."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "fleißig / einbürgern"
+    },
+    {
+      "externalId": "de:einbürgern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einbürgern",
+        "pos": "verb",
+        "translation": "предоставлять гражданство",
+        "hint": "натурализация",
+        "praeteritum": "bürgerte ein",
+        "perfekt": "hat eingebürgert",
+        "example": "Nach fünf Jahren in Deutschland möchte ich mich einbürgern lassen.",
+        "exampleTranslation": "Через пять лет жизни в Германии я хочу получить гражданство.",
+        "note": "sich einbürgern lassen — получить гражданство; die Einbürgerung"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:sich-einbürgern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich einbürgern",
+        "pos": "verb",
+        "translation": "приживаться, входить в обиход",
+        "hint": "о словах, привычках",
+        "praeteritum": "bürgerte sich ein",
+        "perfekt": "hat sich eingebürgert",
+        "example": "Bei uns hat es sich eingebürgert, freitags keine Releases zu machen.",
+        "exampleTranslation": "У нас прижилось правило не делать релизы по пятницам."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:floskel",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Floskel",
+        "plural": "die Floskeln",
+        "pos": "noun",
+        "translation": "дежурная фраза, клише",
+        "example": "Schreib im Anschreiben keine leeren Floskeln wie „teamfähig und belastbar“.",
+        "exampleTranslation": "Не пиши в сопроводительном письме пустых клише вроде «командный игрок, стрессоустойчивый»."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "_src": "floskel"
+    },
+    {
+      "externalId": "de:flucht",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Flucht",
+        "plural": "die Fluchten (selten)",
+        "pos": "noun",
+        "translation": "бегство, побег",
+        "rektion": "vor + Dat.",
+        "example": "Die Flucht vor dem Problem bringt nichts, wir müssen den Bug jetzt fixen.",
+        "exampleTranslation": "Бегство от проблемы ничего не даст, нам нужно исправить баг сейчас."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "flucht"
+    },
+    {
+      "externalId": "de:flöten-gehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "flöten gehen",
+        "pos": "phrase",
+        "translation": "пропасть, накрыться",
+        "praeteritum": "ging flöten",
+        "perfekt": "ist flöten gegangen",
+        "register": "umgs",
+        "example": "Wenn der Server abstürzt, gehen alle ungespeicherten Daten flöten.",
+        "exampleTranslation": "Если сервер упадёт, все несохранённые данные пропадут."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "flöten gehen"
+    },
+    {
+      "externalId": "de:forum",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Forum",
+        "plural": "die Foren",
+        "pos": "noun",
+        "translation": "форум",
+        "example": "Die Lösung für den Build-Fehler habe ich in einem alten Forum gefunden.",
+        "exampleTranslation": "Решение ошибки сборки я нашёл на одном старом форуме."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "foren"
+    },
+    {
+      "externalId": "de:fortfahren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fortfahren",
+        "pos": "verb",
+        "translation": "продолжать",
+        "hint": "начатое, после перерыва",
+        "praeteritum": "fuhr fort",
+        "perfekt": "hat fortgefahren",
+        "rektion": "mit + Dat.",
+        "register": "formell",
+        "note": "du fährst fort",
+        "example": "Nach der Mittagspause fahren wir mit dem Workshop fort.",
+        "exampleTranslation": "После обеденного перерыва мы продолжим воркшоп."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "fortfahren"
+    },
+    {
+      "externalId": "de:fortgeschritten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fortgeschritten",
+        "pos": "adj",
+        "translation": "продвинутый",
+        "example": "Für fortgeschrittene Entwickler ist dieser React-Kurs zu einfach.",
+        "exampleTranslation": "Для продвинутых разработчиков этот курс по React слишком простой."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "fortgeschritten"
+    },
+    {
+      "externalId": "de:frage-nach",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Frage",
+        "plural": "die Fragen",
+        "pos": "noun",
+        "translation": "вопрос (о чём-то)",
+        "hint": "о том, что хотят узнать",
+        "rektion": "nach + Dat.",
+        "example": "Im Interview kam auch die Frage nach meinen Gehaltsvorstellungen.",
+        "exampleTranslation": "На собеседовании прозвучал и вопрос о моих зарплатных ожиданиях."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ],
+      "_src": "frage nach"
+    },
+    {
+      "externalId": "de:freigabe",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Freigabe",
+        "plural": "die Freigaben",
+        "pos": "noun",
+        "translation": "одобрение, разрешение",
+        "hint": "зелёный свет на релиз",
+        "example": "Ohne die fachliche Freigabe vom Product Owner dürfen wir nicht deployen.",
+        "exampleTranslation": "Без предметного одобрения от продакт-оунера нам нельзя деплоить."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "freigabe"
+    },
+    {
+      "externalId": "de:sich-freuen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich freuen",
+        "pos": "verb",
+        "translation": "радоваться (предстоящему), ждать с нетерпением",
+        "hint": "о будущем",
+        "praeteritum": "freute sich",
+        "perfekt": "hat sich gefreut",
+        "rektion": "auf + Akk.",
+        "example": "Ich freue mich schon auf das Teamevent nächste Woche.",
+        "exampleTranslation": "Я уже жду не дождусь тимивента на следующей неделе."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "freuen auf/über"
+    },
+    {
+      "externalId": "de:sich-freuen-über",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich freuen",
+        "pos": "verb",
+        "translation": "радоваться (чему-то случившемуся)",
+        "hint": "о том, что уже есть",
+        "praeteritum": "freute sich",
+        "perfekt": "hat sich gefreut",
+        "rektion": "über + Akk.",
+        "example": "Ich habe mich sehr über das positive Feedback zu meinem Pull Request gefreut.",
+        "exampleTranslation": "Я очень обрадовался положительному отзыву на мой пулл-реквест."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "__none__"
+    },
+    {
+      "externalId": "de:fristgemäß",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fristgemäß",
+        "pos": "adj",
+        "translation": "в срок, с соблюдением срока",
+        "register": "formell",
+        "example": "Ich habe die Unterlagen fristgemäß beim Jobcenter eingereicht.",
+        "exampleTranslation": "Я подал документы в Jobcenter в установленный срок."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "adj"
+      ],
+      "_src": "fristgemäß"
+    },
+    {
+      "externalId": "de:froh-über",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "froh",
+        "pos": "adj",
+        "translation": "рад, доволен",
+        "rektion": "über + Akk.",
+        "example": "Ich bin froh über jedes ehrliche Feedback zu meinem Code.",
+        "exampleTranslation": "Я рад любой честной обратной связи по моему коду."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "froh über"
+    },
+    {
+      "externalId": "de:fröhlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fröhlich",
+        "pos": "adj",
+        "translation": "весёлый, радостный",
+        "hint": "о настроении",
+        "example": "Nach dem erfolgreichen Release war die Stimmung im Team richtig fröhlich.",
+        "exampleTranslation": "После успешного релиза настроение в команде было по-настоящему весёлым."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "fröhlich"
+    },
+    {
+      "externalId": "de:fungieren-als",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fungieren",
+        "pos": "verb",
+        "translation": "выступать в качестве, служить",
+        "praeteritum": "fungierte",
+        "perfekt": "hat fungiert",
+        "rektion": "als + Nom.",
+        "example": "Das API-Gateway fungiert als Schnittstelle zwischen Frontend und Microservices.",
+        "exampleTranslation": "API-шлюз служит интерфейсом между фронтендом и микросервисами."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "fungieren als"
+    },
+    {
+      "externalId": "de:furcht",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Furcht",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "страх, боязнь",
+        "hint": "книжное слово",
+        "rektion": "vor + Dat.",
+        "example": "Die Furcht vor Fehlern sollte niemanden davon abhalten, im Review Fragen zu stellen.",
+        "exampleTranslation": "Страх ошибиться не должен никому мешать задавать вопросы на ревью."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "furcht vor"
+    },
+    {
+      "externalId": "de:fähig-zu",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fähig",
+        "pos": "adj",
+        "translation": "способный (на что-то)",
+        "rektion": "zu + Dat.",
+        "example": "Unser kleines Team ist zu erstaunlichen Leistungen fähig.",
+        "exampleTranslation": "Наша маленькая команда способна на удивительные результаты.",
+        "note": "fähig sein, etw. zu tun"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "fähig zu"
+    },
+    {
+      "externalId": "de:fördern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fördern",
+        "pos": "verb",
+        "translation": "способствовать, поддерживать, развивать",
+        "hint": "рост, развитие",
+        "praeteritum": "förderte",
+        "perfekt": "hat gefördert",
+        "example": "Pair Programming fördert den Wissensaustausch im Team.",
+        "exampleTranslation": "Парное программирование способствует обмену знаниями в команде."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "fördern"
+    },
+    {
+      "externalId": "de:förderung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Förderung",
+        "plural": "die Förderungen",
+        "pos": "noun",
+        "translation": "поддержка, финансирование",
+        "hint": "деньги от государства, фонда",
+        "example": "Für meine Weiterbildung habe ich eine Förderung über einen Bildungsgutschein bekommen.",
+        "exampleTranslation": "На моё обучение я получил финансирование по образовательному ваучеру."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ],
+      "_src": "förderung"
+    },
+    {
+      "externalId": "de:sich-fügen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich fügen",
+        "pos": "verb",
+        "translation": "подчиняться, смиряться",
+        "praeteritum": "fügte sich",
+        "perfekt": "hat sich gefügt",
+        "rektion": "+ Dat.",
+        "example": "Am Ende musste sich das Team der Entscheidung des Managements fügen.",
+        "exampleTranslation": "В итоге команде пришлось подчиниться решению руководства.",
+        "note": "fügen — соединять, вставлять; добавлять — hinzufügen"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "fügen"
+    },
+    {
+      "externalId": "de:fürsprecher",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Fürsprecher",
+        "plural": "die Fürsprecher",
+        "pos": "noun",
+        "translation": "заступник, ходатай",
+        "example": "Unser Teamlead war im Management ein starker Fürsprecher für mehr Homeoffice.",
+        "exampleTranslation": "Наш тимлид был перед руководством сильным заступником за больше удалёнки.",
+        "note": "weiblich: die Fürsprecherin"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "fürsprecher"
+    },
+    {
+      "externalId": "de:ganzheitlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ganzheitlich",
+        "pos": "adj",
+        "translation": "целостный, комплексный",
+        "example": "Unsere Firma will die Gesundheit der Mitarbeitenden ganzheitlich fördern, mit Yoga und Rückenkursen.",
+        "exampleTranslation": "Наша фирма хочет комплексно заботиться о здоровье сотрудников: йога, курсы для спины."
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "adj"
+      ],
+      "_src": "ganzheitliche gesundheit fördern"
+    },
+    {
+      "externalId": "de:gedanke",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Gedanke",
+        "plural": "die Gedanken",
+        "pos": "noun",
+        "translation": "мысль",
+        "hint": "то, о чём думаешь",
+        "example": "Der Gedanke, alles auf Microservices umzustellen, macht mir Sorgen.",
+        "exampleTranslation": "Мысль перевести всё на микросервисы меня беспокоит.",
+        "note": "n-Deklination: des Gedankens, dem/den Gedanken"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "gedanke"
+    },
+    {
+      "externalId": "de:gedenken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gedenken",
+        "pos": "verb",
+        "translation": "чтить память, поминать",
+        "praeteritum": "gedachte",
+        "perfekt": "hat gedacht",
+        "rektion": "+ Gen.",
+        "register": "formell",
+        "example": "Am Volkstrauertag gedenkt man in Deutschland der Opfer von Krieg und Gewalt.",
+        "exampleTranslation": "В День народной скорби в Германии чтят память жертв войны и насилия.",
+        "note": "auch: gedenken, etw. zu tun — намереваться (formell)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ],
+      "_src": "gedenken"
+    },
+    {
+      "externalId": "de:gedächtnisspur",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Gedächtnisspur",
+        "plural": "die Gedächtnisspuren",
+        "pos": "noun",
+        "translation": "след в памяти",
+        "example": "Regelmäßiges Wiederholen festigt jede neue Gedächtnisspur.",
+        "exampleTranslation": "Регулярное повторение закрепляет каждый новый след в памяти.",
+        "note": "чаще во мн. ч."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "gedächtnisspuren"
+    },
+    {
+      "externalId": "de:geeignet",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "geeignet",
+        "pos": "adj",
+        "translation": "подходящий, пригодный",
+        "rektion": "für + Akk.",
+        "example": "Dieses Pattern ist für unseren Anwendungsfall nicht geeignet.",
+        "exampleTranslation": "Этот паттерн не подходит для нашего случая."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "geeignet"
+    },
+    {
+      "externalId": "de:gefolgt-von",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gefolgt von",
+        "pos": "phrase",
+        "translation": "за которым следует",
+        "rektion": "von + Dat.",
+        "example": "Zuerst kommt das Daily, gefolgt von einem kurzen Refinement.",
+        "exampleTranslation": "Сначала дейли, а за ним — короткий рефайнмент."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "gefolgt von"
+    },
+    {
+      "externalId": "de:gefährden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gefährden",
+        "pos": "verb",
+        "translation": "ставить под угрозу",
+        "praeteritum": "gefährdete",
+        "perfekt": "hat gefährdet",
+        "example": "Die vielen kleinen Zusatzwünsche gefährden am Ende den Termin.",
+        "exampleTranslation": "Множество мелких дополнительных пожеланий в итоге ставят под угрозу срок."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "gefährden"
+    },
+    {
+      "externalId": "de:gefährdet",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gefährdet",
+        "pos": "adj",
+        "translation": "под угрозой",
+        "example": "Wenn das Backend nicht fertig wird, ist der Release-Termin gefährdet.",
+        "exampleTranslation": "Если бэкенд не будет готов, дата релиза окажется под угрозой."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "gefährdet"
+    },
+    {
+      "externalId": "de:gefängnis",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Gefängnis",
+        "plural": "die Gefängnisse",
+        "pos": "noun",
+        "translation": "тюрьма",
+        "example": "Für schwere Steuerhinterziehung kann man in Deutschland ins Gefängnis kommen.",
+        "exampleTranslation": "За крупное уклонение от налогов в Германии можно попасть в тюрьму."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ],
+      "_src": "gefängnis"
+    },
+    {
+      "externalId": "de:gefüge",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Gefüge",
+        "plural": "die Gefüge",
+        "pos": "noun",
+        "translation": "структура, устройство",
+        "hint": "система взаимосвязей",
+        "example": "Ein einziger neuer Kollege kann das ganze Gefüge im Team verändern.",
+        "exampleTranslation": "Один новый коллега может изменить всё устройство команды."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "gefüge"
+    },
+    {
+      "externalId": "de:gegeben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gegeben",
+        "pos": "adj",
+        "translation": "данный, сложившийся",
+        "example": "Unter den gegebenen Umständen schaffen wir das Release diese Woche nicht.",
+        "exampleTranslation": "При сложившихся обстоятельствах мы не успеем выпустить релиз на этой неделе."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "gegeben"
+    },
+    {
+      "externalId": "de:gegebenenfalls",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gegebenenfalls",
+        "pos": "adv",
+        "translation": "при необходимости, в случае чего",
+        "register": "formell",
+        "example": "Bitte bringen Sie zum Termin gegebenenfalls Ihren Mietvertrag mit.",
+        "exampleTranslation": "Пожалуйста, при необходимости возьмите на приём ваш договор аренды.",
+        "note": "Abk.: ggf."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "adv"
+      ],
+      "_src": "gegebenenfalls"
+    },
+    {
+      "externalId": "de:gegen-eine-wand-rennen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gegen eine Wand rennen",
+        "pos": "phrase",
+        "translation": "биться головой о стену, упираться в тупик",
+        "praeteritum": "rannte gegen eine Wand",
+        "perfekt": "ist gegen eine Wand gerannt",
+        "register": "umgs",
+        "example": "Seit zwei Tagen renne ich bei diesem Bug gegen eine Wand.",
+        "exampleTranslation": "Уже два дня я бьюсь с этим багом как головой о стену."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ],
+      "_src": "gegen eine wand rennen"
+    },
+    {
+      "externalId": "de:gegen-ende",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gegen Ende",
+        "pos": "phrase",
+        "translation": "ближе к концу",
+        "rektion": "+ Gen.",
+        "example": "Gegen Ende des Sprints machen wir eine kurze Demo für den Kunden.",
+        "exampleTranslation": "Ближе к концу спринта мы проводим короткое демо для заказчика."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ],
+      "_src": "gegen ende"
+    },
+    {
+      "externalId": "de:sich-wehren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich wehren",
+        "pos": "verb",
+        "translation": "сопротивляться, защищаться",
+        "praeteritum": "wehrte sich",
+        "perfekt": "hat sich gewehrt",
+        "rektion": "gegen + Akk.",
+        "example": "Das Team wehrt sich gegen die Einführung eines veralteten Frameworks.",
+        "exampleTranslation": "Команда сопротивляется внедрению устаревшего фреймворка."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "gegen etwas wehren"
+    },
+    {
+      "externalId": "de:gegenfrage",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Gegenfrage",
+        "plural": "die Gegenfragen",
+        "pos": "noun",
+        "translation": "встречный вопрос",
+        "example": "Ein guter Prompt bringt die KI dazu, erst eine Gegenfrage zu stellen.",
+        "exampleTranslation": "Хороший промпт заставляет ИИ сначала задать встречный вопрос."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ],
+      "_src": "gegenfragen erzwingen"
+    },
+    {
+      "externalId": "de:gegenwart",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Gegenwart",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "настоящее (время), современность",
+        "hint": "не прошлое и не будущее",
+        "example": "Statt über alte Projekte zu jammern, sollten wir uns auf die Gegenwart konzentrieren.",
+        "exampleTranslation": "Вместо того чтобы ныть о старых проектах, нам стоит сосредоточиться на настоящем.",
+        "note": "in Gegenwart von — в присутствии"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ],
+      "_src": "gegenwart"
+    },
+    {
+      "externalId": "de:gegner",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Gegner",
+        "plural": "die Gegner",
+        "pos": "noun",
+        "translation": "противник, оппонент",
+        "example": "Der größte Gegner der Migration ist ausgerechnet unser Product Owner.",
+        "exampleTranslation": "Главный противник миграции — как назло, наш продакт-оунер."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "gegner"
+    },
+    {
+      "externalId": "de:gehirn",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Gehirn",
+        "plural": "die Gehirne",
+        "pos": "noun",
+        "translation": "мозг",
+        "example": "Nach acht Stunden Debugging ist mein Gehirn völlig leer.",
+        "exampleTranslation": "После восьми часов дебага мой мозг совершенно пуст."
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "noun"
+      ],
+      "_src": "gehirn"
+    },
+    {
+      "externalId": "de:gehorsam",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Gehorsam",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "послушание, повиновение",
+        "example": "Blinder Gehorsam gegenüber dem Chef ist in agilen Teams nicht gefragt.",
+        "exampleTranslation": "Слепое повиновение начальнику в agile-командах не ценится."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "gehorsam"
+    },
+    {
+      "externalId": "de:gelassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gelassen",
+        "pos": "adj",
+        "translation": "спокойный, невозмутимый",
+        "example": "Auch als die Produktion ausfiel, blieb unser Teamlead völlig gelassen.",
+        "exampleTranslation": "Даже когда упал прод, наш тимлид оставался совершенно невозмутимым.",
+        "note": "Komparativ: gelassener"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "gelassen"
+    },
+    {
+      "externalId": "de:gelegentlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gelegentlich",
+        "pos": "adv",
+        "translation": "время от времени, изредка",
+        "example": "Gelegentlich machen wir freitags ein gemeinsames Frühstück im Büro.",
+        "exampleTranslation": "Время от времени по пятницам мы устраиваем общий завтрак в офисе."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ],
+      "_src": "gelegentlich"
+    },
+    {
+      "externalId": "de:gelingen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gelingen",
+        "pos": "verb",
+        "translation": "удаваться",
+        "praeteritum": "gelang",
+        "perfekt": "ist gelungen",
+        "rektion": "jdm. (Dat.)",
+        "example": "Endlich ist es mir gelungen, den Memory Leak zu finden.",
+        "exampleTranslation": "Наконец мне удалось найти утечку памяти.",
+        "note": "безличн.: es gelingt mir, etw. zu tun"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ],
+      "_src": "gelingen"
+    },
+    {
+      "externalId": "de:gelungen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gelungen",
+        "pos": "adj",
+        "translation": "удачный, удавшийся",
+        "example": "Das UI-Redesign ist wirklich gelungen, der Kunde ist begeistert.",
+        "exampleTranslation": "Редизайн интерфейса действительно удался, заказчик в восторге."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ],
+      "_src": "gelungen"
+    },
+    {
+      "externalId": "de:sitzecke",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Sitzecke",
+        "plural": "die Sitzecken",
+        "pos": "noun",
+        "translation": "уголок для отдыха (с диваном)",
+        "example": "In unserem Büro gibt es eine gemütliche Sitzecke für die Kaffeepause.",
+        "exampleTranslation": "В нашем офисе есть уютный уголок с диваном для кофе-брейка."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ],
+      "_src": "gemütliche sitzecke"
+    },
+    {
+      "externalId": "de:genehmigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "genehmigen",
+        "pos": "verb",
+        "translation": "одобрять, утверждать",
+        "hint": "официально, начальство или ведомство",
+        "praeteritum": "genehmigte",
+        "perfekt": "hat genehmigt",
+        "example": "Mein Chef hat meinen Urlaub im August schon genehmigt.",
+        "exampleTranslation": "Мой начальник уже одобрил мой отпуск в августе."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ],
+      "_src": "genehmigen"
+    },
+    {
+      "externalId": "de:gepflegt",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gepflegt",
+        "pos": "adj",
+        "translation": "ухоженный, поддерживаемый в порядке",
+        "example": "Eine gut gepflegte Doku spart neuen Kollegen viel Zeit.",
+        "exampleTranslation": "Хорошо поддерживаемая документация экономит новым коллегам много времени."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ],
+      "_src": "gepflegt"
+    }
+  ],
+  "_dropped": [
+    {
+      "key": "etwas effizienter gestalten",
+      "reason": "дубль de:effizienter-gestalten в b10_notes.json"
+    },
+    {
+      "key": "etwas in betracht ziehen",
+      "reason": "дубль de:in-betracht-ziehen в decks/de/0003-noji-b03.json"
+    },
+    {
+      "key": "etwas sehr anspricht",
+      "reason": "дубль de:ansprechen-2 в decks/de/0006-noji-b06.json"
+    },
+    {
+      "key": "geld ausgeben für",
+      "reason": "дубль de:ausgeben (für + Akk.) в decks/de/0002-noji-b02.json"
+    },
+    {
+      "key": "geeignet für",
+      "reason": "дубль группы geeignet"
+    },
+    {
+      "key": "gelassener",
+      "reason": "сравнительная степень, дубль группы gelassen"
+    }
+  ]
+}

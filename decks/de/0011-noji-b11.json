@@ -1,0 +1,1821 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:einsicht",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Einsicht",
+        "plural": "die Einsichten",
+        "pos": "noun",
+        "translation": "понимание, осознание",
+        "example": "Nach dem Gespräch mit dem Teamleiter kam er zu der Einsicht, dass er zu viel versprochen hatte.",
+        "exampleTranslation": "После разговора с тимлидом он осознал, что наобещал слишком много.",
+        "hint": "осознать свою ошибку",
+        "note": "zur Einsicht kommen — осознать; Einsicht in + Akk. — ознакомление (Akteneinsicht)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:einstehen-für",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einstehen",
+        "pos": "verb",
+        "translation": "ручаться, отвечать (за)",
+        "praeteritum": "stand ein",
+        "perfekt": "hat eingestanden",
+        "example": "Für die Qualität meines Codes stehe ich persönlich ein.",
+        "exampleTranslation": "За качество своего кода я ручаюсь лично.",
+        "rektion": "für + Akk.",
+        "hint": "брать на себя ответственность",
+        "note": "в Южной Германии и Австрии: ist eingestanden"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:einstellung-zu",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Einstellung",
+        "plural": "die Einstellungen",
+        "pos": "noun",
+        "translation": "отношение, позиция",
+        "example": "In unserem Team gibt es ganz unterschiedliche Einstellungen zu Überstunden.",
+        "exampleTranslation": "В нашей команде очень разное отношение к сверхурочной работе.",
+        "rektion": "zu + Dat.",
+        "hint": "взгляд на что-то",
+        "note": "другие значения: настройка (в программе), приём на работу"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:einstimmen-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einstimmen",
+        "pos": "verb",
+        "translation": "настраивать (на что-л.)",
+        "praeteritum": "stimmte ein",
+        "perfekt": "hat eingestimmt",
+        "example": "Vor dem Release hat uns der Teamleiter auf zwei stressige Wochen eingestimmt.",
+        "exampleTranslation": "Перед релизом тимлид настроил нас на две напряжённые недели.",
+        "rektion": "auf + Akk.",
+        "hint": "морально подготовить"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:einstürzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einstürzen",
+        "pos": "verb",
+        "translation": "обрушиться, рухнуть",
+        "praeteritum": "stürzte ein",
+        "perfekt": "ist eingestürzt",
+        "example": "Bei der Sanierung des Altbaus ist ein Teil der Decke eingestürzt.",
+        "exampleTranslation": "При ремонте старого дома обрушилась часть потолка.",
+        "note": "о системе/приложении говорят abstürzen или zusammenbrechen"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:eintragen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eintragen",
+        "pos": "verb",
+        "translation": "вносить, записывать",
+        "praeteritum": "trug ein",
+        "perfekt": "hat eingetragen",
+        "example": "Trag deinen Urlaub bitte bis Freitag in den Teamkalender ein.",
+        "exampleTranslation": "Внеси, пожалуйста, свой отпуск в командный календарь до пятницы.",
+        "rektion": "in + Akk.",
+        "hint": "в список, календарь, систему",
+        "note": "du trägst ein"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:eintreffen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eintreffen",
+        "pos": "verb",
+        "translation": "прибывать, поступать",
+        "praeteritum": "traf ein",
+        "perfekt": "ist eingetroffen",
+        "example": "Laut Sendungsverfolgung soll das Paket morgen bei mir eintreffen.",
+        "exampleTranslation": "Судя по отслеживанию, посылка должна прийти ко мне завтра.",
+        "hint": "о посылке, поезде, гостях",
+        "note": "du triffst ein"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:eintreten-für",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "eintreten",
+        "pos": "verb",
+        "translation": "отстаивать, выступать за",
+        "praeteritum": "trat ein",
+        "perfekt": "ist eingetreten",
+        "example": "Im Review ist sie klar für mehr Unit-Tests eingetreten.",
+        "exampleTranslation": "На ревью она ясно выступила за большее количество юнит-тестов.",
+        "rektion": "für + Akk.",
+        "hint": "открыто поддерживать идею",
+        "note": "du trittst ein; без für: входить, наступать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:einwandfrei",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einwandfrei",
+        "pos": "adj",
+        "translation": "безупречный, без ошибок",
+        "example": "Nach dem Refactoring läuft die Anwendung einwandfrei.",
+        "exampleTranslation": "После рефакторинга приложение работает безупречно."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:einweg",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Einweg-",
+        "pos": "other",
+        "translation": "одноразовый (о таре, посуде)",
+        "example": "Seit 2023 müssen viele Restaurants beim Essen zum Mitnehmen neben Einwegverpackungen auch eine Mehrwegoption anbieten.",
+        "exampleTranslation": "С 2023 года многие рестораны обязаны предлагать для еды навынос не только одноразовую, но и многоразовую упаковку.",
+        "note": "часть сложных слов: Einwegflasche, Einweggeschirr; противоположность — Mehrweg-; одноразовый пароль — das Einmalpasswort"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "other"
+      ]
+    },
+    {
+      "externalId": "de:einwilligung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Einwilligung",
+        "plural": "die Einwilligungen",
+        "pos": "noun",
+        "translation": "согласие",
+        "example": "Für Fotos von den Kindern braucht die Kita Ihre schriftliche Einwilligung.",
+        "exampleTranslation": "Для фотографий детей детскому саду нужно ваше письменное согласие.",
+        "rektion": "in + Akk.",
+        "hint": "официальное, на обработку данных",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:einwirken-auf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einwirken",
+        "pos": "verb",
+        "translation": "воздействовать, влиять (на кого-л.)",
+        "praeteritum": "wirkte ein",
+        "perfekt": "hat eingewirkt",
+        "example": "Die Kollegen haben so lange auf ihn eingewirkt, bis er die Rufbereitschaft doch übernommen hat.",
+        "exampleTranslation": "Коллеги так долго его обрабатывали, что он всё-таки взял на себя дежурство.",
+        "rektion": "auf + Akk.",
+        "hint": "уговорами, давлением",
+        "note": "о влиянии на результат обычно: sich auswirken auf; etw. einwirken lassen — дать подействовать (средству)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:einzelgespräch",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Einzelgespräch",
+        "plural": "die Einzelgespräche",
+        "pos": "noun",
+        "translation": "разговор один на один, личная беседа",
+        "example": "Einmal im Monat führt unser Teamlead mit jedem ein Einzelgespräch.",
+        "exampleTranslation": "Раз в месяц наш тимлид проводит с каждым разговор один на один."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:einzeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einzeln",
+        "pos": "adj",
+        "translation": "отдельный, по отдельности",
+        "example": "Lass uns die Kommentare aus dem Review einzeln durchgehen.",
+        "exampleTranslation": "Давай пройдёмся по комментариям с ревью по отдельности."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:einzigartig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einzigartig",
+        "pos": "adj",
+        "translation": "уникальный, неповторимый",
+        "example": "Das Angebot aus München ist eine einzigartige Chance für mich.",
+        "exampleTranslation": "Предложение из Мюнхена для меня уникальный шанс."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erlebnis",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Erlebnis",
+        "plural": "die Erlebnisse",
+        "pos": "noun",
+        "translation": "впечатление, (яркое) событие",
+        "example": "Der erste Besuch auf dem Bonner Weihnachtsmarkt war für meine Tochter ein echtes Erlebnis.",
+        "exampleTranslation": "Первый поход на рождественскую ярмарку в Бонне стал для моей дочки настоящим событием.",
+        "hint": "то, что пережил",
+        "note": "ein einzigartiges Erlebnis — незабываемое впечатление"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ekelhaft",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ekelhaft",
+        "pos": "adj",
+        "translation": "отвратительный, мерзкий",
+        "example": "Im Bürokühlschrank steht seit Wochen ein ekelhafter Joghurt.",
+        "exampleTranslation": "В офисном холодильнике уже несколько недель стоит мерзкий йогурт."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:sich-vernetzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich vernetzen",
+        "pos": "verb",
+        "translation": "налаживать связи, объединяться",
+        "praeteritum": "vernetzte sich",
+        "perfekt": "hat sich vernetzt",
+        "example": "Auf dem Meetup in Köln habe ich mich mit ein paar Frontend-Entwicklern vernetzt.",
+        "exampleTranslation": "На митапе в Кёльне я завёл контакты с несколькими фронтенд-разработчиками.",
+        "rektion": "mit + Dat.",
+        "hint": "нетворкинг",
+        "note": "sich eng mit jdm. vernetzen — тесно взаимодействовать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-engagieren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich engagieren",
+        "pos": "verb",
+        "translation": "активно участвовать, посвящать себя",
+        "praeteritum": "engagierte sich",
+        "perfekt": "hat sich engagiert",
+        "example": "Neben dem Job engagiert sie sich ehrenamtlich für Geflüchtete in Bonn.",
+        "exampleTranslation": "Помимо работы она волонтёрски помогает беженцам в Бонне.",
+        "rektion": "für + Akk.",
+        "hint": "общественно, добровольно"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:enorm",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "enorm",
+        "pos": "adj",
+        "translation": "огромный, колоссальный",
+        "example": "Die Zeitersparnis durch die CI-Pipeline ist enorm.",
+        "exampleTranslation": "Экономия времени благодаря CI-пайплайну огромная."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:entdecken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entdecken",
+        "pos": "verb",
+        "translation": "обнаруживать, открывать",
+        "praeteritum": "entdeckte",
+        "perfekt": "hat entdeckt",
+        "example": "Beim Testen auf dem iPhone habe ich einen Layout-Bug entdeckt.",
+        "exampleTranslation": "При тестировании на iPhone я обнаружил баг в вёрстке."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entfallen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entfallen",
+        "pos": "verb",
+        "translation": "отпадать, не состояться",
+        "praeteritum": "entfiel",
+        "perfekt": "ist entfallen",
+        "example": "Wegen der Betriebsversammlung entfällt das Daily heute.",
+        "exampleTranslation": "Из-за общего собрания сотрудников дейли сегодня отменяется.",
+        "hint": "больше не нужно / отменяется",
+        "note": "du entfällst; der Name ist mir entfallen — имя вылетело из головы"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entfalten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entfalten",
+        "pos": "verb",
+        "translation": "раскрывать, развивать",
+        "praeteritum": "entfaltete",
+        "perfekt": "hat entfaltet",
+        "example": "In der neuen Rolle konnte er sein Potenzial voll entfalten.",
+        "exampleTranslation": "В новой роли он смог полностью раскрыть свой потенциал.",
+        "hint": "потенциал, способности"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entgegennehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entgegennehmen",
+        "pos": "verb",
+        "translation": "принимать, получать",
+        "praeteritum": "nahm entgegen",
+        "perfekt": "hat entgegengenommen",
+        "example": "Kannst du das Paket für mich entgegennehmen, falls ich nicht zu Hause bin?",
+        "exampleTranslation": "Можешь принять за меня посылку, если меня не будет дома?",
+        "hint": "посылку, звонок, заказ",
+        "note": "du nimmst entgegen"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entgehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entgehen",
+        "pos": "verb",
+        "translation": "ускользать (от внимания)",
+        "praeteritum": "entging",
+        "perfekt": "ist entgangen",
+        "example": "Bei diesem Review darf uns kein Fehler entgehen.",
+        "exampleTranslation": "На этом ревью от нас не должна ускользнуть ни одна ошибка.",
+        "rektion": "Dat.",
+        "hint": "остаться незамеченным",
+        "note": "sich (Dat.) etw. entgehen lassen — упустить"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entkommen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entkommen",
+        "pos": "verb",
+        "translation": "убежать, спастись (от)",
+        "praeteritum": "entkam",
+        "perfekt": "ist entkommen",
+        "example": "Mit dem Homeoffice am Freitag entkomme ich dem Berufsverkehr in Bonn.",
+        "exampleTranslation": "Благодаря удалёнке по пятницам я избегаю бонских пробок в час пик.",
+        "rektion": "Dat.",
+        "hint": "вырваться"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entlastung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Entlastung",
+        "plural": "die Entlastungen",
+        "pos": "noun",
+        "translation": "разгрузка, облегчение",
+        "example": "Ein zweiter Entwickler im Team wäre eine echte Entlastung für mich.",
+        "exampleTranslation": "Второй разработчик в команде стал бы для меня настоящей разгрузкой.",
+        "hint": "снятие нагрузки"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:entnehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entnehmen",
+        "pos": "verb",
+        "translation": "брать, узнавать (из источника)",
+        "praeteritum": "entnahm",
+        "perfekt": "hat entnommen",
+        "example": "Die Details können Sie dem Anhang entnehmen.",
+        "exampleTranslation": "Подробности вы найдёте во вложении.",
+        "rektion": "Dat. + Akk.",
+        "note": "du entnimmst",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entrichten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entrichten",
+        "pos": "verb",
+        "translation": "уплачивать",
+        "praeteritum": "entrichtete",
+        "perfekt": "hat entrichtet",
+        "example": "Laut Steuerbescheid haben Sie noch eine Nachzahlung von 200 Euro zu entrichten.",
+        "exampleTranslation": "Согласно налоговому уведомлению вам нужно доплатить ещё 200 евро.",
+        "hint": "налог, сбор",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-entscheiden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich entscheiden",
+        "pos": "verb",
+        "translation": "выбрать, решиться (на)",
+        "praeteritum": "entschied sich",
+        "perfekt": "hat sich entschieden",
+        "example": "Am Ende haben wir uns für Next.js und gegen Remix entschieden.",
+        "exampleTranslation": "В итоге мы выбрали Next.js, а не Remix.",
+        "rektion": "für/gegen + Akk.",
+        "hint": "сделать выбор",
+        "note": "entscheiden über + Akk. (без sich) — принимать решение о чём-л."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entscheidungsträger",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Entscheidungsträger",
+        "plural": "die Entscheidungsträger",
+        "pos": "noun",
+        "translation": "лицо, принимающее решения",
+        "example": "Die Demo zeigen wir nächste Woche den Entscheidungsträgern beim Kunden.",
+        "exampleTranslation": "Демо мы на следующей неделе покажем тем, кто принимает решения у заказчика."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:sich-entschließen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich entschließen",
+        "pos": "verb",
+        "translation": "решиться",
+        "praeteritum": "entschloss sich",
+        "perfekt": "hat sich entschlossen",
+        "example": "Ich habe mich entschlossen, die Weiterbildung bis zum Ende durchzuziehen.",
+        "exampleTranslation": "Я решил довести обучение до конца.",
+        "rektion": "zu + Dat.",
+        "hint": "после раздумий"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-entschuldigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich entschuldigen",
+        "pos": "verb",
+        "translation": "извиняться",
+        "praeteritum": "entschuldigte sich",
+        "perfekt": "hat sich entschuldigt",
+        "example": "Ich habe mich beim Kunden für die späte Antwort entschuldigt.",
+        "exampleTranslation": "Я извинился перед заказчиком за поздний ответ.",
+        "rektion": "bei + Dat., für + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entschuldigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Entschuldigung",
+        "plural": "die Entschuldigungen",
+        "pos": "noun",
+        "translation": "извинение",
+        "example": "Wegen meines Tons im Meeting schulde ich ihm eine Entschuldigung.",
+        "exampleTranslation": "Из-за своего тона на встрече я должен перед ним извиниться.",
+        "note": "jdn. um Entschuldigung bitten — просить прощения; Entschuldigung! — извините!"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:entschärfen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entschärfen",
+        "pos": "verb",
+        "translation": "разряжать (обстановку), смягчать",
+        "praeteritum": "entschärfte",
+        "perfekt": "hat entschärft",
+        "example": "Mit einem Witz hat der Teamleiter die angespannte Stimmung im Meeting entschärft.",
+        "exampleTranslation": "Шуткой тимлид разрядил напряжённую атмосферу на встрече.",
+        "hint": "конфликт, ситуацию",
+        "note": "eine Bombe entschärfen — обезвредить бомбу"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entsorgen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entsorgen",
+        "pos": "verb",
+        "translation": "утилизировать, выбрасывать",
+        "praeteritum": "entsorgte",
+        "perfekt": "hat entsorgt",
+        "example": "Alte Elektrogeräte darf man nicht im Hausmüll entsorgen.",
+        "exampleTranslation": "Старую электротехнику нельзя выбрасывать в бытовой мусор."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:entspannt",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entspannt",
+        "pos": "adj",
+        "translation": "расслабленный, спокойный",
+        "example": "Nach dem Release ist die Stimmung im Büro endlich wieder entspannt.",
+        "exampleTranslation": "После релиза атмосфера в офисе наконец снова спокойная."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:entsprechen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entsprechen",
+        "pos": "verb",
+        "translation": "соответствовать",
+        "praeteritum": "entsprach",
+        "perfekt": "hat entsprochen",
+        "example": "Der Code muss unseren Qualitätsstandards entsprechen.",
+        "exampleTranslation": "Код должен соответствовать нашим стандартам качества.",
+        "rektion": "Dat.",
+        "note": "du entsprichst; den Erwartungen entsprechen — соответствовать ожиданиям"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:unannehmlichkeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Unannehmlichkeit",
+        "plural": "die Unannehmlichkeiten",
+        "pos": "noun",
+        "translation": "неудобство, неприятность",
+        "example": "Die Deutsche Bahn bittet, die entstandenen Unannehmlichkeiten zu entschuldigen.",
+        "exampleTranslation": "Deutsche Bahn приносит извинения за доставленные неудобства.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:enttäuscht",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "enttäuscht",
+        "pos": "adj",
+        "translation": "разочарованный",
+        "example": "Ich bin von den Ergebnissen des Lasttests ziemlich enttäuscht.",
+        "exampleTranslation": "Я довольно сильно разочарован результатами нагрузочного теста.",
+        "rektion": "von + Dat. / über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:entwischen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "entwischen",
+        "pos": "verb",
+        "translation": "ускользнуть, улизнуть",
+        "praeteritum": "entwischte",
+        "perfekt": "ist entwischt",
+        "example": "Der Bug ist uns beim Testen entwischt und erst in Produktion aufgefallen.",
+        "exampleTranslation": "Баг ускользнул от нас при тестировании и всплыл только в продакшене.",
+        "rektion": "Dat.",
+        "register": "umgs"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erarbeiten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erarbeiten",
+        "pos": "verb",
+        "translation": "разрабатывать, прорабатывать",
+        "praeteritum": "erarbeitete",
+        "perfekt": "hat erarbeitet",
+        "example": "Bis Freitag müssen wir ein Konzept für das neue Rechtesystem erarbeiten.",
+        "exampleTranslation": "До пятницы нам нужно проработать концепцию новой системы прав.",
+        "hint": "решение, концепцию (трудом)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erbringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erbringen",
+        "pos": "verb",
+        "translation": "предоставлять, оказывать",
+        "praeteritum": "erbrachte",
+        "perfekt": "hat erbracht",
+        "example": "Für das Wohngeld müssen Sie einen Nachweis über Ihr Einkommen erbringen.",
+        "exampleTranslation": "Для жилищной субсидии нужно предоставить подтверждение дохода.",
+        "hint": "доказательство, услугу",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erfahren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erfahren",
+        "pos": "verb",
+        "translation": "узнавать",
+        "praeteritum": "erfuhr",
+        "perfekt": "hat erfahren",
+        "example": "Von der Umstrukturierung habe ich erst aus einer Rundmail erfahren.",
+        "exampleTranslation": "О реструктуризации я узнал только из общей рассылки.",
+        "rektion": "von + Dat.",
+        "hint": "получить новость",
+        "note": "du erfährst"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erfahren-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erfahren",
+        "pos": "adj",
+        "translation": "опытный",
+        "example": "Sie ist in Cloud-Migrationen sehr erfahren.",
+        "exampleTranslation": "У неё большой опыт в миграциях в облако.",
+        "rektion": "in + Dat.",
+        "hint": "о человеке"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erfahrung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Erfahrung",
+        "plural": "die Erfahrungen",
+        "pos": "noun",
+        "translation": "опыт",
+        "example": "Hast du schon Erfahrung mit Next.js?",
+        "exampleTranslation": "У тебя уже есть опыт с Next.js?",
+        "rektion": "mit + Dat.",
+        "note": "Erfahrungen sammeln — набираться опыта"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ins-rechte-licht-rücken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. ins rechte Licht rücken",
+        "pos": "phrase",
+        "translation": "показать в выгодном свете",
+        "example": "Im Lebenslauf ist es wichtig, die eigenen Erfahrungen ins rechte Licht zu rücken.",
+        "exampleTranslation": "В резюме важно показать свой опыт в выгодном свете."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:erfassen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erfassen",
+        "pos": "verb",
+        "translation": "фиксировать, учитывать (данные)",
+        "praeteritum": "erfasste",
+        "perfekt": "hat erfasst",
+        "example": "Bei uns werden die Arbeitsstunden direkt in Jira erfasst.",
+        "exampleTranslation": "У нас рабочие часы фиксируются прямо в Jira.",
+        "hint": "вносить в систему",
+        "note": "также: охватывать, понимать (die Lage erfassen)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erfindung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Erfindung",
+        "plural": "die Erfindungen",
+        "pos": "noun",
+        "translation": "изобретение",
+        "example": "Für mich ist die Spülmaschine die beste Erfindung überhaupt.",
+        "exampleTranslation": "Для меня посудомойка — лучшее изобретение на свете."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:erfolg",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Erfolg",
+        "plural": "die Erfolge",
+        "pos": "noun",
+        "translation": "успех",
+        "example": "Viel Erfolg beim Vorstellungsgespräch morgen!",
+        "exampleTranslation": "Удачи завтра на собеседовании!",
+        "rektion": "bei/in + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:erforderlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erforderlich",
+        "pos": "adj",
+        "translation": "необходимый, требуемый",
+        "example": "Für die Installation sind Administratorrechte erforderlich.",
+        "exampleTranslation": "Для установки необходимы права администратора.",
+        "hint": "обязателен (формально)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erfordern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erfordern",
+        "pos": "verb",
+        "translation": "требовать",
+        "praeteritum": "erforderte",
+        "perfekt": "hat erfordert",
+        "example": "Die Migration auf React 19 erfordert einige Anpassungen im Code.",
+        "exampleTranslation": "Переход на React 19 требует ряда правок в коде.",
+        "hint": "о задаче, ситуации"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erfragen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erfragen",
+        "pos": "verb",
+        "translation": "выяснять (расспросив)",
+        "praeteritum": "erfragte",
+        "perfekt": "hat erfragt",
+        "example": "Vor dem Sprint sollten wir beim Kunden alle Sonderfälle erfragen.",
+        "exampleTranslation": "Перед спринтом нам стоит выяснить у заказчика все особые случаи."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ergeben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ergeben",
+        "pos": "verb",
+        "translation": "давать (в результате), показывать",
+        "praeteritum": "ergab",
+        "perfekt": "hat ergeben",
+        "example": "Die Analyse hat ergeben, dass das Problem im Caching liegt.",
+        "exampleTranslation": "Анализ показал, что проблема в кэшировании.",
+        "hint": "в итоге получилось",
+        "note": "du ergibst; 3 plus 7 ergibt 10"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-ergeben-aus",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich ergeben",
+        "pos": "verb",
+        "translation": "вытекать, следовать (из)",
+        "praeteritum": "ergab sich",
+        "perfekt": "hat sich ergeben",
+        "example": "Die Verzögerung ergibt sich vor allem daraus, dass die API noch nicht fertig ist.",
+        "exampleTranslation": "Задержка возникла прежде всего из-за того, что API ещё не готов.",
+        "rektion": "aus + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sinn-ergeben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Sinn ergeben",
+        "pos": "phrase",
+        "translation": "иметь смысл",
+        "example": "Dein Vorschlag mit dem Feature-Flag ergibt wirklich Sinn.",
+        "exampleTranslation": "Твоё предложение с фичефлагом действительно имеет смысл.",
+        "note": "Sinn machen — разговорное, калька с английского"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:erheblich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erheblich",
+        "pos": "adj",
+        "translation": "значительный, существенный",
+        "example": "Die neue Struktur führt zu erheblichen Änderungen im Arbeitsablauf.",
+        "exampleTranslation": "Новая структура приведёт к значительным изменениям в рабочем процессе."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erkennen-an",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erkennen",
+        "pos": "verb",
+        "translation": "узнавать (по), распознавать",
+        "praeteritum": "erkannte",
+        "perfekt": "hat erkannt",
+        "example": "Einen schlampigen Commit erkennt man schon an der Nachricht „fix“.",
+        "exampleTranslation": "Небрежный коммит видно уже по сообщению «fix».",
+        "rektion": "an + Dat.",
+        "hint": "по признаку"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erkunden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erkunden",
+        "pos": "verb",
+        "translation": "изучать, разведывать",
+        "praeteritum": "erkundete",
+        "perfekt": "hat erkundet",
+        "example": "In der ersten Woche habe ich vor allem die Projektstruktur erkundet.",
+        "exampleTranslation": "В первую неделю я в основном изучал структуру проекта.",
+        "hint": "осматривать новое"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-erkundigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich erkundigen",
+        "pos": "verb",
+        "translation": "осведомляться, узнавать",
+        "praeteritum": "erkundigte sich",
+        "perfekt": "hat sich erkundigt",
+        "example": "Ich habe mich beim Jobcenter nach dem Stand meines Antrags erkundigt.",
+        "exampleTranslation": "Я поинтересовался в Jobcenter, как продвигается моё заявление.",
+        "rektion": "bei + Dat., nach + Dat.",
+        "hint": "расспрашивать"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erlangen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erlangen",
+        "pos": "verb",
+        "translation": "обретать, получать",
+        "praeteritum": "erlangte",
+        "perfekt": "hat erlangt",
+        "example": "Der Vertrag erlangt erst mit beiden Unterschriften Gültigkeit.",
+        "exampleTranslation": "Договор вступает в силу только после двух подписей.",
+        "hint": "статус, силу, право",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erlassen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erlassen",
+        "pos": "verb",
+        "translation": "издавать (закон, указ)",
+        "praeteritum": "erließ",
+        "perfekt": "hat erlassen",
+        "example": "Die Bundesregierung kann per Verordnung neue Regeln erlassen.",
+        "exampleTranslation": "Федеральное правительство может постановлением вводить новые правила.",
+        "hint": "закон, распоряжение",
+        "note": "du erlässt",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erlassen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erlassen",
+        "pos": "verb",
+        "translation": "освобождать (от платежа)",
+        "praeteritum": "erließ",
+        "perfekt": "hat erlassen",
+        "example": "Bei geringem Einkommen können Ihnen die Kita-Gebühren ganz erlassen werden.",
+        "exampleTranslation": "При низком доходе вас могут полностью освободить от платы за детский сад.",
+        "hint": "долг, плату",
+        "rektion": "Dat. + Akk.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erlernbarkeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Erlernbarkeit",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "лёгкость освоения, обучаемость",
+        "example": "Eine gute Erlernbarkeit ist für unsere Kunden wichtiger als viele Features.",
+        "exampleTranslation": "Для наших клиентов простота освоения важнее множества функций.",
+        "hint": "интерфейса, программы"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ermitteln-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ermitteln",
+        "pos": "verb",
+        "translation": "устанавливать, определять",
+        "praeteritum": "ermittelte",
+        "perfekt": "hat ermittelt",
+        "example": "Wir müssen zuerst die Ursache des Fehlers ermitteln.",
+        "exampleTranslation": "Сначала нам нужно установить причину ошибки.",
+        "hint": "выяснить, вычислить"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ermitteln-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ermitteln",
+        "pos": "verb",
+        "translation": "вести расследование",
+        "praeteritum": "ermittelte",
+        "perfekt": "hat ermittelt",
+        "example": "Die Polizei ermittelt wegen eines Hackerangriffs auf die Stadtverwaltung.",
+        "exampleTranslation": "Полиция расследует хакерскую атаку на городскую администрацию.",
+        "rektion": "gegen + Akk. / wegen + Gen.",
+        "hint": "полиция"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ermittlung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Ermittlung",
+        "plural": "die Ermittlungen",
+        "pos": "noun",
+        "translation": "установление, выяснение",
+        "example": "Die Ermittlung der Fehlerursache hat zwei Stunden gedauert.",
+        "exampleTranslation": "Выяснение причины ошибки заняло два часа.",
+        "hint": "причины, данных",
+        "note": "die Ermittlungen (Pl.) — расследование (полиции)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:ermutigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ermutigen",
+        "pos": "verb",
+        "translation": "ободрять, поощрять",
+        "praeteritum": "ermutigte",
+        "perfekt": "hat ermutigt",
+        "example": "Meine Mentorin ermutigt mich, im Daily öfter Fragen zu stellen.",
+        "exampleTranslation": "Мой ментор поощряет меня чаще задавать вопросы на дейли.",
+        "rektion": "zu + Dat.",
+        "hint": "придавать смелости"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erneut",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erneut",
+        "pos": "adv",
+        "translation": "снова, повторно",
+        "example": "Die Verbindung ist fehlgeschlagen, bitte versuchen Sie es später erneut.",
+        "exampleTranslation": "Не удалось подключиться, пожалуйста, повторите попытку позже.",
+        "hint": "официально (вместо wieder)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:ernst",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ernst",
+        "pos": "adj",
+        "translation": "серьёзный",
+        "example": "Die Lage ist ernst: Der Server ist seit einer Stunde down.",
+        "exampleTranslation": "Ситуация серьёзная: сервер лежит уже час."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:ernst-nehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ernst nehmen",
+        "pos": "phrase",
+        "translation": "воспринимать всерьёз",
+        "example": "Ein guter Teamleiter nimmt die Bedenken der Entwickler ernst.",
+        "exampleTranslation": "Хороший тимлид воспринимает опасения разработчиков всерьёз.",
+        "note": "nahm ernst, hat ernst genommen; du nimmst ernst"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:ernsthaft",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ernsthaft",
+        "pos": "adv",
+        "translation": "всерьёз, по-настоящему",
+        "example": "Wir müssen ernsthaft über die Risiken der Migration sprechen.",
+        "exampleTranslation": "Нам нужно всерьёз поговорить о рисках миграции.",
+        "hint": "не шутя"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:schwindelerregend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "schwindelerregend",
+        "pos": "adj",
+        "translation": "головокружительный",
+        "example": "Die Mieten in Köln steigen in schwindelerregendem Tempo.",
+        "exampleTranslation": "Аренда в Кёльне растёт головокружительными темпами.",
+        "note": "erregend само по себе — возбуждающий; -erregend: Aufsehen erregend, besorgniserregend"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erscheinen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erscheinen",
+        "pos": "verb",
+        "translation": "появляться, выходить",
+        "praeteritum": "erschien",
+        "perfekt": "ist erschienen",
+        "example": "Die Fehlermeldung erscheint jedes Mal, wenn ich das Modal öffne.",
+        "exampleTranslation": "Сообщение об ошибке появляется каждый раз, когда я открываю модалку.",
+        "hint": "на экране; о книге, версии"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erscheinen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erscheinen",
+        "pos": "verb",
+        "translation": "казаться",
+        "praeteritum": "erschien",
+        "perfekt": "ist erschienen",
+        "example": "Der Zeitplan erscheint mir für ein so großes Feature zu knapp.",
+        "exampleTranslation": "План кажется мне слишком сжатым для такой большой фичи.",
+        "rektion": "Dat.",
+        "hint": "производить впечатление"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erschießen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erschießen",
+        "pos": "verb",
+        "translation": "застрелить",
+        "praeteritum": "erschoss",
+        "perfekt": "hat erschossen",
+        "example": "Im Krimi gestern wurde der Täter am Ende von der Polizei erschossen.",
+        "exampleTranslation": "Во вчерашнем детективе преступника в конце застрелила полиция."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erschöpfen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erschöpfen",
+        "pos": "verb",
+        "translation": "исчерпывать, истощать",
+        "praeteritum": "erschöpfte",
+        "perfekt": "hat erschöpft",
+        "example": "Das Projekt hat unser Budget fast vollständig erschöpft.",
+        "exampleTranslation": "Проект почти полностью исчерпал наш бюджет.",
+        "hint": "ресурсы, силы"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erschöpfung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Erschöpfung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "изнеможение, истощение",
+        "example": "Wegen Erschöpfung hat die Ärztin ihn eine Woche krankgeschrieben.",
+        "exampleTranslation": "Из-за истощения врач выписала ему больничный на неделю.",
+        "hint": "крайняя усталость"
+      },
+      "tags": [
+        "noji",
+        "arzt",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:erschüttern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erschüttern",
+        "pos": "verb",
+        "translation": "потрясать",
+        "praeteritum": "erschütterte",
+        "perfekt": "hat erschüttert",
+        "example": "Die Nachricht vom Projekt-Aus hat das ganze Team erschüttert.",
+        "exampleTranslation": "Новость о закрытии проекта потрясла всю команду."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erstatten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erstatten",
+        "pos": "verb",
+        "translation": "возмещать, компенсировать",
+        "praeteritum": "erstattete",
+        "perfekt": "hat erstattet",
+        "example": "Die Firma erstattet uns die Reisekosten zur Konferenz.",
+        "exampleTranslation": "Фирма возмещает нам расходы на поездку на конференцию.",
+        "note": "Anzeige erstatten — подать заявление в полицию"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erstaunlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erstaunlich",
+        "pos": "adj",
+        "translation": "удивительный, поразительный",
+        "example": "Es ist erstaunlich, wie schnell der neue Bundler arbeitet.",
+        "exampleTranslation": "Удивительно, как быстро работает новый бандлер."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erstaunt",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erstaunt",
+        "pos": "adj",
+        "translation": "удивлённый",
+        "example": "Der Teamleiter war erstaunt über unser Tempo bei diesem Modul.",
+        "exampleTranslation": "Тимлид был удивлён нашей скоростью работы над этим модулем.",
+        "rektion": "über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erstellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erstellen",
+        "pos": "verb",
+        "translation": "создавать, составлять",
+        "praeteritum": "erstellte",
+        "perfekt": "hat erstellt",
+        "example": "Kannst du für das Feature ein Ticket in Jira erstellen?",
+        "exampleTranslation": "Можешь создать для этой фичи тикет в Jira?",
+        "hint": "документ, файл, тикет"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:im-keim-ersticken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. im Keim ersticken",
+        "pos": "phrase",
+        "translation": "пресечь в зародыше",
+        "example": "Mit strengen Lint-Regeln ersticken wir viele Bugs schon im Keim.",
+        "exampleTranslation": "Строгими правилами линтера мы пресекаем многие баги ещё в зародыше.",
+        "note": "ersticken (ist erstickt) — задохнуться; (hat erstickt) — задушить"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:ersuchen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ersuchen",
+        "pos": "verb",
+        "translation": "просить, ходатайствовать",
+        "praeteritum": "ersuchte",
+        "perfekt": "hat ersucht",
+        "example": "Die Behörde ersucht Sie, die fehlenden Unterlagen bis Monatsende nachzureichen.",
+        "exampleTranslation": "Ведомство просит вас донести недостающие документы до конца месяца.",
+        "rektion": "um + Akk.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:ertönen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "ertönen",
+        "pos": "verb",
+        "translation": "раздаваться, звучать",
+        "praeteritum": "ertönte",
+        "perfekt": "ist ertönt",
+        "example": "Plötzlich ertönte im ganzen Büro der Feueralarm.",
+        "exampleTranslation": "Внезапно во всём офисе раздалась пожарная сигнализация."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erwarten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erwarten",
+        "pos": "verb",
+        "translation": "ожидать (от)",
+        "praeteritum": "erwartete",
+        "perfekt": "hat erwartet",
+        "example": "Was erwartest du von deinem neuen Teamlead?",
+        "exampleTranslation": "Чего ты ждёшь от своего нового тимлида?",
+        "rektion": "von + Dat.",
+        "hint": "ждать чего-то от кого-то",
+        "note": "≠ warten auf — ждать (кого-то)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erwischen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erwischen",
+        "pos": "verb",
+        "translation": "поймать, застукать",
+        "praeteritum": "erwischte",
+        "perfekt": "hat erwischt",
+        "example": "Der Linter hat mich wieder bei einem vergessenen console.log erwischt.",
+        "exampleTranslation": "Линтер снова поймал меня на забытом console.log.",
+        "register": "umgs",
+        "note": "den Bus gerade noch erwischen — успеть на автобус"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erwägen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erwägen",
+        "pos": "verb",
+        "translation": "рассматривать (возможность), взвешивать",
+        "praeteritum": "erwog",
+        "perfekt": "hat erwogen",
+        "example": "Wir sollten erwägen, den alten Service komplett neu zu schreiben.",
+        "exampleTranslation": "Нам стоит рассмотреть вариант полностью переписать старый сервис.",
+        "hint": "обдумывать вариант",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erwähnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erwähnen",
+        "pos": "verb",
+        "translation": "упоминать",
+        "praeteritum": "erwähnte",
+        "perfekt": "hat erwähnt",
+        "example": "Das Problem habe ich schon im letzten Daily erwähnt.",
+        "exampleTranslation": "Об этой проблеме я уже упоминал на прошлом дейли."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erwünscht",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erwünscht",
+        "pos": "adj",
+        "translation": "желательный, желанный",
+        "example": "Erfahrung mit TypeScript ist erwünscht, aber kein Muss.",
+        "exampleTranslation": "Опыт с TypeScript желателен, но не обязателен."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:erzeugen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erzeugen",
+        "pos": "verb",
+        "translation": "генерировать, производить",
+        "praeteritum": "erzeugte",
+        "perfekt": "hat erzeugt",
+        "example": "Das Skript erzeugt bei jedem Build automatisch die TypeScript-Typen.",
+        "exampleTranslation": "Скрипт при каждой сборке автоматически генерирует типы TypeScript.",
+        "hint": "автоматически"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erzielen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erzielen",
+        "pos": "verb",
+        "translation": "добиваться, достигать",
+        "praeteritum": "erzielte",
+        "perfekt": "hat erzielt",
+        "example": "Mit Code-Splitting haben wir eine deutlich bessere Ladezeit erzielt.",
+        "exampleTranslation": "С помощью код-сплиттинга мы добились заметно лучшего времени загрузки.",
+        "hint": "результат, эффект"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erzwingen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erzwingen",
+        "pos": "verb",
+        "translation": "вынуждать, добиваться силой",
+        "praeteritum": "erzwang",
+        "perfekt": "hat erzwungen",
+        "example": "Mit git push --force erzwingt man das Überschreiben des Remote-Branches.",
+        "exampleTranslation": "С помощью git push --force принудительно перезаписывают удалённую ветку."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:erzwungen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "erzwungen",
+        "pos": "adj",
+        "translation": "вынужденный, принудительный",
+        "example": "Wegen der Deadline war das eine erzwungene Entscheidung.",
+        "exampleTranslation": "Из-за дедлайна это было вынужденное решение."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:es-handelt-sich-um",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "es handelt sich um",
+        "pos": "phrase",
+        "translation": "речь идёт о",
+        "example": "Bei dem Fehler handelt es sich um ein Problem mit dem Cache.",
+        "exampleTranslation": "В случае с этой ошибкой речь идёт о проблеме с кэшем.",
+        "rektion": "um + Akk.",
+        "note": "handelte sich, hat sich gehandelt; подлежащим всегда es"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    }
+  ]
+}

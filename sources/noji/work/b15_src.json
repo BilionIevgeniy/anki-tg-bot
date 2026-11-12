@@ -1,0 +1,1282 @@
+{
+ "kompetenzen": [
+  {
+   "id": 6165219006,
+   "de": "die Kompetenzen (Pl.) – Ich habe nicht die Kompetenzen, die Servereinstellungen zu ändern.",
+   "ru": "полномочия / компетенции — У меня нет полномочий менять настройки сервера.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "komprimieren": [
+  {
+   "id": 5973089023,
+   "de": "komprimieren (komprimierte; hat komprimiert) – Wir müssen diese Dateien vor dem Versenden komprimieren.",
+   "ru": "сжимать, компрессировать — Мы должны сжать эти файлы перед отправкой.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "konsequent": [
+  {
+   "id": 6541778512,
+   "de": "konsequent – Ich kannte React schon etwas und habe im Kurs konsequent alle Aufgaben umgesetzt.",
+   "ru": "последовательно / неуклонно — Я уже немного знал React и последовательно выполнил все задания на курсе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "konsequenz": [
+  {
+   "id": 6064365162,
+   "de": "die Konsequenz(Konsequenzen) – Jede Entscheidung hat ihre Konsequenzen.",
+   "ru": "последствия — Каждое решение имеет свои последствия.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "konsistent": [
+  {
+   "id": 5950387747,
+   "de": "konsistent – Die Daten in der Datenbank müssen konsistent sein.",
+   "ru": "последовательный, системный - Данные в базе данных должны быть системными.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "konzentration auf": [
+  {
+   "id": 5569460677,
+   "de": "die Konzentration auf (Akk.) – Die Konzentration auf das Kerngeschäft ist wichtig.",
+   "ru": "концентрация на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "konzentrieren auf": [
+  {
+   "id": 5569463429,
+   "de": "sich konzentrieren auf (Akk.) (konzentrierte; hat konzentriert) – Konzentriere dich auf die Lösung des Bugs!",
+   "ru": "концентрироваться на",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kostenpflichtig": [
+  {
+   "id": 5638902703,
+   "de": "kostenpflichtig – Der Premium-Support ist kostenpflichtig.",
+   "ru": "платный - Премиум-поддержка является платной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kreieren": [
+  {
+   "id": 5783860958,
+   "de": "kreieren (kreierte; hat kreiert) – Wir wollen ein neues User Interface kreieren.",
+   "ru": "создавать, творить - Мы хотим создать новый пользовательский интерфейс.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6262423278,
+   "de": "kreieren (kreierte; hat kreiert) – Du kannst ein einzigartiges UI kreieren.",
+   "ru": "создавать / творить — Ты можешь создать уникальный дизайн-интерфейс.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kurzfristig einstellen": [
+  {
+   "id": 5575167132,
+   "de": "kurzfristig einstellen (stellte ein; hat eingestellt) – Wir müssen einen externen Entwickler kurzfristig einstellen.",
+   "ru": "временно принимать на работу; нанимать на короткий срок",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kurzlebig": [
+  {
+   "id": 5638902693,
+   "de": "kurzlebig – In der IT-Welt sind viele Trends kurzlebig.",
+   "ru": "недолговечный, эфемерный - В мире IT многие тренды недолговечны.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kämpfen gegen": [
+  {
+   "id": 5569463428,
+   "de": "kämpfen gegen (Akk.) (kämpfte; hat gekämpft) – Wir kämpfen gegen die technischen Probleme.",
+   "ru": "бороться против",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "können sie nicht": [
+  {
+   "id": 6492126611,
+   "de": "Können Sie nicht (noch schnell einbauen...) – Können Sie nicht noch schnell einbauen, dass Patienten auch ihre Versichertenkarte hochladen?",
+   "ru": "Не могли бы вы... (быстро встроить) — Не могли бы вы еще быстро добавить возможность, чтобы пациенты загружали свою страховку?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "küchen ab- und aufbauen": [
+  {
+   "id": 5448745020,
+   "de": "Küchen ab- und aufbauen (baute ab/auf, hat ab/aufgebaut, er baut ab/auf) – Die Monteure bauen heute die Küche ab und morgen wieder auf.",
+   "ru": "демонтировать и строить кухни",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ladebalken": [
+  {
+   "id": 6140091046,
+   "de": "der Ladebalken (Ladebalken) – Der Ladebalken auf dem MacBook sieht sehr flüssig aus.",
+   "ru": "индикатор загрузки — Индикатор загрузки на MacBook выглядит очень плавно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lahmlegen": [
+  {
+   "id": 5541048385,
+   "de": "lahmlegen (legte lahm; hat lahmgelegt) – Ein Systemausfall kann die gesamte Abteilung lahmlegen.",
+   "ru": "парализовать; выводить из строя",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lampenfieber": [
+  {
+   "id": 5603787533,
+   "de": "das Lampenfieber (nur Sg.) – Er hatte Lampenfieber vor der Präsentation beim Vorstand.",
+   "ru": "сильное волнение (перед выступлением)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "laufende anwendung": [
+  {
+   "id": 6100030303,
+   "de": "laufende Anwendung – Schließe die laufende Anwendung nicht.",
+   "ru": "запущенное приложение — Не закрывай запущенное приложение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "laufzeit": [
+  {
+   "id": 5541489141,
+   "de": "die Laufzeit (Laufzeiten) – Die Laufzeit des Projekts ist auf sechs Monate festgelegt.",
+   "ru": "срок действия; продолжительность",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leaken": [
+  {
+   "id": 5989563340,
+   "de": "leaken (leakte; hat geleakt) – Jemand hat die Nutzerdaten ins Netz geleakt.",
+   "ru": "сливать (информацию), давать течь — Кто-то слил данные пользователей в сеть.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lebendig": [
+  {
+   "id": 5696310289,
+   "de": "lebendig – Die Präsentation war lebendig und interessant.",
+   "ru": "живой, яркий - Презентация была живой и интересной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lediglich": [
+  {
+   "id": 6372866035,
+   "de": "lediglich – Das ist lediglich eine vorübergehende Lösung für unseren Service.",
+   "ru": "лишь, только — Это лишь временное решение для нашего сервиса.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lehnen": [
+  {
+   "id": 6518120211,
+   "de": "sich lehnen (lehnte sich, hat sich gelehnt, du lehnst dich) – Lena lacht und lehnt sich zurück.",
+   "ru": "отклоняться / прислоняться — Лена смеется и откидывается назад на кресле.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518119460,
+   "de": "sich lehnen (lehnte sich; hat sich gelehnt, du lehnst dich) – Lena lacht und lehnt sich zurück.",
+   "ru": "* отклоняться / прислоняться — Лена смеется и откидывается назад на кресле.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120779,
+   "de": "sich lehnen (lehnte sich, hat sich gelehnt, du lehnst dich) – Lena lacht und lehnt sich zurück.",
+   "ru": "отклоняться / прислоняться — Лена смеется и откидывается назад на кресле.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120707,
+   "de": "sich lehnen (lehnte sich, hat sich gelehnt, du lehnst dich) – Lena lacht und lehnt sich zurück.",
+   "ru": "отклоняться / прислоняться — Лена смеется и откидывается назад на кресле.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leiden": [
+  {
+   "id": 6008372935,
+   "de": "leiden (litt; hat gelitten) – Die Qualität des Codes darf nicht unter Zeitmangel leiden.",
+   "ru": "страдать — Качество кода не должно страдать от нехватки времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leisten": [
+  {
+   "id": 5569439225,
+   "de": "sich leisten (leistete sich; hat sich geleistet) – Wir können uns eine bessere Infrastruktur leisten.",
+   "ru": "позволить себе (финансово)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6120127166,
+   "de": "sich leisten (leistete; hat geleistet) – Wir können es uns nicht leisten, einen Fehler zu machen.",
+   "ru": "позволить себе (финансово или морально) — Мы не можем себе позволить совершить ошибку.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6320942674,
+   "de": "leisten (leistete; hat geleistet) – Wir können uns einen langen Systemausfall nicht leisten.",
+   "ru": "оказывать (услугу), позволять себе (финансово) — Мы не можем позволить себе долгий простой системы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leistung": [
+  {
+   "id": 5575958549,
+   "de": "die Leistung (Leistungen) – Die Leistung des neuen Prozessors ist beeindruckend.",
+   "ru": "мощность; производительность; результат",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leistung erbringen": [
+  {
+   "id": 6140091044,
+   "de": "Leistung erbringen (erbrachte; hat erbracht) – Wir müssen jede Woche unsere Leistung erbringen.",
+   "ru": "выполнять работу / показывать результат — Мы должны показывать результат каждую неделю.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leistungsbereich": [
+  {
+   "id": 6090226923,
+   "de": "der Leistungsbereich (Leistungsbereiche) – Unser Leistungsbereich hat sich erweitert.",
+   "ru": "сфера услуг, диапазон мощностей — Наша сфера услуг (компетенция) расширилась.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leistungsnachweis": [
+  {
+   "id": 5696310305,
+   "de": "der Leistungsnachweis (Leistungsnachweise) – Für die Beförderung sind Leistungsnachweise erforderlich.",
+   "ru": "подтверждение квалификации/результатов - Для повышения необходимы подтверждения квалификации.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lenkrad": [
+  {
+   "id": 6481401673,
+   "de": "das Lenkrad (Lenkräder) – Halte das Lenkrad während der Fahrt mit beiden Händen.",
+   "ru": "руль — Держи руль обеими руками во время движения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lerninhalte": [
+  {
+   "id": 5541048369,
+   "de": "die Lerninhalte – Die Lerninhalte sind praxisorientiert.",
+   "ru": "учебные материалы; содержание обучения",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lernstoff": [
+  {
+   "id": 5537456157,
+   "de": "der Lernstoff – Der Lernstoff für die Zertifizierung ist sehr umfangreich.",
+   "ru": "учебный материал",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "letztendlich": [
+  {
+   "id": 6140091063,
+   "de": "letztendlich – Letztendlich zählt nur das Ergebnis.",
+   "ru": "в конечном счете — В конечном счете важен только результат.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "leugnen": [
+  {
+   "id": 6407884652,
+   "de": "leugnen (leugnete; hat geleugnet) – Der Entwickler wollte seinen Fehler im Code nicht leugnen.",
+   "ru": "отрицать — Разработчик не стал отрицать свою ошибку в коде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lieferengpass": [
+  {
+   "id": 5568930102,
+   "de": "der Lieferengpass (Lieferengpässe) – Lieferengpässe bei der Hardware verzögern das Projekt.",
+   "ru": "проблемы с доставкой; узкие места в поставках",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lieferfrist einhalten": [
+  {
+   "id": 5667907561,
+   "de": "die Lieferfrist einhalten – Wir müssen die vereinbarte Lieferfrist einhalten.",
+   "ru": "соблюдать/выдерживать срок поставки - Мы должны соблюдать согласованный срок поставки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lieferschein": [
+  {
+   "id": 5593436137,
+   "de": "der Lieferschein (Lieferscheine) – Bitte überprüfen Sie die Ware anhand des Lieferscheins.",
+   "ru": "накладная; квитанция",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "liegen": [
+  {
+   "id": 5696310283,
+   "de": "liegen (lag; hat gelegen) – Das Problem liegt in der falschen Konfiguration.",
+   "ru": "лежать, находиться - Проблема лежит в неверной конфигурации.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "liegen an": [
+  {
+   "id": 5569463481,
+   "de": "liegen an (Dat.) (lag; hat gelegen) – Das Problem liegt an der Hardware.",
+   "ru": "зависеть от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5957604431,
+   "de": "liegen an (Dat.) (lag; hat gelegen) – Das Problem liegt an der schlechten Internetverbindung.",
+   "ru": "зависеть от, причина в чем-то — Проблема заключается в плохом интернет-соединении.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "liegen daher": [
+  {
+   "id": 6008372948,
+   "de": "liegen daher (lag; hat gelegen) – Der Fehler liegt daher im Code.",
+   "ru": "причина заключается в (поэтому) — Причина ошибки поэтому заключается в коде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lindern": [
+  {
+   "id": 6064365143,
+   "de": "lindern (linderte; hat gelindert) – Dieses Medikament soll die Schmerzen lindern.",
+   "ru": "облегчать, успокаивать (боль) — Это лекарство должно облегчить боль.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "linsen": [
+  {
+   "id": 6518120213,
+   "de": "die Linsen (Pl. von die Linse) – Eine Linsensuppe ist ein super Mittagessen an einem Arbeitstag.",
+   "ru": "чечевица / линзы — Чечевичный суп — это отличный сытный обед в рабочий день.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518119462,
+   "de": "die Linsen (Pl. von die Linse) – Eine Linsensuppe ist ein super Mittagessen an einem Arbeitstag.",
+   "ru": "* чечевица / линзы — Чечевичный суп — это отличный сытный обед в рабочий день.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120781,
+   "de": "die Linsen (Pl. von die Linse) – Eine Linsensuppe ist ein super Mittagessen an einem Arbeitstag.",
+   "ru": "чечевица / линзы — Чечевичный суп — это отличный сытный обед в рабочий день.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120709,
+   "de": "die Linsen (Pl. von die Linse) – Eine Linsensuppe ist ein super Mittagessen an einem Arbeitstag.",
+   "ru": "чечевица / линзы — Чечевичный суп — это отличный сытный обед в рабочий день.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "litten": [
+  {
+   "id": 6165218982,
+   "de": "litten (Präteritum von leiden; hat gelitten) – Die Nutzer litten unter der langen Ladezeit der Seite.",
+   "ru": "страдать — Пользователи страдали от долгой загрузки сайта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "loslassen": [
+  {
+   "id": 6481401637,
+   "de": "loslassen (ließ los; hat losgelassen, du lässt los) – Endlich ist es gelungen, die alte Legacy-Logik loszulassen und sie in sauberem React neu zu schreiben.",
+   "ru": "отпускать / выпускать из рук — Наконец-то получилось отпустить старую легаси-логику и переписать её на чистом React.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "loslegen": [
+  {
+   "id": 5950387740,
+   "de": "loslegen (legte los; hat losgelegt) – Sobald alle da sind, können wir loslegen.",
+   "ru": "начинать, приступать - Как только все придут, мы можем начинать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "loswerden": [
+  {
+   "id": 5537456154,
+   "de": "loswerden (wurde los; ist losgeworden) – Wir müssen die unnötigen Dateien loswerden.",
+   "ru": "избавиться (от чего-то)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lästern": [
+  {
+   "id": 6503896699,
+   "de": "lästern (lästerte; hat gelästert, du lästerst) – Am Arbeitsplatz sollte man nicht über Kollegen lästern.",
+   "ru": "клеветать / злословить (сплетничать) — На рабочем месте не стоит сплетничать о коллегах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lästig": [
+  {
+   "id": 6486814088,
+   "de": "lästig – Viele Entwickler empfinden Kritiker als lästig.",
+   "ru": "надоедливый / обременительный — Многие разработчики считают критиков в код-ревью надоедливыми, но они помогают находить баги.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "läuft auf hochtouren": [
+  {
+   "id": 6262423271,
+   "de": "läuft auf Hochtouren – Die Entwicklung läuft gerade auf Hochtouren.",
+   "ru": "работает на полную мощность — Сейчас разработка идет на полную мощность.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lösen": [
+  {
+   "id": 6021248078,
+   "de": "lösen (löste; hat gelöst) – Wie lösen wir dieses Problem?",
+   "ru": "решать (задачу/проблему) — Как нам решить эту проблему?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "lügen": [
+  {
+   "id": 5901514106,
+   "de": "lügen (log; hat gelogen) – Die Zahlen im Bericht lügen nicht.",
+   "ru": "лгать - Цифры в отчете никогда не лгут.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mahnen": [
+  {
+   "id": 5862955738,
+   "de": "mahnen (mahnte; hat gemahnt) – Das Programm mahnt den Nutzer zur Zahlung der Rechnung.",
+   "ru": "напоминать (о долге), предостерегать - Программа напоминает пользователю об оплате счета.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mangel": [
+  {
+   "id": 5416199899,
+   "de": "Mangel (der, Mängel) – Es herrscht Mangel an Fachkräften.",
+   "ru": "недостаток",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mangelhaft": [
+  {
+   "id": 6503896707,
+   "de": "mangelhaft – Die Testabdeckung war mangelhaft.",
+   "ru": "неудовлетворительный / с изъяном — Качество покрытия тестами оказалось неудовлетворительным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5618999063,
+   "de": "mangelhaft – Der Bericht ist mangelhaft und muss überarbeitet werden.",
+   "ru": "некачественный; с изъяном",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mangelhaft geführt": [
+  {
+   "id": 5603787555,
+   "de": "mangelhaft geführt – Die mangelhaft geführte Datenbank führte zu Fehlern.",
+   "ru": "некачественно управляемый/организованный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mangelnd": [
+  {
+   "id": 5568930093,
+   "de": "mangelnd – Mangelnde Kommunikation führt oft zu Missverständnissen.",
+   "ru": "недостаточный; отсутствующий",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "matschig": [
+  {
+   "id": 5862955768,
+   "de": "matschig – Nach dem Regen war die Straße matschig.",
+   "ru": "грязный, кашицеобразный - После дождя дорога была грязной.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "maßgabe": [
+  {
+   "id": 6320942685,
+   "de": "die Maßgabe (Maßgaben) – Wir arbeiten nach strengen Sicherheitsmaßgaben.",
+   "ru": "мера, предписание — Мы работаем по строгим предписаниям безопасности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "maßgeblich": [
+  {
+   "id": 6495947780,
+   "de": "maßgeblich – Maßgeblich sind der Arbeitsvertrag und die Firmenrichtlinien.",
+   "ru": "определяющий / решающий — Решающими являются трудовой договор и правила компании.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6064365171,
+   "de": "maßgeblich – Er war maßgeblich am Erfolg beteiligt.",
+   "ru": "значительный, решающий — Он внес значительный вклад в успех.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "maßnahmen ergreifen": [
+  {
+   "id": 6541778514,
+   "de": "Maßnahmen ergreifen (ergriff, hat ergriffen, du ergreifst) – Wir müssen sofort Maßnahmen ergreifen, um den kritischen Bug zu beheben.",
+   "ru": "принимать меры — Нам нужно незамедлительно принять меры для исправления критического бага.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mediator": [
+  {
+   "id": 5575167130,
+   "de": "der Mediator (Mediatoren) – Wir brauchten einen Mediator, um den Konflikt im Team zu lösen.",
+   "ru": "посредник; медиатор",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mehraufwand": [
+  {
+   "id": 6120127163,
+   "de": "der Mehraufwand – Das bedeutet einen kleinen Mehraufwand.",
+   "ru": "дополнительные затраты (труда/времени) — Это потребует небольших дополнительных усилий.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "meilensteine": [
+  {
+   "id": 6165219001,
+   "de": "die Meilensteine (Pl.) – Wir haben wichtige Meilensteine im aktuellen Sprint erreicht.",
+   "ru": "контрольные точки / вехи — Мы достигли важных вех в текущем спринте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "meinetwegen": [
+  {
+   "id": 6465607893,
+   "de": "meinetwegen – Meinetwegen kannst du Vanilla JavaScript nutzen, Hauptsache, du lieferst die Aufgabe rechtzeitig ab.",
+   "ru": "по мне / ради бога / хоть (разг.) — Можешь использовать хоть ванильный JavaScript, главное — сдай задачу вовремя.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "meißeln": [
+  {
+   "id": 6320942673,
+   "de": "meißeln (meißelte; hat gemeißelt) – Der Entwickler meißelt jede Zeile Code sorgfältig.",
+   "ru": "долбить, высекать (резцом) — Разработчик аккуратно высекает (формирует) каждую строку кода.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "melden bei": [
+  {
+   "id": 5569463482,
+   "de": "sich melden bei (Dat.) (meldete; hat gemeldet) – Bitte melden Sie sich bei mir, wenn Sie fertig sind.",
+   "ru": "сообщать кому-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "merken": [
+  {
+   "id": 6131137607,
+   "de": "sich merken (merkte; hat gemerkt) – Das Programm merkt sich die Benutzereinstellungen.",
+   "ru": "запоминать — Программа запоминает настройки пользователя.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "merkmal": [
+  {
+   "id": 6131137627,
+   "de": "das Merkmal (Merkmale) – Das ist ein wichtiges Merkmal unseres Produkts.",
+   "ru": "признак, характеристика — Это важная характеристика нашего продукта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6090226905,
+   "de": "das Merkmal (Merkmale) – Das ist ein typisches Merkmal dieser Software.",
+   "ru": "признак, черта, характеристика — Это — типичная характеристика этого программного обеспечения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "messen": [
+  {
+   "id": 5603787523,
+   "de": "messen (maß; hat gemessen) – Wir müssen die Latenzzeiten des Servers messen.",
+   "ru": "измерять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5986064692,
+   "de": "messen (maß; hat gemessen) – Wir müssen die Ladegeschwindigkeit nach jedem Update messen.",
+   "ru": "измерять — Мы должны измерять скорость загрузки после каждого обновления.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "messung": [
+  {
+   "id": 6090226935,
+   "de": "die Messung (Messungen) – Die Ergebnisse der Messung sind sehr präzise.",
+   "ru": "измерение — Результаты измерения очень точные.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "milch ist verdorben. (verderben": [
+  {
+   "id": 5259310158,
+   "de": "Die Milch ist verdorben. (verderben – verdorben)",
+   "ru": "Молоко испортилось.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "milder gleichheitsoperator": [
+  {
+   "id": 6021248098,
+   "de": "milder Gleichheitsoperator – Nutze das doppelte Gleichheitszeichen für den milden Gleichheitsoperator.",
+   "ru": "нестрогий (мягкий) оператор равенства — Используй двойное равно для мягкого сравнения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "minderwertig": [
+  {
+   "id": 5696310273,
+   "de": "minderwertig – Wir können keine minderwertigen Komponenten verwenden.",
+   "ru": "некачественный, низкосортный - Мы не можем использовать некачественные комплектующие.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5986064694,
+   "de": "minderwertig – Wir dürfen keine minderwertigen Bauteile verwenden.",
+   "ru": "некачественный, низкосортный — Мы не должны использовать некачественные детали.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mischen": [
+  {
+   "id": 5628100697,
+   "de": "mischen (mischte; hat gemischt) – Wir mischen alte und neue Technologien in diesem Ansatz.",
+   "ru": "смешивать; перемешивать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6071412614,
+   "de": "mischen (mischte; hat gemischt) – Man sollte Beruf und Privatleben nicht mischen.",
+   "ru": "смешивать — Не стоит смешивать работу и личную жизнь.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "misere": [
+  {
+   "id": 6494316902,
+   "de": "die Misere (Miseren) – Dieser Bug hat uns kurz vor dem Release in eine echte Misere gebracht.",
+   "ru": "бедственное положение / беда — Эта баг-фича затащила нас в настоящую беду перед релизом.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "misserfolg": [
+  {
+   "id": 6492126617,
+   "de": "der Misserfolg (Misserfolge) – Ein gutes Ergebnis mit überhöhten Erwartungen fühlt sich wie ein Misserfolg an.",
+   "ru": "неудача / провал — Хороший результат при завышенных ожиданиях воспринимается как провал.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "misstrauen": [
+  {
+   "id": 6526854320,
+   "de": "misstrauen (Dat.) (misstraute, hat misstraut, du misstraust) – Den Entscheidungen des Teams ohne Argumente zu misstrauen, ist unkonstruktiv.",
+   "ru": "не доверять / сомневаться — Сомневаться в решениях команды без аргументов неконструктивно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mist": [
+  {
+   "id": 6449728994,
+   "de": "der Mist (nur Sg.) – Was für ein Mist steht in dieser Konfigurationsdatei, der Server stürzt beim Start ab!",
+   "ru": "чушь, ерунда / черт (разг.) — Какой-то бред написан в этом файле конфигурации, сервер падает при старте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mist gebaut": [
+  {
+   "id": 5593436143,
+   "de": "Mist gebaut (baute Mist; hat Mist gebaut) – Ich glaube, ich habe beim letzten Update Mist gebaut.",
+   "ru": "натворить дел; накосячить (разг.)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit": [
+  {
+   "id": 5589939996,
+   "de": "mit – Ich habe das Dokument mit allen erforderlichen Unterschriften abgegeben.",
+   "ru": "с/вместе с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit dem kopf schütteln": [
+  {
+   "id": 6481401641,
+   "de": "mit dem Kopf schütteln (schüttelte; hat geschüttelt) – Der Entwickler musste nur mit dem Kopf schütteln, als er den nächsten Workaround im fremden Code sah.",
+   "ru": "качать (головой) — Разработчик только покачал головой, увидев очередной костыль в чужом коде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit durchschnittlichem umfang rechnen": [
+  {
+   "id": 6423479453,
+   "de": "mit durchschnittlichem Umfang rechnen – Wir müssen in diesem Sprint mit durchschnittlichem Umfang rechnen.",
+   "ru": "объем / масштаб (ожидать средний объем) — Мы должны рассчитывать на средний объем задач в этом спринте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit etwas abstand": [
+  {
+   "id": 6541778527,
+   "de": "mit etwas Abstand – Können wir morgen mit etwas Abstand weitersprechen?",
+   "ru": "с некоторым отступом (времени) / переведя дух — Можем ли мы продолжить разговор завтра, немного остыв и отдохнув?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit etwas herumschlagen": [
+  {
+   "id": 5537456150,
+   "de": "sich mit etwas herumschlagen (schlug sich herum; hat sich herumgeschlagen) – Wir müssen uns mit diesem Legacy-Code herumschlagen.",
+   "ru": "Возиться с чем-то (бороться с проблемой)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit jemandem messen": [
+  {
+   "id": 6173617617,
+   "de": "sich mit jemandem messen (maß; hat gemessen, du misst) – Beim Hackathon kann man sich mit anderen Entwicklern messen.",
+   "ru": "мериться (силами) с кем-то / соревноваться — На хакатоне можно помериться силами с другими разработчиками.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mit vorlauf": [
+  {
+   "id": 6494316882,
+   "de": "mit Vorlauf – Meetings werden bei uns immer mit Vorlauf geplant.",
+   "ru": "заранее / с запасом времени — Встречи в нашей компании всегда планируются заранее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mitbekommen": [
+  {
+   "id": 5568930095,
+   "de": "mitbekommen (bekam mit; hat mitbekommen) – Hast du mitbekommen, dass das Projekt verschoben wurde?",
+   "ru": "услышать; узнать; понять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5677506897,
+   "de": "mitbekommen (bekam mit; hat mitbekommen) – Ich habe von einem Kollegen mitbekommen, dass wir ein neues Projekt haben.",
+   "ru": "узнавать, понять (понять что-то от других) - Я узнал от коллеги, что у нас новый проект.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mitfühlen": [
+  {
+   "id": 6140091041,
+   "de": "mitfühlen (fühlte mit; hat mitgefühlt) – Ich kann bei diesem schwierigen Bug mit dir mitfühlen.",
+   "ru": "сочувствовать — Я сочувствую тебе из-за этого сложного бага.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mittagshitze vermeiden": [
+  {
+   "id": 5212759841,
+   "de": "die Mittagshitze vermeiden",
+   "ru": "Избегайте полуденной жары",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mittel": [
+  {
+   "id": 5575958540,
+   "de": "das Mittel (Mittel) – Wir nutzen alle verfügbaren Mittel, um das Problem zu lösen.",
+   "ru": "средство; ресурс; метод",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mittig ausrichten": [
+  {
+   "id": 6004594220,
+   "de": "mittig ausrichten (richtete aus; hat ausgerichtet) – Bitte richte den Text mittig aus.",
+   "ru": "выравнивать по центру — Пожалуйста, выровняй текст по центру.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mitunter": [
+  {
+   "id": 5559821635,
+   "de": "mitunter – Mitunter müssen wir auch an Wochenenden arbeiten.",
+   "ru": "порой; иногда; в некоторых случаях",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6041480221,
+   "de": "mitunter – Mitunter ist Programmieren anstrengend.",
+   "ru": "иногда, порой — Иногда программирование бывает утомительным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mitwirken": [
+  {
+   "id": 5989563332,
+   "de": "mitwirken (wirkte mit; hat mitgewirkt) – Willst du bei der Entwicklung dieses Moduls mitwirken?",
+   "ru": "участвовать, содействовать — Ты хочешь поучаствовать в разработке этого модуля?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mitwirken an": [
+  {
+   "id": 5677506905,
+   "de": "mitwirken an (Dat.) (wirkte mit; hat mitgewirkt) – Alle Teammitglieder müssen am Projekterfolg mitwirken.",
+   "ru": "участвовать, содействовать - Все члены команды должны содействовать успеху проекта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mogeln": [
+  {
+   "id": 6071412597,
+   "de": "mogeln (mogelte; hat gemogelt) – Er mogelt immer, wenn wir Karten spielen.",
+   "ru": "жульничать, хитрить (по-мелкому) — Он всегда жульничает, когда мы играем в карты.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "monatliche rate": [
+  {
+   "id": 5541489140,
+   "de": "die monatliche Rate (monatliche Raten) – Die monatliche Rate für das Leasing beträgt 500 Euro.",
+   "ru": "ежемесячный взнос",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "muster": [
+  {
+   "id": 5654992892,
+   "de": "das Muster (Muster) – Verwende dieses Muster für das neue Dokument.",
+   "ru": "образец, шаблон - Используй этот шаблон для нового документа.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6071412613,
+   "de": "das Muster (Muster) – Ich erkenne dieses Muster im Code wieder.",
+   "ru": "шаблон, образец, узор — Я узнаю этот шаблон в коде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6165218978,
+   "de": "das Muster (Muster) – Oft geraten wir in gewohnte Muster.",
+   "ru": "паттерн / шаблон (попасть в шаблон) — Часто мы попадаем в привычные шаблоны поведения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "mutmaßlich": [
+  {
+   "id": 6407884656,
+   "de": "mutmaßlich – Der mutmaßliche Verursacher des Serverabsturzausfalls wurde gefunden.",
+   "ru": "предполагаемый — Предполагаемый виновник падения сервера найден.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "nach angaben": [
+  {
+   "id": 5911460922,
+   "de": "nach Angaben (Gen./von) – Nach Angaben des Berichts wird das Projekt erfolgreich sein.",
+   "ru": "согласно данным, по сведениям - Согласно данным отчета, проект будет успешным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "nachdenken über": [
+  {
+   "id": 5569463431,
+   "de": "nachdenken über (Akk.) (dachte nach; hat nachgedacht) – Wir müssen über die Konsequenzen nachdenken.",
+   "ru": "размышлять о",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

@@ -1,0 +1,1363 @@
+{
+ "unterordnen": [
+  {
+   "id": 6165219007,
+   "de": "sich unterordnen (ordnete unter; hat untergeordnet) – Das System, dem wir uns unterordnen, ist sehr streng.",
+   "ru": "подчиняться — Система, которой мы подчиняемся, очень строгая.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterscheiden": [
+  {
+   "id": 5647464596,
+   "de": "unterscheiden (unterschied; hat unterschieden) – Wir müssen Test- und Produktionsumgebung klar unterscheiden.",
+   "ru": "различать, отличать - Мы должны четко различать тестовую и производственную среду.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterscheiden von": [
+  {
+   "id": 5569463498,
+   "de": "unterscheiden von (Dat.) (unterschied; hat unterschieden) – Man muss Qualität von Quantität unterscheiden.",
+   "ru": "отличать от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterschlupf": [
+  {
+   "id": 6407884654,
+   "de": "der Unterschlupf (Unterschlupfe) – Der Kater Persik hat ein ideales Uterschlupf bei uns zu Hause gefunden.",
+   "ru": "убежище, приют — Бездомный кот Персик нашел идеальное убежище у нас дома.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unterstützen bei": [
+  {
+   "id": 5569463499,
+   "de": "unterstützen bei (Dat.) (unterstützte; hat unterstützt) – Wir unterstützen das Team bei der Implementierung.",
+   "ru": "поддерживать в",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unverbindlich": [
+  {
+   "id": 5593436157,
+   "de": "unverbindlich – Wir haben ein unverbindliches Angebot für das Projekt erhalten.",
+   "ru": "необязывающий",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unvereinbar": [
+  {
+   "id": 6442594599,
+   "de": "unvereinbar – Dieses Paket ist mit der aktuellen Node.js-Version absolut unvereinbar.",
+   "ru": "несовместимый — Этот пакет абсолютно несовместим с текущей версией Node.js.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unverschämt": [
+  {
+   "id": 6165218975,
+   "de": "unverschämt – Das ist eine unverschämte Forderung vom Kunden.",
+   "ru": "наглый, бесстыдный — Это наглое требование со стороны клиента.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unverzichtbar": [
+  {
+   "id": 5647464598,
+   "de": "unverzichtbar – Ein zuverlässiges Backup ist unverzichtbar.",
+   "ru": "незаменимый, необходимый - Надежный бэкап незаменим для нашей работы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unvollständig": [
+  {
+   "id": 5603787564,
+   "de": "unvollständig – Die eingereichte Dokumentation ist unvollständig.",
+   "ru": "неполный; незавершенный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unvorhergesehen": [
+  {
+   "id": 5559821656,
+   "de": "unvorhergesehen – Wir mussten uns auf unvorhergesehene Probleme vorbereiten.",
+   "ru": "непредвиденный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6262423283,
+   "de": "unvorhergesehen – Wir sind auf unvorhergesehene Probleme gestoßen.",
+   "ru": "непредвиденный — Мы столкнулись с непредвиденными проблемами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unvorhersehbar": [
+  {
+   "id": 5683884933,
+   "de": "unvorhersehbar – Der plötzliche Ausfall war unvorhersehbar.",
+   "ru": "непредсказуемый - Внезапный сбой был непредсказуемым.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "unzureichend": [
+  {
+   "id": 6004594177,
+   "de": "unzureichend – Deine Kenntnisse sind für diese Aufgabe noch unzureichend.",
+   "ru": "недостаточный — Твоих знаний пока недостаточно для этой задачи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ursache für": [
+  {
+   "id": 5569460680,
+   "de": "die Ursache für (Akk.) – Die Ursache für den Fehler ist unklar.",
+   "ru": "причина для",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "urteil": [
+  {
+   "id": 6004594214,
+   "de": "das Urteil (Urteile) – Du solltest nicht zu schnell ein Urteil fällen.",
+   "ru": "суждение, приговор — Ты не должен судить о людях слишком быстро.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vage": [
+  {
+   "id": 6420230842,
+   "de": "vage – Das Verwenden von vagen Formulierungen im Anschreiben schadet dem Eindruck.",
+   "ru": "расплывчатый, туманный — Использование расплывчатых формулировок портит впечатление от резюме.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6004594179,
+   "de": "vage – Dein Plan ist bisher sehr vage.",
+   "ru": "расплывчатый, туманный — Твой план пока очень расплывчатый.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "variabel": [
+  {
+   "id": 5575167143,
+   "de": "variabel / – Die Kosten für Cloud-Dienste sind variabel.",
+   "ru": "переменный; изменчивый / -Расходы на облачные сервисы являются переменными.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verabredung mit": [
+  {
+   "id": 5569460689,
+   "de": "die Verabredung mit (Dat.) – Ich habe eine Verabredung mit einem Kunden.",
+   "ru": "встреча с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verabschieden": [
+  {
+   "id": 5647464577,
+   "de": "verabschieden (verabschiedete; hat verabschiedet) – Der Vorstand hat die neuen Sicherheitsrichtlinien verabschiedet.",
+   "ru": "принимать (закон, правила), прощаться - Правление приняло новые правила безопасности.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verallgemeinern": [
+  {
+   "id": 6131137621,
+   "de": "verallgemeinern (verallgemeinerte; hat verallgemeinert) – Es ist schwer für das Modell, Daten aus verschiedenen Quellen zu verallgemeinern.",
+   "ru": "обобщать — Модели сложно обобщать данные из разных источников.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verankern": [
+  {
+   "id": 5862955731,
+   "de": "verankern (verankerte; hat verankert) – Die neuen Regeln müssen im Firmenstatut verankert werden.",
+   "ru": "закрепить, фиксировать - Новые правила должны быть закреплены в уставе компании.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "veranlassen": [
+  {
+   "id": 6518119478,
+   "de": "veranlassen (veranlasste; hat veranlasst, du veranlasst) – Ich habe die Angebotserstellung veranlasst.",
+   "ru": "* инициировать / распорядиться (сделать что-то) — Я инициировал составление коммерческого предложения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120229,
+   "de": "veranlassen (veranlasste, hat veranlasst, du veranlasst) – Ich habe die Angebotserstellung veranlasst.",
+   "ru": "инициировать / распорядиться (сделать что-то) — Я инициировал составление коммерческого предложения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120725,
+   "de": "veranlassen (veranlasste, hat veranlasst, du veranlasst) – Ich habe die Angebotserstellung veranlasst.",
+   "ru": "инициировать / распорядиться (сделать что-то) — Я инициировал составление коммерческого предложения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120797,
+   "de": "veranlassen (veranlasste, hat veranlasst, du veranlasst) – Ich habe die Angebotserstellung veranlasst.",
+   "ru": "инициировать / распорядиться (сделать что-то) — Я инициировал составление коммерческого предложения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "veranschaulichen": [
+  {
+   "id": 6008372941,
+   "de": "veranschaulichen (veranschaulichte; hat veranschaulicht) – Kannst du das an einem Beispiel veranschaulichen?",
+   "ru": "наглядно показывать, иллюстрировать — Можешь наглядно показать это на примере?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verantwortlich sein": [
+  {
+   "id": 5374176734,
+   "de": "verantwortlich sein (Ich bin verantwortlich für...)",
+   "ru": "нести ответственность (например, за проект)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verantwortung für": [
+  {
+   "id": 5569460681,
+   "de": "die Verantwortung für (Akk.) – Er trägt die Verantwortung für die Sicherheit.",
+   "ru": "ответственность за",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verbergen": [
+  {
+   "id": 6481401658,
+   "de": "verbergen (verbarg; hat verborgen, du verbirgst) – Wir dürfen architektonische Probleme vor dem Team nicht verbergen.",
+   "ru": "скрывать / прятать — Мы не должны скрывать от команды архитектурные проблемы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6486814099,
+   "de": "verbergen (verbarg; hat verborgen, du verbirgst) – Man darf komplexe Bugs nicht hinter Workarounds verbergen.",
+   "ru": "прятать / скрывать — Не стоит прятать сложные баги под костылями, их нужно исправлять.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6004594187,
+   "de": "sich verbergen (verbarg; hat verborgen) – Hinter dieser Tür verbirgt sich ein Geheimnis.",
+   "ru": "скрываться — За этой дверью скрывается тайна.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verbinden mit": [
+  {
+   "id": 5569463501,
+   "de": "verbinden mit (Dat.) (verband; hat verbunden) – Wir verbinden die Datenbank mit der App.",
+   "ru": "связывать с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verbindlich": [
+  {
+   "id": 5559821645,
+   "de": "verbindlich – Die neue Regelung ist verbindlich für alle Mitarbeiter.",
+   "ru": "обязательный; обязательный к исполнению",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6004594193,
+   "de": "verbindlich – Diese Vereinbarung ist verbindlich.",
+   "ru": "обязательный (к исполнению) — Это соглашение является обязательным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verbrecher": [
+  {
+   "id": 6407884663,
+   "de": "der Verbrecher (Verbrecher) – Die Polizei hat den Cyber-Verbrecher geschnappt.",
+   "ru": "преступник — Полиция поймала киберпреступника.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verbunden mit": [
+  {
+   "id": 5569465202,
+   "de": "verbunden mit (Dat.) – Ich bin mit dem Team verbunden.",
+   "ru": "связанный с",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verdeckt": [
+  {
+   "id": 6372866049,
+   "de": "verdeckt – Viele Stellenangebote befinden sich auf dem verdeckten Arbeitsmarkt.",
+   "ru": "скрытый, теневой — Многие вакансии находятся на скрытом (теневом) рынке труда.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6127832250,
+   "de": "verdeckt – Viele Stellen finden sich auf dem verdeckten Arbeitsmarkt.",
+   "ru": "скрытый — Многие вакансии находятся на скрытом рынке труда.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verdeutlichen": [
+  {
+   "id": 6385684801,
+   "de": "verdeutlichen (verdeutlichte; hat verdeutlicht) – Dieser Graph verdeutlicht die Systemleistung.",
+   "ru": "прояснять / делать наглядным — Этот график наглядно показывает производительность системы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6090226912,
+   "de": "verdeutlichen (verdeutlichte; hat verdeutlicht) – Diese Grafik verdeutlicht das Problem.",
+   "ru": "разъяснять, делать наглядным — Этот график наглядно поясняет проблему.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6165218970,
+   "de": "verdeutlichen (verdeutlichte; hat verdeutlicht) – Diese Kommentare sollen die Logik der Funktion verdeutlichen.",
+   "ru": "разъяснять, делать наглядным — Эти комментарии должны наглядно пояснить логику функции.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verdrehen": [
+  {
+   "id": 6100030317,
+   "de": "verdrehen (verdrehte; hat verdreht) – Verdreh mir nicht das Wort!",
+   "ru": "искажать / перекручивать — Не перекручивай мои слова!",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vereinen": [
+  {
+   "id": 5696310309,
+   "de": "vereinen (vereinte; hat vereint) – Wir müssen beide Funktionen in einer App vereinen.",
+   "ru": "объединять, сочетать - Мы должны объединить обе функции в одном приложении.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vereinfachen": [
+  {
+   "id": 6155400436,
+   "de": "vereinfachen (vereinfachte; hat vereinfacht) – Wir müssen das Interface für den Nutzer vereinfachen.",
+   "ru": "упрощать — Мы должны упростить интерфейс для пользователя.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vererbung": [
+  {
+   "id": 6155400449,
+   "de": "die Vererbung (Vererbungen) – Prototypische Vererbung ist ein Schlüsselkonzept in JavaScript.",
+   "ru": "наследование — Прототипное наследование — ключевая концепция в JavaScript.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verfahren": [
+  {
+   "id": 6372866032,
+   "de": "sich verfahren (verfuhr; ist verfahren, du verfährst) – Wir haben uns mit der komplexen Logik dieses Moduls verfahren.",
+   "ru": "зайти в тупик / запутаться — Мы зашли в тупик со сложной логикой этого модуля.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6120127142,
+   "de": "das Verfahren (Verfahren) – Wir verlassen uns auf standardisierte Verfahren.",
+   "ru": "метод, процедура — Мы полагаемся на стандартизированные методы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verfahrensweise": [
+  {
+   "id": 6526854315,
+   "de": "die Verfahrensweise (Verfahrensweisen) – Wir müssen die Verfahrensweise bei einem Serverausfall klar dokumentieren.",
+   "ru": "порядок действий / процедура — Нам нужно четко описать порядок действий в случае сбоя сервера.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verfallen": [
+  {
+   "id": 6140091037,
+   "de": "verfallen (verfiel; ist verfallen) – Dein Zertifikat könnte bald verfallen.",
+   "ru": "приходить в упадок / истекать (о сроке) — Твой сертификат может скоро аннулироваться (истечь).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verfassen": [
+  {
+   "id": 5683884908,
+   "de": "verfassen (verfasste; hat verfasst) – Er muss ein Memo für die Geschäftsleitung verfassen.",
+   "ru": "составлять, писать (текст) - Он должен составить служебную записку для руководства.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verführen": [
+  {
+   "id": 6240800274,
+   "de": "verführen (verführte; hat verführt, du verführst) – Lass dich nicht zu einer schnellen, aber „schmutzigen“ Lösung verführen.",
+   "ru": "соблазнять / совращать — Не дай себя соблазнить быстрым, но «грязным» решением (костылями).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vergeben": [
+  {
+   "id": 6486814081,
+   "de": "vergeben (vergab; hat vergeben, du vergibst) – Zwischen zwei Polls können Slots doppelt vergeben werden.",
+   "ru": "выделять / присваивать (слоты, ресурсы) — Из-за задержки между опросами сервера слоты могут быть выделены дважды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6127832254,
+   "de": "vergeben (vergab; hat vergeben) – Freie Stellen werden oft schnell vergeben.",
+   "ru": "предоставлять, распределять — Вакантные места часто распределяются быстро.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vergewaltigung": [
+  {
+   "id": 6442594611,
+   "de": "die Vergewaltigung (Vergewaltigungen) – Strenge Gesetze zielen darauf ab, Vergewaltigungen und Verbrechen zu verhindern.",
+   "ru": "изнасилование — Строгие законы направлены на предотвращение насилия и преступлений.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vergnügen": [
+  {
+   "id": 6090226902,
+   "de": "das Vergnügen (Vergnügen) – Ich wünsche dir viel Vergnügen im Urlaub!",
+   "ru": "удовольствие, радость — Желаю тебе получить массу удовольствия от отпуска!",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verhalten": [
+  {
+   "id": 6004594212,
+   "de": "das Verhalten (nur Sg.) – Dein Verhalten war sehr professionell.",
+   "ru": "поведение — Твое поведение было очень профессиональным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6165218989,
+   "de": "sich verhalten (verhielt; hat verhalten, du verhältst dich) – Die App verhält sich auf Mobilgeräten anders.",
+   "ru": "вести себя / относиться — Приложение ведет себя на мобильных устройствах иначе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verharmlosen": [
+  {
+   "id": 6407884638,
+   "de": "verharmlosen (verharmloste; hat verharmloset / verharmlost) – Man sollte das Ausmaß dieses Bugs nicht verharmlosen.",
+   "ru": "умалять, преуменьшать (опасность, проблему) — Не стоит преуменьшать масштаб этой ошибки в коде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verhindern": [
+  {
+   "id": 6541778517,
+   "de": "verhindern (verhinderte, hat verhindert, du verhinderst) – Eine Frage nach Sonderfällen verhindert, dass ein Bug erst nach dem Release auffällt.",
+   "ru": "предотвращать / препятствовать — Вопросы об особых кейсах помогают предотвратить появление багов после релиза.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5901514087,
+   "de": "verhindern (verhinderte; hat verhindert) – Wir müssen den Datenverlust verhindern.",
+   "ru": "предотвращать - Мы должны предотвратить потерю данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6100030306,
+   "de": "verhindern (verhinderte; hat verhindert) – Dieser Sicherheitsstandard dient dazu, Angriffe zu verhindern.",
+   "ru": "предотвращать / мешать — Этот стандарт безопасности служит для предотвращения атак.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verhältnismäßig": [
+  {
+   "id": 6449728995,
+   "de": "verhältnismäßig – Der Zeitaufwand für dieses Refactoring war verhältnismäßig gering.",
+   "ru": "относительно, соразмерно — Затраты времени на этот рефакторинг оказались относительно небольшими.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verhör": [
+  {
+   "id": 6155400444,
+   "de": "das Verhör (Verhöre) – Nach dem Vorfall gab es ein langes Verhör bei der Polizei.",
+   "ru": "допрос — После происшествия в полиции был долгий допрос.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verinnerlichen": [
+  {
+   "id": 6021248100,
+   "de": "verinnerlichen (verinnerlichte; hat verinnerlicht) – Du musst diese Regeln verinnerlichen.",
+   "ru": "усваивать, делать своим (внутренним) — Ты должен усвоить эти правила.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verknüpfen mit": [
+  {
+   "id": 5541048370,
+   "de": "verknüpfen mit (verknüpfte; hat verknüpft) – Man sollte neue Informationen mit bereits Gelerntem verknüpfen.",
+   "ru": "связывать; объединять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verknüpfung": [
+  {
+   "id": 5957604450,
+   "de": "die Verknüpfung (Verknüpfungen) – Die Verknüpfung zwischen den Tabellen in der Datenbank ist falsch konfiguriert.",
+   "ru": "связь, соединение, ярлык — Связь между таблицами в базе данных настроена неверно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6131137610,
+   "de": "die Verknüpfung (Verknüpfungen) – Die Verknüpfung zwischen Frontend und Backend steht.",
+   "ru": "связь, соединение — Связь между фронтендом и бэкендом установлена.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verkostung": [
+  {
+   "id": 5562692952,
+   "de": "die Verkostung (Verkostungen) – Wir bieten eine Verkostung des neuen Kaffees im Büro an.",
+   "ru": "дегустация; проба",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verkümmern": [
+  {
+   "id": 6518119476,
+   "de": "verkümmern (verkümmerte; ist verkümmert) – Ohne Praxis können die Programmierkenntnisse schnell verkümmern.",
+   "ru": "* хиреть / чахнуть / увядать — Без практики навыки программирования быстро чахнут.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120227,
+   "de": "verkümmern (verkümmerte, ist verkümmert) – Ohne Praxis können die Programmierkenntnisse schnell verkümmern.",
+   "ru": "хиреть / чахнуть / увядать — Без практики навыки программирования быстро чахнут.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120723,
+   "de": "verkümmern (verkümmerte, ist verkümmert) – Ohne Praxis können die Programmierkenntnisse schnell verkümmern.",
+   "ru": "хиреть / чахнуть / увядать — Без практики навыки программирования быстро чахнут.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6518120795,
+   "de": "verkümmern (verkümmerte, ist verkümmert) – Ohne Praxis können die Programmierkenntnisse schnell verkümmern.",
+   "ru": "хиреть / чахнуть / увядать — Без практики навыки программирования быстро чахнут.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verkürzen": [
+  {
+   "id": 5783860986,
+   "de": "verkürzen (verkürzte; hat verkürzt) – Wir müssen die Antwortzeit des Servers verkürzen.",
+   "ru": "сокращать, укорачивать - Мы должны сократить время ответа сервера.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verlagern": [
+  {
+   "id": 5677506901,
+   "de": "verlagern (verlagerte; hat verlagert) – Wir müssen die Verantwortung auf ein anderes Team verlagern.",
+   "ru": "перемещать, перекладывать - Мы должны переместить ответственность на другую команду.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6262423263,
+   "de": "verlagern (verlagerte; hat verlagert) – Wir haben beschlossen, die Logik auf das Backend zu verlagern.",
+   "ru": "перемещать / переносить — Мы решили перенести логику на бэкенд.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verlangen einen sprachnachweis": [
+  {
+   "id": 5212759847,
+   "de": "verlangen einen Sprachnachweis",
+   "ru": "требуют подтверждения языковых навыков",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verlauf": [
+  {
+   "id": 6128964743,
+   "de": "der Verlauf (Verläufe) – Der Verlauf des Bewerbungsprozesses war sehr schnell.",
+   "ru": "ход, течение — Ход процесса подачи заявки был очень быстрым.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5989563327,
+   "de": "der Verlauf (Verläufe) – Im Verlauf des Projekts ergaben sich neue Aufgaben.",
+   "ru": "ход, течение, процесс — В ходе проекта возникли новые задачи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800280,
+   "de": "der Verlauf (Verläufe) – Im Verlauf der Entwicklung können noch neue Anforderungen entstehen.",
+   "ru": "ход / течение / процесс — В ходе разработки всё еще могут появиться новые требования.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verlaufen": [
+  {
+   "id": 5593436146,
+   "de": "verlaufen (verlief; ist verlaufen) – Die Installation ist ohne Probleme verlaufen.",
+   "ru": "проходить; протекать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verlegen": [
+  {
+   "id": 5593436161,
+   "de": "verlegen (verlegte; hat verlegt) – Das Meeting wurde auf nächste Woche verlegt.",
+   "ru": "переносить; откладывать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verlegung": [
+  {
+   "id": 6420230853,
+   "de": "die Verlegung (Verlegungen) – Die Verlegung des Releases auf nächste Woche ist bereits abgesprochen.",
+   "ru": "перенос, отсрочка — Перенос релиза на следующую неделю уже согласован.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verleihen": [
+  {
+   "id": 6021248082,
+   "de": "verleihen (verlieh; hat verliehen) – Diese Schrift verleiht der Website einen modernen Look.",
+   "ru": "придавать, наделять (силой/блеском) — Этот шрифт придает сайту современный вид.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vermeidbare gefahr": [
+  {
+   "id": 5783860966,
+   "de": "die vermeidbare Gefahr (Gefahren) – Die vermeidbare Gefahr eines Ausfalls muss minimiert werden.",
+   "ru": "опасность, которой можно избежать - Избегаемая опасность сбоя должна быть минимизирована.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vermessen": [
+  {
+   "id": 5588178256,
+   "de": "vermessen (vermaß; hat vermessen) – Wir müssen die Leistung des Systems noch einmal genau vermessen.",
+   "ru": "измерять; делать замеры",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vermittlung": [
+  {
+   "id": 6541778518,
+   "de": "die Vermittlung (Vermittlungen) – Eine klare Vermittlung der Anforderungen spart den Entwicklern viel Zeit.",
+   "ru": "передача / посредничество / объяснение — Четкая передача требований заказчика экономит время разработчикам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vernetzung": [
+  {
+   "id": 6372866038,
+   "de": "die Vernetzung (Vernetzungen) – Gute Vernetzung auf LinkedIn hilft bei der Jobsuche in der IT.",
+   "ru": "нетворкинг, объединение в сеть — Хороший нетворкинг в LinkedIn помогает при поиске работы в IT.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vernichten": [
+  {
+   "id": 6165218991,
+   "de": "vernichten (vernichtete; hat vernichtet) – Dieses Skript kann alle Daten in der Datenbank vernichten.",
+   "ru": "уничтожать / истреблять — Этот скрипт может уничтожить все данные в базе.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vernünftig": [
+  {
+   "id": 5416199906,
+   "de": "vernünftig – Sei vernünftig und plane besser.",
+   "ru": "разумный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5546335690,
+   "de": "vernünftig – Wir müssen eine vernünftige Entscheidung treffen.",
+   "ru": "разумный; здраво",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verpflegung": [
+  {
+   "id": 5568930084,
+   "de": "die Verpflegung (nur Singular) – Die Verpflegung während der Konferenz war sehr gut.",
+   "ru": "питание; продовольствие",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verreisen": [
+  {
+   "id": 5593436135,
+   "de": "verreisen (verreiste; ist verreist) – Unser Kollege ist verreist und erst nächste Woche wieder da.",
+   "ru": "отбывать; уезжать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verringern": [
+  {
+   "id": 6486814091,
+   "de": "verringern (verringerte; hat verringert) – Das Refactoring hat geholfen, den Boilerplate-Code deutlich zu verringern.",
+   "ru": "уменьшать / сокращать — Рефакторинг помог значительно сократить количество дублирующегося кода.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5575958548,
+   "de": "verringern (verringerte; hat verringert) – Wir müssen die Fehlerquote verringern.",
+   "ru": "сокращать; уменьшать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5862955771,
+   "de": "verringern (verringerte; hat verringert) – Wir müssen die Wartezeit verringern.",
+   "ru": "уменьшать, сокращать - Мы должны сократить время ожидания.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verringerung": [
+  {
+   "id": 6064365150,
+   "de": "die Verringerung (Verringerungen) – Die Verringerung der Ladezeit ist sehr wichtig.",
+   "ru": "уменьшение, сокращение — Сокращение времени загрузки очень важно.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verrücken": [
+  {
+   "id": 5696310276,
+   "de": "verrücken (verrückte; hat verrückt) – Wir müssen diesen Codeblock nach oben verrücken.",
+   "ru": "смещать, сдвигать - Мы должны сместить этот блок кода вверх.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verrückt": [
+  {
+   "id": 6420230869,
+   "de": "verrückt – Es ist eine verrückte Idee, das ganze Projekt über Nacht neu zu schreiben.",
+   "ru": "сумасшедший, безумный — Это безумная идея — переписывать весь проект за ночь.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschachtelung": [
+  {
+   "id": 5972792640,
+   "de": "die Verschachtelung (Verschachtelungen) – Eine zu tiefe Verschachtelung macht den Code sehr kompliziert.",
+   "ru": "вложенность (в коде/структурах) — Слишком глубокая вложенность делает код очень сложным.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschaffen": [
+  {
+   "id": 5654992878,
+   "de": "verschaffen (verschaffte; hat verschafft) – Das neue Tool verschafft uns einen Vorteil gegenüber den Mitbewerbern.",
+   "ru": "обеспечить (преимущество) - Новый инструмент обеспечил нам преимущество перед конкурентами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5989563345,
+   "de": "verschaffen (verschaffte; hat verschafft) – Ich muss mir Zugang zum Server verschaffen.",
+   "ru": "обеспечить, раздобыть — Я должен обеспечить себе доступ к серверу.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschleiern": [
+  {
+   "id": 5683884929,
+   "de": "verschleiern (verschleierte; hat verschleiert) – Wir dürfen die Probleme vor der Geschäftsleitung nicht verschleiern.",
+   "ru": "скрывать, маскировать - Мы не должны скрывать проблемы от руководства.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschleiernde eintrag": [
+  {
+   "id": 6420230849,
+   "de": "der verschleiernde Eintrag (Einträge) – Im Bericht wurde ein verschleiernder Eintrag über die Kosten gefunden.",
+   "ru": "туманная, скрывающая суть запись — В отчете была обнаружена туманная запись о затратах.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschlüsseln": [
+  {
+   "id": 5603787575,
+   "de": "verschlüsseln (verschlüsselte; hat verschlüsselt) – Wir verschlüsseln alle sensiblen Daten.",
+   "ru": "зашифровывать; кодировать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschmelzen": [
+  {
+   "id": 5989563354,
+   "de": "verschmelzen (verschmolz; ist verschmolzen) – In dieser Technologie verschmelzen Design und Funktionalität.",
+   "ru": "сливаться, объединяться — В этой технологии дизайн и функциональность сливаются воедино.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschriftlichung": [
+  {
+   "id": 6423479480,
+   "de": "die Verschriftlichung (Verschriftlichungen) – Wir brauchen eine klare Verschriftlichung aller Absprachen.",
+   "ru": "оформление в письменном виде / фиксация — Нам нужна четкая фиксация (документирование) всех договоренностей.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschärfen": [
+  {
+   "id": 5575167142,
+   "de": "verschärfen (verschärfte; hat verschärft) – Die Verzögerung verschärft das Zeitproblem im Projekt.",
+   "ru": "усугублять; обострять",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verschütten": [
+  {
+   "id": 6240800276,
+   "de": "verschütten (verschüttete; hat verschüttet) – Verschütte bloß keinen Kaffee auf dein MacBook!",
+   "ru": "проливать — Не пролей кофе на свой MacBook 16 Pro!",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versehen": [
+  {
+   "id": 6131137615,
+   "de": "versehen (versah; hat versehen) – Daten sind mit Labeln versehen.",
+   "ru": "снабжать, помечать — Данные снабжены метками (лейблами).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versehentlich": [
+  {
+   "id": 5862955739,
+   "de": "versehentlich – Ich habe die Datenbank versehentlich gelöscht.",
+   "ru": "случайно, по ошибке - Я случайно удалил базу данных.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versetzen": [
+  {
+   "id": 6041480225,
+   "de": "versetzen (versetzte; hat versetzt) – Bitte versetz dieses Element um fünf Pixel nach rechts.",
+   "ru": "перемещать, переставлять — Пожалуйста, перемести этот элемент на пять пикселей вправо.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versorgen": [
+  {
+   "id": 5593436131,
+   "de": "versorgen (versorgte; hat versorgt) – Das neue Rechenzentrum muss mit ausreichend Strom versorgt werden.",
+   "ru": "снабжать; обеспечивать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5901514094,
+   "de": "versorgen (versorgte; hat versorgt) – Wir versorgen das Team mit der nötigen Hardware.",
+   "ru": "снабжать, обеспечивать - Мы обеспечиваем команду всем необходимым оборудованием.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versorgung": [
+  {
+   "id": 6090226932,
+   "de": "die Versorgung (Versorgungen) – Die medizinische Versorgung in Deutschland ist sehr gut.",
+   "ru": "снабжение, обеспечение, уход — Медицинское обеспечение в Германии очень хорошее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verspannung": [
+  {
+   "id": 5638902705,
+   "de": "die Verspannung (Verspannungen) – Lange Arbeit am PC oft führt zu Verspannungen.",
+   "ru": "напряжение (мышц), спазм - Долгая работа за компьютером часто приводит к спазмам.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verstecken vor": [
+  {
+   "id": 5569463503,
+   "de": "sich verstecken vor (Dat.) (versteckte; hat versteckt) – Der Fehler kann sich vor den Tests verstecken.",
+   "ru": "прятаться от",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verstopfen": [
+  {
+   "id": 5374176737,
+   "de": "verstopfen (Der Abfluss wird verstopft) (du verstopfst)",
+   "ru": "затыкать (например, слив, канал)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verstopfte rohre reinigen": [
+  {
+   "id": 5448745015,
+   "de": "verstopfte Rohre reinigen (reinigte, hat gereinigt, er reinigt) – Der Hausmeister muss die verstopften Rohre reinigen.",
+   "ru": "очистка засорённых труб",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verstoß gegen": [
+  {
+   "id": 5638902712,
+   "de": "der Verstoß gegen (Akk.) (Verstöße) – Ein Verstoß gegen die Richtlinien wird geahndet.",
+   "ru": "нарушение (правил/закона) - Нарушение правил влечет за собой наказание.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verstreuen": [
+  {
+   "id": 5638902684,
+   "de": "verstreuen (verstreute; hat verstreut) – Wir wollen die Verantwortung gleichmäßig verstreuen.",
+   "ru": "рассеивать, распространять - Мы хотим равномерно распределить ответственность.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verständigen": [
+  {
+   "id": 6140091029,
+   "de": "sich verständigen (verständigte; hat verständigt) – Wir müssen uns über die nächsten Projektschritte verständigen.",
+   "ru": "договариваться / общаться — Нам нужно договориться о следующих шагах в проекте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versäumen": [
+  {
+   "id": 6357783471,
+   "de": "versäumen (versäumte; hat versäumt) – ...und versäumst, deine echten Skills zu zeigen...",
+   "ru": "упускать / пропускать — ...и упускаешь шанс показать свои реальные навыки...",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "versöhnen": [
+  {
+   "id": 5593436125,
+   "de": "sich versöhnen (versöhnte sich; hat sich versöhnt) – Nach dem Meeting mussten wir uns versöhnen, um weiterarbeiten zu können.",
+   "ru": "мириться; примиряться",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verteidigen": [
+  {
+   "id": 6526854317,
+   "de": "verteidigen (verteidigte, hat verteidigt, du verteidigst) – Ein Entwickler sollte seine Architekturentscheidungen im Code-Review verteidigen können.",
+   "ru": "защищать (код, идею) — Разработчик должен уметь защищать свои архитектурные решения на код-ревью.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "verteidigung": [
+  {
+   "id": 6008372942,
+   "de": "die Verteidigung (Verteidigungen) – Die Verteidigung des Systems ist unsere Priorität.",
+   "ru": "защита, оборона — Защита системы — наш главный приоритет.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6240800278,
+   "de": "die Verteidigung (Verteidigungen) – Die Verteidigung gegen XSS-Attacken ist eine Grundlage in der Webentwicklung.",
+   "ru": "защита / оборона — Защита от XSS-атак — это основа безопасности в веб-разработке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "vertraulich": [
+  {
+   "id": 5628100709,
+   "de": "vertraulich – Diese Informationen sind streng vertraulich.",
+   "ru": "секретный; конфиденциальный",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}

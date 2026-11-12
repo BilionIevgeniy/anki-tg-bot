@@ -1,0 +1,1785 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:auswirkung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auswirkung",
+        "plural": "die Auswirkungen",
+        "pos": "noun",
+        "translation": "влияние, последствие",
+        "example": "Das neue Bundling hat kaum Auswirkungen auf die Ladezeit der Seite.",
+        "exampleTranslation": "Новая сборка почти не влияет на время загрузки страницы.",
+        "rektion": "auf + Akk.",
+        "hint": "результат воздействия"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auswärts",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auswärts",
+        "pos": "adv",
+        "translation": "вне дома, не дома (поесть и т.п.)",
+        "example": "Freitags essen wir als Team oft auswärts, meistens beim Italiener um die Ecke.",
+        "exampleTranslation": "По пятницам мы всей командой часто обедаем в городе, обычно у итальянца за углом.",
+        "note": "в спорте: auswärts spielen — играть на выезде"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:auszeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Auszeit",
+        "plural": "die Auszeiten",
+        "pos": "noun",
+        "translation": "перерыв, передышка",
+        "example": "Nach dem großen Release nehme ich mir zwei Wochen Auszeit.",
+        "exampleTranslation": "После большого релиза я возьму двухнедельную передышку.",
+        "hint": "длительная пауза от работы"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bald",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bald",
+        "pos": "adv",
+        "translation": "скоро",
+        "example": "Was genau heißt für dich „bald“ – diese Woche oder in diesem Sprint?",
+        "exampleTranslation": "Что для тебя значит «скоро» — на этой неделе или в этом спринте?"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:baldigst",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "baldigst",
+        "pos": "adv",
+        "translation": "как можно скорее",
+        "example": "Bitte senden Sie mir die fehlenden Unterlagen baldigst zu.",
+        "exampleTranslation": "Пожалуйста, пришлите мне недостающие документы как можно скорее.",
+        "register": "formell",
+        "note": "звучит старомодно; нейтрально: so bald wie möglich"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:basteln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "basteln",
+        "pos": "verb",
+        "translation": "мастерить, возиться (с проектом)",
+        "praeteritum": "bastelte",
+        "perfekt": "hat gebastelt",
+        "example": "Am Wochenende bastle ich ein bisschen an meinem Telegram-Bot.",
+        "exampleTranslation": "На выходных я немного вожусь со своим Telegram-ботом.",
+        "rektion": "an + Dat.",
+        "note": "ich bast(e)le"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bauweise",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Bauweise",
+        "plural": "die Bauweisen",
+        "pos": "noun",
+        "translation": "конструкция, способ постройки",
+        "example": "Die kompakte Bauweise des Laptops ist ideal fürs Pendeln mit der Bahn.",
+        "exampleTranslation": "Компактная конструкция ноутбука идеальна для поездок на поезде."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beanstanden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beanstanden",
+        "pos": "verb",
+        "translation": "предъявлять претензию, рекламировать (брак)",
+        "praeteritum": "beanstandete",
+        "perfekt": "hat beanstandet",
+        "example": "Der Kunde hat beanstandet, dass das Formular auf dem iPhone nicht lädt.",
+        "exampleTranslation": "Заказчик предъявил претензию, что форма не загружается на iPhone.",
+        "hint": "официально, к качеству/товару",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beaufsichtigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beaufsichtigen",
+        "pos": "verb",
+        "translation": "присматривать, надзирать",
+        "praeteritum": "beaufsichtigte",
+        "perfekt": "hat beaufsichtigt",
+        "example": "In der Kita werden die Kinder auch beim Mittagessen beaufsichtigt.",
+        "exampleTranslation": "В детском саду за детьми присматривают и во время обеда.",
+        "hint": "следить за людьми, чтобы ничего не случилось"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beauftragen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beauftragen",
+        "pos": "verb",
+        "translation": "поручать, давать заказ",
+        "praeteritum": "beauftragte",
+        "perfekt": "hat beauftragt",
+        "example": "Der Teamlead hat mich mit dem Code-Review für dieses Modul beauftragt.",
+        "exampleTranslation": "Тимлид поручил мне код-ревью этого модуля.",
+        "rektion": "mit + Dat.",
+        "note": "eine Firma beauftragen — нанять (внешнюю) фирму"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bedauern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bedauern",
+        "pos": "verb",
+        "translation": "сожалеть",
+        "praeteritum": "bedauerte",
+        "perfekt": "hat bedauert",
+        "example": "Wir bedauern sehr, dass der Service gestern kurzzeitig nicht erreichbar war.",
+        "exampleTranslation": "Мы очень сожалеем, что вчера сервис был ненадолго недоступен.",
+        "hint": "о неприятной ситуации, вежливо"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:das-bedenken",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Bedenken",
+        "plural": "die Bedenken",
+        "pos": "noun",
+        "translation": "сомнения, опасения",
+        "example": "Ich habe Bedenken, die Library ohne Tests in Produktion zu bringen.",
+        "exampleTranslation": "У меня есть сомнения, стоит ли выкатывать библиотеку в прод без тестов.",
+        "hint": "возражения по существу",
+        "note": "обычно во мн. ч.: Bedenken haben / äußern"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bedenklich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bedenklich",
+        "pos": "adj",
+        "translation": "сомнительный, тревожный",
+        "example": "Dass das Plugin seit drei Jahren nicht mehr gepflegt wird, finde ich bedenklich.",
+        "exampleTranslation": "То, что плагин уже три года не поддерживается, вызывает у меня опасения."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:bedrohen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bedrohen",
+        "pos": "verb",
+        "translation": "угрожать",
+        "praeteritum": "bedrohte",
+        "perfekt": "hat bedroht",
+        "example": "Die Sicherheitslücke bedroht die Daten aller Nutzer.",
+        "exampleTranslation": "Эта уязвимость угрожает данным всех пользователей.",
+        "note": "+ Akk.: jemanden bedrohen"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bedrohung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Bedrohung",
+        "plural": "die Bedrohungen",
+        "pos": "noun",
+        "translation": "угроза",
+        "example": "Phishing-Mails sind eine große Bedrohung für kleine Firmen.",
+        "exampleTranslation": "Фишинговые письма — большая угроза для небольших фирм.",
+        "rektion": "für + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:vorherige-abstimmung-bedürfen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "der vorherigen Abstimmung bedürfen",
+        "pos": "phrase",
+        "translation": "требовать предварительного согласования",
+        "example": "Änderungen am Deployment-Prozess bedürfen der vorherigen Abstimmung mit dem Teamlead.",
+        "exampleTranslation": "Изменения в процессе деплоя требуют предварительного согласования с тимлидом.",
+        "register": "formell",
+        "note": "bedürfen + Gen. (bedurfte, hat bedurft)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:bedürfnis",
+      "type": "vocab_de",
+      "fields": {
+        "article": "das",
+        "lemma": "Bedürfnis",
+        "plural": "die Bedürfnisse",
+        "pos": "noun",
+        "translation": "потребность, нужда",
+        "example": "Bei der Planung müssen wir die Bedürfnisse von Nutzern mit Sehbehinderung berücksichtigen.",
+        "exampleTranslation": "При планировании нужно учитывать потребности пользователей с нарушениями зрения.",
+        "rektion": "nach + Dat.",
+        "hint": "≠ Bedarf (спрос, надобность)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beeindrucken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beeindrucken",
+        "pos": "verb",
+        "translation": "впечатлять",
+        "praeteritum": "beeindruckte",
+        "perfekt": "hat beeindruckt",
+        "example": "Im Vorstellungsgespräch hat mich beeindruckt, wie offen das Team über Fehler spricht.",
+        "exampleTranslation": "На собеседовании меня впечатлило, как открыто команда говорит об ошибках."
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beeinflussen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beeinflussen",
+        "pos": "verb",
+        "translation": "влиять",
+        "praeteritum": "beeinflusste",
+        "perfekt": "hat beeinflusst",
+        "example": "Schlechter Schlaf beeinflusst meine Konzentration beim Coden enorm.",
+        "exampleTranslation": "Плохой сон очень сильно влияет на мою концентрацию при кодинге.",
+        "note": "+ Akk. без предлога! (≠ Einfluss auf)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-befassen-mit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich befassen",
+        "pos": "verb",
+        "translation": "заниматься (чем-то), разбираться",
+        "praeteritum": "befasste sich",
+        "perfekt": "hat sich befasst",
+        "example": "In diesem Sprint befassen wir uns mit der Performance der Startseite.",
+        "exampleTranslation": "В этом спринте мы занимаемся производительностью главной страницы.",
+        "rektion": "mit + Dat.",
+        "hint": "всерьёз изучать тему, вопрос"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:befehl",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Befehl",
+        "plural": "die Befehle",
+        "pos": "noun",
+        "translation": "команда, приказ",
+        "example": "Mit welchem Befehl startest du den Dev-Server lokal?",
+        "exampleTranslation": "Какой командой ты запускаешь dev-сервер локально?"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:sich-befinden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich befinden",
+        "pos": "verb",
+        "translation": "находиться",
+        "praeteritum": "befand sich",
+        "perfekt": "hat sich befunden",
+        "example": "Unser Büro befindet sich im dritten Stock, direkt neben der Kantine.",
+        "exampleTranslation": "Наш офис находится на третьем этаже, прямо рядом со столовой."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:befriedigend",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "befriedigend",
+        "pos": "adj",
+        "translation": "удовлетворительный",
+        "example": "Mit 60 Prozent Testabdeckung ist das Ergebnis befriedigend, aber nicht gut.",
+        "exampleTranslation": "С покрытием тестами 60 процентов результат удовлетворительный, но не хороший.",
+        "note": "школьная оценка 3 = befriedigend"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:befürchtung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Befürchtung",
+        "plural": "die Befürchtungen",
+        "pos": "noun",
+        "translation": "опасение",
+        "example": "Meine Befürchtung ist, dass das Update ältere Browser kaputt macht.",
+        "exampleTranslation": "Я опасаюсь, что обновление сломает старые браузеры.",
+        "hint": "страх, что случится плохое"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:befürworter",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Befürworter",
+        "plural": "die Befürworter",
+        "pos": "noun",
+        "translation": "сторонник",
+        "example": "Unser Teamlead ist ein großer Befürworter von streng typisiertem Code.",
+        "exampleTranslation": "Наш тимлид — большой сторонник строго типизированного кода.",
+        "note": "weibl.: die Befürworterin"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:begabung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Begabung",
+        "plural": "die Begabungen",
+        "pos": "noun",
+        "translation": "талант, одарённость",
+        "example": "Sie hat eine echte Begabung dafür, komplizierte Dinge einfach zu erklären.",
+        "exampleTranslation": "У неё настоящий талант просто объяснять сложные вещи.",
+        "rektion": "für + Akk.",
+        "hint": "врождённая способность"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:begegnen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "begegnen",
+        "pos": "verb",
+        "translation": "встречать (случайно), сталкиваться",
+        "praeteritum": "begegnete",
+        "perfekt": "ist begegnet",
+        "example": "Solchen Fehlern begegne ich oft in altem jQuery-Code.",
+        "exampleTranslation": "С такими ошибками я часто сталкиваюсь в старом коде на jQuery.",
+        "rektion": "+ Dat.",
+        "note": "einer Herausforderung begegnen — противостоять вызову"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:begegnung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Begegnung",
+        "plural": "die Begegnungen",
+        "pos": "noun",
+        "translation": "встреча (случайная, значимая)",
+        "example": "Die Begegnung mit einer Senior-Entwicklerin auf dem Meetup hat mir sehr geholfen.",
+        "exampleTranslation": "Встреча с сеньор-разработчицей на митапе мне очень помогла.",
+        "hint": "≠ Treffen, Termin (договорённая)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:begehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "begehen",
+        "pos": "verb",
+        "translation": "совершать (ошибку, преступление)",
+        "praeteritum": "beging",
+        "perfekt": "hat begangen",
+        "example": "Diesen Fehler darf man in der Produktion nur einmal begehen.",
+        "exampleTranslation": "Такую ошибку в продакшене можно совершить только один раз.",
+        "note": "также: einen Feiertag begehen — отмечать праздник"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:begehren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "begehren",
+        "pos": "verb",
+        "translation": "страстно желать, жаждать",
+        "praeteritum": "begehrte",
+        "perfekt": "hat begehrt",
+        "example": "Was man nicht haben kann, begehrt man oft umso mehr.",
+        "exampleTranslation": "Чего нельзя получить, того часто желаешь ещё сильнее.",
+        "note": "высокий стиль; в быту чаще begehrt — востребованный: React-Entwickler sind begehrt"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:begeisterung-auslösen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Begeisterung auslösen",
+        "pos": "phrase",
+        "translation": "вызывать восторг",
+        "example": "Der neue Dark Mode hat bei den Nutzern große Begeisterung ausgelöst.",
+        "exampleTranslation": "Новая тёмная тема вызвала у пользователей большой восторг.",
+        "rektion": "bei + Dat.",
+        "note": "löste aus, hat ausgelöst"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:begeisterung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Begeisterung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "восторг, воодушевление, энтузиазм",
+        "example": "Seine Begeisterung für Rust ist echt ansteckend.",
+        "exampleTranslation": "Его энтузиазм по поводу Rust по-настоящему заразителен.",
+        "rektion": "für + Akk."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:begleiten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "begleiten",
+        "pos": "verb",
+        "translation": "сопровождать",
+        "praeteritum": "begleitete",
+        "perfekt": "hat begleitet",
+        "example": "Meine Frau begleitet mich morgen zum Termin bei der Ausländerbehörde.",
+        "exampleTranslation": "Жена завтра пойдёт со мной на приём в ведомство по делам иностранцев."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:begreifen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "begreifen",
+        "pos": "verb",
+        "translation": "понимать, постигать",
+        "praeteritum": "begriff",
+        "perfekt": "hat begriffen",
+        "example": "Erst nach dem dritten Video habe ich begriffen, wie der Event Loop funktioniert.",
+        "exampleTranslation": "Только после третьего видео я понял, как работает Event Loop.",
+        "hint": "наконец уловить суть"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:begriff",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Begriff",
+        "plural": "die Begriffe",
+        "pos": "noun",
+        "translation": "понятие, термин",
+        "example": "Den Begriff „Hydration“ musste ich erst googeln.",
+        "exampleTranslation": "Термин «Hydration» мне сначала пришлось загуглить.",
+        "note": "im Begriff sein, etw. zu tun — собираться что-то сделать"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:begründen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "begründen",
+        "pos": "verb",
+        "translation": "обосновывать",
+        "praeteritum": "begründete",
+        "perfekt": "hat begründet",
+        "example": "Der Teamlead begründete die Verschiebung des Releases mit fehlenden Tests.",
+        "exampleTranslation": "Тимлид обосновал перенос релиза отсутствием тестов.",
+        "rektion": "mit + Dat."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:behaglich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "behaglich",
+        "pos": "adj",
+        "translation": "уютный",
+        "example": "Das Café am Rheinufer hat eine behagliche Atmosphäre – perfekt zum Arbeiten.",
+        "exampleTranslation": "В кафе на берегу Рейна уютная атмосфера — идеально для работы.",
+        "hint": "тёплый, спокойный (≈ gemütlich)"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:beharrlichkeit",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beharrlichkeit",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "упорство, настойчивость",
+        "example": "Um einen so komplexen Bug zu finden, braucht man viel Beharrlichkeit.",
+        "exampleTranslation": "Чтобы найти такой сложный баг, нужно немало упорства."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:behaupten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "behaupten",
+        "pos": "verb",
+        "translation": "утверждать",
+        "praeteritum": "behauptete",
+        "perfekt": "hat behauptet",
+        "example": "Er behauptet, den Bug gefixt zu haben, aber der Test ist immer noch rot.",
+        "exampleTranslation": "Он утверждает, что починил баг, но тест всё ещё красный.",
+        "hint": "заявлять без доказательств",
+        "note": "sich behaupten — утвердиться, отстоять себя"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beheben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beheben",
+        "pos": "verb",
+        "translation": "устранять, исправлять (ошибку)",
+        "praeteritum": "behob",
+        "perfekt": "hat behoben",
+        "example": "Wir müssen diesen kritischen Bug schnellstmöglich beheben.",
+        "exampleTranslation": "Нам нужно как можно быстрее устранить этот критический баг."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beherbergen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beherbergen",
+        "pos": "verb",
+        "translation": "размещать (в себе), давать приют",
+        "praeteritum": "beherbergte",
+        "perfekt": "hat beherbergt",
+        "example": "Das Gebäude beherbergt neben dem Bürgeramt auch die Stadtbibliothek.",
+        "exampleTranslation": "В здании помимо бюргерамта находится ещё и городская библиотека."
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:behindern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "behindern",
+        "pos": "verb",
+        "translation": "мешать, препятствовать",
+        "praeteritum": "behinderte",
+        "perfekt": "hat behindert",
+        "example": "Der veraltete Legacy-Code behindert die Entwicklung neuer Features.",
+        "exampleTranslation": "Устаревший легаси-код мешает разработке новых фич.",
+        "hint": "тормозить процесс, движение"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:behälter",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Behälter",
+        "plural": "die Behälter",
+        "pos": "noun",
+        "translation": "контейнер, ёмкость",
+        "example": "Leere Batterien kannst du im Supermarkt in den Behälter an der Kasse werfen.",
+        "exampleTranslation": "Использованные батарейки можно бросить в контейнер у кассы в супермаркете."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:behördliche-zulassung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "behördliche Zulassung",
+        "plural": "die behördlichen Zulassungen",
+        "pos": "noun",
+        "translation": "официальное разрешение, допуск",
+        "example": "Ohne behördliche Zulassung darf das Medikament in Deutschland nicht verkauft werden.",
+        "exampleTranslation": "Без официального разрешения препарат нельзя продавать в Германии.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bei-bedarf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bei Bedarf",
+        "pos": "phrase",
+        "translation": "при необходимости",
+        "example": "Bei Bedarf können wir zusätzliche Lizenzen dazukaufen.",
+        "exampleTranslation": "При необходимости мы можем докупить лицензии."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:beibringen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beibringen",
+        "pos": "verb",
+        "translation": "учить, научить (кого-то)",
+        "praeteritum": "brachte bei",
+        "perfekt": "hat beigebracht",
+        "example": "Programmieren habe ich mir selbst beigebracht – mit Online-Kursen und eigenen Projekten.",
+        "exampleTranslation": "Программированию я научился сам — по онлайн-курсам и на своих проектах.",
+        "rektion": "jdm. (Dat.) etw. (Akk.)",
+        "hint": "≠ lernen (учиться самому)"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beifügen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beifügen",
+        "pos": "verb",
+        "translation": "прилагать",
+        "praeteritum": "fügte bei",
+        "perfekt": "hat beigefügt",
+        "example": "Bitte fügen Sie dem Antrag eine Kopie Ihres Mietvertrags bei.",
+        "exampleTranslation": "Пожалуйста, приложите к заявлению копию договора аренды.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beilegung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beilegung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "урегулирование (спора)",
+        "example": "Beide Seiten streben eine außergerichtliche Beilegung des Streits an.",
+        "exampleTranslation": "Обе стороны стремятся к досудебному урегулированию спора.",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beiliegen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beiliegen",
+        "pos": "verb",
+        "translation": "прилагаться (о документе)",
+        "praeteritum": "lag bei",
+        "perfekt": "hat beigelegen",
+        "example": "Dem Schreiben liegt ein Überweisungsträger bei.",
+        "exampleTranslation": "К письму приложен бланк для перевода.",
+        "register": "formell",
+        "note": "südd./österr.: ist beigelegen"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beinhalten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beinhalten",
+        "pos": "verb",
+        "translation": "содержать, включать в себя",
+        "praeteritum": "beinhaltete",
+        "perfekt": "hat beinhaltet",
+        "example": "Das Angebot beinhaltet auch drei Monate kostenlosen Support.",
+        "exampleTranslation": "Предложение включает также три месяца бесплатной поддержки."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beirren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beirren",
+        "pos": "verb",
+        "translation": "сбивать с толку",
+        "praeteritum": "beirrte",
+        "perfekt": "hat beirrt",
+        "example": "Lass dich von den vielen Kommentaren im Review nicht beirren – dein Ansatz ist richtig.",
+        "exampleTranslation": "Не дай многочисленным комментариям на ревью сбить тебя с толку — твой подход правильный.",
+        "note": "почти всегда: sich nicht beirren lassen"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bekannt-für",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bekannt",
+        "pos": "adj",
+        "translation": "известный (чем-то)",
+        "example": "Bonn ist vor allem für das Beethoven-Haus bekannt.",
+        "exampleTranslation": "Бонн известен прежде всего Домом-музеем Бетховена.",
+        "rektion": "für + Akk."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:sich-beklagen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich beklagen",
+        "pos": "verb",
+        "translation": "жаловаться, сетовать",
+        "praeteritum": "beklagte sich",
+        "perfekt": "hat sich beklagt",
+        "example": "Sie hat sich beim Teamlead über die vielen Überstunden beklagt.",
+        "exampleTranslation": "Она пожаловалась тимлиду на множество переработок.",
+        "rektion": "bei + Dat. über + Akk.",
+        "hint": "сетовать (≠ sich beschweren — с требованием решения)"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:belegbar",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "belegbar",
+        "pos": "adj",
+        "translation": "доказуемый, подтверждаемый документально",
+        "example": "Die Ausgaben für Fachbücher sind durch Quittungen belegbar und damit steuerlich absetzbar.",
+        "exampleTranslation": "Расходы на профессиональную литературу подтверждаются чеками и поэтому вычитаются из налогов."
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:beleg",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Beleg",
+        "plural": "die Belege",
+        "pos": "noun",
+        "translation": "чек, квитанция, подтверждающий документ",
+        "example": "Bewahr alle Belege für die Steuererklärung gut auf.",
+        "exampleTranslation": "Сохраняй все чеки и квитанции для налоговой декларации."
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:belegen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "belegen",
+        "pos": "verb",
+        "translation": "подтверждать, доказывать",
+        "praeteritum": "belegte",
+        "perfekt": "hat belegt",
+        "example": "Die Server-Logs belegen eindeutig, dass der Fehler nur nachts auftritt.",
+        "exampleTranslation": "Логи сервера однозначно подтверждают, что ошибка возникает только ночью.",
+        "hint": "фактами, документами"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:belegen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "belegen",
+        "pos": "verb",
+        "translation": "записаться (на курс), занимать (место)",
+        "praeteritum": "belegte",
+        "perfekt": "hat belegt",
+        "example": "Ich habe bei der VHS einen C1-Kurs belegt.",
+        "exampleTranslation": "Я записался на курс C1 в народном университете (VHS).",
+        "hint": "курс, место"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:belegschaft",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Belegschaft",
+        "plural": "die Belegschaften",
+        "pos": "noun",
+        "translation": "персонал, коллектив (фирмы)",
+        "example": "Die gesamte Belegschaft wurde per E-Mail über die Umstrukturierung informiert.",
+        "exampleTranslation": "Весь персонал был проинформирован о реструктуризации по электронной почте."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beleidigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beleidigen",
+        "pos": "verb",
+        "translation": "оскорблять",
+        "praeteritum": "beleidigte",
+        "perfekt": "hat beleidigt",
+        "example": "Kritik am Code soll niemanden persönlich beleidigen.",
+        "exampleTranslation": "Критика кода не должна никого лично оскорблять."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beleidigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beleidigung",
+        "plural": "die Beleidigungen",
+        "pos": "noun",
+        "translation": "оскорбление",
+        "example": "Beleidigungen im Team-Chat werden bei uns nicht toleriert.",
+        "exampleTranslation": "Оскорбления в командном чате у нас не терпят."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:erniedrigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Erniedrigung",
+        "plural": "die Erniedrigungen",
+        "pos": "noun",
+        "translation": "унижение",
+        "example": "Die Kritik vor dem ganzen Team empfand er als Erniedrigung.",
+        "exampleTranslation": "Критику перед всей командой он воспринял как унижение."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beliebig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beliebig",
+        "pos": "adj",
+        "translation": "любой (на выбор)",
+        "example": "Für die Variable kannst du einen beliebigen Namen wählen.",
+        "exampleTranslation": "Для переменной можешь выбрать любое имя.",
+        "hint": "какой угодно"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:belästigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "belästigen",
+        "pos": "verb",
+        "translation": "приставать, докучать, домогаться",
+        "praeteritum": "belästigte",
+        "perfekt": "hat belästigt",
+        "example": "Der Kollege wurde abgemahnt, weil er eine Praktikantin belästigt hatte.",
+        "exampleTranslation": "Коллеге вынесли предупреждение за то, что он приставал к практикантке.",
+        "hint": "назойливо, неприлично"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:belästigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Belästigung",
+        "plural": "die Belästigungen",
+        "pos": "noun",
+        "translation": "назойливое беспокойство, помеха",
+        "example": "Der Baulärm vor dem Fenster ist eine echte Belästigung.",
+        "exampleTranslation": "Шум стройки за окном — сущее наказание.",
+        "note": "sexuelle Belästigung — сексуальные домогательства"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bemängeln",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bemängeln",
+        "pos": "verb",
+        "translation": "указывать на недостатки, критиковать",
+        "praeteritum": "bemängelte",
+        "perfekt": "hat bemängelt",
+        "example": "Der Kunde bemängelt, dass die Suchfunktion noch fehlt.",
+        "exampleTranslation": "Заказчик критикует то, что функции поиска до сих пор нет.",
+        "hint": "указать на конкретный недочёт"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:benachbart",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "benachbart",
+        "pos": "adj",
+        "translation": "соседний",
+        "example": "In der benachbarten Wohnung wird seit Wochen renoviert.",
+        "exampleTranslation": "В соседней квартире уже несколько недель идёт ремонт."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:benachrichtigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Benachrichtigung",
+        "plural": "die Benachrichtigungen",
+        "pos": "noun",
+        "translation": "уведомление",
+        "example": "Du bekommst eine Benachrichtigung, sobald der Build fertig ist.",
+        "exampleTranslation": "Ты получишь уведомление, как только сборка будет готова."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:benachteiligen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "benachteiligen",
+        "pos": "verb",
+        "translation": "ущемлять, ставить в невыгодное положение",
+        "praeteritum": "benachteiligte",
+        "perfekt": "hat benachteiligt",
+        "example": "Remote-Entwickler dürfen bei der Aufgabenverteilung nicht benachteiligt werden.",
+        "exampleTranslation": "Удалённых разработчиков нельзя ущемлять при распределении задач."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:benimm-dich-ordentlich",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Benimm dich ordentlich!",
+        "pos": "phrase",
+        "translation": "Веди себя прилично!",
+        "example": "Benimm dich ordentlich, wir sind gleich beim Kinderarzt dran!",
+        "exampleTranslation": "Веди себя прилично, мы сейчас заходим к педиатру!",
+        "register": "umgs",
+        "note": "sich benehmen (benahm, hat benommen); du benimmst dich"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:berechnen-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berechnen",
+        "pos": "verb",
+        "translation": "вычислять, рассчитывать",
+        "praeteritum": "berechnete",
+        "perfekt": "hat berechnet",
+        "example": "Der Algorithmus berechnet die Lieferzeit in wenigen Millisekunden.",
+        "exampleTranslation": "Алгоритм рассчитывает время доставки за несколько миллисекунд.",
+        "hint": "математически"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:berechnen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berechnen",
+        "pos": "verb",
+        "translation": "брать плату, выставлять в счёт",
+        "praeteritum": "berechnete",
+        "perfekt": "hat berechnet",
+        "example": "Die Werkstatt hat uns für den Ölwechsel 90 Euro berechnet.",
+        "exampleTranslation": "Автомастерская выставила нам за замену масла 90 евро.",
+        "rektion": "jdm. (Dat.) etw. (Akk.)",
+        "hint": "деньги за услугу"
+      },
+      "tags": [
+        "noji",
+        "geld",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:berechtigt-1",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berechtigt",
+        "pos": "adj",
+        "translation": "обоснованный, справедливый",
+        "example": "Sorry, meine Antwort im Review war zu scharf – deine Frage war völlig berechtigt.",
+        "exampleTranslation": "Извини, мой ответ на ревью был слишком резким — твой вопрос был вполне обоснован.",
+        "hint": "о вопросе, критике"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:berechtigt-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berechtigt",
+        "pos": "adj",
+        "translation": "имеющий право, правомочный",
+        "example": "Sie sind berechtigt, eine Kopie Ihrer gespeicherten Daten anzufordern.",
+        "exampleTranslation": "Вы имеете право запросить копию ваших сохранённых данных.",
+        "rektion": "zu + Dat.",
+        "hint": "о человеке",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:berechtigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Berechtigung",
+        "plural": "die Berechtigungen",
+        "pos": "noun",
+        "translation": "право (доступа), полномочие",
+        "example": "Du hast keine Berechtigung, direkt in den main-Branch zu pushen.",
+        "exampleTranslation": "У тебя нет прав пушить напрямую в ветку main."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bereichern",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bereichern",
+        "pos": "verb",
+        "translation": "обогащать",
+        "praeteritum": "bereicherte",
+        "perfekt": "hat bereichert",
+        "example": "Deine Erfahrung im Healthcare-Bereich bereichert unser Team.",
+        "exampleTranslation": "Твой опыт в сфере здравоохранения обогащает нашу команду."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bereitstehen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bereitstehen",
+        "pos": "verb",
+        "translation": "быть наготове, быть доступным",
+        "praeteritum": "stand bereit",
+        "perfekt": "hat bereitgestanden",
+        "example": "Die neue Version steht ab morgen zum Download bereit.",
+        "exampleTranslation": "Новая версия будет доступна для скачивания с завтрашнего дня.",
+        "note": "südd./österr.: ist bereitgestanden"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bereuen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bereuen",
+        "pos": "verb",
+        "translation": "жалеть (о сделанном), раскаиваться",
+        "praeteritum": "bereute",
+        "perfekt": "hat bereut",
+        "example": "Ich bereue es keine Sekunde, in die IT gewechselt zu sein.",
+        "exampleTranslation": "Я ни секунды не жалею, что перешёл в IT.",
+        "hint": "о своём поступке, решении"
+      },
+      "tags": [
+        "noji",
+        "bewerbung",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:bericht",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Bericht",
+        "plural": "die Berichte",
+        "pos": "noun",
+        "translation": "отчёт, доклад",
+        "example": "Bis Freitag schreibe ich einen kurzen Bericht über die Performance-Probleme.",
+        "exampleTranslation": "До пятницы я напишу короткий отчёт о проблемах с производительностью.",
+        "rektion": "über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:berichten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berichten",
+        "pos": "verb",
+        "translation": "сообщать, докладывать",
+        "praeteritum": "berichtete",
+        "perfekt": "hat berichtet",
+        "example": "Im Daily berichtet jeder kurz über den Stand seiner Aufgaben.",
+        "exampleTranslation": "На дейли каждый коротко рассказывает о статусе своих задач.",
+        "rektion": "über + Akk."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:berichtigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berichtigen",
+        "pos": "verb",
+        "translation": "исправлять (неверные данные)",
+        "praeteritum": "berichtigte",
+        "perfekt": "hat berichtigt",
+        "example": "Das Finanzamt hat den Fehler im Steuerbescheid berichtigt.",
+        "exampleTranslation": "Налоговая исправила ошибку в налоговом уведомлении.",
+        "hint": "ошибку в документе, данных",
+        "register": "formell"
+      },
+      "tags": [
+        "noji",
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-beruhigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich beruhigen",
+        "pos": "verb",
+        "translation": "успокаиваться, утихать",
+        "praeteritum": "beruhigte sich",
+        "perfekt": "hat sich beruhigt",
+        "example": "Nach dem Hotfix hat sich die Lage im Support-Chat schnell beruhigt.",
+        "exampleTranslation": "После хотфикса ситуация в чате поддержки быстро успокоилась."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:berücksichtigen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "berücksichtigen",
+        "pos": "verb",
+        "translation": "учитывать, принимать во внимание",
+        "praeteritum": "berücksichtigte",
+        "perfekt": "hat berücksichtigt",
+        "example": "Im nächsten Sprint müssen wir das Feedback der Kunden berücksichtigen.",
+        "exampleTranslation": "В следующем спринте нам нужно учесть отзывы клиентов."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:berücksichtigung-finden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Berücksichtigung finden",
+        "pos": "phrase",
+        "translation": "быть учтённым, учитываться",
+        "example": "Ihre Einwände werden bei der nächsten Planung Berücksichtigung finden.",
+        "exampleTranslation": "Ваши возражения будут учтены при следующем планировании.",
+        "register": "formell",
+        "note": "fand, hat gefunden"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:berührung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Berührung",
+        "plural": "die Berührungen",
+        "pos": "noun",
+        "translation": "прикосновение, соприкосновение",
+        "example": "Das Display reagiert schon auf eine leichte Berührung.",
+        "exampleTranslation": "Дисплей реагирует даже на лёгкое прикосновение.",
+        "note": "mit etw. in Berührung kommen — столкнуться, познакомиться с чем-то"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beschaffung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beschaffung",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "закупка, приобретение",
+        "example": "Die Beschaffung neuer Laptops dauert bei uns leider mehrere Wochen.",
+        "exampleTranslation": "Закупка новых ноутбуков у нас, к сожалению, занимает несколько недель."
+      },
+      "tags": [
+        "noji",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beschilderung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beschilderung",
+        "plural": "die Beschilderungen",
+        "pos": "noun",
+        "translation": "указатели, вывески",
+        "example": "Die Beschilderung im Klinikum war so verwirrend, dass wir die Notaufnahme kaum gefunden haben.",
+        "exampleTranslation": "Указатели в клинике были такими запутанными, что мы еле нашли приёмный покой."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beschleunigung",
+      "type": "vocab_de",
+      "fields": {
+        "article": "die",
+        "lemma": "Beschleunigung",
+        "plural": "die Beschleunigungen",
+        "pos": "noun",
+        "translation": "ускорение",
+        "example": "Lazy Loading hat zu einer deutlichen Beschleunigung der App geführt.",
+        "exampleTranslation": "Ленивая загрузка привела к заметному ускорению приложения."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:beschließen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beschließen",
+        "pos": "verb",
+        "translation": "решать, принимать решение",
+        "praeteritum": "beschloss",
+        "perfekt": "hat beschlossen",
+        "example": "In der Retro haben wir beschlossen, Code-Reviews innerhalb eines Tages zu erledigen.",
+        "exampleTranslation": "На ретро мы решили проводить код-ревью в течение одного дня.",
+        "hint": "окончательно, часто сообща"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-beschweren",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich beschweren",
+        "pos": "verb",
+        "translation": "жаловаться",
+        "praeteritum": "beschwerte sich",
+        "perfekt": "hat sich beschwert",
+        "example": "Ich habe mich beim Vermieter über die kaputte Heizung beschwert.",
+        "exampleTranslation": "Я пожаловался арендодателю на сломанное отопление.",
+        "rektion": "bei + Dat. über + Akk.",
+        "hint": "с претензией, требуя решения"
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beschädigt",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beschädigt",
+        "pos": "adj",
+        "translation": "повреждённый",
+        "example": "Das Paket kam beschädigt an, deshalb habe ich sofort Fotos gemacht.",
+        "exampleTranslation": "Посылка пришла повреждённой, поэтому я сразу сделал фотографии."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:sich-beschäftigen-mit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich beschäftigen",
+        "pos": "verb",
+        "translation": "заниматься (чем-то)",
+        "praeteritum": "beschäftigte sich",
+        "perfekt": "hat sich beschäftigt",
+        "example": "In meiner Freizeit beschäftige ich mich gerade mit Next.js.",
+        "exampleTranslation": "В свободное время я сейчас занимаюсь Next.js.",
+        "rektion": "mit + Dat.",
+        "hint": "проводить время за чем-то"
+      },
+      "tags": [
+        "noji",
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:beschäftigen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "beschäftigen",
+        "pos": "verb",
+        "translation": "нанимать, иметь в штате",
+        "praeteritum": "beschäftigte",
+        "perfekt": "hat beschäftigt",
+        "example": "Die Firma beschäftigt rund 200 Mitarbeitende in Bonn.",
+        "exampleTranslation": "В фирме работает около 200 сотрудников в Бонне.",
+        "hint": "о работодателе"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:aus-besonderem-anlass",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "aus besonderem Anlass",
+        "pos": "phrase",
+        "translation": "по особому случаю",
+        "example": "Aus besonderem Anlass bringe ich heute Kuchen mit – ich habe die Probezeit bestanden!",
+        "exampleTranslation": "По особому случаю я сегодня с тортом — я прошёл испытательный срок!"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:bestandteil",
+      "type": "vocab_de",
+      "fields": {
+        "article": "der",
+        "lemma": "Bestandteil",
+        "plural": "die Bestandteile",
+        "pos": "noun",
+        "translation": "составная часть, компонент",
+        "example": "Tests sind bei uns ein fester Bestandteil jedes Pull-Requests.",
+        "exampleTranslation": "Тесты у нас — обязательная составная часть каждого пул-реквеста."
+      },
+      "tags": [
+        "noji",
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:das-beste-daraus-machen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "das Beste daraus machen",
+        "pos": "phrase",
+        "translation": "извлечь лучшее из ситуации",
+        "example": "Die Deadline ist unrealistisch, aber wir machen das Beste daraus.",
+        "exampleTranslation": "Дедлайн нереальный, но мы выжмем из ситуации максимум."
+      },
+      "tags": [
+        "noji",
+        "alltag",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:bestehen-aus",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bestehen",
+        "pos": "verb",
+        "translation": "состоять из",
+        "praeteritum": "bestand",
+        "perfekt": "hat bestanden",
+        "example": "Unser Team besteht aus fünf Entwicklern und einer Designerin.",
+        "exampleTranslation": "Наша команда состоит из пяти разработчиков и дизайнера.",
+        "rektion": "aus + Dat.",
+        "note": "≠ bestehen auf — настаивать; bestehen in — заключаться в"
+      },
+      "tags": [
+        "noji",
+        "office",
+        "verb"
+      ]
+    }
+  ]
+}

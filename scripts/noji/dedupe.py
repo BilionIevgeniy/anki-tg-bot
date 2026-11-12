@@ -3,8 +3,8 @@ to the existing note; different meaning → print and exit 1 for manual handling
 import json, re, subprocess, sys
 from pathlib import Path
 B = sys.argv[1]
-root = Path('/home/claude/anki-tg-bot')
-notes_p = Path(f'/home/claude/noji-work/{B}_notes.json')
+root = Path(__file__).resolve().parents[2]
+notes_p = root / 'sources' / 'noji' / 'work' / f'{B}_notes.json'
 data = json.loads(notes_p.read_text())
 existing = {}
 for f in sorted((root / 'decks').rglob('*.json')):
@@ -31,6 +31,15 @@ for n in data['notes']:
         manual.append(f"{n['externalId']}: '{n['fields']['translation']}' vs existing '{old['fields']['translation']}' in {f.name}")
         keep.append(n)
 data['notes'] = keep
+# groups the agents dropped as "дубль de:xxx" of a word that already exists → move their progress
+for d in data.get('_dropped', []):
+    for ext in re.findall(r'de:[^\s,;)»"]+', d.get('reason', '')):
+        target = existing.get(ext) or next(((notes_p, m) for m in keep if m['externalId'] == ext), None)
+        if target and target[0] != notes_p:
+            subprocess.run(['python3', '-I', str(root / 'scripts/noji/move_progress.py'), str(target[0]), ext, d['key']], check=True)
+        elif target:
+            pass  # kept note in this batch: attach_progress handles its own _src only
+
 notes_p.write_text(json.dumps(data, ensure_ascii=False, indent=2))
 if manual:
     print('MANUAL:\n' + '\n'.join(manual)); sys.exit(1)

@@ -1,0 +1,1147 @@
+{
+ "hinnehmen": [
+  {
+   "id": 5596845342,
+   "de": "hinnehmen (nahm hin; hat hingenommen) – Wir können diesen Fehler nicht einfach hinnehmen.",
+   "ru": "принимать; мириться (с чем-либо)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinsetzen": [
+  {
+   "id": 6100030321,
+   "de": "sich hinsetzen (setzte sich hin; hat sich hingesetzt) – Am Abend setze ich mich an den Code hin.",
+   "ru": "садиться (за дело) — Вечером я сяду за код.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6262423274,
+   "de": "sich hinsetzen (setzte sich; hat sich gesetzt) – Ich setze mich hin und konzentriere mich auf den Code.",
+   "ru": "садиться / усаживаться — Я сажусь за код и фокусируюсь.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinterherlaufen": [
+  {
+   "id": 6021248063,
+   "de": "hinterherlaufen (lief hinterher; ist hinterhergelaufen) – Wir sollten Trends nicht einfach hinterherlaufen.",
+   "ru": "бежать вдогонку, плестись в хвосте — Мы не должны просто бежать вдогонку за трендами.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinuntergehen": [
+  {
+   "id": 6165218995,
+   "de": "hinuntergehen (ging hinunter; ist hinuntergegangen) – Nach der Arbeit gehen wir zum Rhein hinunter.",
+   "ru": "спускаться / идти вниз — После работы мы спускаемся (идем вниз) к реке Рейн.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinzufügen": [
+  {
+   "id": 5957604457,
+   "de": "hinzufügen (fügte hinzu; hat hinzugefügt) – Ich möchte dem Bericht noch eine Anmerkung hinzufügen.",
+   "ru": "добавлять, дополнять — Я хочу добавить еще одно замечание к отчету.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hinzukommen": [
+  {
+   "id": 5696310306,
+   "de": "hinzukommen (kam hinzu; ist hinzugekommen) – Zu den Kosten kommt noch die Steuer hinzu.",
+   "ru": "добавляться (к чему-либо) - К затратам добавляется еще и налог.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hochstapler-syndrom": [
+  {
+   "id": 5957604445,
+   "de": "das Hochstapler-Syndrom (nur Sg.) – Viele erfolgreiche Programmierer leiden unter dem Hochstapler-Syndrom.",
+   "ru": "синдром самозванца — Многие успешные программисты страдают от синдрома самозванца.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hochwertig": [
+  {
+   "id": 6131137616,
+   "de": "hochwertig – Wir nutzen nur hochwertige Bibliotheken für unsere Projekte.",
+   "ru": "высококачественный — Мы используем только высококачественные библиотеки для наших проектов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hochziehen": [
+  {
+   "id": 6526854331,
+   "de": "hochziehen (zog hoch, hat hochgezogen, du ziehst hoch) – Wir müssen den State hochziehen und das Caching invalidieren.",
+   "ru": "поднимать (состояние/State на уровень выше) — Нам нужно поднять State выше и инвалидировать кэш.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hokuspokus": [
+  {
+   "id": 5667907576,
+   "de": "der Hokuspokus (nur Sg.) – Diese Erklärungen sind Hokuspokus und keine echte Analyse.",
+   "ru": "фокус-покус, ерунда (что-то непонятное, запутанное) - Эти объяснения — какой-то фокус-покус, а не настоящая аналитика.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "hängen bleiben": [
+  {
+   "id": 6021248050,
+   "de": "hängen bleiben (blieb hängen; ist hängen geblieben) – Dieses Lied ist mir im Kopf hängen geblieben.",
+   "ru": "застрять, остаться в памяти — Эта песня застряла у меня в голове.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "höflich / unhöflich": [
+  {
+   "id": 6021248087,
+   "de": "höflich / unhöflich – Es war sehr unhöflich, ihn zu unterbrechen.",
+   "ru": "вежливый / невежливый — Было очень невежливо прерывать его.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich bin davon ausgegangen, dass": [
+  {
+   "id": 6128964733,
+   "de": "ich bin davon ausgegangen, dass... – Ich bin davon ausgegangen, dass der Termin stattfindet.",
+   "ru": "я исходил из того, что... — Я исходил из того, что встреча состоится.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich bin unschlüssig": [
+  {
+   "id": 5546335675,
+   "de": "ich bin unschlüssig – Ich bin unschlüssig, welche Technologie wir verwenden sollen.",
+   "ru": "я не уверен; я в нерешительности",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich gehe davon aus, dass": [
+  {
+   "id": 5638902697,
+   "de": "ich gehe davon aus, dass... – Ich gehe davon aus, dass der Fehler morgen behoben ist.",
+   "ru": "я исхожу из того, что... - Я исхожу из того, что ошибка будет исправлена завтра.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich habe den eindruck, dass": [
+  {
+   "id": 6494316890,
+   "de": "Ich habe den Eindruck, dass... – Ich habe den Eindruck, dass die Protokollierung Sorgen auslöst.",
+   "ru": "У меня сложилось впечатление, что... — У меня сложилось впечатление, что логирование вызывает опасения у команды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich komme gut klar mit": [
+  {
+   "id": 5683884910,
+   "de": "Ich komme gut klar mit (Dat.) – Ich komme gut klar mit der neuen Aufgabe.",
+   "ru": "Я хорошо справляюсь - Я хорошо справляюсь с новой задачей.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich nehme mir vor": [
+  {
+   "id": 6100030322,
+   "de": "ich nehme mir vor (nahm; hat genommen) – Ich nehme mir vor, das Projekt morgen fertigzubekommen.",
+   "ru": "я планирую / я намереваюсь — Я планирую завтра закончить проект.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich sehe durchaus": [
+  {
+   "id": 5227473143,
+   "de": "ich sehe durchaus",
+   "ru": "я вполне осознаю",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ich verwehre mir": [
+  {
+   "id": 6465607890,
+   "de": "ich verwehre mir (Akk.) (verwehrte; hat verwehrt, du verwehrst dir) – Ich verwehre mir jegliche Zweifel an der Qualität unseres Codes.",
+   "ru": "я себе этого не позволяю / я это пресекаю — Я не позволяю никому сомневаться в качестве нашего кода.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ihnen entstanden sind": [
+  {
+   "id": 5589940005,
+   "de": "die Ihnen entstanden sind – Wir entschuldigen uns für die Unannehmlichkeiten, die Ihnen entstanden sind.",
+   "ru": "которые у вас возникли",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im endeffekt": [
+  {
+   "id": 6100030297,
+   "de": "im Endeffekt – Im Endeffekt war es die richtige Entscheidung.",
+   "ru": "в конечном итоге / в сухом остатке — В конечном итоге это было правильное решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im freien": [
+  {
+   "id": 5638902695,
+   "de": "im Freien – Ein Meeting im Freien kann die Kreativität fördern.",
+   "ru": "на открытом воздухе, снаружи - Встреча на свежем воздухе может стимулировать творчество.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im gegenzug": [
+  {
+   "id": 6423479450,
+   "de": "im Gegenzug – Wir bieten eine Performance-Optimierung an und erwarten im Gegenzug schnelles Feedback.",
+   "ru": "взамен / в ответ — Мы предлагаем оптимизацию производительности, а взамен ожидаем быстрой обратной связи.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im grunde genommen": [
+  {
+   "id": 6140091057,
+   "de": "im Grunde genommen – Im Grunde genommen ist das eine einfache Funktion.",
+   "ru": "в принципе / по существу — По существу, это простая функция.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im hinblick auf": [
+  {
+   "id": 6140091058,
+   "de": "im Hinblick auf (Akk.) – Im Hinblick auf die Architektur ist das keine gute Lösung.",
+   "ru": "с точки зрения / в отношении — В отношении архитектуры это не лучшее решение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im kreis drehen": [
+  {
+   "id": 6021248071,
+   "de": "sich im Kreis drehen (drehte; hat gedreht) – Wir drehen uns im Kreis und finden keine Lösung.",
+   "ru": "ходить по кругу — Мы ходим по кругу и не находим решения.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im laufe der zeit": [
+  {
+   "id": 6004594192,
+   "de": "im Laufe der Zeit – Im Laufe der Zeit ändert sich alles.",
+   "ru": "с течением времени — С течением времени всё меняется.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im sinne von": [
+  {
+   "id": 5927101124,
+   "de": "im Sinne von (Dat.) – Diese Entscheidung ist im Sinne unserer Firma.",
+   "ru": "в смысле, в духе - Это решение принято в духе нашей компании.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im umkehrschluss": [
+  {
+   "id": 6423479452,
+   "de": "im Umkehrschluss – Wenn der Code nicht durch Tests abgedeckt ist, bekommen wir im Umkehrschluss Regressionen.",
+   "ru": "в обратном порядке / логически вытекающее (ауверкшлюс) — Если код не покрыт тестами, то логически вытекает, что мы получим регрессии.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im verlauf": [
+  {
+   "id": 6128964752,
+   "de": "im Verlauf – Im Verlauf des Gesprächs hat sich alles geklärt.",
+   "ru": "в процессе / в ходе — В ходе разговора всё прояснилось.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im vorfeld": [
+  {
+   "id": 6100030307,
+   "de": "im Vorfeld – Das müssen wir im Vorfeld besprechen.",
+   "ru": "заранее / предварительно — Мы должны обсудить это заранее.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im weg stehen": [
+  {
+   "id": 6021248059,
+   "de": "im Weg stehen (stand; hat gestanden) – Meine Angst steht mir oft im Weg.",
+   "ru": "мешать, стоять на пути — Мой страх часто стоит у меня на пути.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im wesentlichen": [
+  {
+   "id": 5901514108,
+   "de": "im Wesentlichen – Im Wesentlichen ist das Projekt bereits fertig.",
+   "ru": "в основном, по сути - По сути, проект уже готов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im zuge": [
+  {
+   "id": 5654992866,
+   "de": "im Zuge (Gen.) – Im Zuge der Migration traten unerwartete Probleme auf.",
+   "ru": "в процессе (чего-либо) - В процессе миграции возникли непредвиденные проблемы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "im zusammenhang mit": [
+  {
+   "id": 6465607904,
+   "de": "im Zusammenhang mit (Dat.) – Im Zusammenhang mit dem API-Update müssen wir den Client umschreiben.",
+   "ru": "в связи с / в контексте — В связи с обновлением API нам нужно переписать клиентскую часть.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "image": [
+  {
+   "id": 5559821697,
+   "de": "das Image (Images) – Das Image der Firma ist sehr gut.",
+   "ru": "имидж; репутация",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "implizite dinge explizit machen": [
+  {
+   "id": 6165219003,
+   "de": "implizite Dinge explizit machen – In Clean Code ist es wichtig, implizite Abhängigkeiten explizit zu machen.",
+   "ru": "сделать неявное явным — В чистом коде важно делать неявные зависимости явными.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in andere hineinversetzen": [
+  {
+   "id": 6165218977,
+   "de": "sich in andere hineinversetzen (versetzte; hat versetzt) – Es ist wichtig, sich in den Nutzer hineinversetzen zu können.",
+   "ru": "поставить себя на место другого — Важно уметь поставить себя на место пользователя (UX).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in anspruch nehmen": [
+  {
+   "id": 6465607896,
+   "de": "in Anspruch nehmen (nahm in Anspruch; hat in Anspruch genommen, du nimmst in Anspruch) – Dieser Bugreport hat viel Zeit von der Team in Anspruch genommen.",
+   "ru": "требовать (времени/усилий) / пользоваться (услугами) — Этот баг-репорт потребовал много времени от команды.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5667907565,
+   "de": "in Anspruch nehmen – Sie können unsere kostenlose Beratung in Anspruch nehmen.",
+   "ru": "воспользоваться (чем-либо) - Вы можете воспользоваться нашей бесплатной консультацией.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in auftrag geben": [
+  {
+   "id": 5667907567,
+   "de": "in Auftrag geben – Wir haben die Übersetzung aller Dokumente in Auftrag gegeben.",
+   "ru": "дать поручение/заказать - Мы заказали перевод всех документов.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in bedrängnis bringen": [
+  {
+   "id": 6423479477,
+   "de": "in Bedrängnis bringen (brachte; hat gebracht) – Ein plötzlicher Bug in Production kann das gesamte Team in Bedrängnis bringen.",
+   "ru": "ставить в затруднительное положение — Внезапный баг в проде может поставить всю команду в затруднительное положение.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in betracht kommen": [
+  {
+   "id": 5569439222,
+   "de": "in Betracht kommen (kam in Betracht; ist in Betracht gekommen) – Eine Verlängerung der Frist kommt nicht in Betracht.",
+   "ru": "приниматься во внимание; рассматриваться (как вариант)",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in bezug auf": [
+  {
+   "id": 5589940017,
+   "de": "in Bezug auf – Wir haben eine Frage in Bezug auf die Lizenzbedingungen.",
+   "ru": "в отношении; что касается",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6140091061,
+   "de": "in Bezug auf – In Bezug auf die Software-Architektur haben wir Lücken.",
+   "ru": "в отношении / в плане — В плане архитектуры ПО у нас есть пробелы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in brand setzen": [
+  {
+   "id": 6165218990,
+   "de": "in Brand setzen (setzte; hat gesetzt) – Seine Idee hat das ganze Team in Brand gesetzt.",
+   "ru": "поджечь — (В переносном смысле): Его идея «зажгла» всю команду.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in definierten abständen": [
+  {
+   "id": 5603787563,
+   "de": "in definierten Abständen / – Backups erfolgen in definierten Abständen.",
+   "ru": "через определенные/установленные промежутки времени",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in den griff bekommen": [
+  {
+   "id": 6262423270,
+   "de": "in den Griff bekommen – Wie kann ich diesen komplexen Legacy-Code in den Griff bekommen?",
+   "ru": "справиться / взять под контроль — Как мне взять под контроль этот сложный Legacy-код?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in den prozess eingebunden sein": [
+  {
+   "id": 5227473132,
+   "de": "in den Prozess eingebunden sein",
+   "ru": "быть вовлечённым в процесс",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in gefahr geraten": [
+  {
+   "id": 6481401633,
+   "de": "in Gefahr geraten (geriet; ist geraten, du gerätst) – Wegen eines unerwarteten Fehlers gerät der Sprint in Gefahr.",
+   "ru": "подвергаться опасности / оказаться под угрозой — Из-за неожиданной ошибки спринт оказывается под угрозой срыва.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 6140091048,
+   "de": "in Gefahr geraten (geriet; ist geraten) – Das Projekt könnte durch Zeitmangel in Gefahr geraten.",
+   "ru": "оказаться в опасности — Проект может оказаться в опасности из-за нехватки времени.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in großer eile": [
+  {
+   "id": 5448745021,
+   "de": "in großer Eile – Ich habe den Bericht in großer Eile fertiggestellt.",
+   "ru": "срочно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in jeder hinsicht": [
+  {
+   "id": 6434699133,
+   "de": "in jeder Hinsicht – Das ist in jeder Hinsicht eine bemerkemswerte Lösung.",
+   "ru": "в любом отношении / во всех смыслах — Это примечательное решение во всех отношениях.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in kauf nehmen": [
+  {
+   "id": 5783860985,
+   "de": "in Kauf nehmen (nahm; hat genommen) – Wir müssen die temporären Verzögerungen in Kauf nehmen.",
+   "ru": "мириться с (неприятными последствиями) - Мы должны мириться с временными задержками.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in umgekehrter reihenfolge": [
+  {
+   "id": 5972792641,
+   "de": "in umgekehrter Reihenfolge – Das Array wird in umgekehrter Reihenfolge angezeigt.",
+   "ru": "в обратном порядке — Массив отображается в обратном порядке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "in verzug geraten": [
+  {
+   "id": 6385684804,
+   "de": "in Verzug geraten (geriet; ist geraten, du gerätst) – Wir dürfen bei der Sprint-Umsetzung nicht in Verzug geraten.",
+   "ru": "опаздывать / задерживаться (по срокам) — Мы не должны отставать от графика выполнения спринта.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "indem": [
+  {
+   "id": 6004594157,
+   "de": "indem – Du kannst den Fehler beheben, indem du den Code aktualisierst.",
+   "ru": "тем что, путем — Ты можешь исправить ошибку, обновив код.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "informieren über": [
+  {
+   "id": 5569463426,
+   "de": "informieren über (Akk.) (informierte; hat informiert) – Wir informieren über die neuesten Updates.",
+   "ru": "информировать о",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "informiert über": [
+  {
+   "id": 5569465175,
+   "de": "informiert über (Akk.) – Er ist über alle Details informiert.",
+   "ru": "информированный о",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "infrage stellen": [
+  {
+   "id": 5559821677,
+   "de": "infrage stellen (stellte infrage; hat infrage gestellt) – Wir müssen die gesamte Strategie infrage stellen.",
+   "ru": "ставить под сомнение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "innerlich angespannt": [
+  {
+   "id": 6120127157,
+   "de": "innerlich angespannt – Vor der Präsentation war ich innerlich sehr angespannt.",
+   "ru": "внутренне напряженный — Перед презентацией я был внутренне очень напряжен.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ins hintertreffen geraten": [
+  {
+   "id": 6372866031,
+   "de": "ins Hintertreffen geraten (geriet; ist geraten, du gerätst) – Ohne Kenntnisse in React kann man auf dem Arbeitsmarkt schnell ins Hintertreffen geraten.",
+   "ru": "оказываться в отстающих / в невыгодном положении — Без знаний React на рынке труда можно быстро оказаться в отстающих.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "insbesondere": [
+  {
+   "id": 5593436158,
+   "de": "insbesondere – Das ist insbesondere für große Unternehmen wichtig.",
+   "ru": "в особенности; особенно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "insofern": [
+  {
+   "id": 6442594604,
+   "de": "insofern – Insofern können wir bereits eine fertige Komponente verwenden.",
+   "ru": "в этой мере, постольку поскольку — В этом отношении мы можем использовать уже готовый компонент.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  },
+  {
+   "id": 5676821613,
+   "de": "insofern – Wenn der Bericht vollständig ist, können wir insofern fortfahren.",
+   "ru": "настолько, в этом отношении - Если отчет полный, то, в этом отношении, мы можем продолжать.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "insolvenz": [
+  {
+   "id": 5618999065,
+   "de": "die Insolvenz (Insolvenzen) – Die Firma musste wegen fehlender Aufträge Insolvenz anmelden.",
+   "ru": "неплатежеспособность; банкротство",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "inspizieren": [
+  {
+   "id": 6100030301,
+   "de": "inspizieren (inspizierte; hat inspiziert) – Du kannst dieses Element im Browser inspizieren.",
+   "ru": "инспектировать / обследовать — Ты можешь проинспектировать этот элемент в браузере.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "instandhaltung": [
+  {
+   "id": 5575167157,
+   "de": "die Instandhaltung (Instandhaltungen) – Die Instandhaltung der Server muss regelmäßig geplant werden.",
+   "ru": "техническое обслуживание; ремонт",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "interagieren": [
+  {
+   "id": 6165218986,
+   "de": "interagieren (interagierte; hat interagiert) – Das Frontend muss korrekt mit der API interagieren.",
+   "ru": "взаимодействовать — Фронтенд должен корректно взаимодействовать с API.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "interesse an": [
+  {
+   "id": 5569460676,
+   "de": "das Interesse an (Dat.) – Das Interesse an dieser Technologie ist sehr hoch.",
+   "ru": "интерес к",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "interesse wecken": [
+  {
+   "id": 5989563338,
+   "de": "Interesse wecken (weckte; hat geweckt) – Wir müssen das Interesse der Nutzer an der neuen Funktion wecken.",
+   "ru": "пробуждать интерес — Мы должны пробудить интерес пользователей к новой функции.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "interessieren für": [
+  {
+   "id": 5569463427,
+   "de": "sich interessieren für (Akk.) (interessierte; hat interessiert) – Ich interessiere mich für Datenanalyse.",
+   "ru": "интересоваться",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "interoperabilität": [
+  {
+   "id": 6449728997,
+   "de": "die Interoperabilität (nur Sg.) – Die Interoperabilität zwischen unseren Microservices ist für das System kritisch.",
+   "ru": "взаимозаменяемость / совместимость (интероперабельность) — Взаимозаменяемость между нашими микросервисами критически важна для системы.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "invalidieren": [
+  {
+   "id": 6492126626,
+   "de": "invalidieren (invalidierte; hat invalidiert) – Der Cache wird nach dem Update nicht invalidiert.",
+   "ru": "аннулировать / инвалидировать (кэш) — Кэш не инвалидируется после обновления данных на бэкенде.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "irgendwie": [
+  {
+   "id": 5989563346,
+   "de": "irgendwie – Wir werden das irgendwie reparieren.",
+   "ru": "как-то, как-нибудь (слово-паразит) — Мы как-нибудь это исправим.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "ist nass geworden": [
+  {
+   "id": 5683884923,
+   "de": "Ist nass geworden – Mein Laptop ist nass geworden.",
+   "ru": "Промок - Мой ноутбук промок.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jedoch": [
+  {
+   "id": 5568930100,
+   "de": "jedoch – Die Strategie ist gut, jedoch fehlen uns die Ressourcen.",
+   "ru": "однако; тем не менее",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemals": [
+  {
+   "id": 6044774632,
+   "de": "jemals – Warst du jemals in der Ukraine?",
+   "ru": "когда-либо — Ты когда-либо был в Украине?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemandem eine antwort geben": [
+  {
+   "id": 5371376330,
+   "de": "jemandem eine Antwort geben (gegeben)",
+   "ru": "дать ответ",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemandem etwas mitteilen": [
+  {
+   "id": 5416199887,
+   "de": "jemandem etwas mitteilen (teilte mit, hat mitgeteilt, er teilt mit)",
+   "ru": "сообщать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemandem mut machen": [
+  {
+   "id": 5676821615,
+   "de": "jemandem Mut machen – Der Teamleiter muss der demotivierten Mannschaft Mut machen.",
+   "ru": "воодушевлять, подбадривать - Руководитель группы должен подбодрить демотивированную команду.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemandem oder etwas widerstand leisten": [
+  {
+   "id": 5371376345,
+   "de": "jemandem oder etwas Widerstand leisten (geleistet)",
+   "ru": "оказать сопротивление",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemandem zur verfügung stehen": [
+  {
+   "id": 5371376317,
+   "de": "jemandem zur Verfügung stehen (gestanden)",
+   "ru": "быть в распоряжении кого-либо",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemanden einarbeiten": [
+  {
+   "id": 5575167139,
+   "de": "jemanden einarbeiten (arbeitete ein; hat eingearbeitet) – Ich muss den neuen Kollegen in die Prozesse einarbeiten.",
+   "ru": "вводить кого-то в курс дела; обучать; инструктировать",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemanden in eine rolle drängen": [
+  {
+   "id": 5259310156,
+   "de": "jemanden in eine Rolle drängen (gedrängt)",
+   "ru": "навязывать кому-либо роль",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jemanden ins boot holen": [
+  {
+   "id": 6004594182,
+   "de": "jemanden ins Boot holen (holte; hat geholt) – Wir müssen einen Experten ins Boot holen.",
+   "ru": "привлечь кого-либо (в команду/проект) — Мы должны привлечь эксперта в нашу команду.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "jeweils": [
+  {
+   "id": 6481401669,
+   "de": "jeweils – Jedes Modul und die jeweils dazugehörige Komponente liegen in einem eigenen Ordнер.",
+   "ru": "соответственно / каждый в отдельности — Каждый модуль и соответствующий компонент лежат в своей папке.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kauen": [
+  {
+   "id": 6357783462,
+   "de": "das Kauen (nur Sg.) – Ich bin am Kauen, während ich komplexen Code debugge.",
+   "ru": "жевание / жевать — Я жую жвачку, пока дебажу сложный код.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kehren": [
+  {
+   "id": 6494316903,
+   "de": "kehren (kehrte; hat gekehrt, du kehrst) – Jeder sollte zuerst vor der eigenen Tür kehren.",
+   "ru": "мести / подметать — Каждому стоит сначала подмести перед своей дверью (разобраться со своими задачами).",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kennzeichnen": [
+  {
+   "id": 6004594173,
+   "de": "kennzeichnen / (kennzeichnete; hat gekennzeichnet) / – Bitte kennzeichne die wichtigen Punkte im Text.",
+   "ru": "помечать, характеризовать / — Пожалуйста, отметь важные пункты в тексте.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kern": [
+  {
+   "id": 5593436152,
+   "de": "der Kern (Kerne) – Wir müssen uns auf den Kern des Problems konzentrieren.",
+   "ru": "ядро; суть",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kippen": [
+  {
+   "id": 6526854321,
+   "de": "kippen (kippte, ist gekippt, du kippst) – Wenn ein schriftlicher Austausch nach etwa drei Nachrichten nicht geklärt ist oder die Stimmung kippt, sollte man kurz anrufen.",
+   "ru": "меняться (о настроении) / опрокидываться — Если после 3 сообщений переписка не дала результата или настроение меняется в худшую сторону, лучше созвониться.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "klammer": [
+  {
+   "id": 5986064706,
+   "de": "die Klammer (Klammern) – Setz diese Bedingung bitte in Klammern.",
+   "ru": "скобка, зажим — Пожалуйста, поставь это условие в скобки.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "klemmen": [
+  {
+   "id": 6481401654,
+   "de": "klemmen (klemmte; hat geklemmt) – Der Button auf dem Bedienfeld klemmt beim Drücken.",
+   "ru": "зажимать / застревать (о деталях) — Кнопка на панели управления заедает при нажатии.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "klingen nach": [
+  {
+   "id": 5569463479,
+   "de": "klingen nach (Dat.) (klang; hat geklungen) – Das klingt nach einer Menge Arbeit.",
+   "ru": "звучать как",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "klingt aufregend": [
+  {
+   "id": 5546335673,
+   "de": "das klingt aufregend – Dein Projekt klingt aufregend!",
+   "ru": "это звучит захватывающе; это звучит интересно",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "klingt vernünftig": [
+  {
+   "id": 5562692956,
+   "de": "das klingt vernünftig – Die vorgeschlagene Lösung klingt vernünftig.",
+   "ru": "это звучит разумно; это разумное предложение",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kläppchen": [
+  {
+   "id": 6541778516,
+   "de": "das Kläppchen (Kläppchen) – Wir müssen für den 20. Dezember ein Kläppchen haben.",
+   "ru": "окошечко / дверца (в адвент-календаре) — Нам нужно подготовить окошечко календаря на 20 декабря.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "knacker": [
+  {
+   "id": 6064365182,
+   "de": "der Knacker (Knacker) – Hey, alter Knacker, wie geht's?",
+   "ru": "старик (иногда иронично) — Эй, старик, как дела?",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kohäsion": [
+  {
+   "id": 6155400432,
+   "de": "die Kohäsion (nur Sg.) – Hohe Kohäsion ist ein Merkmal guter Softwarearchitektur.",
+   "ru": "связанность, когезия — Высокая связность (когезия) — признак хорошей архитектуры ПО.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kollidieren": [
+  {
+   "id": 6173617610,
+   "de": "kollidieren (kollidierte; hat kollidiert) – Unsere Code-Änderungen kollidieren mit dem Master, es gibt Merge-Konflikte.",
+   "ru": "сталкиваться / конфликтовать — Наши изменения в коде сталкиваются (конфликтуют) с мастером, возникают мердж-конфликты.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kollidieren mit": [
+  {
+   "id": 5683884927,
+   "de": "kollidieren mit (Dat.) (kollidierte; ist kollidiert) – Die Kundenanforderungen können mit unseren Kapazitäten kollidieren.",
+   "ru": "сталкиваться, конфликтовать - Требования клиента могут конфликтовать с нашими возможностями.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ],
+ "kompatibilität": [
+  {
+   "id": 6100030302,
+   "de": "die Kompatibilität (nur Sg.) – Wir müssen die Kompatibilität mit Safari prüfen.",
+   "ru": "совместимость — Мы должны проверить совместимость с Safari.",
+   "state": "new",
+   "interval_min": null,
+   "ease": null,
+   "next": null
+  }
+ ]
+}
