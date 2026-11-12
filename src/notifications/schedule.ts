@@ -34,10 +34,11 @@ export function reminderDecision(
   const day = studyDayBounds(now, user.timezone, user.dayRolloverHour);
   if (deck.notifyLastSentOn === day.key) return { send: false, reason: 'already-sent' };
 
-  if (deck.notifySnoozedUntil && deck.notifySnoozedUntil.getTime() > now.getTime()) {
-    return { send: false, reason: 'snoozed' };
-  }
-  if (deck.notifySnoozedUntil) return { send: true, dayKey: day.key }; // snooze just expired
+  const snooze = deck.notifySnoozedUntil;
+  if (snooze && snooze.getTime() > now.getTime()) return { send: false, reason: 'snoozed' };
+  // a snooze that ended today fires right away; one from an earlier day is ignored,
+  // otherwise it would trigger a reminder at 04:00 the next morning
+  if (snooze && snooze.getTime() >= day.start.getTime()) return { send: true, dayKey: day.key };
 
   const p = localParts(now, user.timezone);
   const nowMin = minutesIntoStudyDay(p.hour, p.minute, user.dayRolloverHour);

@@ -12,7 +12,7 @@ import {
 import type { Deck, Note } from '../db/schema';
 import { ARTICLES, type VocabDeFields } from '../import/contract';
 import { formatInterval, isGrade, Rating } from '../srs/fsrs.core';
-import { countTotal, type Counts, QueueService } from '../srs/queue.service';
+import { countTotal, type Counts, type Progress, QueueService } from '../srs/queue.service';
 import { ReviewService } from '../srs/review.service';
 import type { BotContext } from '../telegram/telegram.module';
 import { type Callback, encode } from './callback-data';
@@ -22,10 +22,17 @@ import { countsLine } from './texts';
 
 const SEP = '\n\n➖➖➖➖➖\n';
 
-function header(deck: Deck, template: string, state: number, counts: Counts): string {
+function header(
+  deck: Deck,
+  template: string,
+  state: number,
+  counts: Counts,
+  progress?: Progress,
+): string {
   const kind = state === 0 ? '🆕 новая' : state === 2 ? '🔁 повторение' : '📖 обучение';
   const label = TEMPLATE_LABEL[template as Template] ?? template;
-  return `<b>${escapeHtml(deck.name)}</b> · ${label} · ${kind}\n<i>${countsLine(counts)}</i>\n\n`;
+  const done = progress ? `✓ ${progress.done}/${progress.total} · ` : '';
+  return `<b>${escapeHtml(deck.name)}</b> · ${label} · ${kind}\n<i>${done}${countsLine(counts)}</i>\n\n`;
 }
 
 function leechText(note: Note): string {
@@ -95,7 +102,7 @@ export class ReviewHandler {
     if (next.kind === 'card') {
       const text =
         notice +
-        header(next.deck, next.card.template, next.card.state, next.counts) +
+        header(next.deck, next.card.template, next.card.state, next.counts, next.progress) +
         renderFront(next.note, next.card.template as Template);
       return show(clampMessage(text), frontKeyboard(next.card, scope, opts.undoLogId));
     }
@@ -104,10 +111,12 @@ export class ReviewHandler {
         'Пока нет активных колод. Загрузи карточки через /import или сними колоду с паузы в /decks.',
       );
     }
-    const lines = [`${notice}🎉 <b>На сейчас всё!</b>`];
+    const lines = [
+      `${notice}🎉 <b>На сейчас всё!</b>${next.progress.done ? ` Сегодня пройдено: ${next.progress.done}` : ''}`,
+    ];
     if (next.nextLearningDue) {
       lines.push(
-        `Карточка из обучения вернётся через ${formatInterval(now, next.nextLearningDue)} — нажми «Проверить ещё раз», когда время придёт.`,
+        `Карточка из обучения будет готова через ${formatInterval(now, next.nextLearningDue)} — нажми «Проверить ещё раз», когда время придёт.`,
       );
     } else {
       lines.push('На сегодня карточек больше нет. Завтра будут новые. Отдыхай 🙌');
@@ -118,6 +127,12 @@ export class ReviewHandler {
     }
     if (next.nextLearningDue) kb.text('🔄 Проверить ещё раз', encode({ a: 'learn', scope }));
     return show(lines.join('\n'), kb);
+  }
+
+  private async countsAndProgress(ctx: BotContext, scope: number, now: Date) {
+    const deckList = await this.queue.activeDecks(ctx.user.id, scope);
+    const counts = await this.queue.totals(ctx.user, scope, now);
+    return { counts, progress: await this.queue.progress(ctx.user, deckList, counts, now) };
   }
 
   private async load(ctx: BotContext, cardId: number, version: number) {
@@ -142,11 +157,11 @@ export class ReviewHandler {
     if (!row) return;
     await ctx.answerCallbackQuery();
     const now = new Date();
-    const counts = await this.queue.totals(ctx.user, scope, now);
+    const { counts, progress } = await this.countsAndProgress(ctx, scope, now);
     const tpl = row.card.template as Template;
     const previews = await this.review.preview(row.card, row.deck.desiredRetention, now);
     const text =
-      header(row.deck, tpl, row.card.state, counts) +
+      header(row.deck, tpl, row.card.state, counts, progress) +
       renderFront(row.note, tpl) +
       SEP +
       renderBack(row.note, tpl);
@@ -223,10 +238,10 @@ export class ReviewHandler {
     await ctx.answerCallbackQuery({ text: '↩️ Ответ отменён' });
     const row = await this.review.getCard(ctx.user.id, res.cardId);
     if (!row) return this.sendNext(ctx, scope, { edit: true });
-    const counts = await this.queue.totals(ctx.user, scope, new Date());
+    const { counts, progress } = await this.countsAndProgress(ctx, scope, new Date());
     const text =
       '<i>↩️ Ответ отменён — повторим эту карточку</i>\n\n' +
-      header(row.deck, row.card.template, row.card.state, counts) +
+      header(row.deck, row.card.template, row.card.state, counts, progress) +
       renderFront(row.note, row.card.template as Template);
     await safeEdit(ctx, clampMessage(text), frontKeyboard(row.card, scope));
   }

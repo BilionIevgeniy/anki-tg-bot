@@ -15,7 +15,7 @@ import { DecksService } from '../src/decks/decks.service';
 import { parseImport } from '../src/import/contract';
 import { ImportService } from '../src/import/import.service';
 import { reminderDecision } from '../src/notifications/schedule';
-import { Rating, State } from '../src/srs/fsrs.core';
+import { type Grade, Rating, State } from '../src/srs/fsrs.core';
 import { QueueService } from '../src/srs/queue.service';
 import { ReviewService } from '../src/srs/review.service';
 import { StatsService } from '../src/stats/stats.service';
@@ -115,7 +115,7 @@ d('SRS flow (Postgres)', () => {
     const byDefault = await queue.next(user, 0, now);
     if (byDefault.kind !== 'card') throw new Error('expected a card');
     expect(byDefault.card.template).toBe('ru_de');
-    expect(byDefault.counts.new).toBe(4); // 3× ru_de + 1× article
+    expect(byDefault.counts.new).toBe(3); // 3 words (the article card is a sibling, counted once per word)
     // switch DE→RU on for the rest of this test
     await decksSvc.toggleTemplate(user.id, deck!.id, 'de_ru');
 
@@ -124,7 +124,7 @@ d('SRS flow (Postgres)', () => {
     if (first.kind !== 'card') throw new Error('expected a card');
     expect(first.card.template).toBe('de_ru');
     expect((first.note.fields as { lemma: string }).lemma).toBe('Gerät');
-    expect(first.counts.new).toBe(6); // migrated de_ru card is a review due in December
+    expect(first.counts.new).toBe(3); // new cards are counted once per word (siblings are buried)
 
     const ans = await review.answer(user.id, first.card.id, Rating.Good, first.card.version, now);
     expect(ans.ok).toBe(true);
@@ -262,5 +262,70 @@ d('SRS flow (Postgres)', () => {
     expect(reminderDecision(snoozed!, user, new Date(now.getTime() + 3 * 3600_000 + 1)).send).toBe(
       true,
     );
+  });
+
+  it('progress total is stable: "Again", learning steps and reopening do not change it (bug 32→28)', async () => {
+    const user = await users.upsert({ id: 555 });
+    const words = Array.from({ length: 6 }, (_, i) => ({
+      externalId: `de:w${i}`,
+      type: 'vocab_de',
+      fields: { lemma: `Wort${i}`, article: 'das', pos: 'noun', translation: `слово ${i}` },
+    }));
+    await importer.apply(user.id, parseImport(sample(words)).data!);
+    let t = new Date('2026-11-12T09:00:00Z');
+
+    const first = await queue.next(user, 0, t);
+    if (first.kind !== 'card') throw new Error('expected a card');
+    // 6 words; ru_de + article siblings are counted once per word
+    expect(first.progress).toEqual({ done: 0, total: 6 });
+
+    const totals: number[] = [];
+    const grades: Grade[] = [
+      Rating.Again,
+      Rating.Good,
+      Rating.Again,
+      Rating.Good,
+      Rating.Good,
+      Rating.Easy,
+    ];
+    for (let i = 0; i < 40; i++) {
+      const next = await queue.next(user, 0, t);
+      if (next.kind !== 'card') break;
+      totals.push(next.progress.total);
+      const res = await review.answer(
+        user.id,
+        next.card.id,
+        grades[i % grades.length]!,
+        next.card.version,
+        t,
+      );
+      if (!res.ok) throw new Error('answer failed');
+      // stay within the same study day: wait for short learning steps only (learn-ahead = 20 min)
+      const wait = res.due.getTime() - t.getTime();
+      t = new Date(
+        t.getTime() + (wait < 60 * 60 * 1000 ? Math.max(1000, wait - 19 * 60 * 1000) : 1000),
+      );
+    }
+    expect(new Set(totals)).toEqual(new Set([6])); // never grows
+    const end = await queue.next(user, 0, t);
+    expect(end.progress).toEqual({ done: 6, total: 6 });
+    // "reopen" = a fresh call later the same day: the same numbers
+    const reopened = await queue.next(user, 0, new Date(t.getTime() + 60_000));
+    expect(reopened.progress).toEqual({ done: 6, total: 6 });
+    // buried article siblings are not counted as "to do"
+    expect(reopened.counts.new).toBe(0);
+  });
+
+  it('reports when a learning card becomes available (due minus learn-ahead)', async () => {
+    const user = await users.upsert({ id: 556 });
+    await importer.apply(user.id, parseImport(sample([schnell])).data!);
+    const t = new Date('2026-11-12T09:00:00Z');
+    const n = await queue.next(user, 0, t);
+    if (n.kind !== 'card') throw new Error('expected a card');
+    const res = await review.answer(user.id, n.card.id, Rating.Good, n.card.version, t); // → learning, due +10m
+    if (!res.ok) throw new Error('answer failed');
+    // within the 20-minute learn-ahead window the card is shown right away
+    const again = await queue.next(user, 0, t);
+    expect(again.kind).toBe('card');
   });
 });

@@ -41,7 +41,6 @@ export function App() {
   const [scope, setScope] = useState(0);
   const [state, setState] = useState<NextDto | null>(null);
   const [phase, setPhase] = useState<Phase>('question');
-  const [done, setDone] = useState(0);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
@@ -83,8 +82,13 @@ export function App() {
     void load(scope);
   }, [load, scope]);
 
+  const refreshChips = () => {
+    api.me().then(setMe).catch(() => undefined);
+  };
+
   const advance = (res: AnswerDto | { ok: boolean; next: NextDto }) => {
     setState(res.next);
+    refreshChips();
     setPhase('question');
     setVerdict(null);
   };
@@ -102,7 +106,6 @@ export function App() {
     try {
       const res = await api.answer({ cardId: card.id, version: card.version, grade, scope });
       if (res.ok) {
-        setDone((d) => d + 1);
         setUndoId(res.logId ?? null);
         const g = GRADES.find((x) => x.grade === grade)!;
         showToast(`${g.name} → снова через ${res.label}${res.leech ? ' · 🩸 отложена как трудная' : ''}`);
@@ -126,7 +129,6 @@ export function App() {
     try {
       const res = await api.answer({ cardId: card.id, version: card.version, grade: ok ? 3 : 1, scope });
       if (res.ok) {
-        setDone((d) => d + 1);
         setUndoId(res.logId ?? null);
       }
       pending.current = res.next;
@@ -149,7 +151,6 @@ export function App() {
     try {
       const res = await api.undo(undoId, scope);
       if (res.ok) {
-        setDone((d) => Math.max(0, d - 1));
         showToast('↩️ Ответ отменён');
       }
       setUndoId(null);
@@ -180,7 +181,9 @@ export function App() {
 
   const countdown = useCountdown(card ? null : (state?.nextLearningDue ?? null), () => void load(scope));
 
-  const total = done + (state?.counts.total ?? 0);
+  // progress comes from the server and is counted in cards → stable between sessions
+  const done = state?.progress.done ?? 0;
+  const total = state?.progress.total ?? 0;
   const progress = total ? Math.min(100, (done / total) * 100) : 100;
   const previews = useMemo(() => new Map(card?.previews.map((p) => [p.grade, p.label])), [card]);
 
@@ -284,12 +287,12 @@ export function App() {
         <main className="screen-body center">
           <div className="big-emoji">🎉</div>
           <h2>На сейчас всё!</h2>
-          {done > 0 && <p className="muted">Сегодня в этой сессии: {done}</p>}
+          {done > 0 && <p className="muted">Сегодня пройдено: {done}</p>}
           {state.activeDecks === 0 ? (
             <p className="muted">Колод пока нет — загрузи карточки через бота.</p>
           ) : countdown ? (
             <>
-              <p className="muted">Карточка из обучения вернётся через</p>
+              <p className="muted">Карточка из обучения будет готова через</p>
               <div className="countdown">{countdown}</div>
               <p className="muted small">Можно не закрывать — она появится сама.</p>
             </>

@@ -23,9 +23,17 @@ export interface Counts {
   total: number;
 }
 
+export interface Progress {
+  /** cards finished for today */
+  done: number;
+  /** done + cards still to do today — stable across "Again", learning steps and reopening */
+  total: number;
+}
+
 export interface NextDto {
   card: CardDto | null;
   counts: Counts;
+  progress: Progress;
   nextLearningDue: string | null;
   activeDecks: number;
 }

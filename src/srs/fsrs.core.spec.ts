@@ -67,6 +67,20 @@ describe('fsrs core', () => {
     expect(card.state).toBe(State.Review);
   });
 
+  it('the interval on a button equals the one applied when tapped (stable fuzz seed)', () => {
+    let card = { ...applyGrade(newCard(), Rating.Easy, now).next, cardId: 42 };
+    card = { ...applyGrade(card, Rating.Good, card.due).next, cardId: 42 }; // a mature-ish card
+    const shownAt = card.due;
+    const tappedAt = new Date(shownAt.getTime() + 3 * 60 * 1000); // thought about it for 3 minutes
+    const previews = previewGrades(card, shownAt);
+    for (const grade of [Rating.Hard, Rating.Good, Rating.Easy] as const) {
+      const applied = applyGrade(card, grade, tappedAt).next.due;
+      const shown = previews.find((p) => p.grade === grade)!.due;
+      const days = (d: Date, from: Date) => Math.round((d.getTime() - from.getTime()) / 86_400_000);
+      expect(days(applied, tappedAt)).toBe(days(shown, shownAt));
+    }
+  });
+
   it('formats intervals', () => {
     const at = (min: number) => new Date(now.getTime() + min * 60000);
     expect(formatInterval(now, at(0.5))).toBe('<1м');

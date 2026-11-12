@@ -3,6 +3,7 @@
  * Converts between our DB row shape and ts-fsrs Card, previews the 4 buttons and applies an answer.
  */
 import {
+  type AbstractScheduler,
   type Card as FsrsCard,
   fsrs,
   type FSRS,
@@ -10,6 +11,8 @@ import {
   type Grade,
   Rating,
   State,
+  StrategyMode,
+  type TSeedStrategy,
 } from 'ts-fsrs';
 
 export { Rating, State };
@@ -28,6 +31,8 @@ export interface SchedulingFields {
   reps: number;
   lapses: number;
   lastReview: Date | null;
+  /** Used as the fuzz seed (optional in tests). */
+  cardId?: number;
 }
 
 export interface GradePreview {
@@ -42,11 +47,22 @@ export const RELEARNING_STEPS = ['1m', '10m'] as const;
 
 const schedulers = new Map<number, FSRS>();
 
+/**
+ * Fuzz seed "<cardId>_<reps>": stable between the preview on a button and the actual answer,
+ * and independent for every card (ts-fsrs' built-in strategy sums the numbers).
+ */
+const cardSeed: TSeedStrategy = function (this: AbstractScheduler): string {
+  // `current` is protected in ts-fsrs; its own seed strategies read it the same way
+  const current = Reflect.get(this, 'current') as { reps: number; card_id?: number };
+  return `${current.card_id ?? 0}_${current.reps}`;
+};
+
 /** One scheduler per desired retention (decks can differ). Fuzz spreads reviews like Anki. */
 export function getScheduler(desiredRetention = 0.9): FSRS {
   const key = Math.round(desiredRetention * 1000) / 1000;
   let scheduler = schedulers.get(key);
   if (!scheduler) {
+    // Fuzz seed = card id + reps: the interval shown on a button equals the one applied on tap.
     scheduler = fsrs(
       generatorParameters({
         request_retention: key,
@@ -58,14 +74,15 @@ export function getScheduler(desiredRetention = 0.9): FSRS {
         learning_steps: LEARNING_STEPS,
         relearning_steps: RELEARNING_STEPS,
       }),
-    );
+    ).useStrategy(StrategyMode.SEED, cardSeed);
     schedulers.set(key, scheduler);
   }
   return scheduler;
 }
 
-export function toFsrsCard(row: SchedulingFields): FsrsCard {
+export function toFsrsCard(row: SchedulingFields): FsrsCard & { card_id: number } {
   return {
+    card_id: row.cardId ?? 0,
     due: row.due,
     stability: row.stability,
     difficulty: row.difficulty,

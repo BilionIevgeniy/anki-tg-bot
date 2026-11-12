@@ -50,6 +50,7 @@ function scheduling(card: CardRow): SchedulingFields {
     reps: card.reps,
     lapses: card.lapses,
     lastReview: card.lastReview,
+    cardId: card.id,
   };
 }
 

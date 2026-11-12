@@ -20,7 +20,7 @@ import { ENV, type Env } from '../config/env';
 import type { User } from '../db/schema';
 import { DecksService } from '../decks/decks.service';
 import { formatInterval, isGrade } from '../srs/fsrs.core';
-import { countTotal, type Counts, QueueService } from '../srs/queue.service';
+import { countTotal, type Counts, type Progress, QueueService } from '../srs/queue.service';
 import { ReviewService } from '../srs/review.service';
 import { UsersService } from '../users/users.service';
 import { validateInitData } from './telegram-auth';
@@ -66,6 +66,8 @@ export interface CardDto {
 export interface NextDto {
   card: CardDto | null;
   counts: Counts & { total: number };
+  /** Stable progress in cards: done today / everything for today (see QueueService.progress) */
+  progress: Progress;
   /** When the next learning card becomes due (if nothing is due right now) */
   nextLearningDue: string | null;
   activeDecks: number;
@@ -136,14 +138,16 @@ export class WebAppController {
     if (!res.ok) return { ok: false as const, next: await this.nextFor(user, body.scope) };
     const row = await this.review.getCard(user.id, res.cardId);
     const now = new Date();
+    const deckList = await this.queue.activeDecks(user.id, body.scope);
     const counts = await this.queue.totals(user, body.scope, now);
     return {
       ok: true as const,
       next: {
         card: row ? await this.toDto(row.card, row.note, row.deck, now) : null,
         counts: { ...counts, total: countTotal(counts) },
+        progress: await this.queue.progress(user, deckList, counts, now),
         nextLearningDue: null,
-        activeDecks: 1,
+        activeDecks: deckList.length,
       } satisfies NextDto,
     };
   }
@@ -151,18 +155,20 @@ export class WebAppController {
   private async nextFor(user: User, scope: number): Promise<NextDto> {
     const now = new Date();
     const res = await this.queue.next(user, scope, now);
+    const counts = { ...res.counts, total: countTotal(res.counts) };
     if (res.kind === 'card') {
       return {
         card: await this.toDto(res.card, res.note, res.deck, now),
-        counts: { ...res.counts, total: countTotal(res.counts) },
+        counts,
+        progress: res.progress,
         nextLearningDue: null,
         activeDecks: 1,
       };
     }
-    const counts = await this.queue.totals(user, scope, now);
     return {
       card: null,
-      counts: { ...counts, total: countTotal(counts) },
+      counts,
+      progress: res.progress,
       nextLearningDue: res.nextLearningDue?.toISOString() ?? null,
       activeDecks: res.activeDecks,
     };

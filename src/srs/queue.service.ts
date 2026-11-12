@@ -39,9 +39,21 @@ export interface Counts {
   new: number;
 }
 
+export interface Progress {
+  done: number;
+  total: number;
+}
+
 export type NextResult =
-  | { kind: 'card'; card: CardRow; note: Note; deck: Deck; counts: Counts }
-  | { kind: 'none'; nextLearningDue: Date | null; activeDecks: number };
+  | { kind: 'card'; card: CardRow; note: Note; deck: Deck; counts: Counts; progress: Progress }
+  | {
+      kind: 'none';
+      /** When the next learning card can be shown (its due minus the learn-ahead window) */
+      nextLearningDue: Date | null;
+      activeDecks: number;
+      counts: Counts;
+      progress: Progress;
+    };
 
 /** scope: 0 = all active decks of the user, otherwise a deck id */
 export type Scope = number;
@@ -74,6 +86,9 @@ export class QueueService {
     if (deckList.length === 0) return result;
     const ids = deckList.map((d) => d.id);
     const day = this.dayOf(user, now);
+    // a note that already has a learning/review card due today will bury its new sibling → count it once
+    const noSiblingDueToday = sql`${cards.noteId} not in (select c2.note_id from cards c2 where c2.user_id = ${user.id} and not c2.suspended and c2.state in (1,2,3) and c2.due < ${day.end})`;
+    const notBuried = sql`${cards.noteId} not in (select ${reviewLogs.noteId} from ${reviewLogs} where ${reviewLogs.userId} = ${user.id} and ${reviewLogs.reviewedAt} >= ${day.start})`;
 
     const [cardRows, done] = await Promise.all([
       this.db
@@ -83,12 +98,13 @@ export class QueueService {
             sql<number>`count(*) filter (where ${cards.state} in (1,3) and ${cards.due} < ${day.end} and not ${cards.suspended})`.mapWith(
               Number,
             ),
+          // reviews and new cards: one per note (siblings are buried), minus notes seen today
           review:
-            sql<number>`count(*) filter (where ${cards.state} = 2 and ${cards.due} < ${day.end} and not ${cards.suspended})`.mapWith(
+            sql<number>`count(distinct ${cards.noteId}) filter (where ${cards.state} = 2 and ${cards.due} < ${day.end} and not ${cards.suspended} and ${notBuried})`.mapWith(
               Number,
             ),
           fresh:
-            sql<number>`count(*) filter (where ${cards.state} = 0 and not ${cards.suspended})`.mapWith(
+            sql<number>`count(distinct ${cards.noteId}) filter (where ${cards.state} = 0 and not ${cards.suspended} and ${notBuried} and ${noSiblingDueToday})`.mapWith(
               Number,
             ),
           total: sql<number>`count(*)`.mapWith(Number),
@@ -114,6 +130,38 @@ export class QueueService {
       });
     }
     return result;
+  }
+
+  /**
+   * Stable session progress, counted in CARDS (not answers):
+   *   done  = cards answered today that are finished for today (not waiting in learning)
+   *   total = done + cards still to do today
+   * Pressing "Again" or a learning step does not change total; reopening the app does not either.
+   */
+  async progress(user: User, deckList: Deck[], remaining: Counts, now: Date): Promise<Progress> {
+    const left = countTotal(remaining);
+    if (deckList.length === 0) return { done: 0, total: left };
+    const day = this.dayOf(user, now);
+    const [row] = await this.db
+      .select({
+        done: sql<number>`count(distinct ${cards.id}) filter (where not (${cards.state} in (1,3) and ${cards.due} < ${day.end} and not ${cards.suspended}))`.mapWith(
+          Number,
+        ),
+      })
+      .from(reviewLogs)
+      .innerJoin(cards, eq(cards.id, reviewLogs.cardId))
+      .where(
+        and(
+          eq(reviewLogs.userId, user.id),
+          inArray(
+            reviewLogs.deckId,
+            deckList.map((d) => d.id),
+          ),
+          gte(reviewLogs.reviewedAt, day.start),
+        ),
+      );
+    const done = row?.done ?? 0;
+    return { done, total: done + left };
   }
 
   async totals(user: User, scope: Scope, now: Date): Promise<Counts> {
@@ -154,7 +202,16 @@ export class QueueService {
    */
   async next(user: User, scope: Scope, now: Date): Promise<NextResult> {
     const deckList = await this.activeDecks(user.id, scope);
-    if (deckList.length === 0) return { kind: 'none', nextLearningDue: null, activeDecks: 0 };
+    const empty = { learning: 0, review: 0, new: 0 };
+    if (deckList.length === 0) {
+      return {
+        kind: 'none',
+        nextLearningDue: null,
+        activeDecks: 0,
+        counts: empty,
+        progress: { done: 0, total: 0 },
+      };
+    }
 
     const ids = deckList.map((d) => d.id);
     const day = this.dayOf(user, now);
@@ -218,15 +275,11 @@ export class QueueService {
         ),
       ));
 
+    const counts = sumCounts([...per.values()]);
+    const progress = await this.progress(user, deckList, counts, now);
     if (found) {
       const deck = deckList.find((d) => d.id === found.card.deckId)!;
-      return {
-        kind: 'card',
-        card: found.card,
-        note: found.note,
-        deck,
-        counts: sumCounts([...per.values()]),
-      };
+      return { kind: 'card', card: found.card, note: found.note, deck, counts, progress };
     }
 
     const [nextLearning] = await this.db
@@ -234,10 +287,16 @@ export class QueueService {
       .from(cards)
       .innerJoin(decks, eq(decks.id, cards.deckId))
       .where(and(base, inArray(cards.deckId, ids), learningStates));
+    // learn-ahead: such a card becomes available 20 minutes before its due time
+    const availableAt = nextLearning?.due
+      ? new Date(Math.max(now.getTime(), nextLearning.due.getTime() - LEARN_AHEAD_MS))
+      : null;
     return {
       kind: 'none',
-      nextLearningDue: nextLearning?.due ?? null,
+      nextLearningDue: availableAt,
       activeDecks: deckList.length,
+      counts,
+      progress,
     };
   }
 }

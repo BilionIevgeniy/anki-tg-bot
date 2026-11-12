@@ -51,6 +51,15 @@ describe('reminderDecision', () => {
     expect(reminderDecision(snoozed, user, at('13:05')).send).toBe(true);
   });
 
+  it('ignores a snooze left over from a previous day (no 04:00 reminder)', () => {
+    const stale = deck({ notifySnoozedUntil: new Date('2026-11-11T23:00:00+01:00') });
+    expect(reminderDecision(stale, user, at('05:00'))).toEqual({
+      send: false,
+      reason: 'too-early',
+    });
+    expect(reminderDecision(stale, user, at('09:30')).send).toBe(true);
+  });
+
   it('skips disabled, paused and blocked', () => {
     expect(reminderDecision(deck({ notifyEnabled: false }), user, at('10:00')).send).toBe(false);
     expect(reminderDecision(deck({ isPaused: true }), user, at('10:00')).send).toBe(false);
