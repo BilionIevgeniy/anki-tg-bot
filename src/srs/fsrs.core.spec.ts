@@ -50,6 +50,23 @@ describe('fsrs core', () => {
     expect(card.lapses).toBe(1);
   });
 
+  it('"Again" is always 1 minute — for new, learning and review cards', () => {
+    expect(previewGrades(newCard(), now)[0]!.label).toBe('1м');
+    const learning = applyGrade(newCard(), Rating.Good, now).next;
+    expect(previewGrades(learning, learning.due)[0]!.label).toBe('1м');
+    const review = applyGrade(newCard(), Rating.Easy, now).next;
+    expect(review.state).toBe(State.Review);
+    const p = previewGrades(review, review.due);
+    expect(p[0]!.label).toBe('1м');
+    // after a lapse: 1m → Good → 10m check → Good → back to review (days)
+    let card = applyGrade(review, Rating.Again, review.due).next;
+    expect(card.state).toBe(State.Relearning);
+    const step2 = applyGrade(card, Rating.Good, card.due);
+    expect(Math.round((step2.next.due.getTime() - card.due.getTime()) / 60000)).toBe(10);
+    card = applyGrade(step2.next, Rating.Good, step2.next.due).next;
+    expect(card.state).toBe(State.Review);
+  });
+
   it('formats intervals', () => {
     const at = (min: number) => new Date(now.getTime() + min * 60000);
     expect(formatInterval(now, at(0.5))).toBe('<1м');

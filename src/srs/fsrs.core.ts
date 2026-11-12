@@ -37,6 +37,9 @@ export interface GradePreview {
   label: string;
 }
 
+export const LEARNING_STEPS = ['1m', '10m'] as const;
+export const RELEARNING_STEPS = ['1m', '10m'] as const;
+
 const schedulers = new Map<number, FSRS>();
 
 /** One scheduler per desired retention (decks can differ). Fuzz spreads reviews like Anki. */
@@ -50,6 +53,10 @@ export function getScheduler(desiredRetention = 0.9): FSRS {
         enable_fuzz: true,
         enable_short_term: true,
         maximum_interval: 36500,
+        // Anki defaults are 1m 10m for new cards; for lapses we also start at 1m (like Noji),
+        // so "Again" is always 1 minute, then a 10-minute check before the card returns to review.
+        learning_steps: LEARNING_STEPS,
+        relearning_steps: RELEARNING_STEPS,
       }),
     );
     schedulers.set(key, scheduler);
