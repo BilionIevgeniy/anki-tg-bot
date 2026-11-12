@@ -6,7 +6,7 @@ import {
   type OnModuleDestroy,
 } from '@nestjs/common';
 import { type Bot, GrammyError, HttpError } from 'grammy';
-import { ENV, type Env } from '../config/env';
+import { ENV, type Env, telegramSecretToken } from '../config/env';
 import { BOT, type BotContext } from '../telegram/telegram.module';
 import { UsersService } from '../users/users.service';
 import { decode } from './callback-data';
@@ -89,7 +89,7 @@ export class BotService implements OnApplicationBootstrap, OnModuleDestroy {
     if (this.env.BOT_MODE === 'webhook') {
       const url = `${this.env.PUBLIC_URL!.replace(/\/$/, '')}${WEBHOOK_PATH}`;
       await this.bot.api.setWebhook(url, {
-        secret_token: this.env.WEBHOOK_SECRET,
+        secret_token: telegramSecretToken(this.env.WEBHOOK_SECRET!),
         allowed_updates: ['message', 'callback_query'],
         drop_pending_updates: false, // never lose answers sent while the service was asleep
       });

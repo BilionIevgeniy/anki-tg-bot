@@ -6,7 +6,7 @@ import express from 'express';
 import { webhookCallback } from 'grammy';
 import { AppModule } from './app.module';
 import { BotService, WEBHOOK_PATH } from './bot/bot.service';
-import { loadEnv } from './config/env';
+import { loadEnv, telegramSecretToken } from './config/env';
 
 async function bootstrap(): Promise<void> {
   if (existsSync('.env')) process.loadEnvFile('.env');
@@ -20,7 +20,7 @@ async function bootstrap(): Promise<void> {
     app.use(
       WEBHOOK_PATH,
       express.json({ limit: '1mb' }),
-      webhookCallback(bot, 'express', { secretToken: env.WEBHOOK_SECRET }),
+      webhookCallback(bot, 'express', { secretToken: telegramSecretToken(env.WEBHOOK_SECRET!) }),
     );
   }
 

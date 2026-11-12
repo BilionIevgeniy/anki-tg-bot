@@ -157,7 +157,7 @@ d('Bot (full app, fake Telegram)', () => {
       BOT_TOKEN: '123456:TEST_TOKEN_abcdefghijklmnop',
       BOT_MODE: 'webhook',
       PUBLIC_URL: 'https://example.test',
-      WEBHOOK_SECRET: 'test_secret_1234567890',
+      WEBHOOK_SECRET: 'test+secret/1234567890==',
       DATABASE_URL: url,
       JOBS_SECRET: 'jobs-secret',
       ALLOWED_TELEGRAM_IDS: '',

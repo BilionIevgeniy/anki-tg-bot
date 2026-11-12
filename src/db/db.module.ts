@@ -1,7 +1,7 @@
 import { Global, Inject, Injectable, Module, type OnModuleDestroy } from '@nestjs/common';
 import { drizzle, type NodePgDatabase } from 'drizzle-orm/node-postgres';
 import { Pool } from 'pg';
-import { ENV, type Env, loadEnv } from '../config/env';
+import { ENV, type Env, loadEnv, pgConnection } from '../config/env';
 import * as schema from './schema';
 
 export type Db = NodePgDatabase<typeof schema>;
@@ -26,15 +26,7 @@ class PoolCloser implements OnModuleDestroy {
     {
       provide: PG_POOL,
       inject: [ENV],
-      useFactory: (env: Env) =>
-        new Pool({
-          connectionString: env.DATABASE_URL,
-          max: 5,
-          // Neon/Render need TLS; local Postgres usually does not.
-          ssl: /sslmode=require|neon\.tech/.test(env.DATABASE_URL)
-            ? { rejectUnauthorized: false }
-            : undefined,
-        }),
+      useFactory: (env: Env) => new Pool({ ...pgConnection(env.DATABASE_URL), max: 5 }),
     },
     { provide: DB, inject: [PG_POOL], useFactory: (pool: Pool): Db => drizzle(pool, { schema }) },
     PoolCloser,

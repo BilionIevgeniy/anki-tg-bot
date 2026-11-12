@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { z } from 'zod';
 import { isValidTimezone } from '../srs/day';
 
@@ -9,9 +10,15 @@ const schema = z
       .url()
       .optional()
       .or(z.literal('').transform(() => undefined)),
+    /** Set automatically by Render; used when PUBLIC_URL is empty. */
+    RENDER_EXTERNAL_URL: z
+      .url()
+      .optional()
+      .or(z.literal('').transform(() => undefined)),
+    /** Any string of 16+ chars; it is hashed into a Telegram-compatible secret_token. */
     WEBHOOK_SECRET: z
       .string()
-      .regex(/^[A-Za-z0-9_-]{16,256}$/, 'WEBHOOK_SECRET: 16+ chars of A-Z a-z 0-9 _ -')
+      .min(16, 'WEBHOOK_SECRET: at least 16 characters')
       .optional()
       .or(z.literal('').transform(() => undefined)),
     DATABASE_URL: z.string().min(1, 'DATABASE_URL is required'),
@@ -32,6 +39,7 @@ const schema = z
       .refine(isValidTimezone, 'DEFAULT_TIMEZONE is not a valid IANA timezone'),
     PORT: z.coerce.number().int().default(3000),
   })
+  .transform((env) => ({ ...env, PUBLIC_URL: env.PUBLIC_URL ?? env.RENDER_EXTERNAL_URL }))
   .superRefine((env, ctx) => {
     if (env.BOT_MODE === 'webhook') {
       if (!env.PUBLIC_URL)
@@ -61,3 +69,20 @@ export function loadEnv(source: NodeJS.ProcessEnv = process.env): Env {
 }
 
 export const ENV = Symbol('ENV');
+
+/** Telegram allows only A-Z a-z 0-9 _ - (1–256 chars) in secret_token, so derive one. */
+export function telegramSecretToken(secret: string): string {
+  return createHash('sha256').update(secret).digest('hex');
+}
+
+/** pg warns about sslmode=require; drop it from the URL and configure TLS explicitly instead. */
+export function pgConnection(url: string): {
+  connectionString: string;
+  ssl?: { rejectUnauthorized: boolean };
+} {
+  const needsTls = /sslmode=(require|verify-full|verify-ca|prefer)|neon\.tech/.test(url);
+  const connectionString = url
+    .replace(/([?&])sslmode=[^&]*(&|$)/, (_m, p1: string, p2: string) => (p2 ? p1 : ''))
+    .replace(/[?&]$/, '');
+  return needsTls ? { connectionString, ssl: { rejectUnauthorized: true } } : { connectionString };
+}
