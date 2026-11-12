@@ -48,10 +48,12 @@ export class JobsController {
   ) {}
 
   /**
-   * Called every 5–10 minutes by an external cron (cron-job.org / GitHub Actions).
+   * Called every 5–15 minutes by an external cron (cron-job.org, UptimeRobot, GitHub Actions).
+   * GET is allowed too (secret in ?secret=) for pingers that cannot send POST or headers.
    * No in-process timers: a sleeping free instance would miss them.
    */
   @Post('tick')
+  @Get('tick')
   @HttpCode(200)
   async tick(
     @Headers('x-jobs-secret') header?: string,

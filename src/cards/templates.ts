@@ -56,6 +56,12 @@ export function germanWord(f: Pick<VocabDeFields, 'article' | 'lemma'>): string 
   return f.article ? `${f.article} ${f.lemma}` : f.lemma;
 }
 
+/** "<b>das Gerät</b>", "<b>umgehen</b> <i>mit + Dat.</i>" */
+function headHtml(f: VocabDeFields): string {
+  const rek = f.rektion ? ` <i>${escapeHtml(f.rektion)}</i>` : '';
+  return `<b>${escapeHtml(germanWord(f))}</b>${rek}`;
+}
+
 function vocabDetails(f: VocabDeFields): string {
   const lines: string[] = [];
   if (f.plural) lines.push(`Pl.: ${escapeHtml(f.plural)}`);
@@ -67,7 +73,6 @@ function vocabDetails(f: VocabDeFields): string {
         .join(' · ')}`,
     );
   }
-  if (f.rektion) lines.push(`+ ${escapeHtml(f.rektion)}`);
   if (f.register && f.register !== 'neutral')
     lines.push(`<i>${f.register === 'umgs' ? 'umgangssprachlich' : 'formell'}</i>`);
   if (f.example) {
@@ -85,7 +90,7 @@ export function renderFront(note: NoteLike, template: Template): string {
     const f = note.fields as VocabDeFields;
     switch (template) {
       case 'de_ru':
-        return `<b>${escapeHtml(germanWord(f))}</b>`;
+        return headHtml(f);
       case 'ru_de':
         return `<b>${escapeHtml(f.translation)}</b>${f.hint ? `\n<i>(${escapeHtml(f.hint)})</i>` : ''}\n\nКак по-немецки?`;
       case 'article':
@@ -107,7 +112,7 @@ export function renderBack(note: NoteLike, template: Template): string {
     const head =
       template === 'de_ru'
         ? `<b>${escapeHtml(f.translation)}</b>`
-        : `<b>${escapeHtml(germanWord(f))}</b>${template === 'article' ? '' : `\n${escapeHtml(f.translation)}`}`;
+        : `${headHtml(f)}${template === 'article' ? '' : `\n${escapeHtml(f.translation)}`}`;
     const details = vocabDetails(f);
     return details ? `${head}\n${details}` : head;
   }

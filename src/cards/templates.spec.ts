@@ -32,6 +32,12 @@ describe('templates', () => {
     expect(back).toContain('Pl.: die Geräte');
     expect(back).toContain('&lt;neu&gt;');
     expect(escapeHtml('a & b')).toBe('a &amp; b');
+    const verb = {
+      type: 'vocab_de',
+      fields: { lemma: 'umgehen', pos: 'verb', translation: 'обращаться', rektion: 'mit + Dat.' },
+    };
+    expect(renderFront(verb, 'de_ru')).toBe('<b>umgehen</b> <i>mit + Dat.</i>');
+    expect(renderBack(verb, 'ru_de')).toContain('<b>umgehen</b> <i>mit + Dat.</i>');
   });
 
   it('supports light markup in basic cards', () => {
