@@ -15,7 +15,14 @@ export const BOT = Symbol('BOT');
 @Global()
 @Module({
   providers: [
-    { provide: BOT, inject: [ENV], useFactory: (env: Env) => new Bot<BotContext>(env.BOT_TOKEN) },
+    {
+      provide: BOT,
+      inject: [ENV],
+      useFactory: (env: Env) =>
+        new Bot<BotContext>(env.BOT_TOKEN, {
+          client: env.TELEGRAM_API_ROOT ? { apiRoot: env.TELEGRAM_API_ROOT } : undefined,
+        }),
+    },
   ],
   exports: [BOT],
 })

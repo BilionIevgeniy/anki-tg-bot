@@ -1,36 +1,18 @@
 import 'reflect-metadata';
 import { existsSync } from 'node:fs';
-import path from 'node:path';
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
-import express from 'express';
-import { webhookCallback } from 'grammy';
+import type { NestExpressApplication } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
-import { BotService, WEBHOOK_PATH } from './bot/bot.service';
-import { WEBAPP_PATH } from './webapp/webapp-url';
-import { loadEnv, telegramSecretToken } from './config/env';
+import { loadEnv } from './config/env';
+import { configureApp } from './configure-app';
 
 async function bootstrap(): Promise<void> {
   if (existsSync('.env')) process.loadEnvFile('.env');
   const env = loadEnv();
 
-  const app = await NestFactory.create(AppModule, { bodyParser: true });
-  app.enableShutdownHooks();
-
-  if (env.BOT_MODE === 'webhook') {
-    const bot = app.get(BotService).instance;
-    app.use(
-      WEBHOOK_PATH,
-      express.json({ limit: '1mb' }),
-      webhookCallback(bot, 'express', { secretToken: telegramSecretToken(env.WEBHOOK_SECRET!) }),
-    );
-  }
-
-  // Telegram Mini App (built from webapp/ into webapp/dist)
-  const webDist = path.resolve(process.cwd(), 'webapp', 'dist');
-  if (existsSync(webDist)) {
-    app.use(WEBAPP_PATH, express.static(webDist, { index: 'index.html', maxAge: '1h' }));
-  }
+  const app = await NestFactory.create<NestExpressApplication>(AppModule, { bodyParser: false });
+  configureApp(app, env);
 
   await app.listen(env.PORT, '0.0.0.0');
   Logger.log(`🚀 anki-tg-bot on :${env.PORT} (${env.BOT_MODE})`, 'Bootstrap');

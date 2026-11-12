@@ -59,7 +59,8 @@ export function App() {
   const fail = (e: unknown) => {
     if (e instanceof ApiError && e.status === 401) setError('Открой приложение через бота в Telegram.');
     else if (e instanceof ApiError && e.status === 403) setError('Это приватный бот.');
-    else setError('Нет связи с сервером. Попробуй ещё раз.');
+    else if (e instanceof ApiError) setError(`Ошибка сервера (${e.status}). Попробуй ещё раз — если повторится, пришли скрин.`);
+    else setError('Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
   };
 
   const load = useCallback(async (s: number) => {

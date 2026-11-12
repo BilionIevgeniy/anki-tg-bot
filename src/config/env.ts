@@ -40,6 +40,11 @@ const schema = z
       .positive()
       .optional()
       .or(z.literal('').transform(() => undefined)),
+    /** Override for tests / local smoke runs (fake Telegram API). */
+    TELEGRAM_API_ROOT: z
+      .url()
+      .optional()
+      .or(z.literal('').transform(() => undefined)),
     /** Folder with deck JSON files imported on every start. */
     DECKS_DIR: z.string().default('decks'),
     DEFAULT_TIMEZONE: z

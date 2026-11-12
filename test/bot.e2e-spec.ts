@@ -12,7 +12,10 @@ import { migrate } from 'drizzle-orm/node-postgres/migrator';
 import { Bot } from 'grammy';
 import type { Update, UserFromGetMe } from 'grammy/types';
 import { Pool } from 'pg';
+import type { NestExpressApplication } from '@nestjs/platform-express';
 import { AppModule, JobsController } from '../src/app.module';
+import { loadEnv } from '../src/config/env';
+import { configureApp } from '../src/configure-app';
 import { DB, type Db } from '../src/db/db.module';
 import { cards } from '../src/db/schema';
 import { NotificationsService } from '../src/notifications/notifications.service';
@@ -193,7 +196,12 @@ d('Bot (full app, fake Telegram)', () => {
       .overrideProvider(BOT)
       .useValue(bot)
       .compile();
-    app = moduleRef.createNestApplication({ logger: false });
+    // exactly the production HTTP setup (body parser, webhook, static Mini App)
+    app = moduleRef.createNestApplication<NestExpressApplication>({
+      logger: false,
+      bodyParser: false,
+    });
+    configureApp(app as NestExpressApplication, loadEnv());
     await app.init();
   });
 
