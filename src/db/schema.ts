@@ -62,6 +62,9 @@ export const decks = pgTable(
     desiredRetention: doublePrecision('desired_retention').notNull().default(0.9),
     /** Card is suspended as a "leech" after this many lapses. */
     leechThreshold: integer('leech_threshold').notNull().default(8),
+    /** "More new cards today": extra new-card allowance, valid only for the study day extraNewDay. */
+    extraNew: integer('extra_new').notNull().default(0),
+    extraNewDay: text('extra_new_day'),
     /** Which card templates of this deck are studied (cards of other templates stay dormant). */
     enabledTemplates: text('enabled_templates')
       .array()

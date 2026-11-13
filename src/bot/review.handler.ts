@@ -87,6 +87,14 @@ export class ReviewHandler {
       case 'undo':
         await this.undo(ctx, cb.logId, cb.scope);
         return true;
+      case 'more': {
+        const added = await this.queue.addMoreNew(ctx.user, cb.scope, new Date());
+        await ctx.answerCallbackQuery({
+          text: added ? `➕ Ещё ${added} новых на сегодня` : 'Новых слов больше нет',
+        });
+        await this.sendNext(ctx, cb.scope, { edit: true });
+        return true;
+      }
       default:
         return false;
     }
@@ -127,7 +135,11 @@ export class ReviewHandler {
     if (opts.undoLogId) {
       kb.text('↩️ Отменить ответ', encode({ a: 'undo', logId: opts.undoLogId, scope })).row();
     }
-    if (next.nextLearningDue) kb.text('🔄 Проверить ещё раз', encode({ a: 'learn', scope }));
+    if (next.nextLearningDue) kb.text('🔄 Проверить ещё раз', encode({ a: 'learn', scope })).row();
+    if (next.moreNew > 0) {
+      lines.push('', `Новые слова на сегодня закончились (лимит). Ещё доступно: ${next.moreNew}.`);
+      kb.text(`➕ Ещё ${Math.min(10, next.moreNew)} новых`, encode({ a: 'more', scope }));
+    }
     return show(lines.join('\n'), kb);
   }
 

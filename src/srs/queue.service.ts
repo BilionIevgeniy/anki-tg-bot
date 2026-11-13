@@ -37,6 +37,8 @@ const LEARN_AHEAD_MS = 20 * 60 * 1000;
 
 export interface DeckCounts {
   deckId: number;
+  /** New words available beyond today's limit ("➕ more new cards" button) */
+  moreNew: number;
   /** (Re)learning cards due today */
   learning: number;
   /** Review cards due today, capped by the daily review limit */
@@ -76,6 +78,8 @@ export type NextResult =
       activeDecks: number;
       counts: Counts;
       progress: Progress;
+      /** New words that could still be studied today if the limit is raised */
+      moreNew: number;
     };
 
 /** scope: 0 = all active decks of the user, otherwise a deck id */
@@ -143,11 +147,14 @@ export class QueueService {
     for (const deck of deckList) {
       const row = cardRows.find((r) => r.deckId === deck.id);
       const d = done.get(deck.id) ?? { newDone: 0, reviewDone: 0 };
+      const limit = deck.newPerDay + (deck.extraNewDay === day.key ? deck.extraNew : 0);
+      const newAllowed = Math.max(0, limit - d.newDone);
       result.set(deck.id, {
         deckId: deck.id,
         learning: row?.learning ?? 0,
         review: Math.min(row?.review ?? 0, Math.max(0, deck.reviewsPerDay - d.reviewDone)),
-        new: Math.min(row?.fresh ?? 0, Math.max(0, deck.newPerDay - d.newDone)),
+        new: Math.min(row?.fresh ?? 0, newAllowed),
+        moreNew: Math.max(0, (row?.fresh ?? 0) - newAllowed),
         total: row?.total ?? 0,
         suspended: row?.suspended ?? 0,
       });
@@ -185,6 +192,28 @@ export class QueueService {
       );
     const done = row?.done ?? 0;
     return { done, total: done + left };
+  }
+
+  /** "➕ Ещё N новых": raises today's new limit in every deck of the scope that has more new words. */
+  async addMoreNew(user: User, scope: Scope, now: Date, n = 10): Promise<number> {
+    const list = await this.activeDecks(user.id, scope);
+    const per = await this.deckCounts(user, list, now);
+    const day = this.dayOf(user, now);
+    let added = 0;
+    for (const deck of list) {
+      const more = per.get(deck.id)?.moreNew ?? 0;
+      if (more <= 0) continue;
+      const add = Math.min(n, more);
+      await this.db
+        .update(decks)
+        .set({
+          extraNew: sql`case when ${decks.extraNewDay} = ${day.key} then ${decks.extraNew} + ${add} else ${add} end`,
+          extraNewDay: day.key,
+        })
+        .where(and(eq(decks.id, deck.id), eq(decks.userId, user.id)));
+      added += add;
+    }
+    return added;
   }
 
   async totals(user: User, scope: Scope, now: Date): Promise<Counts> {
@@ -233,6 +262,7 @@ export class QueueService {
         activeDecks: 0,
         counts: empty,
         progress: { done: 0, total: 0 },
+        moreNew: 0,
       };
     }
 
@@ -339,6 +369,7 @@ export class QueueService {
       activeDecks: deckList.length,
       counts,
       progress,
+      moreNew: [...per.values()].reduce((sum, c) => sum + c.moreNew, 0),
     };
   }
 }

@@ -23,7 +23,9 @@ export type Callback =
   | { a: 'impOk' }
   | { a: 'impNo' }
   | { a: 'unleech'; cardId: number }
-  | { a: 'export'; deckId: number };
+  | { a: 'export'; deckId: number }
+  /** "➕ 10 more new cards today" */
+  | { a: 'more'; scope: number };
 
 /** 0 newPerDay (value = delta), 1 pause toggle, 2 toggle the DE→RU direction */
 export type DeckSetting = 0 | 1 | 2;
@@ -48,6 +50,7 @@ const CODES = {
   impNo: 'in',
   unleech: 'ul',
   export: 'e',
+  more: 'm',
 } as const satisfies Record<Callback['a'], string>;
 
 export function encode(cb: Callback): string {
@@ -67,6 +70,7 @@ export function encode(cb: Callback): string {
       args = [cb.logId, cb.scope];
       break;
     case 'learn':
+    case 'more':
       args = [cb.scope];
       break;
     case 'deck':
@@ -139,6 +143,8 @@ export function decode(data: string): Callback | null {
       return need(1) ? { a: 'unleech', cardId: a } : null;
     case 'e':
       return need(1) ? { a: 'export', deckId: a } : null;
+    case 'm':
+      return need(1) ? { a: 'more', scope: a } : null;
     default:
       return null;
   }

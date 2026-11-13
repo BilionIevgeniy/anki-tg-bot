@@ -151,6 +151,20 @@ export function App() {
     pending.current = null;
   };
 
+  const moreNew = async () => {
+    if (busy) return;
+    setBusy(true);
+    try {
+      const res = await api.moreNew(scope);
+      showToast(res.added ? `➕ Ещё ${res.added} новых на сегодня` : 'Новых слов больше нет');
+      advance({ ok: true, next: res.next });
+    } catch (e) {
+      fail(e);
+    } finally {
+      setBusy(false);
+    }
+  };
+
   const undo = async () => {
     if (!undoId || busy) return;
     setBusy(true);
@@ -304,6 +318,11 @@ export function App() {
             </>
           ) : (
             <p className="muted">На сегодня карточек больше нет. Завтра будут новые 🙌</p>
+          )}
+          {state.moreNew > 0 && (
+            <button className="btn primary" onClick={() => void moreNew()} disabled={busy}>
+              ➕ Ещё {Math.min(10, state.moreNew)} новых
+            </button>
           )}
           <button className="btn ghost" onClick={() => tg?.close()}>
             Закрыть

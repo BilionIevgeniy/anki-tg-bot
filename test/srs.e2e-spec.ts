@@ -439,4 +439,31 @@ d('SRS flow (Postgres)', () => {
       20,
     );
   });
+
+  it('"➕ more new cards" raises today\'s limit only for today', async () => {
+    const user = await users.upsert({ id: 561 });
+    const words = Array.from({ length: 5 }, (_, i) => ({
+      externalId: `de:m${i}`,
+      type: 'vocab_de',
+      fields: { lemma: `mehr${i}`, pos: 'adj', translation: `ещё ${i}` },
+    }));
+    await importer.apply(user.id, parseImport(sample(words)).data!);
+    const [deck] = await decksSvc.list(user.id);
+    await decksSvc.changeNewPerDay(user.id, deck!.id, -13); // 15 → 2 per day
+    const t = new Date('2026-11-13T09:00:00Z');
+    for (let i = 0; i < 2; i++) {
+      const n = await queue.next(user, 0, t);
+      if (n.kind !== 'card') throw new Error('expected a card');
+      await review.answer(user.id, n.card.id, Rating.Easy, n.card.version, t);
+    }
+    const done = await queue.next(user, 0, t);
+    expect(done).toMatchObject({ kind: 'none', moreNew: 3 });
+    expect(await queue.addMoreNew(user, 0, t, 10)).toBe(3); // only 3 words left
+    const more = await queue.next(user, 0, t);
+    expect(more.kind).toBe('card');
+    expect(more.progress.total).toBe(5);
+    // next study day: back to the normal limit of 2
+    const tomorrow = await queue.next(user, 0, new Date('2026-11-14T09:00:00Z'));
+    expect(tomorrow.counts.new).toBe(2);
+  });
 });

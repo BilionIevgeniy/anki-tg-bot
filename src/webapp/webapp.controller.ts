@@ -71,6 +71,8 @@ export interface NextDto {
   /** When the next learning card becomes due (if nothing is due right now) */
   nextLearningDue: string | null;
   activeDecks: number;
+  /** new words available beyond today's limit (0 while a card is shown) */
+  moreNew: number;
 }
 
 const answerBody = z.object({
@@ -131,6 +133,14 @@ export class WebAppController {
     };
   }
 
+  /** "➕ Ещё 10 новых": raise today's new-card limit, return the next card */
+  @Post('more-new')
+  async moreNew(@CurrentUser() user: User, @Body() raw: unknown) {
+    const body = parseBody(z.object({ scope: z.number().int().default(0) }), raw);
+    const added = await this.queue.addMoreNew(user, body.scope, new Date());
+    return { added, next: await this.nextFor(user, body.scope) };
+  }
+
   @Post('undo')
   async undo(@CurrentUser() user: User, @Body() raw: unknown) {
     const body = parseBody(undoBody, raw);
@@ -148,6 +158,7 @@ export class WebAppController {
         progress: await this.queue.progress(user, deckList, counts, now),
         nextLearningDue: null,
         activeDecks: deckList.length,
+        moreNew: 0,
       } satisfies NextDto,
     };
   }
@@ -163,6 +174,7 @@ export class WebAppController {
         progress: res.progress,
         nextLearningDue: null,
         activeDecks: res.activeDecks,
+        moreNew: 0,
       };
     }
     return {
@@ -171,6 +183,7 @@ export class WebAppController {
       progress: res.progress,
       nextLearningDue: res.nextLearningDue?.toISOString() ?? null,
       activeDecks: res.activeDecks,
+      moreNew: res.moreNew,
     };
   }
 

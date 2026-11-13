@@ -36,6 +36,8 @@ export interface NextDto {
   progress: Progress;
   nextLearningDue: string | null;
   activeDecks: number;
+  /** new words available beyond today's limit */
+  moreNew: number;
 }
 
 export interface AnswerDto {
@@ -78,6 +80,11 @@ export const api = {
   next: (scope: number) => call<NextDto>(`/next?scope=${scope}`),
   answer: (body: { cardId: number; version: number; grade: number; scope: number }) =>
     call<AnswerDto>('/answer', { method: 'POST', body: JSON.stringify(body) }),
+  moreNew: (scope: number) =>
+    call<{ added: number; next: NextDto }>('/more-new', {
+      method: 'POST',
+      body: JSON.stringify({ scope }),
+    }),
   undo: (logId: number, scope: number) =>
     call<{ ok: boolean; next: NextDto }>('/undo', {
       method: 'POST',
