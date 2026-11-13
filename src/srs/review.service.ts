@@ -1,5 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { and, desc, eq } from 'drizzle-orm';
+import { and, desc, eq, isNull, sql } from 'drizzle-orm';
+import { templatesFor, type Template } from '../cards/templates';
 import { DB, type Db } from '../db/db.module';
 import { type CardRow, cards, type CardSnapshot, decks, notes, reviewLogs } from '../db/schema';
 import {
@@ -144,6 +145,20 @@ export class ReviewService {
         .limit(1)
         .for('update');
       if (!last || last.id !== logId) return { ok: false } as const;
+      // the word was deleted in the Mini App since → do not bring its card back
+      // row lock: a concurrent delete/edit of the word waits for us (or we see its result)
+      const [owner] = await tx
+        .select({ type: notes.type, fields: notes.fields, deletedAt: notes.deletedAt })
+        .from(notes)
+        .where(eq(notes.id, last.noteId))
+        .for('update');
+      if (!owner || owner.deletedAt) return { ok: false } as const;
+      const [current] = await tx
+        .select({ template: cards.template })
+        .from(cards)
+        .where(eq(cards.id, last.cardId));
+      // the word was edited since (e.g. article removed) → its card stays suspended
+      const stillApplies = !!current && templatesFor(owner).includes(current.template as Template);
       const s = last.prevCard;
       await tx
         .update(cards)
@@ -157,7 +172,7 @@ export class ReviewService {
           reps: s.reps,
           lapses: s.lapses,
           lastReview: s.lastReview ? new Date(s.lastReview) : null,
-          suspended: s.suspended,
+          suspended: s.suspended || !stillApplies,
           isLeech: s.isLeech,
         })
         .where(and(eq(cards.id, last.cardId), eq(cards.userId, userId)));
@@ -181,7 +196,14 @@ export class ReviewService {
       .from(cards)
       .innerJoin(notes, eq(notes.id, cards.noteId))
       .innerJoin(decks, eq(decks.id, cards.deckId))
-      .where(and(eq(cards.userId, userId), eq(cards.isLeech, true), eq(cards.suspended, true)))
+      .where(
+        and(
+          eq(cards.userId, userId),
+          eq(cards.isLeech, true),
+          eq(cards.suspended, true),
+          isNull(notes.deletedAt),
+        ),
+      )
       .orderBy(desc(cards.lapses))
       .limit(30);
   }
@@ -191,7 +213,14 @@ export class ReviewService {
     const res = await this.db
       .update(cards)
       .set({ suspended: false, isLeech: false, due: new Date() })
-      .where(and(eq(cards.id, cardId), eq(cards.userId, userId), eq(cards.isLeech, true)))
+      .where(
+        and(
+          eq(cards.id, cardId),
+          eq(cards.userId, userId),
+          eq(cards.isLeech, true),
+          sql`not exists (select 1 from notes n where n.id = ${cards.noteId} and n.deleted_at is not null)`,
+        ),
+      )
       .returning({ id: cards.id });
     return res.length > 0;
   }

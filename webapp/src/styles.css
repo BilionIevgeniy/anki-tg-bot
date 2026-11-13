@@ -427,3 +427,73 @@ h2 {
     transform: rotate(360deg);
   }
 }
+
+/* top-right pair: ✏️ edit + ↩ undo */
+.top-right {
+  display: flex;
+  gap: 8px;
+}
+.icon-spacer {
+  width: 40px;
+}
+.row.two {
+  grid-template-columns: repeat(2, 1fr);
+}
+.btn.danger {
+  background: color-mix(in srgb, var(--again) 16%, var(--surface));
+  color: var(--again);
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+/* ✏️ editor */
+.editor-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.field-label {
+  color: var(--muted);
+  font-size: 13px;
+}
+.field-label i {
+  color: var(--again);
+  font-style: normal;
+}
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 16px; /* ≥16px: iOS does not zoom into the field */
+  outline: none;
+  resize: vertical;
+}
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  border-color: var(--accent);
+}
+.editor-error {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--again) 16%, transparent);
+  color: var(--again);
+  font-size: 14px;
+  white-space: pre-line;
+}

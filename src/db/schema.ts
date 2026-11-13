@@ -111,6 +111,16 @@ export const notes = pgTable(
     contentHash: text('content_hash').notNull(),
     /** Order in which new cards are introduced. */
     position: integer('position').notNull().default(0),
+    /**
+     * Edited by the user in the Mini App: the deck sync (decks/ folder) no longer overwrites
+     * this note's content — the user's version wins over the file.
+     */
+    editedAt: timestamp('edited_at', { withTimezone: true }),
+    /**
+     * Deleted by the user in the Mini App (soft delete): all its cards are suspended and the
+     * deck sync never recreates or updates it. Kept so it can be restored manually.
+     */
+    deletedAt: timestamp('deleted_at', { withTimezone: true }),
     ...timestamps,
   },
   (t) => [uniqueIndex('notes_deck_ext_uq').on(t.deckId, t.externalId)],

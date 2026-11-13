@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { type AnswerDto, api, ApiError, type MeDto, type NextDto } from './api';
 import { Back, Front } from './CardContent';
-import { haptic, tg } from './telegram';
+import { Editor } from './Editor';
+import { confirmDialog, haptic, tg } from './telegram';
 
 const GRADES = [
   { grade: 1, name: 'Снова', cls: 'again' },
@@ -39,6 +40,18 @@ function useCountdown(target: string | null, onZero: () => void): string | null 
   return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 }
 
+/** NestJS error body → its message (several lines for validation errors). */
+function serverMessage(raw: string): string {
+  try {
+    const m = (JSON.parse(raw) as { message?: string | string[] }).message;
+    if (Array.isArray(m)) return m.join('\n');
+    if (m) return m;
+  } catch {
+    // not JSON
+  }
+  return raw || 'Проверь поля';
+}
+
 export function App() {
   const [me, setMe] = useState<MeDto | null>(null);
   const [scope, setScope] = useState(0);
@@ -50,6 +63,8 @@ export function App() {
   const [undoId, setUndoId] = useState<number | null>(null);
   const [verdict, setVerdict] = useState<{ ok: boolean; picked: string } | null>(null);
   const pending = useRef<NextDto | null>(null); // next card after an article answer
+  const [editing, setEditing] = useState(false);
+  const [editError, setEditError] = useState<string | null>(null);
 
   const card = state?.card ?? null;
 
@@ -183,9 +198,67 @@ export function App() {
     }
   };
 
+  const openEditor = () => {
+    if (!card || busy) return;
+    haptic.tap();
+    setEditError(null);
+    setEditing(true);
+  };
+
+  const saveEdit = async (fields: Record<string, string | null>) => {
+    if (!card || busy) return;
+    setBusy(true);
+    try {
+      const res = await api.editNote(card.id, fields, scope);
+      const same = res.next.card?.id === card.id;
+      setState(res.next);
+      refreshChips();
+      if (!same) {
+        // the shown card no longer applies (e.g. article removed) → next card
+        setPhase('question');
+        setVerdict(null);
+        pending.current = null;
+        setUndoId(null);
+      }
+      setEditing(false);
+      haptic.good();
+      showToast(res.ok ? '✏️ Сохранено' : 'Карточка не найдена — показываю следующую');
+    } catch (e) {
+      if (e instanceof ApiError && e.status === 400) setEditError(serverMessage(e.message));
+      else {
+        setEditing(false);
+        fail(e);
+      }
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const deleteNote = async () => {
+    if (!card || busy) return;
+    const what = card.note.type === 'basic' ? 'эту карточку' : 'это слово';
+    if (!(await confirmDialog(`Удалить ${what}? Оно уйдёт из очереди и счётчика.`))) return;
+    setBusy(true);
+    try {
+      const res = await api.deleteNote(card.id, scope);
+      setEditing(false);
+      setUndoId(null); // the last answer may belong to the deleted word
+      pending.current = null;
+      advance(res);
+      haptic.good();
+      showToast('🗑 Удалено');
+    } catch (e) {
+      setEditing(false);
+      fail(e);
+    } finally {
+      setBusy(false);
+    }
+  };
+
   // keyboard: Space = show, 1–4 = grades (handy on desktop Telegram)
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (editing) return; // typing in the editor
       if (e.key === ' ' || e.key === 'Enter') {
         e.preventDefault();
         if (phase === 'question') reveal();
@@ -221,6 +294,20 @@ export function App() {
 
   if (!state) return <div className="screen center"><div className="spinner" /></div>;
 
+  if (editing && card) {
+    return (
+      <Editor
+        key={card.id}
+        card={card}
+        busy={busy}
+        error={editError}
+        onSave={(f) => void saveEdit(f)}
+        onDelete={() => void deleteNote()}
+        onCancel={() => setEditing(false)}
+      />
+    );
+  }
+
   return (
     <div className="screen">
       <header className="top">
@@ -234,9 +321,20 @@ export function App() {
             `${done} ✓`
           )}
         </div>
-        <button className="icon" onClick={() => void undo()} disabled={!undoId || busy} aria-label="Отменить ответ">
-          ↩
-        </button>
+        <div className="top-right">
+          <button
+            className="icon"
+            onClick={openEditor}
+            // not while the der/die/das result is shown: it was graded against the old article
+            disabled={!card || busy || (card.template === 'article' && phase === 'answer')}
+            aria-label="Редактировать"
+          >
+            ✏️
+          </button>
+          <button className="icon" onClick={() => void undo()} disabled={!undoId || busy} aria-label="Отменить ответ">
+            ↩
+          </button>
+        </div>
       </header>
       <div className="bar">
         <div className="bar-fill" style={{ width: `${progress}%` }} />

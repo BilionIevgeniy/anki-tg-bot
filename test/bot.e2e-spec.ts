@@ -17,7 +17,8 @@ import { AppModule, JobsController } from '../src/app.module';
 import { loadEnv } from '../src/config/env';
 import { configureApp } from '../src/configure-app';
 import { DB, type Db } from '../src/db/db.module';
-import { cards } from '../src/db/schema';
+import { cards, notes, users } from '../src/db/schema';
+import { ImportService } from '../src/import/import.service';
 import { NotificationsService } from '../src/notifications/notifications.service';
 import { DeckSyncService } from '../src/sync/deck-sync.service';
 import { signInitData } from '../src/webapp/telegram-auth';
@@ -480,5 +481,103 @@ d('Bot (full app, fake Telegram)', () => {
     const undo = await request('POST', '/api/app/undo', { logId: ans.json.logId, scope: 0 }, auth);
     expect(undo.json.ok).toBe(true);
     expect(undo.json.next.card.id).toBe(card.id);
+
+    // ✏️ edit the shown word: the same card comes back with the new text, progress unchanged
+    const cur = undo.json.next;
+    const edit = await request(
+      'POST',
+      '/api/app/note/edit',
+      {
+        cardId: cur.card.id,
+        fields: { ...cur.card.note.fields, translation: 'устройство (правка)', hint: '' },
+        scope: 0,
+      },
+      auth,
+    );
+    expect(edit.status).toBe(201);
+    expect(edit.json.ok).toBe(true);
+    expect(edit.json.next.card.id).toBe(cur.card.id);
+    expect(edit.json.next.card.note.fields.translation).toBe('устройство (правка)');
+    expect(edit.json.next.card.note.fields).not.toHaveProperty('hint');
+    expect(edit.json.next.progress).toEqual(cur.progress);
+
+    // a required field cannot be emptied
+    const invalid = await request(
+      'POST',
+      '/api/app/note/edit',
+      { cardId: cur.card.id, fields: { ...cur.card.note.fields, lemma: '  ' }, scope: 0 },
+      auth,
+    );
+    expect(invalid.status).toBe(400);
+
+    const db = app.get<Db>(DB);
+    const [owner] = await db.select().from(users).where(eq(users.telegramId, USER.id));
+    const [editedNote] = await db
+      .select()
+      .from(notes)
+      .innerJoin(cards, eq(cards.noteId, notes.id))
+      .where(eq(cards.id, Number(cur.card.id)));
+    const editedExt = editedNote!.notes.externalId;
+
+    // the deck sync (re-import of a changed file) does NOT overwrite the user's edit
+    const importer = app.get(ImportService);
+    const changed = {
+      ...deckFile,
+      notes: deckFile.notes.map((n) => ({
+        ...n,
+        fields: { ...n.fields, translation: `${n.fields.translation} (из файла)` },
+      })),
+    };
+    const rep = await importer.apply(owner!.id, changed as never);
+    expect(rep.updated).toBe(1); // only the other word
+    const [afterSync] = await db.select().from(notes).where(eq(notes.id, editedNote!.notes.id));
+    expect(afterSync!.fields.translation).toBe('устройство (правка)');
+
+    // 🗑 delete: answer it first, then delete → it leaves the queue and the counter
+    const ans2 = await request(
+      'POST',
+      '/api/app/answer',
+      { cardId: cur.card.id, version: edit.json.next.card.version, grade: 1, scope: 0 },
+      auth,
+    );
+    expect(ans2.json.ok).toBe(true);
+    const before = (await request('GET', '/api/app/next?scope=0', undefined, auth)).json;
+    const del = await request(
+      'POST',
+      '/api/app/note/delete',
+      { cardId: cur.card.id, scope: 0 },
+      auth,
+    );
+    expect(del.status).toBe(201);
+    expect(del.json.ok).toBe(true);
+    expect(del.json.next.progress.total).toBeLessThan(Number(before.progress.total));
+    expect(del.json.next.card?.id).not.toBe(cur.card.id);
+    const noteCards = await db.select().from(cards).where(eq(cards.noteId, editedNote!.notes.id));
+    expect(noteCards.every((c) => c.suspended)).toBe(true);
+
+    // undo of an answer to a deleted word does not bring it back
+    const undo2 = await request(
+      'POST',
+      '/api/app/undo',
+      { logId: ans2.json.logId, scope: 0 },
+      auth,
+    );
+    expect(undo2.json.ok).toBe(false);
+
+    // the deck sync never recreates or revives a deleted word
+    await importer.apply(owner!.id, deckFile as never);
+    const stillGone = await db.select().from(cards).where(eq(cards.noteId, editedNote!.notes.id));
+    expect(stillGone.every((c) => c.suspended)).toBe(true);
+    const exported = await importer.exportDeck(owner!.id, editedNote!.cards.deckId);
+    expect(exported!.notes.map((n) => n.externalId)).not.toContain(editedExt);
+
+    // a deleted word cannot be edited or deleted again
+    const gone = await request(
+      'POST',
+      '/api/app/note/delete',
+      { cardId: cur.card.id, scope: 0 },
+      auth,
+    );
+    expect(gone.json.ok).toBe(false);
   });
 });

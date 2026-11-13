@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { and, asc, eq, gte, inArray, lt, lte, min, notInArray, sql } from 'drizzle-orm';
+import { and, asc, eq, gte, inArray, isNull, lt, lte, min, notInArray, sql } from 'drizzle-orm';
 import { DB, type Db } from '../db/db.module';
 import {
   type CardRow,
@@ -139,7 +139,15 @@ export class QueueService {
         })
         .from(cards)
         .innerJoin(decks, eq(decks.id, cards.deckId))
-        .where(and(eq(cards.userId, user.id), inArray(cards.deckId, ids), templateEnabled))
+        .innerJoin(notes, eq(notes.id, cards.noteId))
+        .where(
+          and(
+            eq(cards.userId, user.id),
+            inArray(cards.deckId, ids),
+            templateEnabled,
+            isNull(notes.deletedAt), // words deleted in the Mini App are gone from all counters
+          ),
+        )
         .groupBy(cards.deckId),
       this.doneToday(user.id, ids, day.start),
     ]);
@@ -180,9 +188,11 @@ export class QueueService {
       })
       .from(reviewLogs)
       .innerJoin(cards, eq(cards.id, reviewLogs.cardId))
+      .innerJoin(notes, eq(notes.id, cards.noteId))
       .where(
         and(
           eq(reviewLogs.userId, user.id),
+          isNull(notes.deletedAt), // a deleted word leaves the progress entirely (total shrinks)
           inArray(
             reviewLogs.deckId,
             deckList.map((d) => d.id),
@@ -236,9 +246,11 @@ export class QueueService {
         reviewDone: sql<number>`count(*) filter (where ${reviewLogs.state} = 2)`.mapWith(Number),
       })
       .from(reviewLogs)
+      .innerJoin(notes, eq(notes.id, reviewLogs.noteId))
       .where(
         and(
           eq(reviewLogs.userId, userId),
+          isNull(notes.deletedAt), // a word deleted today frees its slot in today's limits
           inArray(reviewLogs.deckId, deckIds),
           gte(reviewLogs.reviewedAt, dayStart),
         ),

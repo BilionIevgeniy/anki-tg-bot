@@ -51,7 +51,12 @@ export class StatsService {
         .from(cards)
         .innerJoin(decks, eq(decks.id, cards.deckId))
         .where(
-          and(eq(cards.userId, user.id), sql`${cards.template} = any(${decks.enabledTemplates})`),
+          and(
+            eq(cards.userId, user.id),
+            sql`${cards.template} = any(${decks.enabledTemplates})`,
+            // words deleted in the Mini App do not count
+            sql`not exists (select 1 from notes n where n.id = ${cards.noteId} and n.deleted_at is not null)`,
+          ),
         ),
       this.db
         .select({

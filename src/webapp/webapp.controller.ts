@@ -19,6 +19,7 @@ import { z } from 'zod';
 import { ENV, type Env } from '../config/env';
 import type { User } from '../db/schema';
 import { DecksService } from '../decks/decks.service';
+import { NotesService } from '../notes/notes.service';
 import { formatInterval, isGrade } from '../srs/fsrs.core';
 import { countTotal, type Counts, type Progress, QueueService } from '../srs/queue.service';
 import { ReviewService } from '../srs/review.service';
@@ -82,6 +83,12 @@ const answerBody = z.object({
   scope: z.number().int().default(0),
 });
 const undoBody = z.object({ logId: z.number().int(), scope: z.number().int().default(0) });
+const editBody = z.object({
+  cardId: z.number().int(),
+  fields: z.record(z.string(), z.union([z.string().max(2000), z.null()])),
+  scope: z.number().int().default(0),
+});
+const deleteBody = z.object({ cardId: z.number().int(), scope: z.number().int().default(0) });
 
 function parseBody<T>(schema: z.ZodType<T>, raw: unknown): T {
   const res = schema.safeParse(raw);
@@ -98,6 +105,7 @@ export class WebAppController {
     private readonly queue: QueueService,
     private readonly review: ReviewService,
     private readonly decks: DecksService,
+    private readonly notes: NotesService,
   ) {}
 
   @Get('me')
@@ -160,6 +168,45 @@ export class WebAppController {
         activeDecks: deckList.length,
         moreNew: 0,
       } satisfies NextDto,
+    };
+  }
+
+  /**
+   * ✏️ Edit the word behind the shown card. Returns the same card with the new text (so the
+   * session stays where it was), or the next card if this one no longer applies
+   * (e.g. the article was removed while the der/die/das card was shown).
+   */
+  @Post('note/edit')
+  async editNote(@CurrentUser() user: User, @Body() raw: unknown) {
+    const body = parseBody(editBody, raw);
+    const res = await this.notes.edit(user.id, body.cardId, body.fields);
+    if (!res.ok && res.reason === 'invalid') throw new BadRequestException(res.errors.join('\n'));
+    if (!res.ok) return { ok: false as const, next: await this.nextFor(user, body.scope) };
+    return { ok: true as const, next: await this.sameCardOrNext(user, body.cardId, body.scope) };
+  }
+
+  /** 🗑 Delete the word behind the shown card (soft delete) and return the next card. */
+  @Post('note/delete')
+  async deleteNote(@CurrentUser() user: User, @Body() raw: unknown) {
+    const body = parseBody(deleteBody, raw);
+    const ok = await this.notes.remove(user.id, body.cardId);
+    return { ok, next: await this.nextFor(user, body.scope) };
+  }
+
+  private async sameCardOrNext(user: User, cardId: number, scope: number): Promise<NextDto> {
+    const row = await this.review.getCard(user.id, cardId);
+    const now = new Date();
+    if (!row || row.card.suspended || !row.deck.enabledTemplates.includes(row.card.template))
+      return this.nextFor(user, scope);
+    const deckList = await this.queue.activeDecks(user.id, scope);
+    const counts = await this.queue.totals(user, scope, now);
+    return {
+      card: await this.toDto(row.card, row.note, row.deck, now),
+      counts: { ...counts, total: countTotal(counts) },
+      progress: await this.queue.progress(user, deckList, counts, now),
+      nextLearningDue: null,
+      activeDecks: deckList.length,
+      moreNew: 0,
     };
   }
 

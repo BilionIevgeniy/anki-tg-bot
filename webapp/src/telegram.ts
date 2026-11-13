@@ -6,6 +6,7 @@ interface TelegramWebApp {
   expand(): void;
   close(): void;
   disableVerticalSwipes?: () => void;
+  showConfirm?: (message: string, callback: (ok: boolean) => void) => void;
   setHeaderColor?: (color: string) => void;
   setBackgroundColor?: (color: string) => void;
   HapticFeedback?: {
@@ -34,3 +35,18 @@ export const haptic = {
   good: () => tg?.HapticFeedback?.notificationOccurred('success'),
   bad: () => tg?.HapticFeedback?.notificationOccurred('error'),
 };
+
+/** Native Telegram confirm dialog (falls back to the browser one outside Telegram). */
+export function confirmDialog(message: string): Promise<boolean> {
+  return new Promise((resolve) => {
+    if (tg?.showConfirm) {
+      try {
+        tg.showConfirm(message, (ok) => resolve(ok));
+        return;
+      } catch {
+        // old Telegram client without popups → fall through
+      }
+    }
+    resolve(window.confirm(message));
+  });
+}

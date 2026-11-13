@@ -85,6 +85,16 @@ export const api = {
       method: 'POST',
       body: JSON.stringify({ scope }),
     }),
+  editNote: (cardId: number, fields: Record<string, string | null>, scope: number) =>
+    call<{ ok: boolean; next: NextDto }>('/note/edit', {
+      method: 'POST',
+      body: JSON.stringify({ cardId, fields, scope }),
+    }),
+  deleteNote: (cardId: number, scope: number) =>
+    call<{ ok: boolean; next: NextDto }>('/note/delete', {
+      method: 'POST',
+      body: JSON.stringify({ cardId, scope }),
+    }),
   undo: (logId: number, scope: number) =>
     call<{ ok: boolean; next: NextDto }>('/undo', {
       method: 'POST',

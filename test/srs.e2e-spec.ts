@@ -4,7 +4,7 @@
  * The test database is wiped (all tables dropped) before the run.
  */
 import path from 'node:path';
-import { sql } from 'drizzle-orm';
+import { eq, sql } from 'drizzle-orm';
 import { drizzle } from 'drizzle-orm/node-postgres';
 import { migrate } from 'drizzle-orm/node-postgres/migrator';
 import { Pool } from 'pg';
@@ -12,6 +12,7 @@ import type { Env } from '../src/config/env';
 import type { Db } from '../src/db/db.module';
 import * as schema from '../src/db/schema';
 import { DecksService } from '../src/decks/decks.service';
+import { NotesService } from '../src/notes/notes.service';
 import { parseImport } from '../src/import/contract';
 import { ImportService } from '../src/import/import.service';
 import { reminderDecision } from '../src/notifications/schedule';
@@ -70,6 +71,7 @@ d('SRS flow (Postgres)', () => {
   let review: ReviewService;
   let decksSvc: DecksService;
   let stats: StatsService;
+  let notesSvc: NotesService;
 
   beforeAll(async () => {
     pool = new Pool({ connectionString: url, max: 3 });
@@ -86,6 +88,7 @@ d('SRS flow (Postgres)', () => {
     review = new ReviewService(db);
     decksSvc = new DecksService(db);
     stats = new StatsService(db, queue);
+    notesSvc = new NotesService(db);
   });
 
   afterAll(async () => {
@@ -465,5 +468,78 @@ d('SRS flow (Postgres)', () => {
     // next study day: back to the normal limit of 2
     const tomorrow = await queue.next(user, 0, new Date('2026-11-14T09:00:00Z'));
     expect(tomorrow.counts.new).toBe(2);
+  });
+
+  it('✏️ edit follows the article; undo after the edit keeps the orphaned card suspended', async () => {
+    const user = await users.upsert({ id: 562 });
+    await importer.apply(user.id, parseImport(sample([geraet])).data!);
+    const [deck] = await decksSvc.list(user.id);
+    const first = await queue.next(user, deck!.id, new Date('2026-11-12T09:00:00Z'));
+    if (first.kind !== 'card') throw new Error('expected a card');
+    await review.answer(
+      user.id,
+      first.card.id,
+      Rating.Easy,
+      first.card.version,
+      new Date('2026-11-12T09:00:00Z'),
+    );
+
+    const t = new Date('2026-11-13T09:00:00Z');
+    const art = await queue.next(user, deck!.id, t);
+    if (art.kind !== 'card' || art.card.template !== 'article') throw new Error('expected article');
+    const wrong = await review.answer(user.id, art.card.id, Rating.Again, art.card.version, t);
+    if (!wrong.ok) throw new Error('answer failed');
+
+    // remove the article → the der/die/das card is suspended, progress of ru_de untouched
+    const noArticle = { ...geraet.fields, article: null, pos: 'other' };
+    expect(await notesSvc.edit(user.id, art.card.id, noArticle)).toMatchObject({ ok: true });
+    expect((await review.getCard(user.id, art.card.id))!.card.suspended).toBe(true);
+    expect((await review.getCard(user.id, first.card.id))!.card.state).toBe(State.Review);
+
+    // undo of the earlier answer must not bring the orphaned article card back
+    expect((await review.undo(user.id, wrong.logId)).ok).toBe(true);
+    expect((await review.getCard(user.id, art.card.id))!.card.suspended).toBe(true);
+    const after = await queue.next(user, deck!.id, t);
+    expect(after.kind === 'card' ? after.card.template : 'none').not.toBe('article');
+
+    // article added back → the same card (with its progress) is active again
+    expect((await notesSvc.edit(user.id, first.card.id, geraet.fields)).ok).toBe(true);
+    expect((await review.getCard(user.id, art.card.id))!.card.suspended).toBe(false);
+    expect((await review.getCard(user.id, art.card.id))!.card.reps).toBe(0); // undo restored the pre-answer state
+  });
+
+  it("🗑 a deleted word frees today's slot and stays out of leeches", async () => {
+    const user = await users.upsert({ id: 563 });
+    await importer.apply(
+      user.id,
+      parseImport(
+        sample([schnell, { ...schnell, externalId: 'de:s2' }, { ...schnell, externalId: 'de:s3' }]),
+      ).data!,
+    );
+    const [deck] = await decksSvc.list(user.id);
+    await decksSvc.changeNewPerDay(user.id, deck!.id, -13); // 2 per day
+    const t = new Date('2026-11-13T09:00:00Z');
+    const n = await queue.next(user, 0, t);
+    if (n.kind !== 'card') throw new Error('expected a card');
+    await review.answer(user.id, n.card.id, Rating.Easy, n.card.version, t);
+    expect((await queue.next(user, 0, t)).counts.new).toBe(1);
+    expect(await notesSvc.remove(user.id, n.card.id)).toBe(true);
+    const after = await queue.next(user, 0, t);
+    expect(after.counts.new).toBe(2);
+    expect(after.progress).toEqual({ done: 0, total: 2 });
+    expect(await notesSvc.edit(user.id, n.card.id, schnell.fields)).toMatchObject({ ok: false });
+
+    // a leech whose word was deleted cannot be brought back
+    const other = await queue.next(user, 0, t);
+    if (other.kind !== 'card') throw new Error('expected a card');
+    await db
+      .update(schema.cards)
+      .set({ isLeech: true, suspended: true })
+      .where(eq(schema.cards.id, other.card.id));
+    expect(await review.leeches(user.id)).toHaveLength(1);
+    await notesSvc.remove(user.id, other.card.id);
+    expect(await review.leeches(user.id)).toHaveLength(0);
+    expect(await review.unleech(user.id, other.card.id)).toBe(false);
+    expect((await stats.forUser(user, t)).total).toBe(1); // 3 words − 2 deleted
   });
 });

@@ -18,6 +18,7 @@ import { ENV, type Env } from './config/env';
 import { DbModule } from './db/db.module';
 import { DecksService } from './decks/decks.service';
 import { ImportService } from './import/import.service';
+import { NotesService } from './notes/notes.service';
 import { NotificationsService, type TickReport } from './notifications/notifications.service';
 import { QueueService } from './srs/queue.service';
 import { ReviewService } from './srs/review.service';
@@ -87,6 +88,7 @@ export class JobsController {
     QueueService,
     ReviewService,
     ImportService,
+    NotesService,
     StatsService,
     NotificationsService,
     ReviewHandler,

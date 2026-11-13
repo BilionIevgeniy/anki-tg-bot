@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { Inject, Injectable } from '@nestjs/common';
-import { and, asc, eq, inArray, max, notInArray, sql } from 'drizzle-orm';
+import { and, asc, eq, inArray, isNull, max, notInArray, sql } from 'drizzle-orm';
 import { templatesFor, type Template } from '../cards/templates';
 import { DB, type Db, type Tx } from '../db/db.module';
 import { cards, decks, notes } from '../db/schema';
@@ -58,6 +58,53 @@ function srsFor(n: ImportNote, template: Template): SrsState | undefined {
 
 const CHUNK = 500;
 
+/**
+ * Brings a note's cards in line with its content after the content changed (re-import or an
+ * edit in the Mini App). Memory state is never touched:
+ *  - a template that no longer applies (article removed, reverse off) → its card is suspended;
+ *  - a template that came back → its card is unsuspended (leeches stay suspended);
+ *  - a new template (article added) → a new card is created.
+ * Returns how many cards were created.
+ */
+export async function syncNoteCards(
+  tx: Tx,
+  n: {
+    userId: number;
+    deckId: number;
+    noteId: number;
+    type: string;
+    fields: Record<string, unknown>;
+  },
+): Promise<number> {
+  const tpls = templatesFor({ type: n.type, fields: n.fields });
+  await tx
+    .update(cards)
+    .set({ suspended: true })
+    .where(
+      and(eq(cards.noteId, n.noteId), tpls.length ? notInArray(cards.template, tpls) : undefined),
+    );
+  if (!tpls.length) return 0;
+  await tx
+    .update(cards)
+    .set({ suspended: false })
+    .where(
+      and(
+        eq(cards.noteId, n.noteId),
+        inArray(cards.template, tpls),
+        eq(cards.suspended, true),
+        eq(cards.isLeech, false),
+      ),
+    );
+  const res = await tx
+    .insert(cards)
+    .values(
+      tpls.map((template) => ({ userId: n.userId, deckId: n.deckId, noteId: n.noteId, template })),
+    )
+    .onConflictDoNothing({ target: [cards.noteId, cards.template] })
+    .returning({ id: cards.id });
+  return res.length;
+}
+
 @Injectable()
 export class ImportService {
   constructor(@Inject(DB) private readonly db: Db) {}
@@ -98,12 +145,21 @@ export class ImportService {
       withProgress: 0,
     };
 
-    const existing = new Map<string, { id: number; contentHash: string }>();
+    const existing = new Map<
+      string,
+      { id: number; contentHash: string; editedAt: Date | null; deletedAt: Date | null }
+    >();
     if (deck) {
       const ids = file.notes.map((n) => n.externalId);
       for (let i = 0; i < ids.length; i += CHUNK) {
         const rows = await tx
-          .select({ id: notes.id, externalId: notes.externalId, contentHash: notes.contentHash })
+          .select({
+            id: notes.id,
+            externalId: notes.externalId,
+            contentHash: notes.contentHash,
+            editedAt: notes.editedAt,
+            deletedAt: notes.deletedAt,
+          })
           .from(notes)
           .where(
             and(eq(notes.deckId, deck.id), inArray(notes.externalId, ids.slice(i, i + CHUNK))),
@@ -118,6 +174,8 @@ export class ImportService {
       const hash = contentHash(n);
       const ex = existing.get(n.externalId);
       if (!ex) toCreate.push(n);
+      // edited or deleted by the user in the Mini App → the user's version wins over the file
+      else if (ex.editedAt || ex.deletedAt) report.unchanged++;
       else if (ex.contentHash !== hash) toUpdate.push({ id: ex.id, note: n, hash });
       else report.unchanged++;
     }
@@ -129,7 +187,10 @@ export class ImportService {
       report.withProgress += tpls.filter((t) => srsFor(n, t)).length;
     }
     // migrated progress for notes that already exist: only for cards never studied in the bot
-    const progressFor = file.notes.filter((n) => n.srs && existing.has(n.externalId));
+    const progressFor = file.notes.filter((n) => {
+      const ex = existing.get(n.externalId);
+      return n.srs && ex && !ex.deletedAt;
+    });
     if (dryRun) return report;
 
     if (!deck) {
@@ -164,35 +225,13 @@ export class ImportService {
           contentHash: u.hash,
         })
         .where(eq(notes.id, u.id));
-      // a note may gain a template (e.g. an article was added) → create the missing card;
-      // a template that no longer applies (article removed, reverse off) → suspend its card
-      const tpls = templatesFor({ type: u.note.type, fields: noteFields(u.note) });
-      await tx
-        .update(cards)
-        .set({ suspended: true })
-        .where(
-          and(eq(cards.noteId, u.id), tpls.length ? notInArray(cards.template, tpls) : undefined),
-        );
-      if (tpls.length) {
-        // a template that came back (article re-added, reverse on again) → unsuspend its card
-        await tx
-          .update(cards)
-          .set({ suspended: false })
-          .where(
-            and(
-              eq(cards.noteId, u.id),
-              inArray(cards.template, tpls),
-              eq(cards.suspended, true),
-              eq(cards.isLeech, false),
-            ),
-          );
-        const res = await tx
-          .insert(cards)
-          .values(tpls.map((template) => ({ userId, deckId, noteId: u.id, template })))
-          .onConflictDoNothing({ target: [cards.noteId, cards.template] })
-          .returning({ id: cards.id });
-        report.cardsCreated += res.length;
-      }
+      report.cardsCreated += await syncNoteCards(tx, {
+        userId,
+        deckId,
+        noteId: u.id,
+        type: u.note.type,
+        fields: noteFields(u.note),
+      });
     }
 
     // Creates, in bulk, keeping file order for the "new cards" queue
@@ -294,7 +333,7 @@ export class ImportService {
     const noteRows = await this.db
       .select()
       .from(notes)
-      .where(eq(notes.deckId, deck.id))
+      .where(and(eq(notes.deckId, deck.id), isNull(notes.deletedAt)))
       .orderBy(asc(notes.position));
     const cardRows = await this.db.select().from(cards).where(eq(cards.deckId, deck.id));
     const byNote = new Map<number, typeof cardRows>();
