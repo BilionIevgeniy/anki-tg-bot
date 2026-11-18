@@ -1190,35 +1190,6 @@
    "next": null
   }
  ],
- "einschränken": [
-  {
-   "id": 5541048371,
-   "de": "einschränken (schränkte ein; hat eingeschränkt) – Wir müssen die Anzahl der Meetings einschränken.",
-   "ru": "ограничивать; сокращать",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 5603787582,
-   "de": "einschränken (schränkte ein; hat eingeschränkt) – Wir mussten die Serverleistung einschränken.",
-   "ru": "ограничивать; сокращать",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 5957604440,
-   "de": "einschränken (schränkte ein; hat eingeschränkt) – Wir müssen den Zugriff auf den Server ein wenig einschränken.",
-   "ru": "ограничивать — Мы должны немного ограничить доступ к серверу.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "einschränkung": [
   {
    "id": 5927101115,

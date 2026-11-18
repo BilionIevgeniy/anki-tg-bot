@@ -566,28 +566,6 @@
    "next": null
   }
  ],
- "grundlage": [
-  {
-   "id": 5603787559,
-   "de": "die Grundlage (Grundlagen) – Diese Analyse dient als Grundlage für unsere Entscheidung.",
-   "ru": "основа; база",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "grundlagen": [
-  {
-   "id": 5927101114,
-   "de": "die Grundlagen (Pl.) – Zuerst müssen wir die Grundlagen der Programmierung lernen.",
-   "ru": "основы - Сначала мы должны изучить основы программирования.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "grundsätzlich": [
   {
    "id": 6262423261,

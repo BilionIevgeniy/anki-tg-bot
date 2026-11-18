@@ -260,17 +260,6 @@
    "next": null
   }
  ],
- "verzögerung": [
-  {
-   "id": 5559821662,
-   "de": "die Verzögerung (Verzögerungen) – Es gab eine Verzögerung bei der Veröffentlichung.",
-   "ru": "задержка; промедление",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "verändert": [
   {
    "id": 5541489139,

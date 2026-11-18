@@ -1864,27 +1864,6 @@
       "_src": "einschreiten"
     },
     {
-      "externalId": "de:einschränken",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "einschränken",
-        "pos": "verb",
-        "translation": "ограничивать, сокращать",
-        "praeteritum": "schränkte ein",
-        "perfekt": "hat eingeschränkt",
-        "example": "Wir haben die Schreibrechte auf den main-Branch auf zwei Personen eingeschränkt.",
-        "exampleTranslation": "Мы ограничили права на запись в ветку main двумя людьми.",
-        "rektion": "auf + Akk.",
-        "hint": "права, объём (не begrenzen)"
-      },
-      "tags": [
-        "noji",
-        "it",
-        "verb"
-      ],
-      "_src": "einschränken"
-    },
-    {
       "externalId": "de:einschränkung",
       "type": "vocab_de",
       "fields": {

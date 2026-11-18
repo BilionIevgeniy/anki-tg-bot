@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:unbesiegbar",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "unbesiegbar",
+        "pos": "adj",
+        "translation": "непобедимый",
+        "example": "Nach drei Releases ohne einen einzigen Bug fühlte sich das Team fast unbesiegbar.",
+        "exampleTranslation": "После трёх релизов подряд без единого бага команда чувствовала себя почти непобедимой."
+      },
+      "tags": [
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:gitter",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Gitter",
+        "article": "das",
+        "plural": "die Gitter",
+        "pos": "noun",
+        "translation": "решётка",
+        "example": "Vor den Kellerfenstern unseres Hauses sind Gitter angebracht.",
+        "exampleTranslation": "На окнах подвала нашего дома установлены решётки.",
+        "hint": "на окне, ограда (не Rost)"
+      },
+      "tags": [
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:anheben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "anheben",
+        "pos": "verb",
+        "translation": "повышать",
+        "hint": "цены, взносы, лимит (≈ erhöhen)",
+        "praeteritum": "hob an",
+        "perfekt": "hat angehoben",
+        "example": "Meine Krankenkasse hebt den Zusatzbeitrag zum 1. Januar an.",
+        "exampleTranslation": "Моя больничная касса с 1 января повышает дополнительный взнос.",
+        "note": "буквально: приподнимать (eine Kiste anheben)"
+      },
+      "tags": [
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:verzögerung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Verzögerung",
+        "article": "die",
+        "plural": "die Verzögerungen",
+        "pos": "noun",
+        "translation": "задержка",
+        "hint": "в проекте, процессе (не о поезде)",
+        "example": "Wegen der Verzögerung beim Backend verschiebt sich der Release um eine Woche.",
+        "exampleTranslation": "Из-за задержки с бэкендом релиз сдвигается на неделю.",
+        "note": "о транспорте обычно: die Verspätung"
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bestandspatient",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Bestandspatient",
+        "article": "der",
+        "plural": "die Bestandspatienten",
+        "pos": "noun",
+        "translation": "постоянный пациент (уже в базе практики)",
+        "hint": "не новый (≠ Neupatient)",
+        "example": "Habe ich richtig verstanden, dass nur Bestandspatienten online buchen dürfen?",
+        "exampleTranslation": "Я правильно понял, что записываться онлайн могут только пациенты, которые уже у вас наблюдаются?",
+        "note": "n-склонение: des/dem/den Bestandspatienten; так же Bestandskunde; der Bestand = запас, наличие на складе"
+      },
+      "tags": [
+        "arzt",
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:einschränken",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "einschränken",
+        "pos": "verb",
+        "translation": "ограничивать, сужать",
+        "hint": "объём, свободу, права (не begrenzen)",
+        "praeteritum": "schränkte ein",
+        "perfekt": "hat eingeschränkt",
+        "example": "Zu früh gestellt, schränken geschlossene Fragen das Gespräch ein.",
+        "exampleTranslation": "Если задать их слишком рано, закрытые вопросы сужают разговор."
+      },
+      "tags": [
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:zerschlagen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zerschlagen",
+        "pos": "verb",
+        "translation": "разбивать, раздроблять",
+        "hint": "на части, вдребезги",
+        "praeteritum": "zerschlug",
+        "perfekt": "hat zerschlagen",
+        "note": "du zerschlägst",
+        "example": "Wir wollen den alten Monolithen schrittweise in kleinere Services zerschlagen.",
+        "exampleTranslation": "Мы хотим постепенно разбить старый монолит на небольшие сервисы."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:grundlage",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Grundlage",
+        "article": "die",
+        "plural": "die Grundlagen",
+        "pos": "noun",
+        "translation": "основа, база",
+        "hint": "для решения, расчёта (не Basis)",
+        "example": "Die Zahlen aus dem Ticketsystem sind die Grundlage für unsere Sprintplanung.",
+        "exampleTranslation": "Цифры из тикет-системы — основа нашего планирования спринта.",
+        "note": "die Grundlagen (Pl.) — основы (предмета): die Grundlagen von React"
+      },
+      "tags": [
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:terminvergabe",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Terminvergabe",
+        "article": "die",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "запись на приём",
+        "example": "Wie läuft die Terminvergabe heute in Ihrer Praxis ab?",
+        "exampleTranslation": "Как сейчас у вас в практике устроена запись на приём?",
+        "hint": "со стороны практики (≠ Terminbuchung)"
+      },
+      "tags": [
+        "arzt",
+        "noun"
+      ]
+    }
+  ]
+}
