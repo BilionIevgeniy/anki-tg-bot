@@ -224,37 +224,6 @@
    "next": null
   }
  ],
- "gewisse": [
-  {
-   "id": 5957604437,
-   "de": "gewisse – Für diese Arbeit braucht man eine gewisse Erfahrung.",
-   "ru": "определенный, некоторый — Для этой работы нужен определенный опыт.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 6146950715,
-   "de": "gewisse – Für die Arbeit mit React sind gewisse Grundkenntnisse erforderlich.",
-   "ru": "определенные, некоторые — Для работы с React нужны определенные базовые знания.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "gewisse fragen": [
-  {
-   "id": 6128964754,
-   "de": "gewisse Fragen – Auf gewisse Fragen ist es schwer zu antworten.",
-   "ru": "определенные вопросы — На определенные вопросы трудно ответить.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "gewohnt an": [
   {
    "id": 5569465173,
@@ -1131,37 +1100,6 @@
    "id": 6021248061,
    "de": "hindern an (Dat.) (hinderte; hat gehindert) – Niemand kann mich am Lernen hindern.",
    "ru": "мешать (кому-то в чем-то) — Никто не может помешать мне учиться.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "hindeuten auf": [
-  {
-   "id": 5618999068,
-   "de": "hindeuten auf (Akk.) (deutete hin; hat hingedeutet) – Alle Zeichen deuten auf einen erfolgreichen Abschluss hin.",
-   "ru": "указывать на что-либо",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 5783860969,
-   "de": "hindeuten auf (Akk.) (deutete hin; hat hingedeutet) – Alles deutet auf ein Netzwerkproblem hin.",
-   "ru": "указывать, намекать - Все указывает на проблему с сетью.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "hindeuten auf ein vermutetes ziel": [
-  {
-   "id": 5227200968,
-   "de": "hindeuten auf ein vermutetes Ziel",
-   "ru": "указать на предполагаемую цель",
    "state": "new",
    "interval_min": null,
    "ease": null,

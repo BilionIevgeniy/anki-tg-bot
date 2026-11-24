@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "key": "de",
+    "name": "Deutsch 🇩🇪"
+  },
+  "notes": [
+    {
+      "externalId": "de:betriebszugehörigkeit",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Betriebszugehörigkeit",
+        "article": "die",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "стаж работы в компании",
+        "hint": "в одной фирме (≠ Berufserfahrung)",
+        "example": "Die Kündigungsfrist hängt von der Dauer der Betriebszugehörigkeit ab.",
+        "exampleTranslation": "Срок уведомления об увольнении зависит от стажа работы в компании."
+      },
+      "tags": [
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:zwischen-x-und-y-liegen-welten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zwischen X und Y liegen Welten",
+        "pos": "phrase",
+        "translation": "между X и Y — пропасть, небо и земля",
+        "example": "Zwischen Theorie und Praxis liegen in der Softwareentwicklung oft Welten.",
+        "exampleTranslation": "В разработке ПО между теорией и практикой часто — пропасть.",
+        "note": "auch: Da liegen Welten dazwischen."
+      },
+      "tags": [
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:kracher",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Kracher",
+        "article": "der",
+        "plural": "die Kracher",
+        "pos": "noun",
+        "translation": "хит, бомба",
+        "hint": "перен.: что-то очень крутое",
+        "register": "umgs",
+        "example": "Das neue Feature ist bei den Nutzern ein absoluter Kracher.",
+        "exampleTranslation": "Новая фича у пользователей — настоящая бомба.",
+        "note": "прямое значение: петарда"
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:bescheuert",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "bescheuert",
+        "pos": "adj",
+        "translation": "дурацкий, идиотский",
+        "hint": "≈ blöd, dämlich",
+        "register": "umgs",
+        "example": "Die Idee, am Freitagnachmittag noch zu deployen, war echt bescheuert.",
+        "exampleTranslation": "Идея деплоить в пятницу после обеда была реально дурацкой."
+      },
+      "tags": [
+        "alltag",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:unter-aller-sau-sein",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "unter aller Sau sein",
+        "pos": "phrase",
+        "translation": "ниже всякой критики",
+        "register": "umgs",
+        "example": "Die Dokumentation für diese API ist leider unter aller Sau.",
+        "exampleTranslation": "Документация к этому API, к сожалению, ниже всякой критики.",
+        "note": "очень грубо; мягче: unter aller Kanone"
+      },
+      "tags": [
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:verwaltung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Verwaltung",
+        "article": "die",
+        "plural": "die Verwaltungen",
+        "pos": "noun",
+        "translation": "управление, администрирование",
+        "hint": "данными, правами (≠ Führung — руководство людьми)",
+        "example": "Die Verwaltung der Benutzerrechte läuft bei uns über ein zentrales Admin-Panel.",
+        "exampleTranslation": "Управление правами пользователей у нас идёт через центральную админ-панель."
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:vorsatz",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Vorsatz",
+        "article": "der",
+        "plural": "die Vorsätze",
+        "pos": "noun",
+        "translation": "намерение, решение (что-то делать)",
+        "hint": "обещание себе, напр. на Новый год",
+        "example": "Einer meiner Vorsätze für 2027: endlich für jede neue Komponente Tests schreiben.",
+        "exampleTranslation": "Одно из моих решений на 2027 год: наконец писать тесты для каждого нового компонента."
+      },
+      "tags": [
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:vorsatz-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Vorsatz",
+        "article": "der",
+        "plural": "nur Sg.",
+        "pos": "noun",
+        "translation": "умысел",
+        "hint": "юр.: mit Vorsatz — умышленно",
+        "register": "formell",
+        "example": "Die Haftpflicht zahlt nicht, wenn der Schaden mit Vorsatz verursacht wurde.",
+        "exampleTranslation": "Страховка ответственности не платит, если ущерб причинён умышленно."
+      },
+      "tags": [
+        "behörde",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:zuschauen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "zuschauen",
+        "pos": "verb",
+        "rektion": "jdm. (Dat.) bei + Dat.",
+        "translation": "смотреть, наблюдать (за кем-то)",
+        "hint": "как зритель (≈ zusehen)",
+        "praeteritum": "schaute zu",
+        "perfekt": "hat zugeschaut",
+        "example": "Darf ich dir beim Debuggen kurz zuschauen? Ich will verstehen, wie du vorgehst.",
+        "exampleTranslation": "Можно я немного посмотрю, как ты дебажишь? Хочу понять, как ты действуешь."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:klotz",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Klotz",
+        "article": "der",
+        "plural": "die Klötze",
+        "pos": "noun",
+        "translation": "чурбан, колода",
+        "example": "Im Garten steht noch der Klotz, auf dem mein Opa früher Holz gehackt hat.",
+        "exampleTranslation": "В саду до сих пор стоит колода, на которой дед раньше колол дрова.",
+        "note": "перен.: ein Klotz am Bein — обуза; Betonklotz — бетонная громадина",
+        "hint": "тяжёлый кусок дерева (≠ Block)"
+      },
+      "tags": [
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:in-anspruch-nehmen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. in Anspruch nehmen",
+        "pos": "verb",
+        "translation": "воспользоваться",
+        "hint": "услугой, правом, помощью",
+        "praeteritum": "nahm in Anspruch",
+        "perfekt": "hat in Anspruch genommen",
+        "note": "du nimmst in Anspruch",
+        "example": "Ich habe das Beratungsangebot des Jobcenters in Anspruch genommen.",
+        "exampleTranslation": "Я воспользовался консультацией в джобцентре."
+      },
+      "tags": [
+        "behörde",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:in-anspruch-nehmen-2",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. in Anspruch nehmen",
+        "pos": "verb",
+        "translation": "занимать, отнимать",
+        "hint": "время, силы",
+        "praeteritum": "nahm in Anspruch",
+        "perfekt": "hat in Anspruch genommen",
+        "note": "du nimmst in Anspruch",
+        "example": "Die Code-Reviews nehmen jede Woche viel Zeit in Anspruch.",
+        "exampleTranslation": "Код-ревью каждую неделю отнимают много времени."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:benamung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Benamung",
+        "article": "die",
+        "plural": "die Benamungen",
+        "pos": "noun",
+        "translation": "нейминг, именование",
+        "hint": "IT-жаргон (стандарт: Benennung)",
+        "register": "umgs",
+        "example": "Bei der Benamung der Komponenten halten wir uns an PascalCase.",
+        "exampleTranslation": "При именовании компонентов мы придерживаемся PascalCase."
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auf-eigene-faust",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "auf eigene Faust",
+        "pos": "phrase",
+        "translation": "самостоятельно, на свой страх и риск",
+        "hint": "без согласования и помощи",
+        "example": "Er hat das Datenbankschema auf eigene Faust geändert, ohne das Team zu fragen.",
+        "exampleTranslation": "Он самовольно изменил схему базы данных, не спросив команду."
+      },
+      "tags": [
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:verschließen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "verschließen",
+        "pos": "verb",
+        "translation": "запирать, плотно закрывать",
+        "hint": "на замок или крышкой (≈ abschließen)",
+        "praeteritum": "verschloss",
+        "perfekt": "hat verschlossen",
+        "example": "Personalakten müssen wir im Schrank verschließen, das verlangt der Datenschutz.",
+        "exampleTranslation": "Личные дела сотрудников мы обязаны запирать в шкафу — этого требует защита данных."
+      },
+      "tags": [
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:runterrotzen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. runterrotzen",
+        "pos": "verb",
+        "translation": "сляпать, накатать на коленке",
+        "hint": "быстро и небрежно",
+        "register": "umgs",
+        "praeteritum": "rotzte runter",
+        "perfekt": "hat runtergerotzt",
+        "example": "Den Prototyp habe ich am Wochenende einfach runtergerotzt, schön ist der Code nicht.",
+        "exampleTranslation": "Прототип я на выходных просто сляпал на коленке, код некрасивый.",
+        "note": "очень грубо (от Rotz — сопли); при начальстве не стоит"
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:streben",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "streben",
+        "pos": "verb",
+        "rektion": "nach + Dat.",
+        "translation": "стремиться (к чему-то)",
+        "hint": "к цели, идеалу",
+        "praeteritum": "strebte",
+        "perfekt": "hat gestrebt",
+        "example": "Wir streben nach sauberem Code, aber manchmal gehen Deadlines vor.",
+        "exampleTranslation": "Мы стремимся к чистому коду, но иногда дедлайны важнее.",
+        "note": "≈ etw. anstreben (+ Akk., без предлога)"
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:verdunsten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "verdunsten",
+        "pos": "verb",
+        "translation": "испаряться",
+        "hint": "о воде (≠ verdampfen — при кипении)",
+        "praeteritum": "verdunstete",
+        "perfekt": "ist verdunstet",
+        "example": "Bei 35 Grad verdunstet das Gießwasser auf dem Balkon in ein paar Stunden.",
+        "exampleTranslation": "При 35 градусах вода для полива на балконе испаряется за пару часов."
+      },
+      "tags": [
+        "alltag",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:hintereinander",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "hintereinander",
+        "pos": "adv",
+        "translation": "подряд, друг за другом",
+        "example": "Der Build ist dreimal hintereinander fehlgeschlagen.",
+        "exampleTranslation": "Сборка упала три раза подряд."
+      },
+      "tags": [
+        "it",
+        "adv"
+      ]
+    },
+    {
+      "externalId": "de:abfangen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "abfangen",
+        "pos": "verb",
+        "translation": "перехватывать, отлавливать",
+        "hint": "ошибку, исключение",
+        "praeteritum": "fing ab",
+        "perfekt": "hat abgefangen",
+        "note": "du fängst ab",
+        "example": "Warum hat unser Prozess diesen Fehler nicht abgefangen?",
+        "exampleTranslation": "Почему наш процесс не отловил эту ошибку?"
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:nachstellen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "nachstellen",
+        "pos": "verb",
+        "translation": "воспроизводить (проблему)",
+        "hint": "баг, ситуацию (≈ reproduzieren)",
+        "praeteritum": "stellte nach",
+        "perfekt": "hat nachgestellt",
+        "example": "Damit ich das Problem nachstellen kann, bräuchte ich noch ein paar Infos.",
+        "exampleTranslation": "Чтобы я мог воспроизвести проблему, мне нужно ещё немного информации."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:sich-richten-an",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "sich richten",
+        "pos": "verb",
+        "rektion": "an + Akk.",
+        "translation": "быть адресованным, обращаться к",
+        "hint": "о вопросе, тексте (≠ sich richten nach — следовать)",
+        "praeteritum": "richtete sich",
+        "perfekt": "hat sich gerichtet",
+        "example": "Die Kritik in der Retro richtet sich an das ganze Team, nicht an Einzelne.",
+        "exampleTranslation": "Критика на ретро адресована всей команде, а не отдельным людям."
+      },
+      "tags": [
+        "office",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:fehlschlagen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "fehlschlagen",
+        "pos": "verb",
+        "translation": "не удаваться, срываться",
+        "hint": "о попытке, операции",
+        "praeteritum": "schlug fehl",
+        "perfekt": "ist fehlgeschlagen",
+        "note": "du schlägst fehl; чаще: es schlägt fehl",
+        "example": "Was, wenn die Schnittstelle nicht antwortet oder der E-Mail-Versand fehlschlägt?",
+        "exampleTranslation": "Что, если API не ответит или письмо не отправится?"
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:merkwürdig",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "merkwürdig",
+        "pos": "adj",
+        "translation": "странный",
+        "hint": "≈ seltsam",
+        "example": "Merkwürdig: lokal läuft alles, nur auf Staging bekommen wir einen 500er.",
+        "exampleTranslation": "Странно: локально всё работает, только на стейджинге ловим 500-ю ошибку."
+      },
+      "tags": [
+        "it",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:gelangen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gelangen",
+        "pos": "verb",
+        "rektion": "zu + Dat.",
+        "translation": "добираться, доходить (до чего-то)",
+        "hint": "достигать места, результата",
+        "praeteritum": "gelangte",
+        "perfekt": "ist gelangt",
+        "example": "Mit fünfmal „Warum?“ gelangt man meist zur eigentlichen Ursache.",
+        "exampleTranslation": "Спросив пять раз «почему?», обычно доходишь до настоящей причины."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:gewiss",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "gewiss",
+        "pos": "adj",
+        "translation": "определённый, некий",
+        "hint": "«некий», не названный (≈ bestimmt)",
+        "example": "Für diese Rolle braucht man gewisse Fähigkeiten im Umgang mit Kunden.",
+        "exampleTranslation": "Для этой роли нужны определённые навыки общения с клиентами.",
+        "note": "als Adv.: gewiss — несомненно (gehoben)"
+      },
+      "tags": [
+        "office",
+        "adj"
+      ]
+    },
+    {
+      "externalId": "de:richtlinie",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Richtlinie",
+        "article": "die",
+        "plural": "die Richtlinien",
+        "pos": "noun",
+        "translation": "директива, руководящее правило",
+        "hint": "гайдлайн (≠ Regel)",
+        "example": "Im Code herrscht Chaos, weil nie klare Richtlinien festgelegt wurden.",
+        "exampleTranslation": "В коде хаос, потому что так и не были установлены чёткие правила."
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:kopplung",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Kopplung",
+        "article": "die",
+        "plural": "die Kopplungen",
+        "pos": "noun",
+        "translation": "связанность, сопряжение",
+        "hint": "IT: модулей, сервисов",
+        "example": "Zwischen den Modulen besteht eine zu enge Kopplung, deshalb bricht ständig etwas.",
+        "exampleTranslation": "Модули слишком сильно связаны, поэтому постоянно что-то ломается.",
+        "note": "enge / lose Kopplung; не путать: die Kupplung — сцепление в машине"
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:in-verzug-sein",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "in Verzug sein",
+        "pos": "phrase",
+        "translation": "отставать от графика, просрочить",
+        "example": "Das Projekt ist stark in Verzug, der Launch wird verschoben.",
+        "exampleTranslation": "Проект сильно отстаёт от графика, запуск переносится.",
+        "note": "in Verzug geraten — начать отставать (geriet, ist geraten)"
+      },
+      "tags": [
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:merkmal",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Merkmal",
+        "article": "das",
+        "plural": "die Merkmale",
+        "pos": "noun",
+        "translation": "признак, характеристика",
+        "hint": "отличительная черта (≈ Eigenschaft)",
+        "example": "Wartbarkeit ist ein zentrales Merkmal guter Software.",
+        "exampleTranslation": "Сопровождаемость — ключевая характеристика хорошего ПО."
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:hindeuten",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "hindeuten",
+        "pos": "verb",
+        "rektion": "auf + Akk.",
+        "translation": "указывать на, говорить о",
+        "hint": "о признаках (≈ hinweisen)",
+        "praeteritum": "deutete hin",
+        "perfekt": "hat hingedeutet",
+        "example": "Viele blaue Karten deuten darauf hin, dass die Story zu groß ist.",
+        "exampleTranslation": "Много синих карт говорит о том, что стори слишком большая."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    },
+    {
+      "externalId": "de:vorwurf",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Vorwurf",
+        "article": "der",
+        "plural": "die Vorwürfe",
+        "pos": "noun",
+        "translation": "упрёк, обвинение",
+        "example": "In der Retro sprechen wir Probleme offen an, aber ohne Vorwürfe.",
+        "exampleTranslation": "На ретро мы открыто говорим о проблемах, но без упрёков.",
+        "note": "jdm. Vorwürfe machen — упрекать кого-то"
+      },
+      "tags": [
+        "office",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:leitfaden",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Leitfaden",
+        "article": "der",
+        "plural": "die Leitfäden",
+        "pos": "noun",
+        "translation": "руководство, памятка",
+        "hint": "пошаговый гайд (≈ Anleitung)",
+        "example": "Der Leitfaden für Anforderungsgespräche besteht aus sechs Schritten.",
+        "exampleTranslation": "Руководство по обсуждению требований состоит из шести шагов."
+      },
+      "tags": [
+        "it",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:zaun",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "Zaun",
+        "article": "der",
+        "plural": "die Zäune",
+        "pos": "noun",
+        "translation": "забор",
+        "example": "Unser Nachbar will einen neuen Zaun bauen und fragt, ob wir uns an den Kosten beteiligen.",
+        "exampleTranslation": "Наш сосед хочет поставить новый забор и спрашивает, поучаствуем ли мы в расходах."
+      },
+      "tags": [
+        "alltag",
+        "noun"
+      ]
+    },
+    {
+      "externalId": "de:auf-mehrere-schultern-verteilen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "etw. auf mehrere Schultern verteilen",
+        "pos": "phrase",
+        "translation": "распределить (нагрузку) между несколькими людьми",
+        "example": "Damit niemand ausbrennt, verteilen wir die Rufbereitschaft auf mehrere Schultern.",
+        "exampleTranslation": "Чтобы никто не выгорел, мы распределяем дежурства между несколькими людьми."
+      },
+      "tags": [
+        "it",
+        "phrase"
+      ]
+    },
+    {
+      "externalId": "de:vorkommen",
+      "type": "vocab_de",
+      "fields": {
+        "lemma": "vorkommen",
+        "pos": "verb",
+        "translation": "случаться, встречаться",
+        "hint": "≈ passieren",
+        "praeteritum": "kam vor",
+        "perfekt": "ist vorgekommen",
+        "example": "Solche Timeouts kommen bei uns nur unter hoher Last vor.",
+        "exampleTranslation": "Такие тайм-ауты случаются у нас только при высокой нагрузке."
+      },
+      "tags": [
+        "it",
+        "verb"
+      ]
+    }
+  ]
+}

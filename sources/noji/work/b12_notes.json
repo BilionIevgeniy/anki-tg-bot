@@ -119,26 +119,6 @@
       "_src": "etwas am laufen halten"
     },
     {
-      "externalId": "de:in-anspruch-nehmen",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "etwas in Anspruch nehmen",
-        "pos": "phrase",
-        "translation": "воспользоваться (правом, услугой)",
-        "praeteritum": "nahm in Anspruch",
-        "perfekt": "hat in Anspruch genommen",
-        "example": "Nach der Geburt seiner Tochter hat er zwei Monate Elternzeit in Anspruch genommen.",
-        "exampleTranslation": "После рождения дочери он взял два месяца отпуска по уходу за ребёнком.",
-        "note": "du nimmst in Anspruch; viel Zeit in Anspruch nehmen — занимать много времени"
-      },
-      "tags": [
-        "noji",
-        "behörde",
-        "phrase"
-      ],
-      "_src": "etwas in anspruch nehmen"
-    },
-    {
       "externalId": "de:in-erfüllung-gehen",
       "type": "vocab_de",
       "fields": {

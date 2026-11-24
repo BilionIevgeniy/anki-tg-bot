@@ -333,25 +333,6 @@
       "_src": "gewinn"
     },
     {
-      "externalId": "de:gewiss",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "gewiss",
-        "pos": "adj",
-        "translation": "определённый, некоторый",
-        "example": "Für diese Stelle braucht man eine gewisse Erfahrung mit TypeScript.",
-        "exampleTranslation": "Для этой вакансии нужен определённый опыт с TypeScript.",
-        "hint": "«некий», перед сущ. (не bestimmt)",
-        "note": "в этом значении только перед сущ.: ein gewisser, eine gewisse; отдельно gewiss = конечно"
-      },
-      "tags": [
-        "noji",
-        "office",
-        "adj"
-      ],
-      "_src": "gewisse"
-    },
-    {
       "externalId": "de:gewohnt-an",
       "type": "vocab_de",
       "fields": {
@@ -1784,27 +1765,6 @@
       "_src": "hindern an"
     },
     {
-      "externalId": "de:hindeuten-auf",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "hindeuten",
-        "pos": "verb",
-        "translation": "указывать (на), свидетельствовать",
-        "praeteritum": "deutete hin",
-        "perfekt": "hat hingedeutet",
-        "example": "Alles deutet auf ein Netzwerkproblem hin.",
-        "exampleTranslation": "Всё указывает на проблему с сетью.",
-        "rektion": "auf + Akk.",
-        "hint": "признаки (не zeigen)"
-      },
-      "tags": [
-        "noji",
-        "it",
-        "verb"
-      ],
-      "_src": "hindeuten auf"
-    },
-    {
       "externalId": "de:sich-hineinversetzen-in",
       "type": "vocab_de",
       "fields": {
@@ -1877,20 +1837,12 @@
       "reason": "дубль группы gering (превосходная степень в свободном сочетании)"
     },
     {
-      "key": "gewisse fragen",
-      "reason": "дубль группы gewisse (свободное сочетание)"
-    },
-    {
       "key": "gewährleistet",
       "reason": "дубль группы gewährleisten (Partizip II)"
     },
     {
       "key": "grad der anspannung",
       "reason": "дубль de:anspannung в decks/de/0006-noji-b06.json"
-    },
-    {
-      "key": "hindeuten auf ein vermutetes ziel",
-      "reason": "дубль группы hindeuten auf (свободное сочетание)"
     }
   ]
 }

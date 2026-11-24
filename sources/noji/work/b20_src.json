@@ -52,17 +52,6 @@
    "next": null
   }
  ],
- "verwaltung": [
-  {
-   "id": 6127832251,
-   "de": "die Verwaltung (Verwaltungen) – Die Verwaltung der Bewerbungen nimmt viel Zeit in Anspruch.",
-   "ru": "управление, администрация — Управление заявками занимает много времени.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "verwandeln": [
   {
    "id": 5783860962,
@@ -821,46 +810,6 @@
    "next": null
   }
  ],
- "vorkommen": [
-  {
-   "id": 6385684806,
-   "de": "vorkommen (kam vor; ist vorgekommen, du kommst vor) – Solche Speicherfehler können im alten Code vorkommen.",
-   "ru": "встречаться / происходить — Такие ошибки в памяти могут происходить при работе со старым кодом.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 5972792637,
-   "de": "vorkommen (kam vor; ist vorgekommen) – Solche Fehler kommen in alten Systemen oft vor.",
-   "ru": "встречаться, происходить, казаться — Такие ошибки часто встречаются в старых системах.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 6262423275,
-   "de": "vorkommen (kam vor; ist vorgekommen, du kommst vor) – Das kommt in der Regel eigentlich eher selten vor.",
-   "ru": "встречаться / случаться — Это случается крайне редко.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "vorkommen bei": [
-  {
-   "id": 5569463505,
-   "de": "vorkommen bei (Dat.) (kam vor; ist vorgekommen) – Der Fehler kommt nur bei bestimmten Nutzern vor.",
-   "ru": "встречаться с",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "vorkommnis": [
   {
    "id": 5683884911,
@@ -974,17 +923,6 @@
    "next": null
   }
  ],
- "vorsatz": [
-  {
-   "id": 6442594600,
-   "de": "der Vorsatz (Vorsätze) – Es gab keine böse Vorsatz in seinen Handlungen, es ist einfach ein Bug.",
-   "ru": "умысел, намерение — В его действиях не было злого умысла, это просто баг.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "vorschrift": [
   {
    "id": 5618999072,
@@ -1054,35 +992,6 @@
    "id": 6008372939,
    "de": "vorwiegend – Wir nutzen vorwiegend Cloud-Lösungen.",
    "ru": "преимущественно — Мы используем преимущественно облачные решения.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "vorwurf": [
-  {
-   "id": 6483246431,
-   "de": "der Vorwurf (Vorwürfe) – Ansprechen statt schweigen, aber ohne Vorwurf.",
-   "ru": "упрек / обвинение — Говори открыто вместо того, чтобы молчать, но без упреков.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 6494316886,
-   "de": "der Vorwurf (Vorwürfe) – Wir müssen das Problem ohne Vorwürfe besprechen.",
-   "ru": "упрек / претензия — Нам нужно обсудить проблему без лишних упреков.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 5683884935,
-   "de": "der Vorwurf (Vorwürfe) – Ich verstehe deinen Vorwurf an mich nicht.",
-   "ru": "упрек - Я не понимаю твой упрек в мой адрес.",
    "state": "new",
    "interval_min": null,
    "ease": null,

@@ -707,27 +707,6 @@
       "_src": "in andere hineinversetzen"
     },
     {
-      "externalId": "de:in-anspruch-nehmen-1",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "in Anspruch nehmen",
-        "pos": "phrase",
-        "translation": "отнимать, требовать (время, силы)",
-        "example": "Dieser Bugfix hat viel mehr Zeit in Anspruch genommen als geplant.",
-        "exampleTranslation": "Этот багфикс отнял гораздо больше времени, чем планировалось.",
-        "hint": "время",
-        "praeteritum": "nahm in Anspruch",
-        "perfekt": "hat in Anspruch genommen",
-        "note": "du nimmst in Anspruch"
-      },
-      "tags": [
-        "noji",
-        "office",
-        "phrase"
-      ],
-      "_src": "in anspruch nehmen"
-    },
-    {
       "externalId": "de:in-anspruch-nehmen-2",
       "type": "vocab_de",
       "fields": {
@@ -995,28 +974,6 @@
         "phrase"
       ],
       "_src": "in umgekehrter reihenfolge"
-    },
-    {
-      "externalId": "de:in-verzug-geraten",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "in Verzug geraten",
-        "pos": "phrase",
-        "translation": "просрочить, отстать (по срокам, платежам)",
-        "example": "Wer mit der Miete in Verzug gerät, bekommt schnell eine Mahnung.",
-        "exampleTranslation": "Кто просрочит оплату аренды, быстро получит напоминание о долге.",
-        "rektion": "mit + Dat.",
-        "register": "formell",
-        "praeteritum": "geriet in Verzug",
-        "perfekt": "ist in Verzug geraten",
-        "note": "du gerätst"
-      },
-      "tags": [
-        "noji",
-        "geld",
-        "phrase"
-      ],
-      "_src": "in verzug geraten"
     },
     {
       "externalId": "de:indem",

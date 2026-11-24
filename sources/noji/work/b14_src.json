@@ -437,26 +437,6 @@
    "next": null
   }
  ],
- "in anspruch nehmen": [
-  {
-   "id": 6465607896,
-   "de": "in Anspruch nehmen (nahm in Anspruch; hat in Anspruch genommen, du nimmst in Anspruch) – Dieser Bugreport hat viel Zeit von der Team in Anspruch genommen.",
-   "ru": "требовать (времени/усилий) / пользоваться (услугами) — Этот баг-репорт потребовал много времени от команды.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 5667907565,
-   "de": "in Anspruch nehmen – Sie können unsere kostenlose Beratung in Anspruch nehmen.",
-   "ru": "воспользоваться (чем-либо) - Вы можете воспользоваться нашей бесплатной консультацией.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "in auftrag geben": [
   {
    "id": 5667907567,
@@ -612,17 +592,6 @@
    "id": 5972792641,
    "de": "in umgekehrter Reihenfolge – Das Array wird in umgekehrter Reihenfolge angezeigt.",
    "ru": "в обратном порядке — Массив отображается в обратном порядке.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
- "in verzug geraten": [
-  {
-   "id": 6385684804,
-   "de": "in Verzug geraten (geriet; ist geraten, du gerätst) – Wir dürfen bei der Sprint-Umsetzung nicht in Verzug geraten.",
-   "ru": "опаздывать / задерживаться (по срокам) — Мы не должны отставать от графика выполнения спринта.",
    "state": "new",
    "interval_min": null,
    "ease": null,

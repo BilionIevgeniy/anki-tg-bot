@@ -103,17 +103,6 @@
    "next": null
   }
  ],
- "etwas in anspruch nehmen": [
-  {
-   "id": 5537859317,
-   "de": "etwas in Anspruch nehmen (nahm in Anspruch; hat in Anspruch genommen) – Er nahm die Möglichkeit auf Homeoffice in Anspruch.",
-   "ru": "воспользоваться чем-то",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "etwas in betracht ziehen": [
   {
    "id": 5546335684,

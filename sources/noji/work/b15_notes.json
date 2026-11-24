@@ -1311,26 +1311,6 @@
       "_src": "merken"
     },
     {
-      "externalId": "de:merkmal",
-      "type": "vocab_de",
-      "fields": {
-        "lemma": "Merkmal",
-        "article": "das",
-        "plural": "die Merkmale",
-        "pos": "noun",
-        "translation": "признак, характерная черта",
-        "example": "Ein typisches Merkmal von Legacy-Code sind fehlende Tests.",
-        "exampleTranslation": "Типичный признак легаси-кода — отсутствие тестов.",
-        "hint": "≠ Eigenschaft"
-      },
-      "tags": [
-        "noji",
-        "it",
-        "noun"
-      ],
-      "_src": "merkmal"
-    },
-    {
       "externalId": "de:messen",
       "type": "vocab_de",
       "fields": {

@@ -844,26 +844,6 @@
    "next": null
   }
  ],
- "merkmal": [
-  {
-   "id": 6131137627,
-   "de": "das Merkmal (Merkmale) – Das ist ein wichtiges Merkmal unseres Produkts.",
-   "ru": "признак, характеристика — Это важная характеристика нашего продукта.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  },
-  {
-   "id": 6090226905,
-   "de": "das Merkmal (Merkmale) – Das ist ein typisches Merkmal dieser Software.",
-   "ru": "признак, черта, характеристика — Это — типичная характеристика этого программного обеспечения.",
-   "state": "new",
-   "interval_min": null,
-   "ease": null,
-   "next": null
-  }
- ],
  "messen": [
   {
    "id": 5603787523,
